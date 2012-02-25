@@ -1,0 +1,226 @@
+.TH wadconvgame 6 "19 Feb 2012"
+.SH NAME
+wadconvgame \- convert Doom I, Doom II, Heretic levels between games
+.SH SYNOPSIS
+.B wadconvgame [ \-snhtkp ] [ \-m map ] [ \-o output.wad ] input.wad
+.SH DISCLAIMER
+This program is furnished on an AS IS basis for the fun of it.
+id Software, Raven Software and Activision do not support this program.
+.SH DESCRIPTION
+.B wadconvgame
+converts a WAD file made for Doom I, Doom II, or Heretic so that it can be
+used in a different game. Allowed conversions are:
+
+.nf
+Input WAD game       Default output game      Other output game(s)
+--------------       -------------------      --------------------
+Doom I               Doom II                  Heretic
+Doom II              Heretic
+Heretic              Doom II
+.fi
+
+\fBwadwhich\fI(6) is used to determine the input wad's game type.
+
+Use \-h to convert Doom I to Heretic instead of to Doom II. Converting
+anything to Doom I is not supported. Converting Doom I to Heretic is
+supported, but not thoroughly tested (if you have problems, convert your
+levels to Doom II first, then Heretic).
+
+Quality of the results will vary, depending on how the input level was
+designed. Most of the Doom I levels from doom.wad will look pretty good
+if converted to Doom II. Most Doom I/II levels look very weird when
+converted to Heretic, and vice versa.
+
+.SH OPTIONS
+.TP
+\fBfile.wad\fR
+The input file. Must contain at least one level. Can be an IWAD or PWAD. All
+levels will be converted unless \fB\-m\fR is used.
+.TP
+\fB\-o output.wad\fR
+PWAD or map file to create.
+Without this option, the default is to write to \fIconv.wad\fR in the current directory.
+.TP
+\fB\-s\fR
+Super Shotgun. When converting from Doom I to Doom II, replace all shotgun
+item pickups with the double\-barrelled shotgun. This only affects shotguns placed in
+the level (sergeants will still drop the regular shotgun, as usual). This
+does NOT increase the amount of ammo available, so aim carefully!
+.TP
+\fB\-h\fR
+Convert to Heretic format, if the input WAD file is Doom I.
+(otherwise, option is ignored; Heretic is already the default for a Doom II input WAD).
+
+The Heretic support is somewhat spotty and can result in
+strange\-looking and possibly unwinnable levels (or even a crashed
+Heretic engine), if the results are played as\-is.  See \fBBUGS\fR below.
+.TP
+\fB\-m\fR \fImap\fR
+Only convert maps matching \fImap\fR from the input file.
+
+Without this option, all maps are converted.
+
+\fImap\fR must match MAP\\d\\d for doom2 input wads (MAP01 through MAP32)
+or E\\dM\\d for doom/heretic (e.g. E1M1). Actually, \fImap\fR can be a
+regular expression, such as \fBMAP1.\fR to convert maps 10 through 19,
+or \fBE1M.\fR for all the maps in Episode 1. Matching is done case\-insensitively.
+
+If the destination game has fewer levels that the source game, the
+extra levels won't be reachable through normal play (e.g.  the Ultimate
+Doom IWAD contains 36 levels, but Doom II only knows about MAP01 through
+MAP32).  Depending on the engine used, the extra levels might be playable
+with \-warp or IDCLEV (this works on ZDoom at least).
+.TP
+\fB\-n\fR
+Don't build nodes with warm. Output PWAD file will need nodes built before
+being playable.
+.TP
+\fB\-t\fR
+Delete all things from the map except player starts and teleport exits. The
+resulting map will be empty of monsters, health, ammo, decorations, keys,
+etc.
+.TP
+\fB\-k\fR
+Keep temporary work directory, rather than deleting it at program exit.
+This is mainly useful for debugging \fBwadconvgame\fR itself.
+.TP
+\fB\-p\fR
+Pass texture and flat names through, instead of mapping them to textures/flats
+in the new game. The resulting wad won't run correctly in the new game as\-is.
+To use it, do something like this (example is for Heretic to Doom II):
+
+.nf
+wadconvgame -p my_heretic_level.wad my_converted_level.wad
+wadconvgfx /path/to/heretic.wad /path/to/doom2.wad heretic4doom.wad
+zdoom -iwad doom2 -file heretic4doom.wad my_converted_level.wad
+.fi
+
+(Note: if you don't have ppmquant, get it by installing your distribution's
+netpbm package)
+
+Adapting the above commands to use Doom II's graphics in Heretic is left
+as an exercise for the reader.
+.SH EXIT STATUS
+0 for success, non\-zero for failure, with a diagnostic written to stderr.
+.SH FILES
+.B wadconvgame
+relies on text files to control the mappings of things, textures, and flats
+when converting to a new game:
+.TP
+.B
+things.doom2_to_heretic.wcgmap
+Used for things, when converting Doom or Doom II levels to Heretic.
+.TP
+.B
+things.heretic_to_doom.wcgmap
+Used for things, when converting Heretic levels to Doom II.
+.PP
+There is no "things.doom_to_doom2.wcgmap" because Doom II's things are a superset
+of the things in Doom I.
+.TP
+.B
+textures.doom_to_doom2.wcgmap
+Used for wall textures, when converting Doom levels to Doom II.
+.TP
+.B
+textures.doom2_to_heretic.wcgmap
+Used for wall textures, when converting Doom or Doom II levels to Heretic.
+.TP
+.B
+textures.heretic_to_doom.wcgmap
+Used for wall textures, when converting Heretic levels to Doom II.
+.TP
+.B
+flats.doom2_to_heretic.wcgmap
+Used for flats (floor/ceiling textures), when converting Doom or Doom II levels to Heretic.
+.TP
+.B
+flats.heretic_to_doom.wcgmap
+Used for flats, when converting Heretic levels to Doom II.
+.PP
+There is no "flats.doom_to_doom2.wcgmap" because Doom II's flats are a superset
+of the flats in Doom I.
+.TP
+\fBlinedefs.doom2_to_heretic.wcgmap\fR, \fBlinedefs.heretic_to_doom2.wcgmap\fR
+Used for linedef types. For a few special linedefs, Doom/DoomII
+and Heretic use different numbers for the same types.
+.TP
+\fBsectors.doom2_to_heretic\fR, \fBsectors.heretic_to_doom2\fR
+Same as above, for sector specials. NOT IMPLEMENTED YET, sorry.
+.PP
+Each of the above files is searched for first in
+.nh
+\fI_SHAREDIR_/wadconvgame/\fR,
+.hy
+then the current directory.
+This makes it easy to define your own mappings, in case you don't like
+the default ones (in particular, the default thing mappings are more a matter
+of guesswork and personal preference than the result of research or
+experience playing Heretic).
+
+Copy the mapping file(s) you want to edit from
+.nh
+.I
+_SHAREDIR_
+.hy
+to the current dir and edit the copies
+in any text editor. The syntax is simple, and is
+explained in comments at the top of each file.
+.SH "BUGS/LIMITATIONS"
+.PP
+Only tested with v1.9 of Doom II and Ultimate Doom (in ZDoom 2.50 and
+Chocolate Doom 1.6.0), and v1.3 of Heretic (in ZDoom 2.50). Also did
+a small amount of testing with vanilla doom2.exe (v1.666 engine and wad).
+.PP
+No support for Strife or Hexen. This will probably change in the future.
+.PP
+Can't convert anything to Doom I. Implementing it would take more effort
+than it's worth, and probably nobody would ever use it... although it might
+be interesting to play through the Doom II levels with the Arachnotron,
+Arch-Vile, Mancubus, etc. replaced with Doom I monsters, and without the SSG.
+.PP
+Custom graphics, sound, demo lumps, etc, from the input wad are not copied
+to the output wad. If the input wad uses custom
+patches, textures, or flats, the output wad won't work correctly because
+they won't be present in the output wad.
+.PP
+The code is hideous. It's in Perl, which is easy to code in, but
+also easy to make a mess in. At some point I'll clean it up; until then,
+you need a strong stomach to read the code.
+.SS Heretic
+Conversion to/from Heretic isn't perfect. Resulting WAD files generally won't
+crash modern limit\-removing source ports, but might have missing textures
+or invalid items that will break on vanilla Doom (HOM, exit w/error, or outright crash).
+
+Only textures, flats, things, and linedef types are converted. Heretic
+supports a few linedef types and a lot of sector types that Doom II
+doesn't. These might cause weird results on some Doom engines. ZDoom
+just logs and ignores them, but if the linedef's effect is needed to
+open a door, raise a lift, etc, to get to the exit... you end up with
+an unbeatable level.
+
+There is no way to do a one-to-one mapping between Doom I/II and Heretic.
+Heretic has fewer items in general, fewer enemies... but more weapons
+and ammo types. And inventory items (Doom2 has no inventory system).
+Also Doom I and II have many more textures and flats. Some of the
+compromises made are fairly weird.
+
+The best thing to do with maps converted to/from Heretic is to load them
+into a map editor and clean them up.
+.SH ENVIRONMENT
+This utility supports DOOMWADDIR and DOOMWAD. See the ENVIRONMENT section of
+the xwadtools man page for details.
+.SH "SUPPORTED GAMES"
+Doom, Ultimate Doom, Doom][, Final Doom, Heretic
+.SH "SEE ALSO"
+.BR wadldc "(6), "
+.BR wadlc "(6), "
+.BR warm "(6), "
+.BR xwadtools (6)
+.SH AUTHOR
+.B wadconvgame
+was written by B. Watson (yalhcru@gmail.com)
+.PP
+The conversion tables were originally borrowed from dm1todm2 and dm1toh1,
+by David L. Davis aka SpottedTiger, and from conv2hex, by
+Simply Silly Software. They've been modified quite a bit, since.

@@ -1,0 +1,76 @@
+.TH raw2sfx 6 "15 June 2001"
+
+.SH NAME
+raw2sfx \- convert raw sound data into id's sfx sound format
+
+.SH SYNOPSIS
+.B raw2sfx
+.I infile.raw outfile.sfx
+
+.SH DISCLAIMER
+This program is furnished on an AS IS basis for the fun of it.
+id Software, Raven Software and Activision do not support this program.
+
+.SH DESCRIPTION
+This program converts raw sound data (must be unsigned 8bit 11kHz mono data)
+into the sfx sound format used by id's WAD based games, so that the output
+data file is ready to be included into a WAD file.
+
+Give "\-" as the output file, to write to standard output. This isn't
+the default because it's considered impolite to print binary data to
+your terminal.
+
+Although there's no "sfx2raw" command, in a pinch you can convert id's
+sfx format to raw samples by getting rid of the first 8 bytes. One way
+to do it:
+.PP
+dd if=file.sfx of=file.raw bs=1 skip=8
+
+There's no "raw2wav" command either, but you can accomplish the same thing
+with sox:
+.PP
+sox -traw -c1 -r11025 -b8 -eun file.raw file.wav
+
+.SH DIAGNOSTICS
+Some simple checks are done on the input file. If anything looks weird,
+one or more of these messages is printed:
+.PP
+.B warning: input file is very short, really a sound sample?
+.br
+This happens if the input is less than 50 bytes. The sound's duration
+is less than 5 milliseconds.
+.PP
+.B warning: input looks like a WAV file, you sure it's raw?
+.br
+The first 4 characters in the input are "RIFF", which means it's either
+a WAV file, or a truly staggering coincidence (in practice, it always
+means a WAV file, and your output will be wrong).
+.PP
+.B warning: input already a sfx file?
+.br
+The input begins with the id 0x03 0x00 0x11 0x2b magic header. You've
+probably confused your input and output files.
+.PP
+If you're sure you know what you're doing, you can disregard the warnings:
+the output file is still written normally, and the program's exit status
+is still successful.
+The warnings are meant to help catch common errors, not prevent you from doing what
+you want.
+.SH SUPPORTED GAMES
+Doom, Ultimate Doom, Doom][, Final Doom, Heretic, Hexen, Strife.
+.SH SEE ALSO
+The Unofficial Doom Specs by Matthew S Fell.
+.br
+.BR sox "(1), "
+.BR dm2au "(6), "
+.BR xwadtools (6)
+
+.SH BUGS/ERRORS
+None?
+
+.SH AUTHOR
+.B raw2sfx
+was written by Udo Munk (munkudo@aol.com)
+.PP
+The diagnostic checks and the ability to write to standard output
+were added by B. Watson (yalhcru@gmail.com)

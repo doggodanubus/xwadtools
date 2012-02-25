@@ -1,0 +1,58 @@
+.TH wadwhich 6 "15 January 2000"
+.SH NAME
+wadwhich \- examine wad files, determine which game each is for
+.SH SYNOPSIS
+.B wadwhich [-q] file.wad [file.wad ...]
+.SH DISCLAIMER
+This program is furnished on an AS IS basis for the fun of it.
+id Software, Raven Software and Activision do not support this program.
+.SH DESCRIPTION
+.B wadwhich
+examines wad files and attempts to determine which game each wad is for.
+Each wad file must contain at least one map.
+.PP
+Currently,
+.B wadwhich
+knows about Doom I, Doom II, Heretic, Hexen, and Strife.
+.PP
+The algorithm is basically:
+.PP
+Use \fBlswad\fR(6) to find the first level, and \fBwadldc\fR(6)
+to decompile it into a .map file.
+.PP
+If the level was called MAP??, check the .map file for "extended Hexen"
+format. If so, the game is Hexen. Otherwise, do texture analysis
+to decide whether it's Doom II or Strife.
+.PP
+If the first level was E?M?, do texture analysis
+to decide whether it's Doom I or Heretic.
+.SH OPTIONS
+.TP
+\fB\-q\fR
+Quiet mode (meant for scripts/frontends), prints short game names,
+which are:
+.br
+.I doom
+.I doom2
+.I heretic
+.I hexen
+.I strife
+.SH "BUGS/LIMITATIONS"
+No distinction is made betweem Doom I and Ultimate Doom, even if the
+wad only contains E4 levels.
+.PP
+A wad for one game
+that happens to contain custom textures whose names match another game's textures can
+confuse the detector.
+.SH ENVIRONMENT
+This utility supports DOOMWADDIR. See the ENVIRONMENT section of
+the xwadtools man page for details.
+.SH "SUPPORTED GAMES"
+Doom, Ultimate Doom, Doom][, Final Doom, Heretic
+.SH "SEE ALSO"
+.BR lswad "(6), "
+.BR wadldc "(6), "
+.BR xwadtools (6)
+.SH AUTHOR
+.B wadwhich
+was written by B. Watson (yalhcru@gmail.com)

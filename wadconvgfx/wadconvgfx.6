@@ -1,0 +1,80 @@
+.TH wadconvgfx 6 "19 Feb 2012"
+.SH NAME
+wadconvgfx \- convert IWAD graphics for use on another game
+.SH SYNOPSIS
+.B wadconvgfx \fBsourceiwad\fR \fBdestiwad\fR \fBdestpwad\fR
+.SH DISCLAIMER
+This program is furnished on an AS IS basis for the fun of it.
+id Software, Raven Software and Activision do not support this program.
+.SH DESCRIPTION
+.B wadconvgfx
+extracts the graphics (patches, textures, and flats) from an IWAD file,
+and creates a PWAD file for another game, containing the graphics
+resources from the original IWAD. This allows PWAD authors to use
+e.g. Heretic textures in a Doom II level, or vice versa.
+
+The graphics in the PWAD file will be palette\-converted for the
+destination game. This will inevitably result in them being displayed
+differently in the new game, but they should be recognizable.
+
+DO NOT REDISTRIBUTE PWADs containing copyrighted material from other
+games. If you're creating a PWAD that includes foreign textures,
+have your users run
+.B wadconvgfx
+on their own IWAD files instead.
+
+.B wadconvgfx
+is a shell script that calls \fBdeutex\fR(6) to extract and
+create WAD files. Some experience with
+.B deutex
+is helpful in deciphering any error messages emitted.
+
+.B wadconvgfx
+also uses \fBppmquant\fR to do palette conversions. If you don't
+have this, you can get it by installing your distribution's \fBnetpbm\fR
+package ("slackpkg install netpbm" on Slackware, "apt-get install netpbm"
+on Debian, etc).
+
+.SH ARGUMENTS
+.TP
+.B
+sourceiwad
+The IWAD to convert graphics from. The resulting PWAD will contain all
+the patches/textures/flats from this IWAD.
+.B sourceiwad
+is not modified in any way.
+.TP
+.B
+destiwad
+The game IWAD for the game you're converting graphics to. This is required
+because
+.B
+deutex
+needs to read the palette (PLAYPAL lump) from this IWAD.
+.B destiwad
+is not modified in any way.
+.TP
+.B
+destpwad
+The PWAD to be created, containing the patches/textures/flats from the
+source IWAD. If the file already exists,
+.B wadconvgfx
+will abort, refusing to overwrite it.
+.SH EXIT STATUS
+0 for success, non\-zero for failure.
+.SH "BUGS/LIMITATIONS"
+.B wadconvgfx
+was mainly designed as a support tool for \fBwadconvgame\fR(6), so it's
+not as general\-purpose as it might be.
+.SH ENVIRONMENT
+This utility supports DOOMWADDIR. See the ENVIRONMENT section of
+the xwadtools man page for details.
+.SH "SUPPORTED GAMES"
+Doom, Ultimate Doom, Doom][, Final Doom, Heretic, Strife
+.SH "SEE ALSO"
+.BR wadconvgame "(6), "
+.BR deutex "(6), "
+.BR xwadtools (6)
+.SH AUTHOR
+.B wadconvgfx
+was written by B. Watson (yalhcru@gmail.com)

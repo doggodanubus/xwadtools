@@ -1,0 +1,119 @@
+See "ChangeLog.old" for Udo's changes.
+
+20120223 bkw:
+
+- Fixed FreeBSD 9.0 compile.
+
+- Added crosswin target. Borrowed a fnmatch() implementation from
+  OpenBSD, since mingw-w64 seems to lack one.
+
+20120222 bkw:
+
+- Rename Andre's strlcat() to str_lower_cat(). Some OSes (FreeBSD and
+  the MinGW cross compiler I have) define a strlcat() that does
+  something different.
+
+  - Only include internal strcasecmp() and strncasecmp() if
+  !defined(HAVE_STRCASECMP). I don't have an exhaustive knowledge of
+  which platforms do and don't provide this function, so the Makefile
+  will define HAVE_STRCASECMP by default, with a note to the user.
+
+- lswad's -F now correctly accepts FF_START as start-of-flats marker. Also
+  added a warning if -F is used, and there are flats, but no F_END.
+
+- Upgraded deutex to Amajorel Andre's 4.4.902, from here:
+  http://www.teaser.fr/~amajorel/deutex/fungus/deutex-4.4.902.tar.gz
+  I've made only one minor change to his code: the default log file
+  is now /dev/null (can still set it with -log option, if you really
+  want).
+
+- Added John Carmack's old wadspit tool, from dmutils.zip. Find the
+  original version here:
+  http://www.gamers.org/pub/idgames/historic/dmutils.zip
+
+20120221 bkw:
+
+- added a generic man page "doom.6". Too many source ports don't
+  supply a man page. Some of them don't supply any documentation
+  on command line options at all (or it'll only be documented on
+  their web site).
+
+- man pages now installed gzipped by default. "make install GZIP_MAN=no"
+  disables.
+
+- binaries are no longer linked with -s (stripped). However, they're
+  installed that way by default. "make install STRIP_BINS=no" to
+  install unstripped binaries.
+
+20120220 bkw:
+
+- wadcat, mkqmap, mkpopal, mkgipal, mkxppal, mktran were all
+  segfaulting if their options that require an argument were given at
+  the end of the command line (e.g. "mkqmap -c"), added NULL checks
+
+20120219 bkw:
+
+- New utilities wadwhich, wadconvgame, wadconvgfx
+
+- "make install" now installs the docs (to DOCDIR)
+
+- "make install" now installs mergewad and tkwadcad
+
+20120215 bkw:
+
+- All of Andre Amajorel's patches have been integrated.
+
+- All the tools now compile and run correctly on x86_64 Linux (so far
+  as I've been able to determine). This took some effort!
+
+- Makefile.lin has been renamed to Makefile. The other Makefile.* remain,
+  but they haven't been updated for this release. I will accept patches
+  from anyone who wants to use this on non-Linux systems, but I don't
+  have the resources to do any testing on anything but Linux.
+
+- Makefile now supports PREFIX and DESTDIR, should make life easier for
+  packagers.
+
+- XForms is now optional, can build with "make USE_XFORMS=no". It's only
+  used for xew, so xew won't be built if XForms is disabled.
+
+- The acc utility is now installed as acc-raven, to avoid conflicts with
+  the acc utilities provided by VaVoom and ZDoom.
+
+- libfindwad: new library that searches for WAD files in a uniform manner.
+  Tools are slowly being updated to use it. See ENVIRONMENT section of
+  xwadtools manpage for usage details; see include/findwad.h for API
+  and lib/findwad.c for implementation.
+  Currently these tools support libfindwad:
+  dm2au  wadps  wadwhat  lswad  wadsprit  wadpat  wadtex  wadext
+  wadtxls  wadflat
+
+- dm2au:
+  New options -r (raw audio output) and -w (wav output).
+  Output file can be specified, and can be - for standard output.
+  Man page contains a few examples for using dm2au with sox.
+
+- New utility midi3mus. Converts MIDI files to MUS lumps. Written by natt
+  on the DoomWorld forums, thread:
+  http://www.doomworld.com/vb/doom-editing/55814-midi2mus-64-bit-compatible/
+
+- slige now falls back to $LIBDIR/slige/slige.cfg if no -config or
+  $SLIGECONFIG is given and if slige.cfg doesn't exist in the current
+  directory.
+
+- wadps: Default game changed to doom2. Behaviour for
+  doom II wads now matches doom I, when no level is selected (all maps
+  are included in the output; previously the output was just empty).
+
+- lswad: Added --help/-? option. Needed because its default action is now
+  to list the contents of the default IWAD.
+
+- wadtxls: Output now sent to stdout if no -o is given.
+  Episode and Mission (-e and -m) arguments are no longer required; they
+  default to E1M1 for doom 1 and MAP01 for doom 2.
+
+- raw2sfx: outfile argument can be - for stdout. Warn if there's a RIFF or id
+  sfx header, or if the input's really short.
+
+- various compiler warnings have been squelched. Quite a few are left.
+

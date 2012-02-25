@@ -1,0 +1,92 @@
+These instructions are for Linux, and probably work OK on other UNIX-like
+systems. If not, see INSTALL.old.
+
+Required dependencies:
+GNU make
+GCC and G++
+standard stuff like bash and sed (likely part of your OS already)
+
+Optional dependencies (and what you need them for):
+XForms library - for xew
+NetPBM - for wadconvgfx, also generally useful for working with
+         extracted Doom graphics (deutex and wadextract both
+         create ppm files).
+Perl - for wadconvgame, wadconvgfx, mergewad
+Tcl/Tk - for tkwadcad
+
+Most (probably all) of this stuff can be installed using your
+distribution's package manager (apt-get, yum, slackpkg/sbopkg, whatever
+you've got), and that's the preferred way to install them.
+
+XForms is required at compile time, if you want to use it. The other
+optional deps can be installed later without rebuilding xwadtools.
+
+To compile, you can just say "make". To install to /usr/local/,
+"make install" (as the root user; use su or sudo).
+
+There are a few useful variables you can pass to the Makefile:
+
+XFORMS=yes
+  Build xew. The default is not to build it. xwadtools is still very
+  useful without it: xew is basically a GUI that does the same things
+  as some of the command line tools.
+
+PREFIX=/usr
+  Install everything in /usr rather than /usr/local.  This path gets
+  compiled into some of the tools, so they can find their data files.
+
+BINDIR, SHAREDIR, MANDIR, DOCDIR
+  Default to PREFIX/bin, PREFIX/share/xwadtools, PREFIX/share/man,
+  PREFIX/share/doc/xwadtools. Some folks like to set BINDIR=PREFIX/games,
+  to avoid cluttering /usr/bin with "useless" games.
+
+DESTDIR
+  Default: empty. Used with "make install" to install everything to some
+  place other than the actual PREFIX (e.g. for making a distro package)
+
+GZIP_MAN=no
+  By default, man pages are gzipped during "make install". Set this option
+  to install the man pages uncompressed.
+
+STRIP_BINS=no
+  By default, binaries are installed stripped of debugging symbols. Set
+  this option to install the binaries unstripped.
+
+After installation, "man xwadtools" will give you an overview
+of what the various tools are. Also see the documentation in
+/usr/local/share/doc/xwadtools (or whatever you set DOCDIR to).
+
+Note to slackware users: "su -c make slackware" will build an i486
+package. If you're using slackware64, try "su -c make slackware
+ARCH=x86_64". You may or may not want to add XFORMS=yes to your make
+command, too.
+
+The rest of this document is from Udo's original INSTALL (edited somewhat;
+see INSTALL.old for the whole thing).
+
+Testing... Playing...
+---------------------
+In the directory examples there are Makefiles which uses the tools
+to build PWAD files and such. So to try out your installed tools, you
+could just type make in the directories and examine the results and
+try to play the PWAD files with some game engine. The command 'make clean'
+gets rid of all produced temporary files.
+
+If you're using UNIX and have XDoom installed, try the testbench in
+directory toolstest. All node builders and map compilers/de-compilers
+will be tested to some degree by this. [Note: the test depends on XDoom,
+which most users won't have installed, and which would require quite
+a bit of work to get to compile on modern systems - bkw]
+
+Have a look at the slige directory too, there are shell scripts which
+create some random Doom PWAD's with slige and process them with all included
+node builders. This is pretty good to test out the tools some more.
+
+Notes:
+------
+WAD tool programmers who would like to work on this stuff should check
+the functions in the lib directory and header files in the include
+directory. If possible use them and if you find functions which are
+needed by various tools, then add them to the library. Probably
+the tools still include redundant functions which should be moved
+into the library.

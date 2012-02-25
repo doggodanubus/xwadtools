@@ -1,0 +1,59 @@
+Before first release:
+
+Test the utilities more thorougly on FreeBSD and Windows. The Windows
+stuff probably needs more win-ish hard-coded paths.
+
+Write another test suite. Not to replace the existing one, but to do
+stuff like pick wads apart, rebuild them, check md5sums of the wads and
+the individual lumps... and of the output of the programs. This needs
+to produce the same md5sums on every platform.
+
+Sometime after first release:
+
+Fix warm. Currently (and for a long time now) it fails to build nodes/etc
+if the input wadfile doesn't have entries for them (even empty ones will
+do, hence slige's -nulls option). Ideally, warm should add the lumps
+if they're missing. If that's too much trouble, it should at least warn
+and exit(1) or such, if the lumps are missing from the input.
+
+Add support for games other than doom/doom2 to wadwhat. It might be better
+to rewrite from scratch (still in C though, don't make it a perl script).
+
+Rewrite xew so it uses a better toolkit. GTK+ is nice. While we're at it,
+make it able to use SDL_mixer to play MIDI and audio files internally
+(currently the internal audio player is OSS-only; SDL uses whatever the
+platform has).
+
+Replace the fricken Makefile. Use autoconf too?
+
+Autodetection for xforms (should be automatic, if I go with autoconf),
+and for ARCH in the slackware target.
+
+Replace all the conditional typedef crap with <stdint.h> and uint_*_t.
+Better make sure all my target platforms have that. It's in the ISO C99
+spec, so probably gcc always has it. So far Linux, FreeBSD, MinGW-w64
+all have it.
+
+Make sure everything builds and runs on NetBSD, OpenBSD, and maybe OSX.
+
+Heck, try it on Minix! But don't waste time fixing it, if it doesn't work.
+
+Try big-endian platforms. Possible with qemu I think, if I'm not in a hurry.
+If not, dig old SparcStations out of storage.
+
+Fix the existing test suite.
+
+Add rpm and deb targets. And whatever archlinux uses I guess.
+
+Far future: port/rewrite everything in some cross-platform language. I
+dunno what to use. Perl sucks on win32 (some would say it sucks
+everywhere). Java sucks for command-line tools due to the overhead of
+setting up & tearing down the JVM for every invocation (though on modern
+enough machines it doesn't really matter so much). C# can't be trusted
+to be (or stay) cross-platform, considering it's a MS technology, plus it
+suffers from the VM overhead thing too. Python may be an option, I don't
+know it real well though. Also, need to investigate gcj (the binaries
+it produces look like native ones, to the "file" command, but do they
+run any faster than "java foo.class"?)... whatever I do, will probably
+end up being a separate project (jwadtools or pywadtools or whatever).
+

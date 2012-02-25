@@ -1,0 +1,36 @@
+# This file is for converting Doom II to Heretic.
+# Most linedef types are the same between Doom II and Heretic,
+# but a few have different numeric IDs. Any linedef type not
+# listed here will be passed through as-is.
+
+# Syntax of this file is very simple:
+
+# Comments begin with a #, and can appear anywhere.
+
+# Blank and comment-only lines are ignored.
+
+# Assignment lines are <number>=<number>, where the
+# first number is a Doom II linedef type number, and the second is
+# the Heretic linedef type number that will replace it. You can assign
+# a linedef type to 0 to delete it (make the line a normal line) instead
+# of converting it. However, you will probably end up with an unfinishable
+# level, due to being unable to do whatever action that linedef type
+# was supposed to do.
+
+# D: ldt 124 e "W- Secret level"  "W-  End level, go to secret level [v1.6]"
+# H: ldt 105 e "W- Secret level"  "W-  End level, go to secret level"
+124=105
+
+# D: ldt 100 s "W1 RaiseStairs16" "W1  Raise stairs (step=16), crush [v1.6]"
+# H: ldt 106 s "W1 Raise stairs"  "W1  Raise stairs, step 16"
+100=106
+
+# D: ldt 127 s "S1 RaiseStairs16" "S1  Raise stairs (step=16), crush [v1.6]"
+# H: ldt 107 s "S1 Raise stairs"  "S1  Raise stairs, step 16"
+127=107
+
+# Vanilla Doom/DoomII levels won't have this, but:
+# D: ldt  85 A "-- Scroll right"  "--  Scrolling wall, right [Boom]"
+# H: ldt  99 x "-- Scroll right"  "--  Animated wall (scrolls right)"
+85=99
+

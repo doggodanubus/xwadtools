@@ -1,0 +1,74 @@
+.TH spitwad 6 "22 Feb 2012"
+.SH NAME
+spitwad \- list directory and get stats of WAD files
+.SH SYNOPSIS
+.B spitwad
+.I wadfile
+.SH DISCLAIMER
+This program is furnished on an AS IS basis for the fun of it.
+id Software, Raven Software and Activision do not support this program.
+.SH DESCRIPTION
+.B spitwad
+prints the contents of the directory of a wad file (iwad or
+pwad), plus some overall statistics about the wad file.
+
+Before the lump listing: the filename, number of lumps in the file,
+and offset of the WAD info table are printed.
+
+Lump listing output is in table format. For each lump in the wad, the following
+information is printed:
+.TP
+.B lump
+lump index within the file. The first lump is index 0, the
+rest are numbered sequentially. The last lump in a file with
+.I
+n
+lumps is numbered
+.I
+n\-1
+.TP
+.B name
+The lump name.
+.TP
+.B size
+Lump size in bytes (decimal)
+.TP
+.B filepos
+Lump offset from the start of the file, in bytes (decimal)
+.TP
+.B 0xsize
+Same as \fBsize\fR, but displayed in hex.
+.TP
+.B 0xfpos
+Same as \fBfilepos\fR, but displayed in hex.
+.PP
+There is 7th column with no header. This column will display \fB(lzss)\fR
+for lumps compressed with LZSS compression (only supported in the Jaguar
+console port of Doom). Otherwise, the column will be blank.
+
+After the lump listing: file size, data size, info table size,
+and wasted space are printed. File size should be equal to the sum
+of the other 3 values.
+.SH "SUPPORTED GAMES"
+Doom, Ultimate Doom, Doom][, Final Doom, Heretic, Hexen, Strife.
+.SH "SEE ALSO"
+The Unofficial Doom Specs by Matthew S Fell.
+.br
+.BR xwadtools (6)
+.BR lswad (6)
+.br
+The original version of spitwad at
+.nh
+http://www.gamers.org/pub/idgames/historic/dmutils.zip
+.hy
+.SH BUGS
+.B spitwad
+will accept two extra arguments (called \fIstart\fR and \fIend\fR
+in the usage message), but it doesn't use them for anything.
+.SH AUTHOR
+.B spitwad
+was written by John Carmack
+.PP
+Slightly modified by B. Watson (yalhcru@gmail.com), to get it to compile
+and run on modern OSes, and to add PWAD file support. Also wrote this
+man page.

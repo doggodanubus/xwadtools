@@ -1,0 +1,3 @@
+WAV play %s
+MUS killall timidity; qmus2mid %s tmp.mid -nodisp; timidity tmp.mid & ( sleep 0.5; rm tmp.mid )
+PCX gimp %s &

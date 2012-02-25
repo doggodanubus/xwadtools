@@ -1,0 +1,81 @@
+# This list is for converting Doom I wall textures to Doom II (not
+# floor/ceiling; see flats.* for those).
+
+# It's short because most Doom I wall textures are still present in Doom
+# II, so this list only has to contain the few that are missing.
+
+# More than one Doom I texture may be mapped to the same
+# Doom2 texture. Map a Doom I texture to - to delete it from
+# the converted maps (but this might cause HOM effect).
+
+# Syntax of this file is very simple:
+
+# Comments begin with a #, and can appear anywhere.
+
+# Blank and comment-only lines are ignored.
+
+# Assignment lines are <texture>=<texture>, where the
+# first texture is a Doom I texture, and the second is
+# the Doom II texture that will replace it. You can assign
+# a texture to - to delete it instead of converting it, which
+# is a very bad idea unless you're 100% sure that texture is
+# only used as a transparency between two sectors.
+
+# Any texture not mapped to something in this file,
+# will be passed through unmodified into the converted Doom II
+# level. This will cause vanilla Doom II (and some source ports)
+# to refuse to load the level. ZDoom will display a grey & white
+# checkerboard pattern, for unknown textures.
+
+AASTINKY=SUPPORT2
+BRNBIGC=MIDGRATE
+BRNBIGL=MIDGRATE
+BRNBIGR=MIDGRATE
+BRNPOIS2=BROWNGRN
+COMP2=SPACEW3
+COMPTILE=COMPBLUE
+COMPUTE1=SILVER3
+COMPUTE2=TEKLITE
+COMPUTE3=TEKLITE2
+LITE4=LITE3
+LITEBLU2=LITEBLU4
+LITEBLU3=LITEBLU4
+NUKESLAD=SLADWALL
+PLANET1=SHAWN2
+REDWALL1=PANRED
+SLADRIP1=SLADWALL
+SLADRIP2=SLADWALL
+SLADRIP3=SLADWALL
+STARTAN1=STARTAN2
+STONPOIS=STONE3
+TEKWALL2=TEKWALL1
+TEKWALL3=TEKWALL1
+TEKWALL5=TEKWALL1
+BLODGR1=BLODRIP1
+BLODGR2=BLODRIP2
+BLODGR3=BLODRIP3
+BLODGR4=BLODRIP4
+BROWNWEL=BROWNHUG
+CEMPOIS=CEMENT1
+COMPOHSO=PANEL3
+DOORHI=SPCDOOR3
+GRAYDANG=GRAY1
+ICKDOOR1=DOOR1
+ICKWALL6=ICKWALL5
+LITE96=METAL7
+LITEMET=METAL6
+LITERED=SILVER2
+LITESTON=METAL6
+MIDVINE1=MIDGRATE
+MIDVINE2=MIDGRATE
+SKINBORD=SKINCUT
+SKINTEK1=SKINCUT
+SKINTEK2=SKINCUT
+SKULWAL3=SLOPPY1
+SKULWALL=SLOPPY2
+SP_DUDE3=SP_DUDE4
+SP_DUDE6=SP_DUDE5
+SP_ROCK2=SP_ROCK1
+STONGARG=STONE3
+WOODSKUL=WOODGARG
+SKY4=SKY1

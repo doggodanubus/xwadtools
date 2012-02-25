@@ -1,0 +1,773 @@
+.TH doom 6 "21 Feb 2012"
+
+.SH NAME
+doom \- a 2.5D first\-person shooter game, by ID Software
+
+.SH DESCRIPTION
+This page documents the command\-line options typically accepted
+by Doom and its source ports, and related games such as Heretic
+and Hexen. It is not an exhaustive list, and does not replace the
+documentation (if any) provided with a particular source port.
+
+Most of this content came from the Doom Wiki pages at
+.nh
+http://doomwiki.org/wiki/Parameter and http://doomwiki.org/wiki/Source_port_parameters
+.hy
+
+.SS Terms
+The terms "source port" and "engine" are interchangeable. Both refer
+to Doom engines based on the ID Software Doom source code release.
+Although ID did long ago release binary builds of official Doom for Linux and other
+flavors of UNIX, these are mostly of historical interest today. Source
+ports are the standard way to play these days. Examples of source
+ports include: zdoom, skulltag, odamex, prboom, chocolate-doom, doomlegacy.
+
+The terms "option" and "parameter" are used as synonyms in this manual
+page (which is a bit different from normal UNIX usage).
+.SS Introduction
+In respect to the Doom engine a parameter (or command line parameter and
+command line argument) is a start\-up indication by the user that the
+engine should change its default behavior. The parameters are typed after
+the executable's name in the command line and are followed by variables or
+text strings, if applicable.
+
+Many parameters that affect in\-game behavior require warping through
+\-wart, \-warp, \-episode, \-skill, \-playdemo, \-record, or \-loadgame, or else
+they are overridden when the user starts a game through the menu. In
+deathmatch and cooperative modes an extra program called a device driver
+by the Doom documentation handles some of the multiplayer specifics and
+passes any parameters to the main executable. The extra program will also
+warp the player to the first level of the game if no other warping
+parameter is used. Unless stated otherwise, parameters work for all
+versions of both Doom and Doom II, with some exceptions that are detailed
+accordingly in their descriptions. Note that if you warp internally using
+the idclev cheat code, any parameters that required warping will be
+disabled.
+.SS Engine variants
+While most parameters are available to all the released versions of the
+Doom games, some became obsolete with newer versions, and some were added
+as features were enabled or changed. Earlier versions of the engine,
+particularly up to 1.2, tend to require the \-devparm parameter (that
+enables "developers mode") to use many of the parameters, but later
+versions do not require it.
+
+Ports of the Doom engine usually retain most if not all the available
+parameters, and sometimes add some of their own, or customize some of the
+original ones. Since ports often rely less on the command line and more on
+a graphical user interface they may have alternate ways of entering
+commands and parameters. Doom95, for example, accepts the usual parameters
+but adds a launcher to be used by default for all purposes, and various
+source ports add a console that can handle most options and variables, or
+support drag\-and\-drop capabilities that take care of some of the start\-up
+options.
+
+Other games with Doom\-based engines, such as Heretic, Hexen, and Strife,
+also use the same parameters with only slight differences, mostly because
+of required customizations or because they are based on earlier versions
+of the Doom engine that did not include all the parameters available in
+the latest versions of the Doom games.
+
+The parameter descriptions in the list below are preceded by practical
+identifiers which give a general idea of what the general effect of each
+parameter is. The parameter identifiers include:
+
+* Analysis: measures something
+.br
+* Configuration: access to settings or files
+.br
+* Gameplay: changes the way the game is played
+.br
+* Input: affects player input devices
+.br
+* Monsters: affects monster qualities
+.br
+* Multiplayer: enables multiplayer functions
+.br
+* None: disabled development parameter (may be re\-enabled in some source ports)
+.br
+* Output: affects sound or graphic output
+.br
+* Recording: records or plays demos
+.br
+* Warping: starts the game in a level
+
+Below the identifier each parameter description includes a basic command
+line structure, headed by the type of executable needed or generally used
+with the parameter, mainly doom (doom.exe or doom2.exe) or a driver
+(ipxsetup.exe or sersetup.exe), and followed by other required parameters,
+the parameter in question, and a variable, if applicable. If doom is used
+driver also applies unless noted otherwise, and executable types not in
+italics are actual executale file names.
+.SS Notes
+Except where noted, when a variable required by a parameter is a number,
+any value lower than the lowest expected value will be taken as that
+lowest value, and any value higher than the highest expected value, as
+the highest value. Non\-numerical characters will be considered either as
+the lowest or the highest value, depending whether the operating system
+places them after or before the numbers in an alphanumeric listing.
+
+Since this is a manual intended for Linux and other UNIX\-like systems,
+the list of parameters below does not include DOS\-specific ones, such
+as serial port or IPX settings. Also, you should consult the documentation
+for the specific engine you are using. This man page is intended purely
+as a convenience, and is not definitive.
+
+Unlike many *NIX command\-line programs, Doom engines usually do not
+report invalid arguments as errors (they are just ignored). If you're
+not getting the behaviour you expected, check your typing, check the log
+output from the engine, and check the actual documentation for the engine
+(don't accept the stuff in this man page as gospel).
+.SH OPTIONS
+.TP
+\fB\-altdeath\fR
+.br
+(gameplay, multiplayer)
+.br
+doom \-altdeath
+
+The \-altdeath parameter enables the alternate deathmatch mode
+(called deathmatch v2.0 in the documentation) added in version 1.5
+where most items picked up by players respawn after a while after
+being picked up. This also applies to weapons, which (unlike in
+normal deathmatch mode) also disappear for a while upon being pick
+up. The mode is meant for multiplayer games, although it will work
+in single player mode as well (doom \-warp <map> \-altdeath), where
+the player will be spawned on a deathmatch spot.
+.TP
+\fB\-avg\fR
+.br
+(multiplayer)
+.br
+doom \-deathmatch \-avg
+
+This \-avg parameter tells Doom to behave as if \-timer 20 were
+used. The three letters are an acronym that stands for an
+establishment called "Austin Virtual Gaming" near the University
+of Texas set up in 1994 for pay\-to\-play Doom multiplayer.
+.TP
+\fB\-bex\fR \fIfile\fR
+Load a BEX patch file. See
+.nh
+http://doomwiki.org/wiki/BEX
+.hy
+.TP
+\fB\-cdrom\fR
+.br
+(configuration)
+.br
+doom \-cdrom
+
+This parameter makes the engine use C:\\DOOMDATA as the directory
+where configuration data (such as default.cfg and any saved games
+or screen shots) is stored, so that the game can be run directly
+from a CD\-ROM. If the directory does not exist on the system, Doom
+creates it. The disk activity indicator also changes to a picture
+of a CD, rather than a diskette, when the parameter is applied.
+
+Source ports for *nix that support this command will use a different
+directory, such as \fI~/.<portname>/\fR.
+.TP
+\fB\-comdev\fR
+.br
+(configuration)
+.br
+doom \-comdev
+
+With \-comdev the id Software developers told the engine to read
+the WAD and lump data for the commercial game (Doom II) from
+specified directories.
+.TP
+\fB\-complevel\fR \fIlevel\fR
+
+Toggles various bug fixes and enhanced features for maximum compatibility
+with other (related) source ports. A compatibility level of \-1 means
+that all enhanced features and bug fixes are available, while 0 through
+4 correspond to vanilla Doom, 5 corresponds to DOSDoom, 6 corresponds
+to TASDOOM, 7 through 9 correspond to Boom, 10 corresponds to LxDoom, 11
+corresponds to MBF, and 12 through 17 emulate earlier versions of PrBoom.
+
+The above description is for prboom. Other engines that support \fB\-complevel\fR
+may or may not use the same \fIlevel\fR values. Default behaviour in
+the absence of \fB\-complevel\fR may (or may not) be determined based on which IWAD
+file is loaded.
+.TP
+\fB\-config\fR
+.br
+(configuration)
+.br
+doom \-config <configuration>
+
+With this parameter the engine uses an alternate configuration
+file instead of the usual default.cfg. The required configuration
+string may be just a file name (such as doom.cfg), which will be
+read from (or created in) the game's directory, or a path\-and\-file
+name (\fI~/.doom/doom.cfg\fR for example) if another directory is
+desired.
+
+The \-config parameter may be used along with \-cdrom, in which case
+the configuration file will be assigned as chosen while saved
+games and screen shots will be placed in the Doomdata directory.
+.TP
+\fB\-deathmatch\fR
+.br
+(gameplay, multiplayer)
+driver \-deathmatch
+
+The \-deathmatch parameter enables the head\-to\-head competitive
+mode that pits players against each other, as opposed to the
+cooperative mode. This is the original deathmatch mode where
+ammunition and power\-ups do not respawn and weapons remain but can
+be picked up only once per player life, like in cooperative games.
+This parameter is meant for multiplayer games, although it will
+work in single player mode as well (doom \-warp <map> \-deathmatch),
+where the player will be spawned on a deathmatch spot.
+.TP
+\fB\-debugfile\fR
+.br
+(analysis)
+.br
+doom \-debugfile
+
+With this parameter the engine produces a file listing available
+realtics against used gametics to show the internal resources
+available at each point during play or demo playback. It produces
+a file called debug0.txt where the data is stored in real time.
+This parameter has no effect when used in conjuction with
+\-timedemo (which also deals with the same data).
+
+This option is probably not supported by any modern source ports.
+.TP
+\fB\-deh\fR \fIfile\fR
+Load a DeHacked patch file. See
+.nh
+http://doomwiki.org/wiki/DeHackEd
+.hy
+.TP
+\fB\-devparm\fR
+.br
+(analysis, configuration)
+.br
+doom \-devparm
+
+The developer's parameter runs the game in developer mode,
+creating screen shots with the F1 key instead of displaying the
+help screen and showing the tics\-per\-frame meter on the lower left
+of the screen. If only the first dot on the meter is displayed,
+performance is optimal. The \-devparm parameter is also required by
+some parameters in older versions of Doom.
+.TP
+\fB\-ravpic\fR
+.br
+(analysis)
+.br
+heretic \-ravpic
+.br
+hexen \-ravpic
+
+This parameter replaces \-devparm for Heretic and Hexen, and allows
+to take screen shots with the F1 key. It does not display the
+ticker which is instead enabled by cheat codes for these games,
+ticker for Heretic and rrettenmund for Hexen. This parameter
+doesn't exist for Doom.
+.TP
+\fB\-episode\fR
+.br
+(warping)
+.br
+doom \-episode <episode>
+
+This parameter starts one of Doom's three episodes from its first
+level. The usual values for the episode variable are the numbers
+1, 2, or 3, representing each episode. This parameter is the
+equivalent of \-warp <e> 1, where e is the number of the episode,
+and when playing Doom II it always loads the first level of the
+game, regardless of what episode number is chosen. The \-episode
+parameter has no effect if no value is added after it.
+.TP
+\fB\-extratic\fR
+.br
+(multiplayer)
+driver \-extratic
+
+The \-extratic parameter provides extra data in each data packet
+sent over the network; this adds redundancy and makes the game
+more resilient to dropped packets at the possible cost of using
+more bandwidth (see extratic).
+.TP
+\fB\-fast\fR
+.br
+(gameplay, monsters)
+.br
+doom \-warp <map> \-fast
+
+The fast monsters parameter makes monsters attack often, increases
+the speed of demons and spectres, and makes demonic fireballs
+faster than usual. It requires warping (such as \-warp) to be
+effective and was first introduced with version 1.2 of Doom. Note
+that Heretic and Hexen lack this command.
+.TP
+\fB\-file\fR
+.br
+(configuration)
+.br
+doom \-file <files>
+
+The \-file parameter allows Doom to load additional WADs and lumps,
+beyond the usual IWAD. The files variable may be a single file
+name, path\-and\-file name (if the file is in a different directory
+than where Doom is run from), or a series of these. A second file
+would be typed in one space after the first, a third one space
+after the second, and so on. The order of multiple files may make
+a difference, as equivalent lumps will be overwritten in the
+run\-time memory, with the rightmost file in the list taking
+precedence.
+
+If any of the files is missing, the engine will
+notify the user in the log output, but will still run
+normally, missing files notwithstanding. Issues may occur if those
+missing files are required, though, so it may be convenient not to
+disable the warning if the location of files being loaded is
+uncertain.
+
+Normally, \-file's arguments are PWAD files (ending in \fI.wad\fR).
+Some engines allow other file types, such as zip or pk3 files, raw lumps,
+dehacked patches, or text files containing scripts.  In some engines,
+use of \-file is optional (anything on the command line that isn't a
+recognized option will be treated as a filename).
+.TP
+\fB\-fullscreen\fR, \fB\-fs\fR, \fB\-nowindow\fR
+
+Some source ports use this to set full\-screen display mode,
+overriding the setting in the config file.
+.TP
+\fB\-g\fR, \fB\-geometry\fR, \fB\-geom\fR, \fB\-width\fR, \fB\-height\fR
+
+Various source ports use options like this to set the size of the
+Doom window, overriding the size in the config file.
+Examples: \fB\-geometry\fR \fI640x480\fR, \fB\-width\fR \fI640\fR \fB\-height\fR \fI480\fR
+.TP
+\fB\-left\fR
+.br
+(output)
+.br
+doom \-net 3 \-left
+
+Under Doom version 1.0 or 1.1, the \-left parameter will cause a
+networked computer to display the area to the left of the player's
+normal view.
+
+Several modern source ports have reinstated support for \-left
+and \-right.
+.TP
+\fB\-host\fR \fInumplayers\fR
+In zdoom and related ports, starts a multiplayer game for \fInumplayers\fR
+players. The game will wait until the other \fInumplayers\fR\-1 players
+have joined (see \-join).
+.TP
+\fB\-iwad\fR \fIfile\fR
+Many source ports support multiple games (usually at least Registered Doom, Ultimate
+Doom, Final Doom, and Doom II; sometimes Shareware Doom, FreeDoom, Heretic, Hexen,
+Strife, Chex Quest, etc). This option usually exists so the user can select which
+game to play.
+
+Depending on the engine, the \fIfile\fR may have to be a full path, or it may
+be searched for in the directories specified by \fBDOOMWADDIR\fR and/or
+\fBDOOMWADPATH\fR, or the path may be set in the config file. Also, the
+\fI.wad\fR extension may be required or optional, and the filename may
+be treated case\-sensitively or not. Basically, see your engine's
+documentation, or use trial\-and\-error.
+.TP
+\fB\-join\fR \fIhost\fR
+
+Join a multiplayer game, in zdoom and related source ports. \fIhost\fR
+is the IP address or hostname of the server (which was started using
+the \-host option).
+.TP
+\fB\-loadgame\fR
+.br
+(configuration, warping)
+.br
+doom \-loadgame <savegame>
+
+This parameter starts Doom from a previously saved game. The
+savegame is normally a number from 0 to 5 (these stand for the 6
+slots available from the "save game" menu) although an edited slot
+using any other single readable character, such as a single digit
+number or a letter, will also be loaded (doom \-loadgame z will
+load doomsavz.dsg). If you use this parameter with \-record, a demo
+will be produced, but it will quite likely not properly be played
+back, becuase it will start "from scratch" on the usual player
+start, instead of using the location and conditions of the saved
+game, even if \-loadgame is used along with \-playdemo or \-timedemo
+(in which cases it is ignored).
+.TP
+\fB\-maxdemo\fR
+.br
+(recording)
+.br
+doom \-record <demo> \-maxdemo <kilobytes>
+
+This defines the maximum size in kilobytes for a demo recording,
+instead of the usual value of 128 (which is roughly 15 minutes for
+a single\-player game). If the limit is reached while recording,
+the game ends with a Demo <demo>.lmp recorded message in the
+command line.
+.TP
+\fB\-net\fR
+.br
+(multiplayer)
+.br
+doom \-net <player> <ip> [<ip> ...]
+
+Starts a multiplayer game. The first argument specifies the player number
+(starting from 0), while the remaining arguments specify the IP addresses
+of the other machines in the game. For example, to start a game between
+two machines with IP addresses 192.168.0.1 and 192.168.0.2, the first
+user would type doom \-net 0 192.168.0.2 and the second user would type
+doom \-net 1 192.168.0.1.
+
+The above is just an example of how a source port might use the \-net
+option. Refer to the documentation for your engine.
+.TP
+\fB\-nodraw\fR
+.br
+(output)
+.br
+doom \-timedemo <demo> \-nodraw
+
+When the \-nodraw parameter is used along with \-timedemo the
+graphics drawing functions of the Doom rendering engine are not
+used, so the speed of the underlying engine can be measured
+without any resources spent displaying the in\-game graphics.
+Without \-timedemo, this parameter has no effect.
+.TP
+\fB\-noblit\fR
+.br
+(none)
+.br
+doom \-noblit
+
+This is a disabled parameter similar to \-nodraw with which, during
+development, the programmers told the engine not to pass data from
+an internal buffer onto the screen.
+.TP
+\fB\-nomonsters\fR
+.br
+(monsters)
+.br
+doom \-warp <level> \-nomonsters
+
+If the \-nomonsters parameter is applied, monsters will not be
+spawned when any levels are loaded. It is usually used along with
+deathmatch modes although it can also be useful for walkthroughs
+and during testing. It must be used along with a warping
+parameter, to be effective.
+.TP
+\fB\-nomouse\fR
+.br
+(input)
+.br
+doom \-nomouse
+
+This parameter disables the mouse during the game session.
+.TP
+\fB\-nomusic\fR
+.br
+(output)
+.br
+doom \-nomusic
+
+The \-nomusic parameter simply disables the background music during
+the game session.
+.TP
+\fB\-nosfx\fR
+.br
+(output)
+.br
+doom \-nosfx
+
+This parameter disables the game's sound effects (screams, clunks,
+.br
+explosions, and so on) during the game session.
+.TP
+\fB\-nosound\fR
+.br
+(output)
+.br
+doom \-nosound
+
+With \-nosound both music and sound effects are disabled during the
+game session.
+.TP
+\fB\-playdemo\fR
+.br
+(recording, warping)
+.br
+doom \-playdemo <lump>
+
+Demo recordings are played using the \-playdemo parameter. The lump
+variable is the name of a lump, excluding any file extension and
+without a file path. The parameter will play any one demo in the
+directory where the engine is executed, in the IWAD, or that is
+loaded using the \-file parameter (as part of a PWAD or as a
+separate lump). In the latter cases the engine will state that it
+hasn't found the demo, but it will play it any way (as the message
+refers to not finding it in the directory the engine is launched
+from). If the specified lump does not exist, the engine exits to
+the command prompt with an error message.
+.TP
+\fB\-port\fR
+.br
+(multiplayer)
+.br
+doom \-port <port>
+
+In original DOS Doom, this was used for IPX and modem connections.
+Many modern source ports use \-port to set the UDP port number
+to be used for networked multiplayer.
+.TP
+\fB\-record\fR
+.br
+(recording, warping)
+.br
+doom \-record <demo>
+
+The \-record parameter tells the engine to generate a demo lump
+containing the actions of any participating players when it exits
+to the command prompt, displaying a message that the demo has been
+recorded, instead of the ENDOOM screen. The demo variable is the
+name of the lump to be created, excluding any file extension and
+optionally including a file path. If a file path is included, the
+demo will be recorded only if the target directory exists. If the
+directory in the optional path does not exist, the engine will
+state a demo has been recorded upon exiting the game, but no demo
+will be produced. If this parameter is not used along with a
+warping parameter, it will load the first level of the game. If it
+is applied without a demo name, it will try to read any following
+parameter as a name, or will have no effect if nothing follows.
+
+When this parameter is applied the Q key will immediately exit the
+game, and since the demo format simplifies what tics are recorded
+for the player's movements, movement may be slightly less
+accurate. This is noticeable while using the mouse and, if a
+multiplayer game is attempted, it will not allow a recording peer
+to connect to one that is not recording (a consistency failure
+will occur.
+
+When used with the \-cdrom parameter it may be necessary to use a
+path\-and\-file name for the demo string, particularly if the game
+is launched from a CD, or else Doom will attempt to unsuccessfully
+write the demo lump onto the disc.
+.TP
+\fB\-recordfrom\fR
+.br
+(recording, warping)
+.br
+doom \-recordfrom <savegame> <demo>
+
+This parameter was meant to record from a saved game, where
+savegame is generally a number from 0 to 5, and demo the name of
+the lump to be recorded. It was never fully implemented, as in
+versions 1.0 to the leaked "1.4" of Doom it warps to the start of
+the level the saved game takes place in, instead of loading the
+saved game, and does not record a demo. In later versions, it was
+removed.
+.TP
+\fB\-regdev\fR
+.br
+(configuration)
+.br
+doom \-regdev
+
+With \-regdev the id Software developers told the engine to read
+.br
+the WAD and lump data for the registered game (Doom) from
+specified directories.
+.TP
+\fB\-respawn\fR
+.br
+(gameplay, monsters)
+.br
+doom \-warp <map> \-respawn
+
+The \-respawn parameter makes each monster return via respawning
+after a few seconds. Monster corpses are teleported away and
+replaced by a live monster teleporting in at the monster's initial
+starting location on the level. After respawned monsters remain
+active and move immediately if any opponent they were pursuing
+before death occurred still lives, but will be spawned in dormant
+state otherwise. The parameter requires warping (such as \-episode)
+to be effective and was first introduced with version 1.2 of Doom.
+.TP
+\fB\-right\fR
+.br
+(output)
+.br
+doom \-net 3 \-right
+
+Under Doom version 1.0 or 1.1, the \-right parameter will cause a
+networked computer to display the area to the right of the
+player's normal view.
+
+Several modern source ports have reinstated support for \-left
+and \-right.
+.TP
+\fB\-shdev\fR
+.br
+(configuration)
+.br
+doom \-shdev
+
+With \-shdev the id Software developers told the engine to read the
+WAD and lump data for the shareware game (Doom: Knee\-Deep in the
+.br
+Dead) from specified directories.
+.TP
+\fB\-skill\fR
+.br
+(gameplay, monsters, warping)
+.br
+doom \-skill <level>
+
+Doom's difficulty skill level can be chosen during start\-up by
+using the \-skill parameter. The level variable stands for the
+particular skill level, where 1 is "I'm Too Young To Die", 2 is
+"Hey, Not Too Rough", 3 is "Hurt Me Plenty", 4 is
+"Ultra\-Violence", and 5 is "Nightmare!". If a value of 0 (or any
+character of less value than a 1) is chosen, all things except for
+the player are absent from the game. This parameter will warp the
+player to the first level of the game if another warping parameter
+is not included in the command line.
+.TP
+\fB\-save\fR \fIdir\fR, \fB\-savedir\fR \fIdir\fR
+
+Sets the directory for saved games. This is system\- and
+engine\-dependent. On *NIX, the default is usually \fI~/.<engine>/\fR
+or similar. Not all source ports support this option.
+.TP
+\fB\-shotdir\fR \fIdir\fR
+
+Sets the directory for screenshots. This is system\- and
+engine\-dependent. On *NIX, the default is usually \fI~/.<engine>/\fR
+or just ~ (user's home directory). Not all source ports support this option.
+.TP
+\fB\-timedemo\fR
+.br
+(analysis, recording, warping)
+.br
+doom \-timedemo <lump>
+
+The \-timedemo parameter plays a demo without limiting graphics to
+35 frames per second and upon exiting to the command prompt
+displays the number of screen frames drawn (gametics) and the time
+taken to play them (realtics), instead of the ENDOOM screen. The
+average screen frame rate on a level can be determined with this
+information (realtics/gametics*35=fps). If a demo recording spans
+more than one level, the resulting values will be incorrect, as
+the realtics will correspond only to the last level played.
+
+Like during the built\-in demo sequence normally played at the
+start of a game, this parameter makes most device input bring up
+the menu while the demo is playing, so pressing the Tab key to
+select automap mode or pressing Enter to display the last status
+message can't be used. Some non\-playing functions do still work,
+such as increasing or decreasing the screen size.
+.TP
+\fB\-timer\fR
+.br
+(multiplayer)
+driver \-deathmatch \-timer <minutes>
+
+With \-timer users tell Doom to automatically exit levels to the
+intermission screen after a number of minutes, as if an exit
+switch had been activated. The parameter requires either
+\-deathmatch or \-altdeath to have any effect.
+.TP
+\fB\-turbo\fR
+.br
+(gameplay)
+.br
+doom \-turbo <percentage>
+
+The \-turbo parameter multiplies the player's movement speed by a
+percentage of 10 (the player moves ten times slower than usual) to
+400 (the player moves four times faster than usual). When no value
+is specified, the player moves at twice normal speed, and any
+value exceeding 255 will cause the player to move backwards at
+twice the increased speed if the user presses the "run" key
+.br
+(key_speed).
+.TP
+\fB\-warp\fR
+.br
+(warping)
+.br
+doom \-warp <map>
+
+This parameter selects on what level the game will start, skipping
+title screen and the demo sequence. When playing Doom both an
+episode number from 1 to 3 and a map number from 1 to 9 must be
+specified, with a space in between, while in Doom II only a map
+.br
+number from 1 (or 01) to 32 is required. If no variable is placed
+after the parameter, the game starts with the title screen as
+usual. The \-warp parameter first appears in the leaked "v1.4"
+version.
+
+In *NIX environments, when using both an episode and mission
+with \-warp, the episode and mission should be separate
+arguments: Do not use \fI\-warp "1 3"\fR, use \fI\-warp 1 3\fR instead.
+.TP
+\fB\-wart\fR
+.br
+(configuration, warping)
+.br
+doom \-devparm \-wart <map>
+
+The \-wart parameter is an earlier version of \-warp. In versions
+above 1.2 it is superseded by \-warp, but is still available
+instead as a development parameter that does not require \-devparm
+and which attempts to load a WAD file named after level located in
+a hard\-coded directory; 1 3 will try to load E1M3.wad, for
+example. If the WAD file it not found, the user is sent to the
+command prompt with a W_Reload error message. This parameter
+allowed the developers to play the game and work on the maps at
+the same time, seeing changes in near\-real\-time by using the warp
+cheat to return to the level. It would be reloaded with any
+changes saved in the editor.
+.TP
+\fB\-windowed\fR, \fB\-window\fR, \fB\-nofullscreen\fR, \fB\-nofs\fR
+
+Some source ports use this to set windowed display mode,
+overriding the setting in the config file.
+.TP
+\fB@\fR
+.br
+(configuration)
+.br
+doom @<response>
+
+This parameter tells the Doom engine to read from a response file,
+a text file that may store additional command line parameters. The
+file may have any name that is valid to the system, optionally
+with an extension. The parameters are typed as in the command line
+(\-episode 2, for example), but one per line, where up to 100 lines
+may be used. The additional parameters may be disabled for later
+use by placing a vertical bar (the | character) between the
+prefixing dash (\-) and the rest of the parameter name.
+.SH ENVIRONMENT
+Doom source ports for UNIX\-like systems often use \fBDOOMWADDIR\fR and/or
+\fBDOOMWADPATH\fR to find the IWAD files.
+
+\fBDOOMWADDIR\fR is a single
+directory, and should be set to the location of your IWAD file(s) (often
+/usr/share/games/doom).
+
+\fBDOOMWADPATH\fR is a colon\-separated list of
+directories, like the standard \fBPATH\fR variable. Engines that use
+it will look in all the listed directories.
+
+Source ports that use SDL may also honor the various SDL\-related
+environment variables (such as \fBSDL_AUDIODRIVER\fR and \fBSDL_VIDEODRIVER\fR).
+See the SDL documentation.
+
