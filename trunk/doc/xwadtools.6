@@ -1,0 +1,101 @@
+.TH xwadtools 6 "20 Feb 2012"
+
+.SH NAME
+xwadtools \- a collection of Doom/Heretic/Hexen/Strife WAD tools
+
+.SH DESCRIPTION
+Xwadtools includes the following programs:
+
+.\" We do not want lines to wrap, since that would
+.\" make the man page considerably less readable.
+.nf 
+.ta 10
+\fBacc\fP 	Action Code Script compiler for WAD files
+\fBbsp\fP 	node builder for WAD files
+\fBdeutex, deusf\fP 	do things with wad files
+\fBdm2au\fP 	extract sound data from a WAD file \fI[1]\fR
+\fBdmpsmap\fP 	DooM PostScript Map sidekick
+\fBdmpsmu\fP 	DooM PostScript Maps Utility
+\fBidbsp\fP 	node builder for WAD files
+\fBlistacs\fP 	Action Code Script disassembler for WAD files
+\fBlswad\fP 	list directory of WAD files \fI[1]\fR
+\fBmergewad\fR	Merge the maps from two WAD files, with rotation/scaling
+\fBmidi3mus\fP	Convert MIDI files to MUS lumps
+\fBmkgipal\fP 	make gimp palette for WAD file graphic resources
+\fBmkpopal\fP 	make a povray include file with color definitions for WAD file given
+\fBmkqmap\fP 	make a color quantization map from WAD color palettes for usage 
+\fBmktran\fP 	create data file with translucency table for a WAD file
+\fBmkwad\fP 	create a WAD file from raw data lump files
+\fBmkxppal\fP 	make xpaint palette for WAD file graphic resources
+\fBpal2c\fP 	extract a color palette from a WAD file and write it out as C ar
+\fBqmus2mid\fP 	Quick MUS to MIDI converter
+\fBraw2ppm\fP 	convert Doom wad 8-bit raw graphic data to PPM
+\fBraw2sfx\fP 	convert raw sound data into id's sfx sound format
+\fBslige\fP 	an automatic level generator for Doom
+\fBspitwad\fP 	extract sprites from WAD files into ppm files \fI[1]\fR
+\fBswantbls\fP 	create lumps for customized switches and animated textures and f
+\fBtkwadcad\fP 	a Doom/Heretic/Hexen/Strife WAD map editor
+\fBtrigcalc\fP 	trigger calculator for Doom level maps
+\fBwadcat\fP 	concatenate multiple WAD files into a new one
+\fBwadconvgame\fP 	convert levels from one game to another
+\fBwadconvgfx\fP 	convert graphics from one game to another
+\fBwaddwd\fP 	a WAD to DWD converter for WAD files
+\fBwadext\fP 	extract a dir entry from a WAD file, write in raw form \fI[1]\fR
+\fBwadflat\fP 	extract floor and ceiling flats from WAD files into ppm\fI[1]\fR
+\fBwadgc\fP 	a PWAD graphics compiler
+\fBwadlc\fP 	a WAD level map compiler
+\fBwadldc\fP 	a WAD level map de-compiler
+\fBwadpat\fP 	extract texture patches from WAD files into ppm files \fI[1]\fR
+\fBwadps\fP 	create PostScript maps of WAD levels \fI[1]\fR
+\fBwadtex\fP 	extract textures from WAD files into ppm files \fI[1]\fR
+\fBwadtxls\fP 	WAD TeXtures LiSter \fI[1]\fR
+\fBwadwhat\fP 	calculates statistics for Doom levels \fI[1]\fR
+\fBwadwhich\fP 	examine wad files, determine which game each is for \fI[1]\fR
+\fBwarm\fP 	WAD Auxiliary Resource Manipulator
+\fBwreject\fP 	reject resource builder for WAD files
+\fBxew\fP 	examine and extract images and sound from WAD files
+.\" Return to normal.
+.fi
+
+.SH ENVIRONMENT
+Tools marked with \fI[1]\fR support environment variables used to set the default
+search path for WAD files, and the default IWAD to read when none
+is specified.
+.TP
+.B
+DOOMWADDIR
+Used in searching for wad files. Tools that support this look for wads
+in:
+.PP
+\- The current directory
+.br
+\- The $DOOMWADDIR directory, if DOOMWADDIR is set
+.br
+\- LIBDIR/games/doom/
+.PP
+LIBDIR is set at compile time, and is usually something like /usr/share
+or /usr/local/lib.
+.PP
+.TP
+.B
+DOOMWAD
+The default IWAD to use, for tools that require an IWAD file (not all of
+them do). The .wad extension is optional. If not set, "doom2.wad" is
+used as the default.
+.PP
+Tools that support DOOMWAD generally allow wad filenames to be given
+without the .wad extension, for any input wads given as arguments.
+.SH AUTHOR
+Xwadtools was compiled by Udo Munk <munkudo@aol.com>.
+See the individual man pages for detailed author information.
+
+.SH SEE ALSO
+.BR yadex (6)
+.IP LDE
+http://www-unix.oit.umass.edu/~tetron/lde/
+.IP PFME
+http://www.purplefrog.com/~thoth/purplefrog/editor.html
+.IP "Xwad (part of Dumb)"
+http://stekt.oulu.fi/~tosi/dumb/dumb.html
+.IP Yadex
+http://www.teaser.fr/~amajorel/yadex/

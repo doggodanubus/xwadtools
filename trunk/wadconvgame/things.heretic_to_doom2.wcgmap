@@ -1,0 +1,529 @@
+# This list is for converting Heretic to Doom2.
+# Every Heretic thing should be mapped to one Doom2 thing.
+# More than one Heretic thing may be mapped to the same
+# Doom2 thing. Map a Heretic thing to -1 to delete it from
+# the converted maps.
+
+# Syntax of this file is very simple:
+
+# Comments begin with a #, and can appear anywhere.
+
+# Blank and comment-only lines are ignored.
+
+# Assignment lines are <number>=<number>, where the
+# first number is a Heretic thing number, and the second is
+# the Doom II thing number that will replace it. You can assign
+# a thing to -1 to delete it instead of converting it (there
+# will be nothing in that spot on the converted map).
+
+# Any Heretic thing number not mapped to something in this file,
+# will be passed through unmodified into the converted Doom II
+# level. This will cause vanilla Doom II (and some source ports)
+# to refuse to load the level. ZDoom will display a floating cube
+# with a question mark, for unknown things.
+
+# If you accidentally delete the comments explaining what the things
+# are, you can copy/paste them from the doom2.ygd and heretic.ygd
+# that come with yadex. Or just google for them.
+
+# ammo:
+
+## H: thing   16 a -   20 "Pile of mace spheres" AMM2
+## H: thing   21 a -   20 "Greater runes"  AMS2
+## D: thing   17 a -  20 "Energy cell pack"  CELP
+16=17
+21=17
+
+
+## H: thing    8 b -   20 "Bag of holding"  BAGH
+## D: thing    8 a -  20 "Backpack full ammo"  BPAK
+8=8
+
+
+## H: thing   54 a -   20 "Claw orb"   AMB1
+## H: thing   10 a -   20 "Wand crystal"  AMG1
+## D: thing 2007 a -  20 "Clip"   CLIP
+54=2007
+10=2007
+
+
+## H: thing   55 a -   20 "Energy orb"  AMB2
+## H: thing   12 a -   20 "Wand geode"  AMG2
+## D: thing 2048 a -  20 "Box of bullets"  AMMO
+55=2048
+12=2048
+
+
+## H: thing   18 a -   20 "Ethereal arrows"  AMC1
+## D: thing 2008 a -  20 "4 shotgun shells"  SHEL
+18=2008
+
+
+## H: thing   19 a -   20 "Ethereal quiver"  AMC2
+## D: thing 2049 a -  20 "Box shotgun shells"  SBOX
+19=2049
+
+
+## H: thing   13 a -   20 "Mace spheres"  AMM1
+## H: thing   20 a -   20 "Lesser runes"  AMS1
+## D: thing 2047 a -  20 "Energy cell"  CELL
+13=2047
+20=2047
+
+
+## H: thing   22 a -   20 "Flame orb"   AMP1
+## D: thing 2010 a -  20 "Rocket"   ROCK
+22=2010
+
+
+## H: thing   23 a -   20 "Inferno orb"  AMP2
+## D: thing 2046 a -  20 "Box of rockets"  BROK
+23=2046
+
+
+# weps:
+
+## H: thing 2005 w -   20 "Gauntlets"   WGNT
+## D: thing 2005 w -  20 "Chainsaw"   CSAW
+2005=2005
+
+
+## H: thing 2001 w -   20 "Ethereal cross bow" WBOW
+## D: thing   82 w -  20 "Super shotgun"  SGN2
+2001=82
+
+
+## H: thing   53 w -   20 "Dragon claw"  WBLS
+## D: thing 2002 w -  20 "Chaingun"   MGUN
+53=2002
+
+
+## H: thing   83 b -   20 "Wings of wrath"  SOAR
+## H: thing 2003 w -   20 "Phoenix rod"  WPHX
+## D: thing 2003 w -  20 "Rocket launcher"  LAUN
+83=2003
+2003=2003
+
+
+## H: thing   36 b -   20 "Chaos device"  ATLP
+## H: thing 2004 w -   20 "Hellstaff"   WSKL
+## D: thing 2004 w -  20 "Plasma gun"   PLAS
+36=2004
+2004=2004
+
+
+## H: thing 2002 w -   20 "Mace"   WMCE
+## D: thing 2006 w -  20 "BFG9000"   BFUG
+2002=2006
+
+
+## H: thing   34 b -   20 "Time bomb"   FBMB
+## D: thing 2001 w -  20 "Shotgun"   SHOT
+34=2001
+
+
+# powerups:
+
+## H: thing   30 b -   20 "Morph ovum"  EGGC
+## D: thing 2023 b -  20 "Berserk"   PSTR
+30=2023
+
+
+## H: thing   35 b -   20 "Map scroll"  SPMP
+## D: thing 2026 b -  20 "Computer area map"  PMAP
+35=2026
+
+
+## H: thing   86 b -   20 "Tome of power"  PWBK
+## D: thing 2025 b -  20 "Rad. shielding suit" SUIT
+86=2025
+
+
+## H: thing   75 b -   20 "Shadowsphere"  INVS
+## D: thing 2024 b -  20 "Partial invis."  PINS
+75=2024
+
+
+## H: thing   84 b -   20 "Ring of invuln."  INVU
+## D: thing 2022 b -  20 "Invulnerability"  PINV
+84=2022
+
+
+## H: thing   33 b -   20 "Torch"   TRCH
+## D: thing 2045 b -  20 "Light amp. visor"  PVIS
+33=2045
+
+
+## H: thing   44 d -   12 "Barrel"   BARL
+## D: thing 2035 d -  10 "Barrel"   BAR1
+44=2035
+
+
+## H: thing   29 d -   16 "Small pillar"  SMPL
+## D: thing   31 d -  16 "Short green pillar"  COL2
+29=31
+
+
+## H: thing 2035 d -   16 "Pod"   PPOD
+## D: thing   43 d -  16 "Grey tree"   TRE1
+2035=43
+
+
+## H: thing   38 d -   12 "Large stalagmite"  STGL
+## D: thing   48 d -  16 "Technical column"  ELEC
+38=48
+
+
+## H: thing   47 d -   14 "Brown pillar"  BRPL
+## D: thing   37 d -  16 "Red pillar w/skull"  COL6
+47=37
+
+
+## H: thing   48 d -   20 "Moss 1"   MOS1
+## D: thing   24 g -  16 "Pool of blood"  POL5
+48=24
+
+
+## H: thing   49 d -   20 "Moss 2"   MOS2
+## D: thing   79 g -  16 "Pool of blood 2"  POB1
+49=79
+
+
+## H: thing   26 d -   20 "Hanging skull 35"  SKH4
+## H: thing   25 d -   20 "Hanging skull 45"  SKH3
+## H: thing   24 d -   20 "Hanging skull 60"  SKH2
+## H: thing   17 d -   20 "Hanging skull 70"  SKH1
+## D: thing   42 g -  16 "Floating skulls"  FSKU
+26=42
+25=42
+24=42
+17=42
+
+
+## H: thing   50 d -   20 "Wall torch"  WTRH
+## D: thing   34 l -  16 "Candle"   CAND
+50=34
+
+
+## H: thing   37 d -    8 "Small stalagmite"  STGS
+## D: thing   33 d -  16 "Short red pillar"  COL4
+37=33
+
+
+## H: thing   51 d -    8 "Hanging corpse"  HCOR
+## D: thing   60 g -  16 "Hanging torso"  GOR4
+51=60
+
+
+## H: thing   27 d -   12 "Serpent torch"  SRTC
+## D: thing   41 d -  16 "Evil eye"   CEYE
+27=41
+
+
+## H: thing   76 d -   16 "Fire brazier"  KFR1
+## D: thing   36 d -  16 "Pillar w/heart"  COL5
+76=36
+
+
+
+## H: thing   87 d -   12 "Volcano"   VLCO
+## D: thing   54 d -  32 "Brown tree"   TRE2
+87=54
+
+
+## H: thing   39 d -    8 "Small stalactite"  STCS
+## D: thing   30 d -  16 "Tall green pillar"  COL1
+39=30
+
+
+## H: thing   40 d -   12 "Large stalactite"  STCL
+## D: thing   32 d -  16 "Tall red pillar"  COL3
+40=32
+
+
+
+## H: thing   94 d -   16 "Blue key statue"  KGZB
+## D: thing   25 g -  16 "Impaled body"  POL1
+94=25
+
+
+## H: thing   95 d -   16 "Green key statue"  KGZG
+## D: thing   28 g -  16 "Skewer with heads"  POL2
+95=28
+
+
+## H: thing   96 d -   16 "Yellow key statue"  KGZY
+## D: thing   27 g -  16 "Pole with skull"  POL4
+96=27
+
+
+## H: thing   32 h -   20 "Mystic urn"  SPHL
+## D: thing 2013 h -  20 "Supercharge"  SOUL
+32=2013
+
+
+## H: thing   81 h -   20 "Crystal vial"  PTN1
+## D: thing 2011 h -  20 "Stimpack"   STIM
+81=2011
+
+
+## H: thing   82 h -   20 "Quartz flask"  PTN2
+## D: thing 2012 h -  20 "Medikit"   MEDI
+82=2012
+
+
+## H: thing   31 h -   20 "Enchanted shield"  SHD2
+## D: thing 2019 h -  20 "Megaarmor"   ARM2
+31=2019
+
+
+## H: thing   85 h -   20 "Silver shield"  SHLD
+## D: thing 2018 h -  20 "Armor"   ARM1
+85=2018
+
+
+## H: thing   28 d -   20 "Chandelier"  CHDL
+## D: thing   35 l -  16 "Candelabra"   CBRA
+28=35
+
+
+
+
+
+
+## H: thing   66 m -   16 "Gargoyle"   IMPX
+## D: thing 3004 m -  20 "Trooper"   POSS
+66=3004
+
+
+## H: thing    5 m -   16 "Gargoyle leader"  IMPXD
+## D: thing    9 m -  20 "Sergeant"   SPOS
+5=9
+
+
+## H: thing   69 m s   22 "Golem ghost"  MUMM
+## D: thing 3006 m -  16 "Lost soul"   SKUL
+69=3006
+
+
+## H: thing   68 m -   22 "Golem"   MUMM
+## D: thing 3001 m -  20 "Imp"   TROO
+68=3001
+
+
+## H: thing   45 m -   22 "Golem leader"  MUMMY
+## D: thing 3002 m -  30 "Demon"   SARG
+45=3002
+
+
+## H: thing   46 m s   22 "Golem leader ghost" MUMMY
+## D: thing   58 m s  30 "Spectre"   SARG
+46=58
+
+
+## H: thing   64 m -   24 "Undead warrior"  KNIG
+## D: thing   65 m -  20 "Heavy weapon dude"  CPOS
+64=65
+
+
+## H: thing   65 m s   24 "Undead warrior ghost" KNIG
+## D: thing   67 m -  48 "Mancubus"   FATT
+65=67
+
+
+## H: thing   15 m -   16 "Disciple"   WZRD
+## D: thing   66 m -  20 "Revenant"   SKEL
+15=66
+
+
+## H: thing   70 m -   32 "Weredragon"  BEAS
+## D: thing   64 m -  20 "Arch vile"   VILE
+70=64
+
+
+## H: thing   90 m -   20 "Sabre claw"  CLNK
+## D: thing 3005 m -  31 "Cacodemon"   HEAD
+90=3005
+
+
+## H: thing    6 m -   40 "Ironlich"   HEAD
+## D: thing   69 m -  24 "Hell knight"  BOS2
+6=69
+
+
+## H: thing    9 m -   28 "Maulotaur"   MNTR
+## D: thing 3003 m -  24 "Baron of hell"  BOSS
+9=3003
+
+
+## H: thing   92 m -   22 "Ophidian"   SNKE
+## D: thing   71 m -  31 "Pain elemental"  PAIN
+92=71
+
+
+## H: thing    7 m -   28 "D'Sparil"   SRCR
+## D: thing   16 m -  40 "Cyberdemon"   CYBR
+7=16
+
+
+## H: thing   56 m -   17 "D'Sparil spot"  SOR2H
+## D: thing   87 m -  16 "Spawn spot"   FIREF
+56=87
+
+
+
+## H: thing    1 p -   16 "Player 1 start"  PLAY
+## D: thing    1 p -  16 "Player 1 start"  PLAY
+1=1
+
+
+## H: thing    2 p -   16 "Player 2 start"  PLAY
+## D: thing    2 p -  16 "Player 2 start"  PLAY
+2=2
+
+
+## H: thing    3 p -   16 "Player 3 start"  PLAY
+## D: thing    3 p -  16 "Player 3 start"  PLAY
+3=3
+
+
+## H: thing    4 p -   16 "Player 4 start"  PLAY
+## D: thing    4 p -  16 "Player 4 start"  PLAY
+4=4
+
+
+## H: thing   11 p -   16 "Deathmatch start"  PLAYF1
+## D: thing   11 p -  16 "Deathmatch start"  PLAYF1
+11=11
+
+
+## H: thing   14 p -   20 "Teleport exit"  TELE
+## D: thing   14 p -  16 "Teleport exit"  TFOG
+14=14
+
+
+
+
+
+## H: thing 1203 s -   16 "Slow footsteps"
+## H: thing 1200 s -   16 "Scream"
+## D: thing   15 c -  16 "Dead player (green)" PLAYN
+1203=15
+1200=15
+
+
+## H: thing 1202 s -   16 "Water drip"
+## H: thing 1201 s -   16 "Squish"
+## D: thing   18 c -  20 "Dead trooper"  POSSL
+1202=18
+1201=18
+
+
+
+## H: thing 1205 s -   16 "Bells"
+## H: thing 1206 s -   16 "Growl"
+## D: thing   20 c -  20 "Dead imp"   TROOM
+1205=20
+1206=20
+
+
+## H: thing 1204 s -   16 "Heart beat"
+## H: thing 1207 s -   16 "Magic"
+## D: thing   22 c -  16 "Dead cacodemon"  HEADL
+1204=22
+1207=22
+
+
+## H: thing   41 e -   20 "Waterfall"
+## H: thing 1208 s -   16 "Laughter"
+## D: thing   19 c -  20 "Dead sergeant"  SPOSL
+41=19
+1208=19
+
+
+## H: thing   42 e -   20 "Wind"
+## H: thing 1209 s -   16 "Fast footsteps"
+## D: thing   21 c -  16 "Dead demon"   SARGN
+42=21
+1209=21
+
+
+
+## H: thing   73 k -   20 "Green key"   AKYY
+## D: thing   13 k -  20 "Red keycard"  RKEY
+73=13
+
+
+## H: thing   79 k -   20 "Blue key "  BKYY
+## D: thing    5 k -  20 "Blue keycard"  BKEY
+79=5
+
+
+## H: thing   80 k -   20 "Yellow key"  CKYY
+## D: thing    6 k -  20 "Yellow keycard"  YKEY
+80=6
+
+
+# these doom2 things won't appear in maps converted from heretic:
+# (there just aren't enough heretic things...)
+## D: thing    7 m - 128 "Spider mastermind"  SPID
+## D: thing   84 m -  20 "Wolfenstein SS"  SSWV
+## D: thing   68 m -  64 "Arachnotron"  BSPI
+## D: thing   88 m -  16 "Boss brain"   BBRN
+## D: thing   89 m -  16 "Boss shooter"  BOSFB
+
+## D: thing   40 k -  20 "Blue skull key"  BSKU
+## D: thing   39 k -  20 "Yellow skull key"  YSKU
+## D: thing   38 k -  20 "Red skull key"  RSKU
+## D: thing 2014 h -  20 "Health bonus"  BON1
+## D: thing 2015 h -  20 "Armor bonus"  BON2
+## D: thing   83 h -  20 "Megasphere"   MEGA
+## D: thing   23 c -  16 "Dead lost soul"  SKULK
+
+## D: thing   72 d -  16 "Commander Keen"  KEEN
+## D: thing   47 d -  16 "Brown stub"   SMIT
+
+## D: thing 2028 l -  16 "Lamp"   COLU
+## D: thing   85 l -  16 "Tall mercury lamp"  TLMP
+## D: thing   86 l -  16 "Short mercury lamp"  TLP2
+## D: thing   44 l -  16 "Tall blue torch"  TBLU
+## D: thing   45 l -  16 "Tall green torch"  TGRN
+## D: thing   46 l -  16 "Tall red torch"  TRED
+## D: thing   55 l -  16 "Short blue torch"  SMBT
+## D: thing   56 l -  16 "Short green torch"  SMGT
+## D: thing   57 l -  16 "Short red torch"  SMRT
+## D: thing   70 l -  16 "Burning barrel"  FCAN
+## D: thing   10 g -  16 "Mushed player"  PLAYW
+## D: thing   12 g -  16 "Mushed player 2"  PLAYW
+## D: thing   80 g -  16 "Pool of blood 3"  POB2
+## D: thing   81 g -  16 "Pool of brains"  BRS1
+## D: thing   29 g -  16 "Pile of skulls"  POL3
+## D: thing   26 g -  16 "Impaled twitching"  POL6
+## D: thing   49 g -  16 "Swaying body O"  GOR1
+## D: thing   63 g -  16 "Swaying body"  GOR1
+## D: thing   50 g -  16 "Hanging arms out O"  GOR2
+## D: thing   59 g -  16 "Hanging arms out"  GOR2
+## D: thing   53 g -  16 "Hanging leg O"  GOR5
+## D: thing   62 g -  16 "Hanging leg"  GOR5
+## D: thing   51 g -  16 "Hanging one-legged O" GOR3 # FIXME cut off
+## D: thing   61 g -  16 "Hanging one-legged"  GOR3
+## D: thing   52 g -  16 "Hanging torso O"  GOR4
+## D: thing   73 g -  16 "Hanging no guts"  HDB1
+## D: thing   74 g -  16 "Hanging no brain"  HDB2
+## D: thing   75 g -  16 "H. torso looking down" HDB3
+## D: thing   76 g -  16 "H. torso open skull" HDB4
+## D: thing   77 g -  16 "H. torso looking up" HDB5
+## D: thing   78 g -  16 "H. torso w/o brain"  HDB6
+
+
+
+
+# probably going to just delete these:
+
+## H: thing   43 d -   20 "Pod generator"
+## H: thing   74 d -   20 "Teleport glitter"  TGLTA
+## H: thing   52 d -   20 "Exit glitter"  TGLTF
+43=-1
+74=-1
+52=-1
+

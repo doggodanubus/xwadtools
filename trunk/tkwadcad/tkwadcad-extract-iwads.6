@@ -1,0 +1,78 @@
+.TH tkwadcad-extract-iwads 6 "24 Feb 2012"
+
+.SH NAME
+tkwadcad\-extract\-iwads \- extract graphics from IWADs for use with tkwadcad
+
+.SH SYNOPSIS
+.B tkwadcad\-extract\-iwads
+
+.SH DESCRIPTION
+.B tkwadcad
+is a 2D GUI CAD editor for WAD level maps. To display
+game graphics within
+.BR tkwadcad ,
+the sprites/flats/textures from
+the IWAD file(s) must be extracted into
+.IR _SHAREDIR_/tkwadcad .
+
+.B tkwadcad\-extract\-iwads
+is a shell script that automates the extraction process. For each
+supported game (Doom, Doom II, and Hexen), the IWAD file is searched for
+in the current directory and in
+.B
+$DOOMWADDIR
+(or
+.IR /usr/share/games/doom ,
+if
+.B
+DOOMWADDIR
+is not set in the environment).
+
+For each IWAD file found, the sprites, flats, and textures are
+extracted using
+.BR wadsprit "(6),"
+.BR wadtex "(6),
+and
+.BR wadflat "(6)."
+
+If your IWAD files are in different directories, run
+.B tkwadcad\-extract\-iwads
+once from each directory.
+
+Normally,
+.B tkwadcad\-extract\-iwads
+must be run as root, when
+.B xwadtools
+is installed system\-wide.
+
+The extracted data takes approximately 26MB for Doom (using the Ultimate Doom IWAD),
+40MB for Doom II, and 50MB for Hexen. Total size for all 3 games is around 115MB.
+.SH ENVIRONMENT
+.TP
+.B DOOMWADDIR
+sets the path to the IWAD files. They are also searched for in the
+current directory.
+.TP
+.B TKWADCADDIR
+Normally, the data is extracted to
+.IR _SHAREDIR_/tkwadcad .
+If
+.B TKWADCADDIR
+is set to a directory, the extracted data will be stored there instead.
+The directory must already exist.
+.SH EXIT VALUE
+0 (success) if at least one IWAD file was found and extracted, otherwise
+non\-zero for failure.
+.SH AUTHOR
+.B tkwadcad
+is by Udo Munk <munkudo@aol.com>.
+.br
+.B tkwadcad\-extract\-iwads
+is by B. Watson (yalhcru@gmail.com)
+.SH SEE ALSO
+.BR xwadtools (6),
+.BR tkwadcad (6),
+.BR wadsprit (6),
+.BR wadflat (6),
+.BR wadtex (6),
+.BR yadex (6).

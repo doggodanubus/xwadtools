@@ -1,0 +1,560 @@
+## This list is for going doom2 to heretic. Each heretic ID
+## can have >1 doom2 thing mapped to it, and it's OK if not
+## every heretic ID shows up here... but every doom2 ID needs
+## to be in this file, mapped to *some* heretic ID, or else
+## mapped to "-1", meaning the resulting heretic levels
+## will have no thing at all where that doom2 thing was.
+
+# Syntax of this file is very simple:
+
+# Comments begin with a #, and can appear anywhere.
+
+# Blank and comment-only lines are ignored.
+
+# Assignment lines are <number>=<number>, where the
+# first number is a Doom II thing number, and the second is
+# the Heretic thing number that will replace it. You can assign
+# a thing to -1 to delete it instead of converting it (there
+# will be nothing in that spot on the converted map).
+
+# Any Doom II thing number not mapped to something in this file,
+# will be passed through unmodified into the converted Heretic
+# level. This will cause vanilla Heretic (and some source ports)
+# to refuse to load the level. ZDoom will display a floating cube
+# with a question mark, for unknown things.
+
+# If you accidentally delete the comments explaining what the things
+# are, you can copy/paste them from the doom2.ygd and heretic.ygd
+# that come with yadex. Or just google for them.
+
+## Starts/teleports (identical):
+## D: 1 "Player 1 start"
+## D: 2 "Player 2 start"
+## D: 3 "Player 3 start"
+## D: 4 "Player 4 start"
+## D: 11 "Deathmatch start"
+## D: 14 "Teleport exit"
+## H: 1 "Player 1 start"
+## H: 2 "Player 2 start"
+## H: 3 "Player 3 start"
+## H: 4 "Player 4 start"
+## H: 11 "Deathmatch start"
+## H: 14 "Teleport exit"
+
+1=1
+2=2
+3=3
+4=4
+11=11
+14=14
+
+
+## Monsters:
+## D: 3004 "Trooper"
+## H: 66 "Gargoyle"
+
+3004=66
+
+
+## D: 3006 "Lost soul" - hp 100, melee 24, fly
+## D: 9 "Sergeant"
+## H: 5 "Gargoyle leader"
+3006=5
+9=5
+
+
+## D: 3001 "Imp"
+## H: 68 "Golem"
+3001=65
+
+
+## D: 65 "Heavy weapon dude"
+## H: 64 "Undead warrior"
+65=65
+
+
+## D: 67 "Mancubus" - hp 600, missile 64 (x3 shots)
+## D: 68 "Arachnotron" - hp 500, missile 40, rapid fire
+## D: 3003 "Baron of hell" - hp 1000, melee 80, missile 64
+## H: 6 "Ironlich" - hp 700, melee 48, missile ~192
+67=6
+68=6
+3003=6
+
+
+## D: 16 "Cyberdemon" - boss
+## H: 9 "Maulotaur" - hp 3000 (!), melee 40, missile ~56
+16=9
+
+
+## D: 7 "Spider mastermind" - boss
+## H: 7 "D'Sparil" - boss
+7=7
+
+
+## D: 3002 "Demon" - hp 150, melee 40
+## H: 90 "Sabre claw" - hp 150, melee 9
+3002=90
+
+
+## D: 66 "Revenant" - hp 300, melee 64, missile 80
+## H: 15 "Disciple" - hp 180, missile 24
+66=15
+
+
+## D: 71 "Pain elemental" - hp 400, special, fly
+## H: 92 "Ophidian" - hp 280, missile 24
+71=92
+
+
+## D: 64 "Arch vile" - hp 700, missile ~90 (special, resurrect)
+## H: 70 "Weredragon" - hp 220, missile 32
+64=70
+
+
+## D: 58 "Spectre" - hp 150, melee 40, invis
+## H: 69 "Golem ghost"
+58=69
+
+
+## D: 69 "Hell knight" - hp 500, melee 80, missile 64
+## H: 46 "Golem leader ghost"
+69=46
+
+
+## D: 3005 "Cacodemon" - hp 400, melee 60, missile 40, fly
+## H: 45 "Golem leader"
+3005=45
+
+
+## D: 84 "Wolfenstein SS" - hp 50, missile 15
+## H: 65 "Undead warrior ghost"
+84=65
+
+
+## D: 87 "Spawn spot"
+## H: 56 "D'Sparil spot"
+87=56
+
+
+
+## Ammo:
+## D: 2010 "Rocket"
+## H: 22 "Flame orb" - for Phoenix Rod
+2010=22
+
+
+## D: 2046 "Box of rockets"
+## H: 23 "Inferno orb" - for Phoenix Rod
+2046=23
+
+
+## D: 2007 "Clip"
+## H: 10 "Wand crystal"
+2007=10
+
+
+## D: 2048 "Box of bullets"
+## H: 12 "Wand geode"
+2048=12
+
+
+## D: 2008 "4 shotgun shells"
+## H: 18 "Ethereal arrows"
+2008=18
+
+
+## D: 2049 "Box shotgun shells"
+## H: 19 "Ethereal quiver"
+2049=19
+
+
+## D: 2047 "Energy cell"
+## H: 54 "Claw orb" - for Dragon Claw
+2047=54
+
+
+## D: 17 "Energy cell pack"
+## H: 55 "Energy orb" - for Dragon Claw
+17=55
+
+
+## Weapons:
+## D: 2005 "Chainsaw"
+## H: 2005 "Gauntlets"
+2005=2005
+
+
+## D: 82 "Super shotgun"
+## D: 2001 "Shotgun"
+## H: 2001 "Ethereal cross bow"
+2001=2001
+82=2001
+
+
+## D: 2002 "Chaingun"
+## H: 53 "Dragon claw"
+2002=53
+
+
+## D: 2006 "BFG9000"
+## H: 2002 "Mace"
+2006=2002
+
+
+## D: 2003 "Rocket launcher"
+## H: 2003 "Phoenix rod"
+2003=2003
+
+
+## D: 2004 "Plasma gun"
+## H: 2004 "Hellstaff"
+2004=2004
+
+
+## # This kinda sucks.
+## D: 2001 "Shotgun"
+## H: 34 "Time bomb"
+#2001=34
+
+
+
+## Decorations:
+## D: 2035 "Barrel"
+## H: 44 "Barrel"
+2035=44
+
+
+## D: 49 "Swaying body O"
+## D: 63 "Swaying body"
+49=63
+
+
+## D: 31 "Short green pillar"
+## H: 39 "Small stalactite"
+31=39
+
+
+## D: 48 "Technical column"
+## H: 40 "Large stalactite"
+48=40
+
+
+## D: 47 "Brown stub"
+## D: 54 "Brown tree"
+## H: 37 "Small stalagmite"
+47=37
+54=37
+
+
+## D: 43 "Grey tree"
+## H: 38 "Large stalagmite"
+43=38
+
+
+## D: 30 "Tall green pillar"
+## D: 32 "Tall red pillar"
+## D: 36 "Pillar w/heart"
+## D: 37 "Red pillar w/skull"
+## H: 47 "Brown pillar"
+30=47
+
+32=47
+
+36=47
+
+37=47
+
+
+## D: 33 "Short red pillar"
+## H: 29 "Small pillar"
+33=29
+
+
+## D: 50 "Hanging arms out O"
+## D: 59 "Hanging arms out"
+## D: 53 "Hanging leg O"
+## D: 52 "Hanging torso O"
+## D: 73 "Hanging no guts"
+## D: 74 "Hanging no brain"
+## D: 51 "Hanging one-legged O"
+## D: 61 "Hanging one-legged"
+## D: 72 "Commander Keen"
+## D: 25 "Impaled body"
+## D: 26 "Impaled twitching"
+## H: 51 "Hanging corpse"
+50=51
+59=51
+53=51
+52=51
+73=51
+74=51
+51=51
+61=51
+72=51
+25=51
+26=51
+
+
+## D: 10 "Mushed player"
+## D: 81 "Pool of brains"
+## D: 24 "Pool of blood"
+## H: 48 "Moss 1"
+10=51
+81=51
+24=51
+
+
+## D: 12 "Mushed player 2"
+## D: 79 "Pool of blood 2"
+## D: 80 "Pool of blood 3"
+## H: 49 "Moss 2"
+2=49
+2=49
+3=49
+
+
+## D: 27 "Pole with skull"
+## D: 75 "H. torso looking down"
+## D: 29 "Pile of skulls"
+## H: 26 "Hanging skull 35"
+27=26
+75=26
+29=26
+
+
+## D: 60 "Hanging torso"
+## D: 76 "H. torso open skull"
+## D: 28 "Skewer with heads"
+## H: 25 "Hanging skull 45"
+60=25
+76=25
+28=25
+
+
+## D: 62 "Hanging leg"
+## D: 77 "H. torso looking up"
+## H: 24 "Hanging skull 60"
+62=24
+77=24
+
+
+## D: 42 "Floating skulls"
+## D: 78 "H. torso w/o brain"
+## H: 17 "Hanging skull 70"
+42=17
+78=17
+
+
+## Health:
+
+# Doom2 maps are littered with health/armor bonuses,
+# which don't exist in Heretic. We could just delete
+# these... but there's the fact that dead enemies
+# don't drop ammo in Heretic, so we'll try to
+# make up for it:
+## D: 2015 "Armor bonus"
+## H: 18 "Ethereal arrows"
+2015=18
+
+## # same as above
+## D: 2014 "Health bonus"
+## H: 10 "Wand crystal"
+2014=10
+
+
+## D: 2018 "Armor"
+## H: 85 "Silver shield"
+2018=85
+
+
+## D: 83 "Megasphere"
+## D: 2019 "Megaarmor"
+## H: 31 "Enchanted shield"
+83=31
+2019=31
+
+
+## D: 2012 "Medikit"
+## H: 82 "Quartz flask"
+2012=82
+
+
+## D: 2011 "Stimpack"
+## H: 81 "Crystal vial"
+2011=81
+
+
+## D: 2013 "Supercharge"
+## H: 32 "Mystic urn"
+2013=32
+
+
+## Powerups:
+
+## # not exact...
+## D: 2025 "Rad. shielding suit"
+## H: 86 "Tome of power"
+2025=86
+
+
+## D: 2023 "Berserk"
+## H: 30 "Morph ovum"
+2023=30
+
+
+## D: 8 "Backpack full ammo"
+## H: 8 "Bag of holding"
+8=8
+
+
+## D: 2022 "Invulnerability"
+## H: 84 "Ring of invuln."
+2022=84
+
+
+## D: 2024 "Partial invis."
+## H: 75 "Shadowsphere"
+2024=75
+
+
+## D: 2026 "Computer area map"
+## H: 35 "Map scroll"
+2026=35
+
+
+## D: 2045 "Light amp. visor"
+## H: 33 "Torch"
+2045=33
+
+
+## Corpses:
+
+
+## # again, these are nowhere near the same item.
+## D: 15 "Dead player (green)"
+## H: 83 "Wings of wrath"
+15=83
+
+
+## D: 18 "Dead trooper"
+## H: 36 "Chaos device"
+18=36
+
+
+## D: 21 "Dead demon" - delete
+## D: 20 "Dead imp" - delete
+## H: 16 "Pile of mace spheres" - for Mace
+21=16
+20=16
+
+
+## D: 19 "Dead sergeant" - delete
+## D: 22 "Dead cacodemon" - delete
+## H: 21 "Greater runes" - for Hellstaff
+19=21
+22=21
+
+
+## Lamps:
+
+## D: 55 "Short blue torch"
+## D: 56 "Short green torch"
+## D: 57 "Short red torch"
+## D: 41 "Evil eye"
+## H: 76 "Fire brazier"
+55=76
+56=76
+57=76
+41=76
+
+
+## D: 44 "Tall blue torch"
+## D: 45 "Tall green torch"
+## D: 46 "Tall red torch"
+## H: 27 "Serpent torch"
+44=27
+45=27
+46=27
+
+
+## D: 2028 "Lamp"
+## D: 85 "Tall mercury lamp"
+## D: 86 "Short mercury lamp"
+## D: 34 "Candle"
+## H: 50 "Wall torch"
+2028=50
+
+85=50
+
+86=50
+
+34=50
+
+
+## D: 35 "Candelabra"
+## H: 28 "Chandelier"
+35=28
+
+
+## D: 70 "Burning barrel"
+## H: 87 "Volcano"
+70=87
+
+
+## Keys:
+## D: 5 "Blue keycard"
+## H: 79 "Blue key"
+5=79
+
+
+## D: 6 "Yellow keycard"
+## H: 80 "Yellow key"
+6=80
+
+
+## D: 13 "Red keycard"
+## H: 73 "Green key"
+13=73
+
+
+## D: 40 "Blue skull key"
+## H: 94 "Blue key statue"
+40=94
+
+
+## D: 38 "Red skull key"
+## H: 95 "Green key statue"
+38=95
+
+
+## D: 39 "Yellow skull key"
+## H: 96 "Yellow key statue"
+39=96
+
+
+## Doom2 items that won't get converted to anything:
+## D: 23 "Dead lost soul" - delete
+## D: 88 "Boss brain"
+## D: 89 "Boss shooter"
+23=-1
+88=-1
+89=-1
+
+## Heretic items that won't appear on converted maps:
+## H: 74 "Teleport glitter"
+## H: 52 "Exit glitter"
+## H: 2035 "Pod"
+## H: 43 "Pod generator"
+## H: 41 "Waterfall"
+## H: 42 "Wind"
+## H: 1200 "Scream"
+## H: 1201 "Squish"
+## H: 1202 "Water drip"
+## H: 1203 "Slow footsteps"
+## H: 1204 "Heart beat"
+## H: 1205 "Bells"
+## H: 1206 "Growl"
+## H: 1207 "Magic"
+## H: 1208 "Laughter"
+## H: 1209 "Fast footsteps"

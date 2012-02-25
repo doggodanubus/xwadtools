@@ -1,0 +1,15 @@
+#!/bin/sh
+
+if [ $# -lt 2 ]; then
+	echo Not enough arguments, bailing 1>&2
+	exit 1
+fi
+
+MAN6DIR="$1"
+shift
+
+for i; do
+	echo "Installing gzipped man page $i.gz"
+	[ ! -d "$i" ] && gzip -9c "$i" > $MAN6DIR/$( basename $i ).gz
+done
+exit 0

@@ -1,0 +1,98 @@
+.TH dm2au 6 "12 January 2000"
+
+.SH NAME
+dm2au \- extract sfx sound data from a WAD file in Sun Ulaw format
+
+.SH SYNOPSIS
+.BR dm2au [" "\-r | \-w" "] " [" "\-f \fIwadfile\fR" "] " \fIsndname\fR [" "\fIfilename\fR" "]
+
+.SH DISCLAIMER
+This program is furnished on an AS IS basis for the fun of it.
+id Software, Raven Software and Activision do not support this program.
+
+.SH DESCRIPTION
+.B dm2au
+extracts sound data from IWAD and PWAD files as PCM or Sun Ulaw audio data
+(suitable for output to /dev/audio directly).
+.PP
+\fIsndname\fR is searched for in the WAD file case\-insensitively, so you can
+extract e.g. the shotgun firing sound with either "dsshotgn" or "DSSHOTGN".
+You can get a list of all the sounds in a wad with:
+.PP
+lswad <wad-file>|grep ^DS
+.PP
+By default, the output is written into
+a file with the filename built from the sfx resource name with
+the appropriate extension appended (.au for Ulaw, .snd for raw, or .wav for wav).
+The output filename can be set by providing the \fIfilename\fR argument, which
+may be "\-" to write to standard output.
+.PP
+The .au and .snd files created are headerless. Ulaw data is resampled to 8000
+samples/sec (lossy conversion), while raw data is not resampled. The raw data in
+WAD files is mono PCM, 11025 samples/sec.
+.PP
+To convert or play the headerless files with SoX, use commands like:
+.PP
+sox -traw -c1 -r11025 -b8 -eun DSSHOTGN.snd DSSHOTGN.wav
+.PP
+play -r8000 -eu-law -traw DSSHOTGN.au
+.PP
+If the sound is to be edited in any way, it's preferable to extract it in
+raw or wav format, since the Ulaw conversion done by
+.B dm2au
+loses information.
+.SH OPTIONS
+.TP
+.BR \-r
+Extract raw sample data, rather than converting to Ulaw. The default file
+extension with \-r is ".snd".
+.TP
+.BR \-w
+WAV file output: Extract raw sample data, prepend a RIFF header. The default
+file extract with \-w is ".wav".
+.TP
+.BR \-f " \fIwadfile\fR"
+By default
+.B dm2au
+extracts the sfx data from doom2.wad. This
+option allows extracting sfx data from any other IWAD or PWAD file.
+.TP
+.I sndname
+The resource name of the sfx data entry in a WAD file. Sfx data
+resource names start with DS, e.g. DSPISTOL would be the name for the
+pistol sound. The default output file with Sun Ulaw data would
+be DSPISTOL.au for this example.
+.TP
+.I filename
+Set the output filename. This can be "\-" to write to standard output.
+No filename extension is added to the \fIfilename\fR (it's used as\-is).
+
+.SH ENVIRONMENT
+This utility supports DOOMWADDIR and DOOMWAD. See the ENVIRONMENT section of
+the xwadtools man page for details.
+
+.SH "SUPPORTED GAMES"
+Doom, Ultimate Doom, Doom][, Final Doom, Heretic, Hexen, Strife.
+
+.SH "SEE ALSO"
+The Unofficial Doom Specs by Matthew S Fell.
+.br
+OSS sound driver documentation by 4Front.
+.br
+.BR xwadtools (6)
+.BR sox (1)
+.BR raw2sfx (6)
+
+.SH "BUGS/ERRORS"
+dm2au won't work on big endian system.
+
+.SH AUTHOR
+.B dm2au
+was written by Sam Lantinga (slouken@cs.ucdavis.edu).
+.LP
+The conversion routine for Sun Ulaw audio format was written
+by Rich Gopstein and Harris Corporation.
+.LP
+The raw and wav options, support for DOOMWADDIR and DOOMWAD, and ability
+to override output filename and write to standard output, were added by
+B. Watson (yalhcru@gmail.com)

@@ -1,0 +1,39 @@
+#!/bin/sh
+
+CWD=$( pwd )
+DOOMWADDIR=${DOOMWADDIR:-/usr/share/games/doom}
+
+set -e
+
+TKWADCADDIR=${TKWADCADDIR:-_SHAREDIR_/tkwadcad}
+cd "$TKWADCADDIR"
+
+for i in doom doom2 hexen; do
+	IWAD=""
+	if [ -e "$CWD/$i.wad" ]; then
+		IWAD="$CWD/$i.wad"
+	elif [ -e "$DOOMWADDIR/$i.wad" ]; then
+		IWAD="$DOOMWADDIR/$i.wad"
+	else
+		echo "$i.wad not found in current dir or $DOOMWADDIR, skipping" 2>&1
+	fi
+
+	if [ -n "$IWAD" ]; then
+		mkdir -p $i
+		cd $i
+		echo "Extracting '$IWAD' into $( pwd )"
+		wadtex -t "$IWAD" >/dev/null
+		wadflat "$IWAD" >/dev/null
+		wadsprit "$IWAD" >/dev/null
+		cd ..
+		EXTRACTED="$EXTRACTED $IWAD"
+	fi
+done
+
+if [ -n "$EXTRACTED" ]; then
+	echo
+	echo "Extracted IWADS:$EXTRACTED"
+else
+	echo "No IWADs found, nothing extracted"
+	exit 1
+fi

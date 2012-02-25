@@ -1,0 +1,33 @@
+.TH midi3mus 6 "14 Feb 2012"
+
+.SH NAME
+midi3mus \- MIDI to MUS converter
+
+.SH SYNOPSIS
+.BR midi3mus " \fImidi-file mus-file\fR"
+.SH DESCRIPTION
+\fBmidi3mus\fP reads the \fImidi-file\fR, converts to MUS and writes 
+the \fImus-file\fR.  The \fImus-file\fR is ruthlessly overwritten.
+.PP
+If no mus-file is given, the output filename is created by replacing midi-file's
+".mid" extension with ".mus", or by appending ".mus" to midi-file if it doesn't
+end in ".mid".
+.PP
+If midi-file is "-", standard input is read. If mus-file is "-", the output is
+written to standard output.
+
+.SH DISCLAIMER
+This program is furnished on an AS IS basis for the fun of it.
+id Software, Raven Software and Activision do not support this program.
+
+.SH SUPPORTED GAMES
+Doom, Ultimate Doom, Doom][, Final Doom, Hexen, Heretic and Strife all use
+the MUS file format in their WAD files.
+
+.SH "SEE ALSO"
+.BR qmus2midi "(6), "
+.BR playmidi "(1), "
+.BR xwadtools (6)
+
+.SH AUTHOR
+natt on the doomworld.com forums

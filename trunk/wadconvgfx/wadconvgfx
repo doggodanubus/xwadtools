@@ -1,0 +1,73 @@
+#!/bin/sh
+
+set -e
+
+DEFAULTWADDIR="/usr/share/games/doom"
+
+cleanup() {
+	if [ -n "$TMPDIR" ]; then
+		rm -rf "$TMPDIR"
+	fi
+}
+
+usage() {
+	echo "Usage: $0 sourceiwad.wad destiwad.wad destpwad.wad"
+	exit 1;
+}
+
+find_wad() {
+	local wad
+	local FILE="$1"
+	for wad in \
+		"$FILE" "$FILE.wad" \
+		"$DOOMWADDIR/$FILE" \
+		"$DOOMWADDIR/$FILE.wad" \
+		"$DEFAULTWADDIR/$FILE" "$DEFAULTWADDIR/$FILE.wad"
+	do
+		if [ -e "$wad" ]; then
+			echo "$wad"
+			return
+		fi
+	done
+	echo "$FILE"
+}
+
+if [ "$#" -ne 3 ]; then
+	usage
+fi
+
+SRCIWAD=$( find_wad "$1" )
+LSRCIWAD="$( basename "$SRCIWAD" )"
+DESTIWAD="$( find_wad "$2" )"
+LDESTIWAD="$( basename "$DESTIWAD" )"
+DESTPWAD="$( readlink -f $3)"
+
+case "$( echo "$LDESTIWAD" | tr A-Z a-z )" in
+	doom*) PALETTE=doom ;;
+	heretic*) PALETTE=heretic ;;
+	hexen*) PALETTE=hexen ;;
+	strife*) PALETTE=strife ;;
+	*) echo "$0: unknown source IWAD, assuming doom palette" ; PALETTE=doom ;;
+esac
+
+trap cleanup 0
+TMPDIR=/tmp/wadconvgfx.$$
+mkdir $TMPDIR
+cd $TMPDIR
+
+mkqmap -c $PALETTE > palette.qmap
+ln -s "$SRCIWAD" "$LSRCIWAD"
+deutex -textures -flats -patches -extract "$LSRCIWAD"
+rm -f "$LSRCIWAD"
+
+echo "Destination palette is $PALETTE"
+echo "Requantizing patches/flats with ppmquant (may take a while)"
+
+for ppm in $( find . -name "*.ppm" ); do
+	ppmquant -mapfile palette.qmap "$ppm" > "$ppm.new" 2>/dev/null
+	mv "$ppm.new" "$ppm"
+done
+
+ln -s "$DESTIWAD" "$LDESTIWAD"
+deutex -make wadinfo.txt "$DESTPWAD"
+rm -f "$DLDESTIWAD"
