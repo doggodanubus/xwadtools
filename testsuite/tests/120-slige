@@ -1,0 +1,26 @@
+#!/bin/sh
+
+rm -f output/slcust.wad output/slige.wad
+
+../slige/slige -config ../slige/slige.cfg -doom2 -seed 1234567 -cwad output/slcust.wad | grep Done
+../slige/slige -config ../slige/slige.cfg -doom2 -nulls -nocustom -seed 1234567 output/slige.wad | grep Done
+
+# Don't use md5sum, different libcs use different random implementations.
+# This even affects slcust.wad, the textures/flats are slightly randomized
+# (did you know that? I didn't).
+# We can't even use spitwad.
+
+#../spitwad/spitwad output/slige.wad
+#../spitwad/spitwad output/slcust.wad
+
+# Actually, only the flats used by the level (for the given seed)
+# are present in -cwad's output, and *those* are different between
+# Linux and FreeBSD due to different random algos. So just do this:
+../lswad/lswad output/slcust.wad | grep TEXTURE2
+
+# The level wad with -nocustom should look the same to lswad.
+../lswad/lswad output/slige.wad
+
+# Let's decompile the wad. Ignore the decompiled output, just doing
+# this for the exit status.
+../wadldc/wadldc MAP01 output/slige.wad /dev/null

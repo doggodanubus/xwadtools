@@ -1,0 +1,2816 @@
+../wadsprit/wadsprit version 1.6
+
+found S_START, start decompiling sprites
+  got sprite BBRNA0, width=57, height=89
+  got sprite BBRNB0, width=56, height=89
+  got sprite BOS2A1C1, width=52, height=74
+  got sprite BOS2A2C8, width=41, height=70
+  got sprite BOS2A3C7, width=47, height=72
+  got sprite BOS2A4C6, width=40, height=72
+  got sprite BOS2A5C5, width=45, height=73
+  got sprite BOS2C4A6, width=41, height=73
+  got sprite BOS2C3A7, width=51, height=72
+  got sprite BOS2C2A8, width=43, height=72
+  got sprite BOS2B1D1, width=54, height=72
+  got sprite BOS2B2D8, width=41, height=72
+  got sprite BOS2B3D7, width=43, height=69
+  got sprite BOS2B4D6, width=37, height=70
+  got sprite BOS2B5D5, width=45, height=71
+  got sprite BOS2D4B6, width=37, height=68
+  got sprite BOS2D3B7, width=40, height=68
+  got sprite BOS2D2B8, width=43, height=70
+  got sprite BOS2E1, width=52, height=74
+  got sprite BOS2E2, width=52, height=74
+  got sprite BOS2E3, width=52, height=74
+  got sprite BOS2E4, width=52, height=74
+  got sprite BOS2E5, width=52, height=74
+  got sprite BOS2E6, width=52, height=74
+  got sprite BOS2E7, width=52, height=74
+  got sprite BOS2E8, width=52, height=74
+  got sprite BOS2F1, width=52, height=74
+  got sprite BOS2F2, width=52, height=74
+  got sprite BOS2F3, width=52, height=74
+  got sprite BOS2F4, width=52, height=74
+  got sprite BOS2F5, width=52, height=74
+  got sprite BOS2F6, width=52, height=74
+  got sprite BOS2F7, width=52, height=74
+  got sprite BOS2F8, width=52, height=74
+  got sprite BOS2G1, width=52, height=74
+  got sprite BOS2G2, width=52, height=74
+  got sprite BOS2G3, width=52, height=74
+  got sprite BOS2G4, width=52, height=74
+  got sprite BOS2G5, width=52, height=74
+  got sprite BOS2G6, width=52, height=74
+  got sprite BOS2G7, width=52, height=74
+  got sprite BOS2G8, width=52, height=74
+  got sprite BOS2H1, width=52, height=74
+  got sprite BOS2H2, width=52, height=74
+  got sprite BOS2H3, width=52, height=74
+  got sprite BOS2H4, width=52, height=74
+  got sprite BOS2H5, width=52, height=74
+  got sprite BOS2H6, width=52, height=74
+  got sprite BOS2H7, width=52, height=74
+  got sprite BOS2H8, width=52, height=74
+  got sprite BOS2I0, width=69, height=84
+  got sprite BOS2J0, width=69, height=84
+  got sprite BOS2K0, width=69, height=84
+  got sprite BOS2L0, width=69, height=84
+  got sprite BOS2M0, width=69, height=84
+  got sprite BOS2N0, width=69, height=84
+  got sprite BOS2O0, width=69, height=84
+  got sprite BOSFA0, width=40, height=60
+  got sprite BOSFB0, width=40, height=60
+  got sprite BOSFC0, width=40, height=60
+  got sprite BOSFD0, width=40, height=60
+  got sprite BRS1A0, width=30, height=10
+  got sprite BSPIA1D1, width=128, height=54
+  got sprite BSPIA2A8, width=128, height=54
+  got sprite BSPIA3A7, width=128, height=54
+  got sprite BSPIA4A6, width=128, height=54
+  got sprite BSPIA5D5, width=128, height=54
+  got sprite BSPIB1E1, width=128, height=54
+  got sprite BSPIB2B8, width=128, height=54
+  got sprite BSPIB3B7, width=128, height=54
+  got sprite BSPIB4B6, width=128, height=54
+  got sprite BSPIB5E5, width=128, height=54
+  got sprite BSPIC1F1, width=128, height=54
+  got sprite BSPIC2C8, width=128, height=54
+  got sprite BSPIC3C7, width=128, height=54
+  got sprite BSPIC4C6, width=128, height=54
+  got sprite BSPIC5F5, width=128, height=54
+  got sprite BSPID2D8, width=128, height=54
+  got sprite BSPID3D7, width=128, height=54
+  got sprite BSPID4D6, width=128, height=54
+  got sprite BSPIE2E8, width=128, height=54
+  got sprite BSPIE3E7, width=128, height=54
+  got sprite BSPIE4E6, width=128, height=54
+  got sprite BSPIF2F8, width=128, height=54
+  got sprite BSPIF3F7, width=128, height=54
+  got sprite BSPIF4F6, width=128, height=54
+  got sprite BSPIG1, width=128, height=54
+  got sprite BSPIG2G8, width=128, height=54
+  got sprite BSPIG3G7, width=128, height=54
+  got sprite BSPIG4G6, width=128, height=54
+  got sprite BSPIG5, width=128, height=54
+  got sprite BSPIH1, width=128, height=54
+  got sprite BSPIH2H8, width=128, height=54
+  got sprite BSPIH3H7, width=128, height=54
+  got sprite BSPIH4H6, width=128, height=54
+  got sprite BSPIH5, width=128, height=54
+  got sprite BSPII1, width=128, height=54
+  got sprite BSPII2I8, width=128, height=54
+  got sprite BSPII3I7, width=128, height=54
+  got sprite BSPII4I6, width=128, height=54
+  got sprite BSPII5, width=128, height=54
+  got sprite BSPIJ0, width=128, height=54
+  got sprite BSPIK0, width=128, height=54
+  got sprite BSPIL0, width=128, height=54
+  got sprite BSPIM0, width=128, height=54
+  got sprite BSPIN0, width=128, height=54
+  got sprite BSPIO0, width=128, height=54
+  got sprite BSPIP0, width=128, height=54
+  got sprite CPOSA1, width=41, height=56
+  got sprite CPOSA2A8, width=35, height=54
+  got sprite CPOSA3A7, width=42, height=53
+  got sprite CPOSA4A6, width=45, height=51
+  got sprite CPOSA5, width=36, height=50
+  got sprite CPOSB1, width=37, height=56
+  got sprite CPOSB2B8, width=35, height=55
+  got sprite CPOSB3B7, width=36, height=55
+  got sprite CPOSB4B6, width=41, height=54
+  got sprite CPOSB5, width=35, height=54
+  got sprite CPOSC1, width=38, height=56
+  got sprite CPOSC2C8, width=36, height=55
+  got sprite CPOSC3C7, width=38, height=54
+  got sprite CPOSC4C6, width=41, height=55
+  got sprite CPOSC5, width=34, height=54
+  got sprite CPOSD1, width=40, height=55
+  got sprite CPOSD2D8, width=35, height=55
+  got sprite CPOSD3D7, width=34, height=54
+  got sprite CPOSD4D6, width=40, height=54
+  got sprite CPOSD5, width=35, height=54
+  got sprite CPOSF1, width=26, height=56
+  got sprite CPOSF2F8, width=45, height=55
+  got sprite CPOSF3F7, width=52, height=53
+  got sprite CPOSF4F6, width=41, height=52
+  got sprite CPOSF5, width=24, height=51
+  got sprite CPOSG1, width=39, height=55
+  got sprite CPOSG2G8, width=36, height=56
+  got sprite CPOSG3G7, width=43, height=55
+  got sprite CPOSG4G6, width=43, height=52
+  got sprite CPOSG5, width=34, height=54
+  got sprite CPOSH0, width=44, height=50
+  got sprite CPOSI0, width=35, height=43
+  got sprite CPOSJ0, width=36, height=46
+  got sprite CPOSK0, width=41, height=38
+  got sprite CPOSL0, width=51, height=14
+  got sprite CPOSM0, width=51, height=14
+  got sprite CPOSN0, width=51, height=14
+  got sprite CPOSO0, width=38, height=56
+  got sprite CPOSP0, width=41, height=53
+  got sprite CPOSQ0, width=44, height=49
+  got sprite CPOSR0, width=49, height=39
+  got sprite CPOSS0, width=49, height=35
+  got sprite CPOST0, width=53, height=16
+  got sprite CPOSE1, width=26, height=56
+  got sprite CPOSE2E8, width=45, height=55
+  got sprite CPOSE3E7, width=52, height=53
+  got sprite CPOSE4E6, width=41, height=52
+  got sprite CPOSE5, width=24, height=51
+  got sprite FATBA1, width=15, height=15
+  got sprite FATBA2A8, width=15, height=15
+  got sprite FATBA3A7, width=15, height=15
+  got sprite FATBA4A6, width=15, height=15
+  got sprite FATBA5, width=15, height=15
+  got sprite FATBB1, width=15, height=15
+  got sprite FATBB2B8, width=15, height=15
+  got sprite FATBB3B7, width=15, height=15
+  got sprite FATBB4B6, width=15, height=15
+  got sprite FATBB5, width=15, height=15
+  got sprite FATTA1, width=73, height=65
+  got sprite FATTA2A8, width=80, height=66
+  got sprite FATTA3A7, width=79, height=65
+  got sprite FATTA4A6, width=81, height=62
+  got sprite FATTA5, width=66, height=64
+  got sprite FATTB1, width=88, height=70
+  got sprite FATTB2B8, width=83, height=70
+  got sprite FATTB3B7, width=67, height=66
+  got sprite FATTB4B6, width=76, height=66
+  got sprite FATTB5, width=82, height=63
+  got sprite FATTC1, width=82, height=70
+  got sprite FATTC2C8, width=83, height=68
+  got sprite FATTC3C7, width=72, height=66
+  got sprite FATTC4C6, width=68, height=66
+  got sprite FATTC5, width=77, height=63
+  got sprite FATTD1, width=73, height=65
+  got sprite FATTD2D8, width=87, height=68
+  got sprite FATTD3D7, width=86, height=67
+  got sprite FATTD4D6, width=76, height=64
+  got sprite FATTD5, width=66, height=63
+  got sprite FATTE1, width=88, height=70
+  got sprite FATTE2E8, width=81, height=66
+  got sprite FATTE3E7, width=68, height=67
+  got sprite FATTE4E6, width=75, height=63
+  got sprite FATTE5, width=83, height=62
+  got sprite FATTF1, width=82, height=70
+  got sprite FATTF2F8, width=69, height=67
+  got sprite FATTF3F7, width=73, height=66
+  got sprite FATTF4F6, width=72, height=64
+  got sprite FATTF5, width=87, height=63
+  got sprite FATTG1, width=87, height=65
+  got sprite FATTG2G8, width=98, height=64
+  got sprite FATTG3G7, width=80, height=65
+  got sprite FATTG4G6, width=83, height=67
+  got sprite FATTG5, width=82, height=66
+  got sprite FATTH1, width=83, height=65
+  got sprite FATTH2H8, width=101, height=64
+  got sprite FATTH3H7, width=73, height=66
+  got sprite FATTH4H6, width=75, height=66
+  got sprite FATTH5, width=86, height=65
+  got sprite FATTI1, width=84, height=68
+  got sprite FATTI2I8, width=95, height=69
+  got sprite FATTI3I7, width=68, height=64
+  got sprite FATTI4I6, width=83, height=68
+  got sprite FATTI5, width=80, height=64
+  got sprite FATTJ1, width=74, height=67
+  got sprite FATTJ2, width=88, height=66
+  got sprite FATTJ3, width=75, height=64
+  got sprite FATTJ4, width=61, height=66
+  got sprite FATTJ5, width=77, height=64
+  got sprite FATTJ6, width=61, height=66
+  got sprite FATTJ7, width=75, height=64
+  got sprite FATTJ8, width=88, height=66
+  got sprite FATTK0, width=103, height=75
+  got sprite FATTL0, width=101, height=76
+  got sprite FATTM0, width=95, height=70
+  got sprite FATTN0, width=85, height=52
+  got sprite FATTO0, width=86, height=44
+  got sprite FATTP0, width=86, height=43
+  got sprite FATTQ0, width=86, height=43
+  got sprite FATTR0, width=86, height=43
+  got sprite FATTS0, width=86, height=42
+  got sprite FATTT0, width=86, height=41
+  got sprite FBXPA0, width=45, height=48
+  got sprite FBXPB0, width=43, height=39
+  got sprite FBXPC0, width=50, height=44
+  got sprite FIREA0, width=39, height=57
+  got sprite FIREB0, width=44, height=65
+  got sprite FIREC0, width=46, height=82
+  got sprite FIRED0, width=46, height=86
+  got sprite FIREE0, width=47, height=83
+  got sprite FIREF0, width=49, height=80
+  got sprite FIREG0, width=49, height=71
+  got sprite FIREH0, width=51, height=62
+  got sprite KEENA0, width=44, height=23
+  got sprite KEENB0, width=44, height=23
+  got sprite KEENC0, width=44, height=23
+  got sprite KEEND0, width=44, height=23
+  got sprite KEENE0, width=44, height=23
+  got sprite KEENF0, width=44, height=23
+  got sprite KEENG0, width=44, height=23
+  got sprite KEENH0, width=44, height=23
+  got sprite KEENI0, width=44, height=23
+  got sprite KEENJ0, width=44, height=23
+  got sprite KEENK0, width=44, height=23
+  got sprite KEENL0, width=44, height=23
+  got sprite KEENM0, width=44, height=23
+  got sprite MANFA1, width=34, height=34
+  got sprite MANFA5, width=29, height=30
+  got sprite MANFA6A4, width=54, height=30
+  got sprite MANFA7A3, width=67, height=25
+  got sprite MANFA8A2, width=56, height=28
+  got sprite MANFB1, width=34, height=34
+  got sprite MANFB5, width=25, height=26
+  got sprite MANFB6B4, width=46, height=30
+  got sprite MANFB7B3, width=63, height=27
+  got sprite MANFB8B2, width=51, height=28
+  got sprite PAINA1, width=59, height=64
+  got sprite PAINA2A8, width=54, height=64
+  got sprite PAINA3A7, width=46, height=61
+  got sprite PAINA4A6, width=55, height=63
+  got sprite PAINA5, width=57, height=63
+  got sprite PAINB1, width=59, height=64
+  got sprite PAINB2B8, width=54, height=64
+  got sprite PAINB3B7, width=46, height=61
+  got sprite PAINB4B6, width=55, height=63
+  got sprite PAINB5, width=57, height=63
+  got sprite PAINC1, width=59, height=64
+  got sprite PAINC2C8, width=54, height=64
+  got sprite PAINC3C7, width=46, height=61
+  got sprite PAINC4C6, width=55, height=63
+  got sprite PAINC5, width=57, height=63
+  got sprite PAIND1, width=59, height=54
+  got sprite PAIND2D8, width=44, height=23
+  got sprite PAIND3D7, width=44, height=23
+  got sprite PAIND4D6, width=44, height=23
+  got sprite PAIND5, width=57, height=53
+  got sprite PAINE1, width=60, height=83
+  got sprite PAINE2E8, width=44, height=23
+  got sprite PAINE3E7, width=44, height=23
+  got sprite PAINE4E6, width=44, height=23
+  got sprite PAINE5, width=57, height=79
+  got sprite PAINF1, width=118, height=68
+  got sprite PAINF2F8, width=44, height=23
+  got sprite PAINF3F7, width=44, height=23
+  got sprite PAINF4F6, width=44, height=23
+  got sprite PAINF5, width=57, height=79
+  got sprite PAING1, width=59, height=64
+  got sprite PAING2G8, width=54, height=64
+  got sprite PAING3G7, width=46, height=61
+  got sprite PAING4G6, width=55, height=63
+  got sprite PAING5, width=57, height=63
+  got sprite PAINH0, width=59, height=54
+  got sprite PAINI0, width=59, height=54
+  got sprite PAINJ0, width=59, height=54
+  got sprite PAINK0, width=59, height=55
+  got sprite PAINL0, width=67, height=54
+  got sprite PAINM0, width=78, height=74
+  got sprite SKELA1D1, width=42, height=87
+  got sprite SKELA2D8, width=44, height=87
+  got sprite SKELA3D7, width=45, height=88
+  got sprite SKELA4D6, width=37, height=87
+  got sprite SKELA5D5, width=41, height=87
+  got sprite SKELA6D4, width=37, height=87
+  got sprite SKELA7D3, width=45, height=88
+  got sprite SKELA8D2, width=44, height=87
+  got sprite SKELB1E1, width=43, height=89
+  got sprite SKELB2E8, width=52, height=89
+  got sprite SKELB3E7, width=58, height=88
+  got sprite SKELB4E6, width=51, height=86
+  got sprite SKELB5E5, width=45, height=86
+  got sprite SKELB6E4, width=51, height=86
+  got sprite SKELB7E3, width=58, height=88
+  got sprite SKELB8E2, width=52, height=89
+  got sprite SKELC1F1, width=44, height=86
+  got sprite SKELC2F8, width=48, height=87
+  got sprite SKELC3F7, width=49, height=88
+  got sprite SKELC4F6, width=42, height=88
+  got sprite SKELC5F5, width=43, height=89
+  got sprite SKELC6F4, width=42, height=88
+  got sprite SKELC7F3, width=49, height=88
+  got sprite SKELC8F2, width=48, height=87
+  got sprite SKELG1, width=48, height=87
+  got sprite SKELG2, width=48, height=88
+  got sprite SKELG3, width=52, height=88
+  got sprite SKELG4, width=56, height=86
+  got sprite SKELG5, width=46, height=85
+  got sprite SKELG6, width=56, height=86
+  got sprite SKELG7, width=52, height=88
+  got sprite SKELG8, width=48, height=88
+  got sprite SKELH1, width=41, height=79
+  got sprite SKELH2, width=41, height=79
+  got sprite SKELH3, width=36, height=80
+  got sprite SKELH4, width=43, height=79
+  got sprite SKELH5, width=40, height=77
+  got sprite SKELH6, width=43, height=79
+  got sprite SKELH7, width=36, height=80
+  got sprite SKELH8, width=41, height=79
+  got sprite SKELI1, width=39, height=82
+  got sprite SKELI2, width=44, height=83
+  got sprite SKELI3, width=47, height=83
+  got sprite SKELI4, width=39, height=84
+  got sprite SKELI5, width=39, height=83
+  got sprite SKELI6, width=39, height=84
+  got sprite SKELI7, width=47, height=83
+  got sprite SKELI8, width=44, height=83
+  got sprite SKELJ1, width=48, height=87
+  got sprite SKELJ2, width=48, height=88
+  got sprite SKELJ3, width=52, height=88
+  got sprite SKELJ4, width=56, height=86
+  got sprite SKELJ5, width=46, height=85
+  got sprite SKELJ6, width=56, height=86
+  got sprite SKELJ7, width=52, height=88
+  got sprite SKELJ8, width=48, height=88
+  got sprite SKELK1, width=41, height=79
+  got sprite SKELK2, width=41, height=79
+  got sprite SKELK3, width=36, height=80
+  got sprite SKELK4, width=43, height=79
+  got sprite SKELK5, width=40, height=77
+  got sprite SKELK6, width=43, height=79
+  got sprite SKELK7, width=36, height=80
+  got sprite SKELK8, width=41, height=79
+  got sprite SKELL1, width=63, height=81
+  got sprite SKELL2, width=59, height=83
+  got sprite SKELL3, width=45, height=82
+  got sprite SKELL4, width=61, height=84
+  got sprite SKELL5, width=62, height=85
+  got sprite SKELL6, width=61, height=84
+  got sprite SKELL7, width=45, height=82
+  got sprite SKELL8, width=59, height=83
+  got sprite SKELM0, width=63, height=76
+  got sprite SKELN0, width=42, height=76
+  got sprite SKELO0, width=75, height=74
+  got sprite SKELP0, width=80, height=57
+  got sprite SKELQ0, width=80, height=25
+  got sprite SSWVA1, width=36, height=63
+  got sprite SSWVA2A8, width=24, height=66
+  got sprite SSWVA3A7, width=26, height=67
+  got sprite SSWVA4A6, width=34, height=67
+  got sprite SSWVA5, width=42, height=59
+  got sprite SSWVB1, width=38, height=65
+  got sprite SSWVB2B8, width=33, height=68
+  got sprite SSWVB3B7, width=29, height=64
+  got sprite SSWVB4B6, width=24, height=71
+  got sprite SSWVB5, width=36, height=58
+  got sprite SSWVC1, width=35, height=63
+  got sprite SSWVC2C8, width=34, height=64
+  got sprite SSWVC3C7, width=26, height=65
+  got sprite SSWVC4C6, width=24, height=67
+  got sprite SSWVC5, width=39, height=63
+  got sprite SSWVD1, width=35, height=59
+  got sprite SSWVD2D8, width=24, height=63
+  got sprite SSWVD3D7, width=27, height=64
+  got sprite SSWVD4D6, width=31, height=65
+  got sprite SSWVD5, width=41, height=63
+  got sprite SSWVE1, width=33, height=64
+  got sprite SSWVE2E8, width=29, height=65
+  got sprite SSWVE3E7, width=24, height=65
+  got sprite SSWVE4E6, width=24, height=68
+  got sprite SSWVE5, width=36, height=68
+  got sprite SSWVF1, width=31, height=68
+  got sprite SSWVF2F8, width=31, height=69
+  got sprite SSWVF3F7, width=49, height=61
+  got sprite SSWVF4F6, width=27, height=69
+  got sprite SSWVF5, width=36, height=68
+  got sprite SSWVG1, width=31, height=68
+  got sprite SSWVG2G8, width=34, height=69
+  got sprite SSWVG3G7, width=54, height=61
+  got sprite SSWVG4G6, width=32, height=69
+  got sprite SSWVG5, width=37, height=68
+  got sprite SSWVH1, width=37, height=64
+  got sprite SSWVH2H8, width=29, height=64
+  got sprite SSWVH3H7, width=23, height=62
+  got sprite SSWVH4H6, width=27, height=64
+  got sprite SSWVH5, width=39, height=62
+  got sprite SSWVI0, width=49, height=62
+  got sprite SSWVJ0, width=62, height=58
+  got sprite SSWVK0, width=69, height=43
+  got sprite SSWVL0, width=69, height=24
+  got sprite SSWVM0, width=64, height=16
+  got sprite SSWVN0, width=51, height=69
+  got sprite SSWVO0, width=53, height=73
+  got sprite SSWVP0, width=60, height=70
+  got sprite SSWVQ0, width=66, height=72
+  got sprite SSWVR0, width=65, height=70
+  got sprite SSWVS0, width=57, height=43
+  got sprite SSWVT0, width=57, height=36
+  got sprite SSWVU0, width=57, height=26
+  got sprite SSWVV0, width=57, height=21
+  got sprite VILEA1D1, width=31, height=66
+  got sprite VILEA2D8, width=40, height=67
+  got sprite VILEA3D7, width=64, height=66
+  got sprite VILEA4D6, width=53, height=66
+  got sprite VILEA5D5, width=30, height=68
+  got sprite VILEA6D4, width=35, height=67
+  got sprite VILEA7D3, width=59, height=67
+  got sprite VILEA8D2, width=53, height=67
+  got sprite VILEB1E1, width=30, height=69
+  got sprite VILEB2E8, width=44, height=69
+  got sprite VILEB3E7, width=39, height=70
+  got sprite VILEB4E6, width=22, height=70
+  got sprite VILEB5E5, width=30, height=69
+  got sprite VILEB6E4, width=45, height=70
+  got sprite VILEB7E3, width=39, height=70
+  got sprite VILEB8E2, width=24, height=69
+  got sprite VILEC1F1, width=35, height=66
+  got sprite VILEC2F8, width=45, height=67
+  got sprite VILEC3F7, width=35, height=66
+  got sprite VILEC4F6, width=27, height=68
+  got sprite VILEC5F5, width=33, height=69
+  got sprite VILEC6F4, width=46, height=69
+  got sprite VILEC7F3, width=35, height=68
+  got sprite VILEC8F2, width=26, height=68
+  got sprite VILEG1, width=33, height=65
+  got sprite VILEG2, width=33, height=65
+  got sprite VILEG3, width=36, height=74
+  got sprite VILEG4, width=44, height=74
+  got sprite VILEG5, width=34, height=65
+  got sprite VILEG6, width=21, height=76
+  got sprite VILEG7, width=38, height=75
+  got sprite VILEG8, width=43, height=65
+  got sprite VILEH1, width=33, height=65
+  got sprite VILEH2, width=33, height=65
+  got sprite VILEH3, width=36, height=74
+  got sprite VILEH4, width=44, height=74
+  got sprite VILEH5, width=34, height=65
+  got sprite VILEH6, width=21, height=76
+  got sprite VILEH7, width=38, height=75
+  got sprite VILEH8, width=43, height=65
+  got sprite VILEI1, width=33, height=65
+  got sprite VILEI2, width=33, height=65
+  got sprite VILEI3, width=36, height=74
+  got sprite VILEI4, width=44, height=74
+  got sprite VILEI5, width=34, height=65
+  got sprite VILEI6, width=21, height=76
+  got sprite VILEI7, width=38, height=75
+  got sprite VILEI8, width=43, height=65
+  got sprite VILEJ1, width=48, height=80
+  got sprite VILEJ2, width=50, height=80
+  got sprite VILEJ3, width=50, height=80
+  got sprite VILEJ4, width=40, height=80
+  got sprite VILEJ5, width=45, height=80
+  got sprite VILEJ6, width=50, height=80
+  got sprite VILEJ7, width=53, height=80
+  got sprite VILEJ8, width=40, height=80
+  got sprite VILEK1, width=48, height=80
+  got sprite VILEK2, width=50, height=80
+  got sprite VILEK3, width=50, height=80
+  got sprite VILEK4, width=40, height=80
+  got sprite VILEK5, width=45, height=80
+  got sprite VILEK6, width=50, height=80
+  got sprite VILEK7, width=53, height=80
+  got sprite VILEK8, width=40, height=80
+  got sprite VILEL1, width=44, height=56
+  got sprite VILEL2, width=37, height=57
+  got sprite VILEL3, width=52, height=57
+  got sprite VILEL4, width=68, height=58
+  got sprite VILEL5, width=48, height=59
+  got sprite VILEL6, width=35, height=60
+  got sprite VILEL7, width=59, height=57
+  got sprite VILEL8, width=58, height=58
+  got sprite VILEM1, width=44, height=56
+  got sprite VILEM2, width=37, height=57
+  got sprite VILEM3, width=52, height=57
+  got sprite VILEM4, width=68, height=58
+  got sprite VILEM5, width=48, height=59
+  got sprite VILEM6, width=35, height=60
+  got sprite VILEM7, width=59, height=57
+  got sprite VILEM8, width=58, height=58
+  got sprite VILEN1, width=44, height=56
+  got sprite VILEN2, width=37, height=57
+  got sprite VILEN3, width=52, height=57
+  got sprite VILEN4, width=68, height=58
+  got sprite VILEN5, width=48, height=59
+  got sprite VILEN6, width=35, height=60
+  got sprite VILEN7, width=59, height=57
+  got sprite VILEN8, width=58, height=58
+  got sprite VILEO1, width=44, height=57
+  got sprite VILEO2, width=44, height=61
+  got sprite VILEO3, width=53, height=57
+  got sprite VILEO4, width=59, height=58
+  got sprite VILEO5, width=39, height=57
+  got sprite VILEO6, width=44, height=60
+  got sprite VILEO7, width=53, height=57
+  got sprite VILEO8, width=55, height=57
+  got sprite VILEP1, width=44, height=57
+  got sprite VILEP2, width=44, height=61
+  got sprite VILEP3, width=53, height=57
+  got sprite VILEP4, width=59, height=58
+  got sprite VILEP5, width=39, height=57
+  got sprite VILEP6, width=44, height=60
+  got sprite VILEP7, width=53, height=57
+  got sprite VILEP8, width=55, height=57
+  got sprite VILEQ1, width=44, height=56
+  got sprite VILEQ2, width=37, height=57
+  got sprite VILEQ3, width=52, height=57
+  got sprite VILEQ4, width=68, height=58
+  got sprite VILEQ5, width=48, height=59
+  got sprite VILEQ6, width=35, height=60
+  got sprite VILEQ7, width=59, height=57
+  got sprite VILEQ8, width=58, height=58
+  got sprite VILER0, width=50, height=66
+  got sprite VILES0, width=47, height=65
+  got sprite VILET0, width=60, height=65
+  got sprite VILEU0, width=64, height=64
+  got sprite VILEV0, width=59, height=58
+  got sprite VILEW0, width=37, height=19
+  got sprite VILEX0, width=37, height=19
+  got sprite VILEY0, width=37, height=19
+  got sprite VILEZ0, width=37, height=19
+  got sprite VILE[1, width=44, height=23
+  got sprite VILE[2, width=44, height=23
+  got sprite VILE[3, width=44, height=23
+  got sprite VILE[4, width=44, height=23
+  got sprite VILE[5, width=44, height=23
+  got sprite VILE[6, width=44, height=23
+  got sprite VILE[7, width=44, height=23
+  got sprite VILE[8, width=44, height=23
+  got sprite VILE\1, width=44, height=23
+  got sprite VILE\2, width=44, height=23
+  got sprite VILE\3, width=44, height=23
+  got sprite VILE\4, width=44, height=23
+  got sprite VILE\5, width=44, height=23
+  got sprite VILE\6, width=44, height=23
+  got sprite VILE\7, width=44, height=23
+  got sprite VILE\8, width=44, height=23
+  got sprite VILE]1, width=44, height=23
+  got sprite VILE]2, width=44, height=23
+  got sprite VILE]3, width=44, height=23
+  got sprite VILE]4, width=44, height=23
+  got sprite VILE]5, width=44, height=23
+  got sprite VILE]6, width=44, height=23
+  got sprite VILE]7, width=44, height=23
+  got sprite VILE]8, width=44, height=23
+  got sprite BOSSA1, width=52, height=74
+  got sprite BOSSA2A8, width=41, height=70
+  got sprite BOSSA3A7, width=47, height=72
+  got sprite BOSSA4A6, width=40, height=72
+  got sprite BOSSA5, width=45, height=73
+  got sprite BOSSB1, width=54, height=72
+  got sprite BOSSB2B8, width=41, height=72
+  got sprite BOSSB3B7, width=43, height=69
+  got sprite BOSSB4B6, width=37, height=70
+  got sprite BOSSB5, width=45, height=71
+  got sprite BOSSC1, width=52, height=74
+  got sprite BOSSC2C8, width=43, height=72
+  got sprite BOSSC3C7, width=51, height=72
+  got sprite BOSSC4C6, width=41, height=73
+  got sprite BOSSC5, width=45, height=73
+  got sprite BOSSD1, width=55, height=72
+  got sprite BOSSD2D8, width=43, height=70
+  got sprite BOSSD3D7, width=40, height=68
+  got sprite BOSSD4D6, width=37, height=68
+  got sprite BOSSD5, width=45, height=71
+  got sprite BOSSE1, width=52, height=74
+  got sprite BOSSE2, width=52, height=74
+  got sprite BOSSE3, width=52, height=74
+  got sprite BOSSE4, width=52, height=74
+  got sprite BOSSE5, width=52, height=74
+  got sprite BOSSE6, width=52, height=74
+  got sprite BOSSE7, width=52, height=74
+  got sprite BOSSE8, width=52, height=74
+  got sprite BOSSF1, width=52, height=74
+  got sprite BOSSF2, width=52, height=74
+  got sprite BOSSF3, width=52, height=74
+  got sprite BOSSF4, width=52, height=74
+  got sprite BOSSF5, width=52, height=74
+  got sprite BOSSF6, width=52, height=74
+  got sprite BOSSF7, width=52, height=74
+  got sprite BOSSF8, width=52, height=74
+  got sprite BOSSG1, width=52, height=74
+  got sprite BOSSG2, width=52, height=74
+  got sprite BOSSG3, width=52, height=74
+  got sprite BOSSG4, width=52, height=74
+  got sprite BOSSG5, width=52, height=74
+  got sprite BOSSG6, width=52, height=74
+  got sprite BOSSG7, width=52, height=74
+  got sprite BOSSG8, width=52, height=74
+  got sprite BOSSH1, width=52, height=74
+  got sprite BOSSH2, width=52, height=74
+  got sprite BOSSH3, width=52, height=74
+  got sprite BOSSH4, width=52, height=74
+  got sprite BOSSH5, width=52, height=74
+  got sprite BOSSH6, width=52, height=74
+  got sprite BOSSH7, width=52, height=74
+  got sprite BOSSH8, width=52, height=74
+  got sprite BOSSI0, width=69, height=84
+  got sprite BOSSJ0, width=69, height=84
+  got sprite BOSSK0, width=69, height=84
+  got sprite BOSSL0, width=69, height=84
+  got sprite BOSSM0, width=69, height=84
+  got sprite BOSSN0, width=69, height=84
+  got sprite BOSSO0, width=69, height=84
+  got sprite POSSA1, width=37, height=55
+  got sprite POSSA2A8, width=35, height=54
+  got sprite POSSA3A7, width=36, height=55
+  got sprite POSSA4A6, width=40, height=54
+  got sprite POSSA5, width=35, height=54
+  got sprite POSSB1, width=38, height=55
+  got sprite POSSB2B8, width=37, height=54
+  got sprite POSSB3B7, width=37, height=55
+  got sprite POSSB4B6, width=41, height=55
+  got sprite POSSB5, width=34, height=55
+  got sprite POSSC1, width=40, height=55
+  got sprite POSSC2C8, width=35, height=54
+  got sprite POSSC3C7, width=34, height=54
+  got sprite POSSC4C6, width=41, height=54
+  got sprite POSSC5, width=35, height=54
+  got sprite POSSD1, width=41, height=55
+  got sprite POSSD2D8, width=36, height=54
+  got sprite POSSD3D7, width=43, height=53
+  got sprite POSSD4D6, width=45, height=50
+  got sprite POSSD5, width=36, height=51
+  got sprite POSSE1, width=26, height=55
+  got sprite POSSE2E8, width=43, height=54
+  got sprite POSSE3E7, width=51, height=53
+  got sprite POSSE4E6, width=39, height=52
+  got sprite POSSE5, width=26, height=51
+  got sprite POSSF1, width=27, height=55
+  got sprite POSSF2F8, width=45, height=54
+  got sprite POSSF3F7, width=52, height=53
+  got sprite POSSF4F6, width=42, height=52
+  got sprite POSSF5, width=24, height=51
+  got sprite POSSG1, width=39, height=55
+  got sprite POSSG2G8, width=36, height=55
+  got sprite POSSG3G7, width=43, height=54
+  got sprite POSSG4G6, width=43, height=53
+  got sprite POSSG5, width=34, height=53
+  got sprite POSSH0, width=39, height=55
+  got sprite POSSI0, width=35, height=46
+  got sprite POSSJ0, width=43, height=34
+  got sprite POSSK0, width=48, height=27
+  got sprite POSSL0, width=47, height=17
+  got sprite POSSM0, width=41, height=59
+  got sprite POSSN0, width=43, height=62
+  got sprite POSSO0, width=48, height=61
+  got sprite POSSP0, width=53, height=55
+  got sprite POSSQ0, width=55, height=51
+  got sprite POSSR0, width=57, height=43
+  got sprite POSSS0, width=57, height=36
+  got sprite POSST0, width=57, height=26
+  got sprite POSSU0, width=57, height=21
+  got sprite SARGA1, width=38, height=59
+  got sprite SARGA2A8, width=54, height=57
+  got sprite SARGA3A7, width=58, height=58
+  got sprite SARGA4A6, width=47, height=57
+  got sprite SARGA5, width=38, height=60
+  got sprite SARGB1, width=34, height=59
+  got sprite SARGB2B8, width=49, height=58
+  got sprite SARGB3B7, width=54, height=58
+  got sprite SARGB4B6, width=46, height=57
+  got sprite SARGB5, width=34, height=57
+  got sprite SARGC1, width=38, height=59
+  got sprite SARGC2C8, width=43, height=58
+  got sprite SARGC3C7, width=54, height=57
+  got sprite SARGC4C6, width=48, height=57
+  got sprite SARGC5, width=38, height=60
+  got sprite SARGD1, width=38, height=59
+  got sprite SARGD2D8, width=47, height=58
+  got sprite SARGD3D7, width=54, height=57
+  got sprite SARGD4D6, width=51, height=57
+  got sprite SARGD5, width=34, height=57
+  got sprite SARGE1, width=38, height=60
+  got sprite SARGE2, width=53, height=58
+  got sprite SARGE3, width=56, height=58
+  got sprite SARGE4, width=49, height=57
+  got sprite SARGE5, width=34, height=57
+  got sprite SARGE6, width=49, height=57
+  got sprite SARGE7, width=56, height=58
+  got sprite SARGE8, width=53, height=58
+  got sprite SARGF1, width=38, height=60
+  got sprite SARGF2, width=52, height=57
+  got sprite SARGF3, width=62, height=58
+  got sprite SARGF4, width=51, height=57
+  got sprite SARGF5, width=34, height=56
+  got sprite SARGF6, width=51, height=57
+  got sprite SARGF7, width=62, height=58
+  got sprite SARGF8, width=52, height=57
+  got sprite SARGG1, width=34, height=60
+  got sprite SARGG2, width=46, height=58
+  got sprite SARGG3, width=49, height=58
+  got sprite SARGG4, width=43, height=57
+  got sprite SARGG5, width=32, height=56
+  got sprite SARGG6, width=43, height=57
+  got sprite SARGG7, width=49, height=58
+  got sprite SARGG8, width=47, height=58
+  got sprite SARGH1, width=33, height=50
+  got sprite SARGH2, width=40, height=51
+  got sprite SARGH3, width=43, height=52
+  got sprite SARGH4, width=43, height=51
+  got sprite SARGH5, width=33, height=51
+  got sprite SARGH6, width=43, height=51
+  got sprite SARGH7, width=43, height=52
+  got sprite SARGH8, width=40, height=51
+  got sprite SARGI0, width=38, height=59
+  got sprite SARGJ0, width=40, height=60
+  got sprite SARGK0, width=43, height=53
+  got sprite SARGL0, width=43, height=40
+  got sprite SARGM0, width=48, height=30
+  got sprite SARGN0, width=49, height=29
+  got sprite SPOSA1, width=36, height=55
+  got sprite SPOSA2A8, width=32, height=54
+  got sprite SPOSA3A7, width=40, height=53
+  got sprite SPOSA4A6, width=45, height=50
+  got sprite SPOSA5, width=35, height=51
+  got sprite SPOSB1, width=35, height=55
+  got sprite SPOSB2B8, width=27, height=54
+  got sprite SPOSB3B7, width=32, height=56
+  got sprite SPOSB4B6, width=40, height=54
+  got sprite SPOSB5, width=34, height=54
+  got sprite SPOSC1, width=32, height=55
+  got sprite SPOSC2C8, width=29, height=54
+  got sprite SPOSC3C7, width=38, height=55
+  got sprite SPOSC4C6, width=39, height=55
+  got sprite SPOSC5, width=34, height=55
+  got sprite SPOSD1, width=34, height=55
+  got sprite SPOSD2D8, width=28, height=55
+  got sprite SPOSD3D7, width=30, height=55
+  got sprite SPOSD4D6, width=38, height=55
+  got sprite SPOSD5, width=35, height=55
+  got sprite SPOSE1, width=26, height=55
+  got sprite SPOSE2E8, width=39, height=54
+  got sprite SPOSE3E7, width=44, height=53
+  got sprite SPOSE4E6, width=34, height=52
+  got sprite SPOSE5, width=26, height=51
+  got sprite SPOSF1, width=27, height=55
+  got sprite SPOSF2F8, width=43, height=54
+  got sprite SPOSF3F7, width=49, height=53
+  got sprite SPOSF4F6, width=41, height=52
+  got sprite SPOSF5, width=24, height=51
+  got sprite SPOSG1, width=31, height=55
+  got sprite SPOSG2G8, width=33, height=54
+  got sprite SPOSG3G7, width=43, height=53
+  got sprite SPOSG4G6, width=43, height=52
+  got sprite SPOSG5, width=31, height=53
+  got sprite SPOSH0, width=33, height=60
+  got sprite SPOSI0, width=35, height=50
+  got sprite SPOSJ0, width=42, height=35
+  got sprite SPOSK0, width=48, height=27
+  got sprite SPOSL0, width=52, height=17
+  got sprite SPOSM0, width=36, height=59
+  got sprite SPOSN0, width=43, height=62
+  got sprite SPOSO0, width=48, height=61
+  got sprite SPOSP0, width=53, height=55
+  got sprite SPOSQ0, width=55, height=51
+  got sprite SPOSR0, width=57, height=43
+  got sprite SPOSS0, width=57, height=36
+  got sprite SPOST0, width=57, height=26
+  got sprite SPOSU0, width=57, height=21
+  got sprite TROOA1, width=62, height=63
+  got sprite TROOA2A8, width=46, height=66
+  got sprite TROOA3A7, width=57, height=62
+  got sprite TROOA4A6, width=74, height=57
+  got sprite TROOA5, width=64, height=65
+  got sprite TROOB1, width=38, height=68
+  got sprite TROOB2B8, width=43, height=69
+  got sprite TROOB3B7, width=77, height=66
+  got sprite TROOB4B6, width=81, height=73
+  got sprite TROOB5, width=33, height=73
+  got sprite TROOC1, width=49, height=67
+  got sprite TROOC2C8, width=53, height=67
+  got sprite TROOC3C7, width=66, height=68
+  got sprite TROOC4C6, width=38, height=72
+  got sprite TROOC5, width=60, height=61
+  got sprite TROOD1, width=36, height=65
+  got sprite TROOD2D8, width=38, height=66
+  got sprite TROOD3D7, width=72, height=63
+  got sprite TROOD4D6, width=78, height=66
+  got sprite TROOD5, width=32, height=72
+  got sprite TROOE1, width=60, height=66
+  got sprite TROOE2E8, width=58, height=69
+  got sprite TROOE3E7, width=60, height=69
+  got sprite TROOE4E6, width=84, height=69
+  got sprite TROOE5, width=65, height=71
+  got sprite TROOF1, width=52, height=57
+  got sprite TROOF2F8, width=39, height=61
+  got sprite TROOF3F7, width=78, height=57
+  got sprite TROOF4F6, width=87, height=57
+  got sprite TROOF5, width=43, height=64
+  got sprite TROOG1, width=49, height=61
+  got sprite TROOG2G8, width=70, height=60
+  got sprite TROOG3G7, width=87, height=63
+  got sprite TROOG4G6, width=49, height=69
+  got sprite TROOG5, width=74, height=60
+  got sprite TROOH1, width=64, height=64
+  got sprite TROOH2H8, width=62, height=68
+  got sprite TROOH3H7, width=87, height=68
+  got sprite TROOH4H6, width=93, height=74
+  got sprite TROOH5, width=62, height=73
+  got sprite TROOI0, width=64, height=64
+  got sprite TROOJ0, width=58, height=63
+  got sprite TROOK0, width=47, height=61
+  got sprite TROOL0, width=66, height=49
+  got sprite TROOM0, width=64, height=37
+  got sprite TROON0, width=64, height=64
+  got sprite TROOO0, width=58, height=63
+  got sprite TROOP0, width=47, height=61
+  got sprite TROOQ0, width=66, height=49
+  got sprite TROOR0, width=64, height=37
+  got sprite TROOS0, width=64, height=37
+  got sprite TROOT0, width=64, height=37
+  got sprite TROOU0, width=64, height=37
+  got sprite CYBRA1, width=118, height=118
+  got sprite CYBRA2, width=118, height=118
+  got sprite CYBRA3, width=118, height=118
+  got sprite CYBRA4, width=118, height=118
+  got sprite CYBRA5, width=118, height=118
+  got sprite CYBRA6, width=118, height=118
+  got sprite CYBRA7, width=118, height=118
+  got sprite CYBRA8, width=118, height=118
+  got sprite CYBRB1, width=118, height=118
+  got sprite CYBRB2, width=118, height=118
+  got sprite CYBRB3, width=118, height=118
+  got sprite CYBRB4, width=118, height=118
+  got sprite CYBRB5, width=118, height=118
+  got sprite CYBRB6, width=118, height=118
+  got sprite CYBRB7, width=118, height=118
+  got sprite CYBRB8, width=118, height=118
+  got sprite CYBRC1, width=118, height=118
+  got sprite CYBRC2, width=118, height=118
+  got sprite CYBRC3, width=118, height=118
+  got sprite CYBRC4, width=118, height=118
+  got sprite CYBRC5, width=118, height=118
+  got sprite CYBRC6, width=118, height=118
+  got sprite CYBRC7, width=118, height=118
+  got sprite CYBRC8, width=118, height=118
+  got sprite CYBRD1, width=118, height=118
+  got sprite CYBRD2, width=118, height=118
+  got sprite CYBRD3, width=118, height=118
+  got sprite CYBRD4, width=118, height=118
+  got sprite CYBRD5, width=118, height=118
+  got sprite CYBRD6, width=118, height=118
+  got sprite CYBRD7, width=118, height=118
+  got sprite CYBRD8, width=118, height=118
+  got sprite CYBRE1, width=118, height=118
+  got sprite CYBRE2, width=118, height=118
+  got sprite CYBRE3, width=118, height=118
+  got sprite CYBRE4, width=118, height=118
+  got sprite CYBRE5, width=118, height=118
+  got sprite CYBRE6, width=118, height=118
+  got sprite CYBRE7, width=118, height=118
+  got sprite CYBRE8, width=118, height=118
+  got sprite CYBRF1, width=118, height=118
+  got sprite CYBRF2, width=118, height=118
+  got sprite CYBRF3, width=118, height=118
+  got sprite CYBRF4, width=118, height=118
+  got sprite CYBRF5, width=118, height=118
+  got sprite CYBRF6, width=118, height=118
+  got sprite CYBRF7, width=118, height=118
+  got sprite CYBRF8, width=118, height=118
+  got sprite CYBRG1, width=118, height=118
+  got sprite CYBRG2, width=118, height=118
+  got sprite CYBRG3, width=118, height=118
+  got sprite CYBRG4, width=118, height=118
+  got sprite CYBRG5, width=118, height=118
+  got sprite CYBRG6, width=118, height=118
+  got sprite CYBRG7, width=118, height=118
+  got sprite CYBRG8, width=118, height=118
+  got sprite CYBRH0, width=118, height=118
+  got sprite CYBRI0, width=118, height=118
+  got sprite CYBRJ0, width=118, height=118
+  got sprite CYBRK0, width=118, height=118
+  got sprite CYBRL0, width=118, height=118
+  got sprite CYBRM0, width=118, height=118
+  got sprite CYBRN0, width=118, height=118
+  got sprite CYBRO0, width=118, height=118
+  got sprite CYBRP0, width=118, height=118
+  got sprite HEADA1, width=59, height=64
+  got sprite HEADA2A8, width=54, height=64
+  got sprite HEADA3A7, width=46, height=61
+  got sprite HEADA4A6, width=55, height=63
+  got sprite HEADA5, width=57, height=63
+  got sprite HEADB1, width=59, height=54
+  got sprite HEADB2B8, width=55, height=52
+  got sprite HEADB3B7, width=45, height=53
+  got sprite HEADB4B6, width=57, height=54
+  got sprite HEADB5, width=57, height=53
+  got sprite HEADC1, width=60, height=83
+  got sprite HEADC2C8, width=54, height=78
+  got sprite HEADC3C7, width=52, height=79
+  got sprite HEADC4C6, width=56, height=83
+  got sprite HEADC5, width=57, height=79
+  got sprite HEADD1, width=118, height=68
+  got sprite HEADD2D8, width=58, height=68
+  got sprite HEADD3D7, width=116, height=67
+  got sprite HEADD4D6, width=56, height=71
+  got sprite HEADD5, width=57, height=79
+  got sprite HEADE1, width=59, height=64
+  got sprite HEADE2E8, width=54, height=64
+  got sprite HEADE3E7, width=46, height=61
+  got sprite HEADE4E6, width=55, height=63
+  got sprite HEADE5, width=57, height=63
+  got sprite HEADF1, width=59, height=54
+  got sprite HEADF2F8, width=55, height=52
+  got sprite HEADF3F7, width=45, height=53
+  got sprite HEADF4F6, width=57, height=54
+  got sprite HEADF5, width=57, height=53
+  got sprite HEADG0, width=59, height=54
+  got sprite HEADH0, width=59, height=54
+  got sprite HEADI0, width=59, height=54
+  got sprite HEADJ0, width=59, height=54
+  got sprite HEADK0, width=59, height=54
+  got sprite HEADL0, width=55, height=42
+  got sprite SKULA1, width=44, height=47
+  got sprite SKULA8A2, width=35, height=42
+  got sprite SKULA7A3, width=37, height=47
+  got sprite SKULA6A4, width=36, height=47
+  got sprite SKULA5, width=41, height=49
+  got sprite SKULB1, width=41, height=44
+  got sprite SKULB8B2, width=35, height=42
+  got sprite SKULB7B3, width=37, height=45
+  got sprite SKULB6B4, width=34, height=45
+  got sprite SKULB5, width=41, height=49
+  got sprite SKULC1, width=44, height=47
+  got sprite SKULC8C2, width=35, height=42
+  got sprite SKULC7C3, width=37, height=45
+  got sprite SKULC6C4, width=34, height=45
+  got sprite SKULC5, width=41, height=49
+  got sprite SKULD1, width=44, height=47
+  got sprite SKULD8D2, width=35, height=42
+  got sprite SKULD7D3, width=37, height=45
+  got sprite SKULD6D4, width=34, height=45
+  got sprite SKULD5, width=41, height=49
+  got sprite SKULE1, width=44, height=47
+  got sprite SKULE8E2, width=35, height=42
+  got sprite SKULE7E3, width=37, height=45
+  got sprite SKULE6E4, width=34, height=45
+  got sprite SKULE5, width=41, height=49
+  got sprite SKULF0, width=44, height=47
+  got sprite SKULG0, width=44, height=47
+  got sprite SKULH0, width=48, height=46
+  got sprite SKULI0, width=48, height=46
+  got sprite SKULJ0, width=68, height=68
+  got sprite SKULK0, width=81, height=73
+  got sprite SPIDA1, width=256, height=100
+  got sprite SPIDA2, width=256, height=100
+  got sprite SPIDA3, width=256, height=100
+  got sprite SPIDA4, width=256, height=100
+  got sprite SPIDA5, width=256, height=100
+  got sprite SPIDA6, width=256, height=100
+  got sprite SPIDA7, width=256, height=100
+  got sprite SPIDA8, width=256, height=100
+  got sprite SPIDB1, width=256, height=100
+  got sprite SPIDB2, width=256, height=100
+  got sprite SPIDB3, width=256, height=100
+  got sprite SPIDB4, width=256, height=100
+  got sprite SPIDB5, width=256, height=100
+  got sprite SPIDB6, width=256, height=100
+  got sprite SPIDB7, width=256, height=100
+  got sprite SPIDB8, width=256, height=100
+  got sprite SPIDC1, width=256, height=100
+  got sprite SPIDC2, width=256, height=100
+  got sprite SPIDC3, width=256, height=100
+  got sprite SPIDC4, width=256, height=100
+  got sprite SPIDC5, width=256, height=100
+  got sprite SPIDC6, width=256, height=100
+  got sprite SPIDC7, width=256, height=100
+  got sprite SPIDC8, width=256, height=100
+  got sprite SPIDD1, width=256, height=100
+  got sprite SPIDD2, width=256, height=100
+  got sprite SPIDD3, width=256, height=100
+  got sprite SPIDD4, width=256, height=100
+  got sprite SPIDD5, width=256, height=100
+  got sprite SPIDD6, width=256, height=100
+  got sprite SPIDD7, width=256, height=100
+  got sprite SPIDD8, width=256, height=100
+  got sprite SPIDE1, width=256, height=100
+  got sprite SPIDE2, width=256, height=100
+  got sprite SPIDE3, width=256, height=100
+  got sprite SPIDE4, width=256, height=100
+  got sprite SPIDE5, width=256, height=100
+  got sprite SPIDE6, width=256, height=100
+  got sprite SPIDE7, width=256, height=100
+  got sprite SPIDE8, width=256, height=100
+  got sprite SPIDF1, width=256, height=100
+  got sprite SPIDF2, width=256, height=100
+  got sprite SPIDF3, width=256, height=100
+  got sprite SPIDF4, width=256, height=100
+  got sprite SPIDF5, width=256, height=100
+  got sprite SPIDF6, width=256, height=100
+  got sprite SPIDF7, width=256, height=100
+  got sprite SPIDF8, width=256, height=100
+  got sprite SPIDG1, width=256, height=100
+  got sprite SPIDG2, width=256, height=100
+  got sprite SPIDG3, width=256, height=100
+  got sprite SPIDG4, width=256, height=100
+  got sprite SPIDG5, width=256, height=100
+  got sprite SPIDG6, width=256, height=100
+  got sprite SPIDG7, width=256, height=100
+  got sprite SPIDG8, width=256, height=100
+  got sprite SPIDH1, width=256, height=100
+  got sprite SPIDH2, width=256, height=100
+  got sprite SPIDH3, width=256, height=100
+  got sprite SPIDH4, width=256, height=100
+  got sprite SPIDH5, width=256, height=100
+  got sprite SPIDH6, width=256, height=100
+  got sprite SPIDH7, width=256, height=100
+  got sprite SPIDH8, width=256, height=100
+  got sprite SPIDI1, width=256, height=100
+  got sprite SPIDI2, width=256, height=100
+  got sprite SPIDI3, width=256, height=100
+  got sprite SPIDI4, width=256, height=100
+  got sprite SPIDI5, width=256, height=100
+  got sprite SPIDI6, width=256, height=100
+  got sprite SPIDI7, width=256, height=100
+  got sprite SPIDI8, width=256, height=100
+  got sprite SPIDJ1, width=256, height=100
+  got sprite SPIDJ2, width=256, height=100
+  got sprite SPIDJ3, width=256, height=100
+  got sprite SPIDJ4, width=256, height=100
+  got sprite SPIDJ5, width=256, height=100
+  got sprite SPIDJ6, width=256, height=100
+  got sprite SPIDJ7, width=256, height=100
+  got sprite SPIDJ8, width=256, height=100
+  got sprite SPIDK0, width=256, height=100
+  got sprite SPIDL0, width=256, height=100
+  got sprite SPIDM0, width=256, height=100
+  got sprite SPIDN0, width=256, height=100
+  got sprite SPIDO0, width=256, height=100
+  got sprite SPIDP0, width=256, height=100
+  got sprite SPIDQ0, width=256, height=100
+  got sprite SPIDR0, width=256, height=100
+  got sprite SPIDS0, width=256, height=100
+  got sprite AMMOA0, width=28, height=16
+  got sprite ARM1A0, width=31, height=24
+  got sprite ARM1B0, width=31, height=24
+  got sprite ARM2A0, width=31, height=24
+  got sprite ARM2B0, width=31, height=24
+  got sprite BAL1A0, width=15, height=15
+  got sprite BAL1B0, width=15, height=15
+  got sprite BAL1C0, width=37, height=35
+  got sprite BAL1D0, width=43, height=39
+  got sprite BAL1E0, width=50, height=44
+  got sprite BAL7A1A5, width=19, height=16
+  got sprite BAL7A2A8, width=33, height=13
+  got sprite BAL7A3A7, width=48, height=12
+  got sprite BAL7A4A6, width=35, height=10
+  got sprite BAL7B1B5, width=20, height=16
+  got sprite BAL7B2B8, width=35, height=13
+  got sprite BAL7B3B7, width=49, height=12
+  got sprite BAL7B4B6, width=33, height=10
+  got sprite BAL7C0, width=33, height=33
+  got sprite BAL7D0, width=41, height=36
+  got sprite BAL7E0, width=45, height=40
+  got sprite BAR1A0, width=23, height=32
+  got sprite BAR1B0, width=23, height=32
+  got sprite BEXPA0, width=48, height=46
+  got sprite BEXPB0, width=68, height=68
+  got sprite BEXPC0, width=81, height=73
+  got sprite BEXPD0, width=67, height=58
+  got sprite BEXPE0, width=52, height=41
+  got sprite BKEYA0, width=14, height=16
+  got sprite BKEYB0, width=14, height=16
+  got sprite BLUDA0, width=14, height=10
+  got sprite BLUDB0, width=16, height=14
+  got sprite BLUDC0, width=14, height=14
+  got sprite BON1A0, width=13, height=17
+  got sprite BON1B0, width=13, height=17
+  got sprite BON1C0, width=13, height=17
+  got sprite BON1D0, width=13, height=17
+  got sprite BON2A0, width=13, height=17
+  got sprite BON2B0, width=13, height=17
+  got sprite BON2C0, width=13, height=17
+  got sprite BON2D0, width=13, height=17
+  got sprite BPAKA0, width=22, height=29
+  got sprite BROKA0, width=54, height=21
+  got sprite CANDA0, width=16, height=20
+  got sprite CBRAA0, width=29, height=61
+  got sprite CHGGA0, width=118, height=72
+  got sprite CHGFA0, width=71, height=60
+  got sprite CHGGB0, width=118, height=71
+  got sprite CHGFB0, width=59, height=38
+  got sprite CLIPA0, width=9, height=11
+  got sprite COLUA0, width=23, height=48
+  got sprite CSAWA0, width=47, height=19
+  got sprite ELECA1, width=128, height=130
+  got sprite ELECA2, width=128, height=130
+  got sprite ELECA3, width=128, height=130
+  got sprite ELECA4, width=128, height=130
+  got sprite ELECA5, width=128, height=130
+  got sprite ELECA6, width=128, height=130
+  got sprite ELECA7, width=128, height=130
+  got sprite ELECA8, width=128, height=130
+  got sprite IFOGA0, width=50, height=60
+  got sprite IFOGB0, width=50, height=60
+  got sprite IFOGC0, width=50, height=60
+  got sprite IFOGD0, width=50, height=60
+  got sprite IFOGE0, width=50, height=60
+  got sprite LAUNA0, width=62, height=16
+  got sprite MEDIA0, width=31, height=22
+  got sprite MGUNA0, width=78, height=30
+  got sprite MISGA0, width=146, height=66
+  got sprite MISGB0, width=146, height=66
+  got sprite MISFA0, width=145, height=71
+  got sprite MISFB0, width=146, height=89
+  got sprite MISFC0, width=146, height=85
+  got sprite MISFD0, width=145, height=91
+  got sprite MISLA1, width=19, height=19
+  got sprite MISLA5, width=19, height=19
+  got sprite MISLA6A4, width=26, height=14
+  got sprite MISLA7A3, width=49, height=14
+  got sprite MISLA8A2, width=32, height=14
+  got sprite MISLB0, width=59, height=55
+  got sprite MISLC0, width=67, height=54
+  got sprite MISLD0, width=78, height=74
+  got sprite PINSA0, width=29, height=28
+  got sprite PINSB0, width=29, height=28
+  got sprite PINSC0, width=29, height=28
+  got sprite PINSD0, width=29, height=28
+  got sprite PISFA0, width=31, height=51
+  got sprite PISGA0, width=55, height=68
+  got sprite PISGB0, width=74, height=85
+  got sprite PISGC0, width=65, height=80
+  got sprite PISGD0, width=65, height=80
+  got sprite PISGE0, width=55, height=68
+  got sprite PLAYA1, width=41, height=56
+  got sprite PLAYA2A8, width=35, height=54
+  got sprite PLAYA3A7, width=42, height=53
+  got sprite PLAYA4A6, width=45, height=51
+  got sprite PLAYA5, width=36, height=50
+  got sprite PLAYB1, width=37, height=56
+  got sprite PLAYB2B8, width=35, height=55
+  got sprite PLAYB3B7, width=36, height=55
+  got sprite PLAYB4B6, width=41, height=54
+  got sprite PLAYB5, width=35, height=54
+  got sprite PLAYC1, width=38, height=56
+  got sprite PLAYC2C8, width=36, height=55
+  got sprite PLAYC3C7, width=38, height=54
+  got sprite PLAYC4C6, width=41, height=55
+  got sprite PLAYC5, width=34, height=54
+  got sprite PLAYD1, width=40, height=55
+  got sprite PLAYD2D8, width=35, height=55
+  got sprite PLAYD3D7, width=34, height=54
+  got sprite PLAYD4D6, width=40, height=54
+  got sprite PLAYD5, width=35, height=54
+  got sprite PLAYE1, width=26, height=56
+  got sprite PLAYE2E8, width=43, height=55
+  got sprite PLAYE3E7, width=51, height=53
+  got sprite PLAYE4E6, width=38, height=52
+  got sprite PLAYE5, width=26, height=51
+  got sprite PLAYF1, width=26, height=56
+  got sprite PLAYF2F8, width=45, height=55
+  got sprite PLAYF3F7, width=52, height=53
+  got sprite PLAYF4F6, width=41, height=52
+  got sprite PLAYF5, width=24, height=51
+  got sprite PLAYG1, width=39, height=55
+  got sprite PLAYG2G8, width=36, height=56
+  got sprite PLAYG3G7, width=43, height=55
+  got sprite PLAYG4G6, width=43, height=52
+  got sprite PLAYG5, width=34, height=54
+  got sprite PLAYH0, width=44, height=50
+  got sprite PLAYI0, width=35, height=43
+  got sprite PLAYJ0, width=36, height=46
+  got sprite PLAYK0, width=41, height=38
+  got sprite PLAYL0, width=51, height=14
+  got sprite PLAYM0, width=51, height=14
+  got sprite PLAYN0, width=51, height=14
+  got sprite PLAYO0, width=38, height=56
+  got sprite PLAYP0, width=41, height=53
+  got sprite PLAYQ0, width=44, height=49
+  got sprite PLAYR0, width=46, height=45
+  got sprite PLAYS0, width=49, height=39
+  got sprite PLAYT0, width=49, height=35
+  got sprite PLAYU0, width=53, height=27
+  got sprite PLAYV0, width=53, height=16
+  got sprite PLAYW0, width=53, height=16
+  got sprite PMAPA0, width=32, height=28
+  got sprite PMAPB0, width=32, height=28
+  got sprite PMAPC0, width=32, height=28
+  got sprite PMAPD0, width=32, height=28
+  got sprite POL5A0, width=55, height=10
+  got sprite PUFFA0, width=5, height=5
+  got sprite PUFFB0, width=9, height=8
+  got sprite PUFFC0, width=12, height=11
+  got sprite PUFFD0, width=15, height=15
+  got sprite PUNGA0, width=242, height=116
+  got sprite PUNGB0, width=345, height=179
+  got sprite PUNGC0, width=259, height=134
+  got sprite PUNGD0, width=229, height=134
+  got sprite PVISA0, width=28, height=13
+  got sprite PVISB0, width=28, height=13
+  got sprite RKEYA0, width=14, height=16
+  got sprite RKEYB0, width=14, height=16
+  got sprite ROCKA0, width=12, height=26
+  got sprite SAWGA0, width=120, height=133
+  got sprite SAWGB0, width=120, height=133
+  got sprite SAWGC0, width=164, height=99
+  got sprite SAWGD0, width=161, height=102
+  got sprite SBOXA0, width=17, height=17
+  got sprite SHELA0, width=14, height=10
+  got sprite SHOTA0, width=58, height=10
+  got sprite SHTGB0, width=94, height=97
+  got sprite SHTGC0, width=143, height=137
+  got sprite SHTFA0, width=91, height=118
+  got sprite SHTFB0, width=91, height=118
+  got sprite SHTGD0, width=145, height=128
+  got sprite SHTGA0, width=91, height=118
+  got sprite SOULA0, width=25, height=25
+  got sprite SOULB0, width=25, height=25
+  got sprite SOULC0, width=25, height=25
+  got sprite SOULD0, width=25, height=25
+  got sprite STIMA0, width=15, height=17
+  got sprite SUITA0, width=23, height=56
+  got sprite TFOGA0, width=50, height=60
+  got sprite TFOGB0, width=50, height=60
+  got sprite TFOGC0, width=50, height=60
+  got sprite TFOGD0, width=50, height=60
+  got sprite TFOGE0, width=50, height=60
+  got sprite TFOGF0, width=50, height=60
+  got sprite TFOGG0, width=50, height=60
+  got sprite TFOGH0, width=50, height=60
+  got sprite TFOGI0, width=50, height=60
+  got sprite TFOGJ0, width=50, height=60
+  got sprite TREDA0, width=26, height=96
+  got sprite TREDB0, width=26, height=96
+  got sprite TREDC0, width=26, height=96
+  got sprite TREDD0, width=26, height=96
+  got sprite YKEYA0, width=14, height=16
+  got sprite YKEYB0, width=14, height=16
+  got sprite SMITA0, width=64, height=64
+  got sprite TRE1A0, width=51, height=70
+  got sprite TRE2A0, width=124, height=124
+  got sprite HDB1A0, width=22, height=88
+  got sprite HDB2A0, width=22, height=85
+  got sprite HDB3A0, width=22, height=64
+  got sprite HDB4A0, width=22, height=64
+  got sprite HDB5A0, width=22, height=57
+  got sprite HDB6A0, width=22, height=61
+  got sprite MEGAA0, width=25, height=25
+  got sprite MEGAB0, width=25, height=25
+  got sprite MEGAC0, width=25, height=25
+  got sprite MEGAD0, width=25, height=25
+  got sprite SHT2A0, width=75, height=50
+  got sprite SHT2B0, width=75, height=50
+  got sprite SHT2C0, width=70, height=53
+  got sprite SHT2D0, width=166, height=48
+  got sprite SHT2E0, width=140, height=60
+  got sprite SHT2F0, width=89, height=59
+  got sprite SHT2G0, width=124, height=59
+  got sprite SHT2H0, width=124, height=59
+  got sprite SHT2I0, width=75, height=65
+  got sprite SHT2J0, width=75, height=79
+  got sprite SGN2A0, width=55, height=18
+  got sprite TLMPA0, width=23, height=80
+  got sprite TLMPB0, width=23, height=80
+  got sprite TLMPC0, width=23, height=80
+  got sprite TLMPD0, width=23, height=80
+  got sprite TLP2A0, width=21, height=60
+  got sprite TLP2B0, width=21, height=60
+  got sprite TLP2C0, width=21, height=60
+  got sprite TLP2D0, width=21, height=60
+  got sprite POB1A0, width=50, height=10
+  got sprite POB2A0, width=32, height=3
+  got sprite APBXA0, width=23, height=23
+  got sprite APBXB0, width=30, height=28
+  got sprite APBXC0, width=32, height=32
+  got sprite APBXD0, width=36, height=32
+  got sprite APBXE0, width=37, height=30
+  got sprite APLSA0, width=18, height=16
+  got sprite APLSB0, width=16, height=16
+  got sprite BAL2A0, width=16, height=16
+  got sprite BAL2B0, width=15, height=15
+  got sprite BAL2C0, width=45, height=48
+  got sprite BAL2D0, width=50, height=42
+  got sprite BAL2E0, width=53, height=47
+  got sprite BFS1A0, width=58, height=56
+  got sprite BFS1B0, width=58, height=56
+  got sprite BFUGA0, width=82, height=16
+  got sprite BFGGA0, width=194, height=105
+  got sprite BFGGB0, width=194, height=105
+  got sprite BFGFA0, width=194, height=105
+  got sprite BFGFB0, width=194, height=105
+  got sprite BFE1A0, width=138, height=85
+  got sprite BFE1B0, width=138, height=85
+  got sprite BFE1C0, width=143, height=114
+  got sprite BFE1D0, width=138, height=110
+  got sprite BFE1E0, width=24, height=19
+  got sprite BFE1F0, width=8, height=7
+  got sprite BFE2A0, width=72, height=57
+  got sprite BFE2B0, width=69, height=55
+  got sprite BFE2C0, width=24, height=19
+  got sprite BFE2D0, width=8, height=7
+  got sprite BSKUA0, width=13, height=16
+  got sprite BSKUB0, width=13, height=16
+  got sprite CELLA0, width=17, height=12
+  got sprite CELPA0, width=32, height=21
+  got sprite CEYEA0, width=48, height=60
+  got sprite CEYEB0, width=48, height=60
+  got sprite CEYEC0, width=48, height=60
+  got sprite COL1A0, width=37, height=56
+  got sprite COL2A0, width=36, height=41
+  got sprite COL3A0, width=37, height=56
+  got sprite COL4A0, width=36, height=41
+  got sprite COL5A0, width=36, height=48
+  got sprite COL5B0, width=36, height=48
+  got sprite COL6A0, width=36, height=51
+  got sprite FCANA0, width=32, height=64
+  got sprite FCANB0, width=32, height=64
+  got sprite FCANC0, width=32, height=64
+  got sprite FSKUA0, width=45, height=43
+  got sprite FSKUB0, width=45, height=43
+  got sprite FSKUC0, width=45, height=43
+  got sprite GOR1A0, width=24, height=70
+  got sprite GOR1B0, width=24, height=70
+  got sprite GOR1C0, width=24, height=70
+  got sprite GOR2A0, width=24, height=51
+  got sprite GOR3A0, width=24, height=51
+  got sprite GOR4A0, width=36, height=48
+  got sprite GOR5A0, width=24, height=51
+  got sprite PINVA0, width=25, height=25
+  got sprite PINVB0, width=25, height=25
+  got sprite PINVC0, width=25, height=25
+  got sprite PINVD0, width=25, height=25
+  got sprite PLASA0, width=54, height=16
+  got sprite PLSEA0, width=23, height=23
+  got sprite PLSEB0, width=30, height=28
+  got sprite PLSEC0, width=32, height=32
+  got sprite PLSED0, width=36, height=32
+  got sprite PLSEE0, width=37, height=30
+  got sprite PLSFA0, width=145, height=94
+  got sprite PLSFB0, width=145, height=95
+  got sprite PLSGA0, width=150, height=77
+  got sprite PLSGB0, width=150, height=77
+  got sprite PLSSA0, width=18, height=16
+  got sprite PLSSB0, width=16, height=18
+  got sprite POL1A0, width=40, height=66
+  got sprite POL2A0, width=41, height=67
+  got sprite POL3A0, width=38, height=48
+  got sprite POL3B0, width=38, height=48
+  got sprite POL4A0, width=32, height=56
+  got sprite POL6A0, width=35, height=66
+  got sprite POL6B0, width=40, height=66
+  got sprite PSTRA0, width=28, height=19
+  got sprite RSKUA0, width=13, height=16
+  got sprite RSKUB0, width=13, height=16
+  got sprite SMBTA0, width=20, height=72
+  got sprite SMBTB0, width=20, height=72
+  got sprite SMBTC0, width=20, height=72
+  got sprite SMBTD0, width=20, height=72
+  got sprite SMGTA0, width=20, height=72
+  got sprite SMGTB0, width=20, height=72
+  got sprite SMGTC0, width=20, height=72
+  got sprite SMGTD0, width=20, height=72
+  got sprite SMRTA0, width=20, height=72
+  got sprite SMRTB0, width=20, height=72
+  got sprite SMRTC0, width=20, height=72
+  got sprite SMRTD0, width=20, height=72
+  got sprite SMT2A0, width=21, height=45
+  got sprite TBLUA0, width=26, height=96
+  got sprite TBLUB0, width=26, height=96
+  got sprite TBLUC0, width=26, height=96
+  got sprite TBLUD0, width=26, height=96
+  got sprite TGRNA0, width=26, height=96
+  got sprite TGRNB0, width=26, height=96
+  got sprite TGRNC0, width=26, height=96
+  got sprite TGRND0, width=26, height=96
+  got sprite YSKUA0, width=13, height=16
+  got sprite YSKUB0, width=13, height=16
+found S_END, done
+
+
+Number of write errors: 0
+1389 sprites/ammoa0.ppm
+1632 sprites/apbxa0.ppm
+2565 sprites/apbxb0.ppm
+3117 sprites/apbxc0.ppm
+3501 sprites/apbxd0.ppm
+3375 sprites/apbxe0.ppm
+909 sprites/aplsa0.ppm
+813 sprites/aplsb0.ppm
+2277 sprites/arm1a0.ppm
+2277 sprites/arm1b0.ppm
+2277 sprites/arm2a0.ppm
+2277 sprites/arm2b0.ppm
+720 sprites/bal1a0.ppm
+720 sprites/bal1b0.ppm
+3930 sprites/bal1c0.ppm
+5076 sprites/bal1d0.ppm
+6645 sprites/bal1e0.ppm
+813 sprites/bal2a0.ppm
+720 sprites/bal2b0.ppm
+6525 sprites/bal2c0.ppm
+6345 sprites/bal2d0.ppm
+7518 sprites/bal2e0.ppm
+957 sprites/bal7a1a5.ppm
+1332 sprites/bal7a2a8.ppm
+1773 sprites/bal7a3a7.ppm
+1095 sprites/bal7a4a6.ppm
+1005 sprites/bal7b1b5.ppm
+1410 sprites/bal7b2b8.ppm
+1809 sprites/bal7b3b7.ppm
+1035 sprites/bal7b4b6.ppm
+3312 sprites/bal7c0.ppm
+4473 sprites/bal7d0.ppm
+5445 sprites/bal7e0.ppm
+2253 sprites/bar1a0.ppm
+2253 sprites/bar1b0.ppm
+15264 sprites/bbrna0.ppm
+14997 sprites/bbrnb0.ppm
+6669 sprites/bexpa0.ppm
+13917 sprites/bexpb0.ppm
+17784 sprites/bexpc0.ppm
+11703 sprites/bexpd0.ppm
+6441 sprites/bexpe0.ppm
+35236 sprites/bfe1a0.ppm
+35236 sprites/bfe1b0.ppm
+48953 sprites/bfe1c0.ppm
+45587 sprites/bfe1d0.ppm
+1413 sprites/bfe1e0.ppm
+211 sprites/bfe1f0.ppm
+12357 sprites/bfe2a0.ppm
+11430 sprites/bfe2b0.ppm
+1413 sprites/bfe2c0.ppm
+211 sprites/bfe2d0.ppm
+61157 sprites/bfgfa0.ppm
+61157 sprites/bfgfb0.ppm
+61157 sprites/bfgga0.ppm
+61157 sprites/bfggb0.ppm
+9789 sprites/bfs1a0.ppm
+9789 sprites/bfs1b0.ppm
+3981 sprites/bfuga0.ppm
+717 sprites/bkeya0.ppm
+717 sprites/bkeyb0.ppm
+465 sprites/bluda0.ppm
+717 sprites/bludb0.ppm
+633 sprites/bludc0.ppm
+708 sprites/bon1a0.ppm
+708 sprites/bon1b0.ppm
+708 sprites/bon1c0.ppm
+708 sprites/bon1d0.ppm
+708 sprites/bon2a0.ppm
+708 sprites/bon2b0.ppm
+708 sprites/bon2c0.ppm
+708 sprites/bon2d0.ppm
+11589 sprites/bos2a1c1.ppm
+8655 sprites/bos2a2c8.ppm
+10197 sprites/bos2a3c7.ppm
+8685 sprites/bos2a4c6.ppm
+9900 sprites/bos2a5c5.ppm
+11709 sprites/bos2b1d1.ppm
+8901 sprites/bos2b2d8.ppm
+8946 sprites/bos2b3d7.ppm
+7815 sprites/bos2b4d6.ppm
+9630 sprites/bos2b5d5.ppm
+9333 sprites/bos2c2a8.ppm
+11061 sprites/bos2c3a7.ppm
+9024 sprites/bos2c4a6.ppm
+9075 sprites/bos2d2b8.ppm
+8205 sprites/bos2d3b7.ppm
+7593 sprites/bos2d4b6.ppm
+11589 sprites/bos2e1.ppm
+11589 sprites/bos2e2.ppm
+11589 sprites/bos2e3.ppm
+11589 sprites/bos2e4.ppm
+11589 sprites/bos2e5.ppm
+11589 sprites/bos2e6.ppm
+11589 sprites/bos2e7.ppm
+11589 sprites/bos2e8.ppm
+11589 sprites/bos2f1.ppm
+11589 sprites/bos2f2.ppm
+11589 sprites/bos2f3.ppm
+11589 sprites/bos2f4.ppm
+11589 sprites/bos2f5.ppm
+11589 sprites/bos2f6.ppm
+11589 sprites/bos2f7.ppm
+11589 sprites/bos2f8.ppm
+11589 sprites/bos2g1.ppm
+11589 sprites/bos2g2.ppm
+11589 sprites/bos2g3.ppm
+11589 sprites/bos2g4.ppm
+11589 sprites/bos2g5.ppm
+11589 sprites/bos2g6.ppm
+11589 sprites/bos2g7.ppm
+11589 sprites/bos2g8.ppm
+11589 sprites/bos2h1.ppm
+11589 sprites/bos2h2.ppm
+11589 sprites/bos2h3.ppm
+11589 sprites/bos2h4.ppm
+11589 sprites/bos2h5.ppm
+11589 sprites/bos2h6.ppm
+11589 sprites/bos2h7.ppm
+11589 sprites/bos2h8.ppm
+17433 sprites/bos2i0.ppm
+17433 sprites/bos2j0.ppm
+17433 sprites/bos2k0.ppm
+17433 sprites/bos2l0.ppm
+17433 sprites/bos2m0.ppm
+17433 sprites/bos2n0.ppm
+17433 sprites/bos2o0.ppm
+7245 sprites/bosfa0.ppm
+7245 sprites/bosfb0.ppm
+7245 sprites/bosfc0.ppm
+7245 sprites/bosfd0.ppm
+11589 sprites/bossa1.ppm
+8655 sprites/bossa2a8.ppm
+10197 sprites/bossa3a7.ppm
+8685 sprites/bossa4a6.ppm
+9900 sprites/bossa5.ppm
+11709 sprites/bossb1.ppm
+8901 sprites/bossb2b8.ppm
+8946 sprites/bossb3b7.ppm
+7815 sprites/bossb4b6.ppm
+9630 sprites/bossb5.ppm
+11589 sprites/bossc1.ppm
+9333 sprites/bossc2c8.ppm
+11061 sprites/bossc3c7.ppm
+9024 sprites/bossc4c6.ppm
+9900 sprites/bossc5.ppm
+11925 sprites/bossd1.ppm
+9075 sprites/bossd2d8.ppm
+8205 sprites/bossd3d7.ppm
+7593 sprites/bossd4d6.ppm
+9630 sprites/bossd5.ppm
+11589 sprites/bosse1.ppm
+11589 sprites/bosse2.ppm
+11589 sprites/bosse3.ppm
+11589 sprites/bosse4.ppm
+11589 sprites/bosse5.ppm
+11589 sprites/bosse6.ppm
+11589 sprites/bosse7.ppm
+11589 sprites/bosse8.ppm
+11589 sprites/bossf1.ppm
+11589 sprites/bossf2.ppm
+11589 sprites/bossf3.ppm
+11589 sprites/bossf4.ppm
+11589 sprites/bossf5.ppm
+11589 sprites/bossf6.ppm
+11589 sprites/bossf7.ppm
+11589 sprites/bossf8.ppm
+11589 sprites/bossg1.ppm
+11589 sprites/bossg2.ppm
+11589 sprites/bossg3.ppm
+11589 sprites/bossg4.ppm
+11589 sprites/bossg5.ppm
+11589 sprites/bossg6.ppm
+11589 sprites/bossg7.ppm
+11589 sprites/bossg8.ppm
+11589 sprites/bossh1.ppm
+11589 sprites/bossh2.ppm
+11589 sprites/bossh3.ppm
+11589 sprites/bossh4.ppm
+11589 sprites/bossh5.ppm
+11589 sprites/bossh6.ppm
+11589 sprites/bossh7.ppm
+11589 sprites/bossh8.ppm
+17433 sprites/bossi0.ppm
+17433 sprites/bossj0.ppm
+17433 sprites/bossk0.ppm
+17433 sprites/bossl0.ppm
+17433 sprites/bossm0.ppm
+17433 sprites/bossn0.ppm
+17433 sprites/bosso0.ppm
+1959 sprites/bpaka0.ppm
+3447 sprites/broka0.ppm
+945 sprites/brs1a0.ppm
+669 sprites/bskua0.ppm
+669 sprites/bskub0.ppm
+20782 sprites/bspia1d1.ppm
+20782 sprites/bspia2a8.ppm
+20782 sprites/bspia3a7.ppm
+20782 sprites/bspia4a6.ppm
+20782 sprites/bspia5d5.ppm
+20782 sprites/bspib1e1.ppm
+20782 sprites/bspib2b8.ppm
+20782 sprites/bspib3b7.ppm
+20782 sprites/bspib4b6.ppm
+20782 sprites/bspib5e5.ppm
+20782 sprites/bspic1f1.ppm
+20782 sprites/bspic2c8.ppm
+20782 sprites/bspic3c7.ppm
+20782 sprites/bspic4c6.ppm
+20782 sprites/bspic5f5.ppm
+20782 sprites/bspid2d8.ppm
+20782 sprites/bspid3d7.ppm
+20782 sprites/bspid4d6.ppm
+20782 sprites/bspie2e8.ppm
+20782 sprites/bspie3e7.ppm
+20782 sprites/bspie4e6.ppm
+20782 sprites/bspif2f8.ppm
+20782 sprites/bspif3f7.ppm
+20782 sprites/bspif4f6.ppm
+20782 sprites/bspig1.ppm
+20782 sprites/bspig2g8.ppm
+20782 sprites/bspig3g7.ppm
+20782 sprites/bspig4g6.ppm
+20782 sprites/bspig5.ppm
+20782 sprites/bspih1.ppm
+20782 sprites/bspih2h8.ppm
+20782 sprites/bspih3h7.ppm
+20782 sprites/bspih4h6.ppm
+20782 sprites/bspih5.ppm
+20782 sprites/bspii1.ppm
+20782 sprites/bspii2i8.ppm
+20782 sprites/bspii3i7.ppm
+20782 sprites/bspii4i6.ppm
+20782 sprites/bspii5.ppm
+20782 sprites/bspij0.ppm
+20782 sprites/bspik0.ppm
+20782 sprites/bspil0.ppm
+20782 sprites/bspim0.ppm
+20782 sprites/bspin0.ppm
+20782 sprites/bspio0.ppm
+20782 sprites/bspip0.ppm
+1005 sprites/canda0.ppm
+5352 sprites/cbraa0.ppm
+657 sprites/cella0.ppm
+2061 sprites/celpa0.ppm
+8685 sprites/ceyea0.ppm
+8685 sprites/ceyeb0.ppm
+8685 sprites/ceyec0.ppm
+12825 sprites/chgfa0.ppm
+6771 sprites/chgfb0.ppm
+25534 sprites/chgga0.ppm
+25180 sprites/chggb0.ppm
+341 sprites/clipa0.ppm
+6261 sprites/col1a0.ppm
+4473 sprites/col2a0.ppm
+6261 sprites/col3a0.ppm
+4473 sprites/col4a0.ppm
+5229 sprites/col5a0.ppm
+5229 sprites/col5b0.ppm
+5553 sprites/col6a0.ppm
+3357 sprites/colua0.ppm
+6933 sprites/cposa1.ppm
+5715 sprites/cposa2a8.ppm
+6723 sprites/cposa3a7.ppm
+6930 sprites/cposa4a6.ppm
+5445 sprites/cposa5.ppm
+6261 sprites/cposb1.ppm
+5820 sprites/cposb2b8.ppm
+5985 sprites/cposb3b7.ppm
+6687 sprites/cposb4b6.ppm
+5715 sprites/cposb5.ppm
+6429 sprites/cposc1.ppm
+5985 sprites/cposc2c8.ppm
+6201 sprites/cposc3c7.ppm
+6810 sprites/cposc4c6.ppm
+5553 sprites/cposc5.ppm
+6645 sprites/cposd1.ppm
+5820 sprites/cposd2d8.ppm
+5553 sprites/cposd3d7.ppm
+6525 sprites/cposd4d6.ppm
+5715 sprites/cposd5.ppm
+4413 sprites/cpose1.ppm
+7470 sprites/cpose2e8.ppm
+8313 sprites/cpose3e7.ppm
+6441 sprites/cpose4e6.ppm
+3717 sprites/cpose5.ppm
+4413 sprites/cposf1.ppm
+7470 sprites/cposf2f8.ppm
+8313 sprites/cposf3f7.ppm
+6441 sprites/cposf4f6.ppm
+3717 sprites/cposf5.ppm
+6480 sprites/cposg1.ppm
+6093 sprites/cposg2g8.ppm
+7140 sprites/cposg3g7.ppm
+6753 sprites/cposg4g6.ppm
+5553 sprites/cposg5.ppm
+6645 sprites/cposh0.ppm
+4560 sprites/cposi0.ppm
+5013 sprites/cposj0.ppm
+4719 sprites/cposk0.ppm
+2187 sprites/cposl0.ppm
+2187 sprites/cposm0.ppm
+2187 sprites/cposn0.ppm
+6429 sprites/cposo0.ppm
+6564 sprites/cposp0.ppm
+6513 sprites/cposq0.ppm
+5778 sprites/cposr0.ppm
+5190 sprites/cposs0.ppm
+2589 sprites/cpost0.ppm
+2724 sprites/csawa0.ppm
+41819 sprites/cybra1.ppm
+41819 sprites/cybra2.ppm
+41819 sprites/cybra3.ppm
+41819 sprites/cybra4.ppm
+41819 sprites/cybra5.ppm
+41819 sprites/cybra6.ppm
+41819 sprites/cybra7.ppm
+41819 sprites/cybra8.ppm
+41819 sprites/cybrb1.ppm
+41819 sprites/cybrb2.ppm
+41819 sprites/cybrb3.ppm
+41819 sprites/cybrb4.ppm
+41819 sprites/cybrb5.ppm
+41819 sprites/cybrb6.ppm
+41819 sprites/cybrb7.ppm
+41819 sprites/cybrb8.ppm
+41819 sprites/cybrc1.ppm
+41819 sprites/cybrc2.ppm
+41819 sprites/cybrc3.ppm
+41819 sprites/cybrc4.ppm
+41819 sprites/cybrc5.ppm
+41819 sprites/cybrc6.ppm
+41819 sprites/cybrc7.ppm
+41819 sprites/cybrc8.ppm
+41819 sprites/cybrd1.ppm
+41819 sprites/cybrd2.ppm
+41819 sprites/cybrd3.ppm
+41819 sprites/cybrd4.ppm
+41819 sprites/cybrd5.ppm
+41819 sprites/cybrd6.ppm
+41819 sprites/cybrd7.ppm
+41819 sprites/cybrd8.ppm
+41819 sprites/cybre1.ppm
+41819 sprites/cybre2.ppm
+41819 sprites/cybre3.ppm
+41819 sprites/cybre4.ppm
+41819 sprites/cybre5.ppm
+41819 sprites/cybre6.ppm
+41819 sprites/cybre7.ppm
+41819 sprites/cybre8.ppm
+41819 sprites/cybrf1.ppm
+41819 sprites/cybrf2.ppm
+41819 sprites/cybrf3.ppm
+41819 sprites/cybrf4.ppm
+41819 sprites/cybrf5.ppm
+41819 sprites/cybrf6.ppm
+41819 sprites/cybrf7.ppm
+41819 sprites/cybrf8.ppm
+41819 sprites/cybrg1.ppm
+41819 sprites/cybrg2.ppm
+41819 sprites/cybrg3.ppm
+41819 sprites/cybrg4.ppm
+41819 sprites/cybrg5.ppm
+41819 sprites/cybrg6.ppm
+41819 sprites/cybrg7.ppm
+41819 sprites/cybrg8.ppm
+41819 sprites/cybrh0.ppm
+41819 sprites/cybri0.ppm
+41819 sprites/cybrj0.ppm
+41819 sprites/cybrk0.ppm
+41819 sprites/cybrl0.ppm
+41819 sprites/cybrm0.ppm
+41819 sprites/cybrn0.ppm
+41819 sprites/cybro0.ppm
+41819 sprites/cybrp0.ppm
+49967 sprites/eleca1.ppm
+49967 sprites/eleca2.ppm
+49967 sprites/eleca3.ppm
+49967 sprites/eleca4.ppm
+49967 sprites/eleca5.ppm
+49967 sprites/eleca6.ppm
+49967 sprites/eleca7.ppm
+49967 sprites/eleca8.ppm
+720 sprites/fatba1.ppm
+720 sprites/fatba2a8.ppm
+720 sprites/fatba3a7.ppm
+720 sprites/fatba4a6.ppm
+720 sprites/fatba5.ppm
+720 sprites/fatbb1.ppm
+720 sprites/fatbb2b8.ppm
+720 sprites/fatbb3b7.ppm
+720 sprites/fatbb4b6.ppm
+720 sprites/fatbb5.ppm
+14280 sprites/fatta1.ppm
+15885 sprites/fatta2a8.ppm
+15450 sprites/fatta3a7.ppm
+15111 sprites/fatta4a6.ppm
+12717 sprites/fatta5.ppm
+18525 sprites/fattb1.ppm
+17475 sprites/fattb2b8.ppm
+13311 sprites/fattb3b7.ppm
+15093 sprites/fattb4b6.ppm
+15543 sprites/fattb5.ppm
+17265 sprites/fattc1.ppm
+16977 sprites/fattc2c8.ppm
+14301 sprites/fattc3c7.ppm
+13509 sprites/fattc4c6.ppm
+14598 sprites/fattc5.ppm
+14280 sprites/fattd1.ppm
+17793 sprites/fattd2d8.ppm
+17331 sprites/fattd3d7.ppm
+14637 sprites/fattd4d6.ppm
+12519 sprites/fattd5.ppm
+18525 sprites/fatte1.ppm
+16083 sprites/fatte2e8.ppm
+13713 sprites/fatte3e7.ppm
+14220 sprites/fatte4e6.ppm
+15483 sprites/fatte5.ppm
+17265 sprites/fattf1.ppm
+13914 sprites/fattf2f8.ppm
+14499 sprites/fattf3f7.ppm
+13869 sprites/fattf4f6.ppm
+16488 sprites/fattf5.ppm
+17010 sprites/fattg1.ppm
+18861 sprites/fattg2g8.ppm
+15645 sprites/fattg3g7.ppm
+16728 sprites/fattg4g6.ppm
+16281 sprites/fattg5.ppm
+16230 sprites/fatth1.ppm
+19438 sprites/fatth2h8.ppm
+14499 sprites/fatth3h7.ppm
+14895 sprites/fatth4h6.ppm
+16815 sprites/fatth5.ppm
+17181 sprites/fatti1.ppm
+19710 sprites/fatti2i8.ppm
+13101 sprites/fatti3i7.ppm
+16977 sprites/fatti4i6.ppm
+15405 sprites/fatti5.ppm
+14919 sprites/fattj1.ppm
+17469 sprites/fattj2.ppm
+14445 sprites/fattj3.ppm
+12123 sprites/fattj4.ppm
+14829 sprites/fattj5.ppm
+12123 sprites/fattj6.ppm
+14445 sprites/fattj7.ppm
+17469 sprites/fattj8.ppm
+23221 sprites/fattk0.ppm
+23074 sprites/fattl0.ppm
+19995 sprites/fattm0.ppm
+13305 sprites/fattn0.ppm
+11397 sprites/fatto0.ppm
+11139 sprites/fattp0.ppm
+11139 sprites/fattq0.ppm
+11139 sprites/fattr0.ppm
+10881 sprites/fatts0.ppm
+10623 sprites/fattt0.ppm
+6525 sprites/fbxpa0.ppm
+5076 sprites/fbxpb0.ppm
+6645 sprites/fbxpc0.ppm
+6189 sprites/fcana0.ppm
+6189 sprites/fcanb0.ppm
+6189 sprites/fcanc0.ppm
+6714 sprites/firea0.ppm
+8625 sprites/fireb0.ppm
+11361 sprites/firec0.ppm
+11913 sprites/fired0.ppm
+11748 sprites/firee0.ppm
+11805 sprites/firef0.ppm
+10482 sprites/fireg0.ppm
+9531 sprites/fireh0.ppm
+5850 sprites/fskua0.ppm
+5850 sprites/fskub0.ppm
+5850 sprites/fskuc0.ppm
+5085 sprites/gor1a0.ppm
+5085 sprites/gor1b0.ppm
+5085 sprites/gor1c0.ppm
+3717 sprites/gor2a0.ppm
+3717 sprites/gor3a0.ppm
+5229 sprites/gor4a0.ppm
+3717 sprites/gor5a0.ppm
+5853 sprites/hdb1a0.ppm
+5655 sprites/hdb2a0.ppm
+4269 sprites/hdb3a0.ppm
+4269 sprites/hdb4a0.ppm
+3807 sprites/hdb5a0.ppm
+4071 sprites/hdb6a0.ppm
+11373 sprites/heada1.ppm
+10413 sprites/heada2a8.ppm
+8463 sprites/heada3a7.ppm
+10440 sprites/heada4a6.ppm
+10818 sprites/heada5.ppm
+9603 sprites/headb1.ppm
+8625 sprites/headb2b8.ppm
+7200 sprites/headb3b7.ppm
+9279 sprites/headb4b6.ppm
+9108 sprites/headb5.ppm
+14985 sprites/headc1.ppm
+12681 sprites/headc2c8.ppm
+12369 sprites/headc3c7.ppm
+13989 sprites/headc4c6.ppm
+13554 sprites/headc5.ppm
+24118 sprites/headd1.ppm
+11877 sprites/headd2d8.ppm
+23362 sprites/headd3d7.ppm
+11973 sprites/headd4d6.ppm
+13554 sprites/headd5.ppm
+11373 sprites/heade1.ppm
+10413 sprites/heade2e8.ppm
+8463 sprites/heade3e7.ppm
+10440 sprites/heade4e6.ppm
+10818 sprites/heade5.ppm
+9603 sprites/headf1.ppm
+8625 sprites/headf2f8.ppm
+7200 sprites/headf3f7.ppm
+9279 sprites/headf4f6.ppm
+9108 sprites/headf5.ppm
+9603 sprites/headg0.ppm
+9603 sprites/headh0.ppm
+9603 sprites/headi0.ppm
+9603 sprites/headj0.ppm
+9603 sprites/headk0.ppm
+6975 sprites/headl0.ppm
+9045 sprites/ifoga0.ppm
+9045 sprites/ifogb0.ppm
+9045 sprites/ifogc0.ppm
+9045 sprites/ifogd0.ppm
+9045 sprites/ifoge0.ppm
+3081 sprites/keena0.ppm
+3081 sprites/keenb0.ppm
+3081 sprites/keenc0.ppm
+3081 sprites/keend0.ppm
+3081 sprites/keene0.ppm
+3081 sprites/keenf0.ppm
+3081 sprites/keeng0.ppm
+3081 sprites/keenh0.ppm
+3081 sprites/keeni0.ppm
+3081 sprites/keenj0.ppm
+3081 sprites/keenk0.ppm
+3081 sprites/keenl0.ppm
+3081 sprites/keenm0.ppm
+3021 sprites/launa0.ppm
+3513 sprites/manfa1.ppm
+2655 sprites/manfa5.ppm
+4905 sprites/manfa6a4.ppm
+5070 sprites/manfa7a3.ppm
+4749 sprites/manfa8a2.ppm
+3513 sprites/manfb1.ppm
+1995 sprites/manfb5.ppm
+4185 sprites/manfb6b4.ppm
+5148 sprites/manfb7b3.ppm
+4329 sprites/manfb8b2.ppm
+2091 sprites/media0.ppm
+1920 sprites/megaa0.ppm
+1920 sprites/megab0.ppm
+1920 sprites/megac0.ppm
+1920 sprites/megad0.ppm
+7065 sprites/mguna0.ppm
+30931 sprites/misfa0.ppm
+39028 sprites/misfb0.ppm
+37276 sprites/misfc0.ppm
+39631 sprites/misfd0.ppm
+28954 sprites/misga0.ppm
+28954 sprites/misgb0.ppm
+1128 sprites/misla1.ppm
+1128 sprites/misla5.ppm
+1137 sprites/misla6a4.ppm
+2103 sprites/misla7a3.ppm
+1389 sprites/misla8a2.ppm
+9780 sprites/mislb0.ppm
+10899 sprites/mislc0.ppm
+17361 sprites/misld0.ppm
+11373 sprites/paina1.ppm
+10413 sprites/paina2a8.ppm
+8463 sprites/paina3a7.ppm
+10440 sprites/paina4a6.ppm
+10818 sprites/paina5.ppm
+11373 sprites/painb1.ppm
+10413 sprites/painb2b8.ppm
+8463 sprites/painb3b7.ppm
+10440 sprites/painb4b6.ppm
+10818 sprites/painb5.ppm
+11373 sprites/painc1.ppm
+10413 sprites/painc2c8.ppm
+8463 sprites/painc3c7.ppm
+10440 sprites/painc4c6.ppm
+10818 sprites/painc5.ppm
+9603 sprites/paind1.ppm
+3081 sprites/paind2d8.ppm
+3081 sprites/paind3d7.ppm
+3081 sprites/paind4d6.ppm
+9108 sprites/paind5.ppm
+14985 sprites/paine1.ppm
+3081 sprites/paine2e8.ppm
+3081 sprites/paine3e7.ppm
+3081 sprites/paine4e6.ppm
+13554 sprites/paine5.ppm
+24118 sprites/painf1.ppm
+3081 sprites/painf2f8.ppm
+3081 sprites/painf3f7.ppm
+3081 sprites/painf4f6.ppm
+13554 sprites/painf5.ppm
+11373 sprites/paing1.ppm
+10413 sprites/paing2g8.ppm
+8463 sprites/paing3g7.ppm
+10440 sprites/paing4g6.ppm
+10818 sprites/paing5.ppm
+9603 sprites/painh0.ppm
+9603 sprites/paini0.ppm
+9603 sprites/painj0.ppm
+9780 sprites/paink0.ppm
+10899 sprites/painl0.ppm
+17361 sprites/painm0.ppm
+2481 sprites/pinsa0.ppm
+2481 sprites/pinsb0.ppm
+2481 sprites/pinsc0.ppm
+2481 sprites/pinsd0.ppm
+1920 sprites/pinva0.ppm
+1920 sprites/pinvb0.ppm
+1920 sprites/pinvc0.ppm
+1920 sprites/pinvd0.ppm
+4788 sprites/pisfa0.ppm
+11265 sprites/pisga0.ppm
+18915 sprites/pisgb0.ppm
+15645 sprites/pisgc0.ppm
+15645 sprites/pisgd0.ppm
+11265 sprites/pisge0.ppm
+2637 sprites/plasa0.ppm
+6933 sprites/playa1.ppm
+5715 sprites/playa2a8.ppm
+6723 sprites/playa3a7.ppm
+6930 sprites/playa4a6.ppm
+5445 sprites/playa5.ppm
+6261 sprites/playb1.ppm
+5820 sprites/playb2b8.ppm
+5985 sprites/playb3b7.ppm
+6687 sprites/playb4b6.ppm
+5715 sprites/playb5.ppm
+6429 sprites/playc1.ppm
+5985 sprites/playc2c8.ppm
+6201 sprites/playc3c7.ppm
+6810 sprites/playc4c6.ppm
+5553 sprites/playc5.ppm
+6645 sprites/playd1.ppm
+5820 sprites/playd2d8.ppm
+5553 sprites/playd3d7.ppm
+6525 sprites/playd4d6.ppm
+5715 sprites/playd5.ppm
+4413 sprites/playe1.ppm
+7140 sprites/playe2e8.ppm
+8154 sprites/playe3e7.ppm
+5973 sprites/playe4e6.ppm
+4023 sprites/playe5.ppm
+4413 sprites/playf1.ppm
+7470 sprites/playf2f8.ppm
+8313 sprites/playf3f7.ppm
+6441 sprites/playf4f6.ppm
+3717 sprites/playf5.ppm
+6480 sprites/playg1.ppm
+6093 sprites/playg2g8.ppm
+7140 sprites/playg3g7.ppm
+6753 sprites/playg4g6.ppm
+5553 sprites/playg5.ppm
+6645 sprites/playh0.ppm
+4560 sprites/playi0.ppm
+5013 sprites/playj0.ppm
+4719 sprites/playk0.ppm
+2187 sprites/playl0.ppm
+2187 sprites/playm0.ppm
+2187 sprites/playn0.ppm
+6429 sprites/playo0.ppm
+6564 sprites/playp0.ppm
+6513 sprites/playq0.ppm
+6255 sprites/playr0.ppm
+5778 sprites/plays0.ppm
+5190 sprites/playt0.ppm
+4338 sprites/playu0.ppm
+2589 sprites/playv0.ppm
+2589 sprites/playw0.ppm
+1632 sprites/plsea0.ppm
+2565 sprites/plseb0.ppm
+3117 sprites/plsec0.ppm
+3501 sprites/plsed0.ppm
+3375 sprites/plsee0.ppm
+40936 sprites/plsfa0.ppm
+41371 sprites/plsfb0.ppm
+34696 sprites/plsga0.ppm
+34696 sprites/plsgb0.ppm
+909 sprites/plssa0.ppm
+909 sprites/plssb0.ppm
+2733 sprites/pmapa0.ppm
+2733 sprites/pmapb0.ppm
+2733 sprites/pmapc0.ppm
+2733 sprites/pmapd0.ppm
+1545 sprites/pob1a0.ppm
+332 sprites/pob2a0.ppm
+7965 sprites/pol1a0.ppm
+8286 sprites/pol2a0.ppm
+5517 sprites/pol3a0.ppm
+5517 sprites/pol3b0.ppm
+5421 sprites/pol4a0.ppm
+1695 sprites/pol5a0.ppm
+6975 sprites/pol6a0.ppm
+7965 sprites/pol6b0.ppm
+6150 sprites/possa1.ppm
+5715 sprites/possa2a8.ppm
+5985 sprites/possa3a7.ppm
+6525 sprites/possa4a6.ppm
+5715 sprites/possa5.ppm
+6315 sprites/possb1.ppm
+6039 sprites/possb2b8.ppm
+6150 sprites/possb3b7.ppm
+6810 sprites/possb4b6.ppm
+5655 sprites/possb5.ppm
+6645 sprites/possc1.ppm
+5715 sprites/possc2c8.ppm
+5553 sprites/possc3c7.ppm
+6687 sprites/possc4c6.ppm
+5715 sprites/possc5.ppm
+6810 sprites/possd1.ppm
+5877 sprites/possd2d8.ppm
+6882 sprites/possd3d7.ppm
+6795 sprites/possd4d6.ppm
+5553 sprites/possd5.ppm
+4335 sprites/posse1.ppm
+7011 sprites/posse2e8.ppm
+8154 sprites/posse3e7.ppm
+6129 sprites/posse4e6.ppm
+4023 sprites/posse5.ppm
+4500 sprites/possf1.ppm
+7335 sprites/possf2f8.ppm
+8313 sprites/possf3f7.ppm
+6597 sprites/possf4f6.ppm
+3717 sprites/possf5.ppm
+6480 sprites/possg1.ppm
+5985 sprites/possg2g8.ppm
+7011 sprites/possg3g7.ppm
+6882 sprites/possg4g6.ppm
+5451 sprites/possg5.ppm
+6480 sprites/possh0.ppm
+4875 sprites/possi0.ppm
+4431 sprites/possj0.ppm
+3933 sprites/possk0.ppm
+2442 sprites/possl0.ppm
+7302 sprites/possm0.ppm
+8043 sprites/possn0.ppm
+8829 sprites/posso0.ppm
+8790 sprites/possp0.ppm
+8460 sprites/possq0.ppm
+7398 sprites/possr0.ppm
+6201 sprites/posss0.ppm
+4491 sprites/posst0.ppm
+3636 sprites/possu0.ppm
+1641 sprites/pstra0.ppm
+118 sprites/puffa0.ppm
+259 sprites/puffb0.ppm
+441 sprites/puffc0.ppm
+720 sprites/puffd0.ppm
+84263 sprites/punga0.ppm
+185312 sprites/pungb0.ppm
+104165 sprites/pungc0.ppm
+92105 sprites/pungd0.ppm
+1137 sprites/pvisa0.ppm
+1137 sprites/pvisb0.ppm
+717 sprites/rkeya0.ppm
+717 sprites/rkeyb0.ppm
+981 sprites/rocka0.ppm
+669 sprites/rskua0.ppm
+669 sprites/rskub0.ppm
+6771 sprites/sarga1.ppm
+9279 sprites/sarga2a8.ppm
+10137 sprites/sarga3a7.ppm
+8082 sprites/sarga4a6.ppm
+6885 sprites/sarga5.ppm
+6063 sprites/sargb1.ppm
+8571 sprites/sargb2b8.ppm
+9441 sprites/sargb3b7.ppm
+7911 sprites/sargb4b6.ppm
+5859 sprites/sargb5.ppm
+6771 sprites/sargc1.ppm
+7527 sprites/sargc2c8.ppm
+9279 sprites/sargc3c7.ppm
+8253 sprites/sargc4c6.ppm
+6885 sprites/sargc5.ppm
+6771 sprites/sargd1.ppm
+8223 sprites/sargd2d8.ppm
+9279 sprites/sargd3d7.ppm
+8766 sprites/sargd4d6.ppm
+5859 sprites/sargd5.ppm
+6885 sprites/sarge1.ppm
+9267 sprites/sarge2.ppm
+9789 sprites/sarge3.ppm
+8424 sprites/sarge4.ppm
+5859 sprites/sarge5.ppm
+8424 sprites/sarge6.ppm
+9789 sprites/sarge7.ppm
+9267 sprites/sarge8.ppm
+6885 sprites/sargf1.ppm
+8937 sprites/sargf2.ppm
+10833 sprites/sargf3.ppm
+8766 sprites/sargf4.ppm
+5757 sprites/sargf5.ppm
+8766 sprites/sargf6.ppm
+10833 sprites/sargf7.ppm
+8937 sprites/sargf8.ppm
+6165 sprites/sargg1.ppm
+8049 sprites/sargg2.ppm
+8571 sprites/sargg3.ppm
+7398 sprites/sargg4.ppm
+5421 sprites/sargg5.ppm
+7398 sprites/sargg6.ppm
+8571 sprites/sargg7.ppm
+8223 sprites/sargg8.ppm
+4995 sprites/sargh1.ppm
+6165 sprites/sargh2.ppm
+6753 sprites/sargh3.ppm
+6624 sprites/sargh4.ppm
+5094 sprites/sargh5.ppm
+6624 sprites/sargh6.ppm
+6753 sprites/sargh7.ppm
+6165 sprites/sargh8.ppm
+6771 sprites/sargi0.ppm
+7245 sprites/sargj0.ppm
+6882 sprites/sargk0.ppm
+5205 sprites/sargl0.ppm
+4365 sprites/sargm0.ppm
+4308 sprites/sargn0.ppm
+47927 sprites/sawga0.ppm
+47927 sprites/sawgb0.ppm
+48754 sprites/sawgc0.ppm
+49313 sprites/sawgd0.ppm
+912 sprites/sboxa0.ppm
+3015 sprites/sgn2a0.ppm
+465 sprites/shela0.ppm
+1785 sprites/shota0.ppm
+11295 sprites/sht2a0.ppm
+11295 sprites/sht2b0.ppm
+11175 sprites/sht2c0.ppm
+23950 sprites/sht2d0.ppm
+25246 sprites/sht2e0.ppm
+15798 sprites/sht2f0.ppm
+21994 sprites/sht2g0.ppm
+21994 sprites/sht2h0.ppm
+14670 sprites/sht2i0.ppm
+17820 sprites/sht2j0.ppm
+32260 sprites/shtfa0.ppm
+32260 sprites/shtfb0.ppm
+32260 sprites/shtga0.ppm
+27399 sprites/shtgb0.ppm
+58820 sprites/shtgc0.ppm
+55727 sprites/shtgd0.ppm
+11007 sprites/skela1d1.ppm
+11529 sprites/skela2d8.ppm
+11925 sprites/skela3d7.ppm
+9702 sprites/skela4d6.ppm
+10746 sprites/skela5d5.ppm
+9702 sprites/skela6d4.ppm
+11925 sprites/skela7d3.ppm
+11529 sprites/skela8d2.ppm
+11526 sprites/skelb1e1.ppm
+13929 sprites/skelb2e8.ppm
+15357 sprites/skelb3e7.ppm
+13203 sprites/skelb4e6.ppm
+11655 sprites/skelb5e5.ppm
+13203 sprites/skelb6e4.ppm
+15357 sprites/skelb7e3.ppm
+13929 sprites/skelb8e2.ppm
+11397 sprites/skelc1f1.ppm
+12573 sprites/skelc2f8.ppm
+12981 sprites/skelc3f7.ppm
+11133 sprites/skelc4f6.ppm
+11526 sprites/skelc5f5.ppm
+11133 sprites/skelc6f4.ppm
+12981 sprites/skelc7f3.ppm
+12573 sprites/skelc8f2.ppm
+12573 sprites/skelg1.ppm
+12717 sprites/skelg2.ppm
+13773 sprites/skelg3.ppm
+14493 sprites/skelg4.ppm
+11775 sprites/skelg5.ppm
+14493 sprites/skelg6.ppm
+13773 sprites/skelg7.ppm
+12717 sprites/skelg8.ppm
+9762 sprites/skelh1.ppm
+9762 sprites/skelh2.ppm
+8685 sprites/skelh3.ppm
+10236 sprites/skelh4.ppm
+9285 sprites/skelh5.ppm
+10236 sprites/skelh6.ppm
+8685 sprites/skelh7.ppm
+9762 sprites/skelh8.ppm
+9639 sprites/skeli1.ppm
+11001 sprites/skeli2.ppm
+11748 sprites/skeli3.ppm
+9873 sprites/skeli4.ppm
+9756 sprites/skeli5.ppm
+9873 sprites/skeli6.ppm
+11748 sprites/skeli7.ppm
+11001 sprites/skeli8.ppm
+12573 sprites/skelj1.ppm
+12717 sprites/skelj2.ppm
+13773 sprites/skelj3.ppm
+14493 sprites/skelj4.ppm
+11775 sprites/skelj5.ppm
+14493 sprites/skelj6.ppm
+13773 sprites/skelj7.ppm
+12717 sprites/skelj8.ppm
+9762 sprites/skelk1.ppm
+9762 sprites/skelk2.ppm
+8685 sprites/skelk3.ppm
+10236 sprites/skelk4.ppm
+9285 sprites/skelk5.ppm
+10236 sprites/skelk6.ppm
+8685 sprites/skelk7.ppm
+9762 sprites/skelk8.ppm
+15354 sprites/skell1.ppm
+14736 sprites/skell2.ppm
+11115 sprites/skell3.ppm
+15417 sprites/skell4.ppm
+15855 sprites/skell5.ppm
+15417 sprites/skell6.ppm
+11115 sprites/skell7.ppm
+14736 sprites/skell8.ppm
+14409 sprites/skelm0.ppm
+9621 sprites/skeln0.ppm
+16695 sprites/skelo0.ppm
+13725 sprites/skelp0.ppm
+6045 sprites/skelq0.ppm
+6249 sprites/skula1.ppm
+6072 sprites/skula5.ppm
+5121 sprites/skula6a4.ppm
+5262 sprites/skula7a3.ppm
+4455 sprites/skula8a2.ppm
+5457 sprites/skulb1.ppm
+6072 sprites/skulb5.ppm
+4635 sprites/skulb6b4.ppm
+5040 sprites/skulb7b3.ppm
+4455 sprites/skulb8b2.ppm
+6249 sprites/skulc1.ppm
+6072 sprites/skulc5.ppm
+4635 sprites/skulc6c4.ppm
+5040 sprites/skulc7c3.ppm
+4455 sprites/skulc8c2.ppm
+6249 sprites/skuld1.ppm
+6072 sprites/skuld5.ppm
+4635 sprites/skuld6d4.ppm
+5040 sprites/skuld7d3.ppm
+4455 sprites/skuld8d2.ppm
+6249 sprites/skule1.ppm
+6072 sprites/skule5.ppm
+4635 sprites/skule6e4.ppm
+5040 sprites/skule7e3.ppm
+4455 sprites/skule8e2.ppm
+6249 sprites/skulf0.ppm
+6249 sprites/skulg0.ppm
+6669 sprites/skulh0.ppm
+6669 sprites/skuli0.ppm
+13917 sprites/skulj0.ppm
+17784 sprites/skulk0.ppm
+4365 sprites/smbta0.ppm
+4365 sprites/smbtb0.ppm
+4365 sprites/smbtc0.ppm
+4365 sprites/smbtd0.ppm
+4365 sprites/smgta0.ppm
+4365 sprites/smgtb0.ppm
+4365 sprites/smgtc0.ppm
+4365 sprites/smgtd0.ppm
+12333 sprites/smita0.ppm
+4365 sprites/smrta0.ppm
+4365 sprites/smrtb0.ppm
+4365 sprites/smrtc0.ppm
+4365 sprites/smrtd0.ppm
+2880 sprites/smt2a0.ppm
+1920 sprites/soula0.ppm
+1920 sprites/soulb0.ppm
+1920 sprites/soulc0.ppm
+1920 sprites/sould0.ppm
+76847 sprites/spida1.ppm
+76847 sprites/spida2.ppm
+76847 sprites/spida3.ppm
+76847 sprites/spida4.ppm
+76847 sprites/spida5.ppm
+76847 sprites/spida6.ppm
+76847 sprites/spida7.ppm
+76847 sprites/spida8.ppm
+76847 sprites/spidb1.ppm
+76847 sprites/spidb2.ppm
+76847 sprites/spidb3.ppm
+76847 sprites/spidb4.ppm
+76847 sprites/spidb5.ppm
+76847 sprites/spidb6.ppm
+76847 sprites/spidb7.ppm
+76847 sprites/spidb8.ppm
+76847 sprites/spidc1.ppm
+76847 sprites/spidc2.ppm
+76847 sprites/spidc3.ppm
+76847 sprites/spidc4.ppm
+76847 sprites/spidc5.ppm
+76847 sprites/spidc6.ppm
+76847 sprites/spidc7.ppm
+76847 sprites/spidc8.ppm
+76847 sprites/spidd1.ppm
+76847 sprites/spidd2.ppm
+76847 sprites/spidd3.ppm
+76847 sprites/spidd4.ppm
+76847 sprites/spidd5.ppm
+76847 sprites/spidd6.ppm
+76847 sprites/spidd7.ppm
+76847 sprites/spidd8.ppm
+76847 sprites/spide1.ppm
+76847 sprites/spide2.ppm
+76847 sprites/spide3.ppm
+76847 sprites/spide4.ppm
+76847 sprites/spide5.ppm
+76847 sprites/spide6.ppm
+76847 sprites/spide7.ppm
+76847 sprites/spide8.ppm
+76847 sprites/spidf1.ppm
+76847 sprites/spidf2.ppm
+76847 sprites/spidf3.ppm
+76847 sprites/spidf4.ppm
+76847 sprites/spidf5.ppm
+76847 sprites/spidf6.ppm
+76847 sprites/spidf7.ppm
+76847 sprites/spidf8.ppm
+76847 sprites/spidg1.ppm
+76847 sprites/spidg2.ppm
+76847 sprites/spidg3.ppm
+76847 sprites/spidg4.ppm
+76847 sprites/spidg5.ppm
+76847 sprites/spidg6.ppm
+76847 sprites/spidg7.ppm
+76847 sprites/spidg8.ppm
+76847 sprites/spidh1.ppm
+76847 sprites/spidh2.ppm
+76847 sprites/spidh3.ppm
+76847 sprites/spidh4.ppm
+76847 sprites/spidh5.ppm
+76847 sprites/spidh6.ppm
+76847 sprites/spidh7.ppm
+76847 sprites/spidh8.ppm
+76847 sprites/spidi1.ppm
+76847 sprites/spidi2.ppm
+76847 sprites/spidi3.ppm
+76847 sprites/spidi4.ppm
+76847 sprites/spidi5.ppm
+76847 sprites/spidi6.ppm
+76847 sprites/spidi7.ppm
+76847 sprites/spidi8.ppm
+76847 sprites/spidj1.ppm
+76847 sprites/spidj2.ppm
+76847 sprites/spidj3.ppm
+76847 sprites/spidj4.ppm
+76847 sprites/spidj5.ppm
+76847 sprites/spidj6.ppm
+76847 sprites/spidj7.ppm
+76847 sprites/spidj8.ppm
+76847 sprites/spidk0.ppm
+76847 sprites/spidl0.ppm
+76847 sprites/spidm0.ppm
+76847 sprites/spidn0.ppm
+76847 sprites/spido0.ppm
+76847 sprites/spidp0.ppm
+76847 sprites/spidq0.ppm
+76847 sprites/spidr0.ppm
+76847 sprites/spids0.ppm
+5985 sprites/sposa1.ppm
+5229 sprites/sposa2a8.ppm
+6405 sprites/sposa3a7.ppm
+6795 sprites/sposa4a6.ppm
+5400 sprites/sposa5.ppm
+5820 sprites/sposb1.ppm
+4419 sprites/sposb2b8.ppm
+5421 sprites/sposb3b7.ppm
+6525 sprites/sposb4b6.ppm
+5553 sprites/sposb5.ppm
+5325 sprites/sposc1.ppm
+4743 sprites/sposc2c8.ppm
+6315 sprites/sposc3c7.ppm
+6480 sprites/sposc4c6.ppm
+5655 sprites/sposc5.ppm
+5655 sprites/sposd1.ppm
+4665 sprites/sposd2d8.ppm
+4995 sprites/sposd3d7.ppm
+6315 sprites/sposd4d6.ppm
+5820 sprites/sposd5.ppm
+4335 sprites/spose1.ppm
+6363 sprites/spose2e8.ppm
+7041 sprites/spose3e7.ppm
+5349 sprites/spose4e6.ppm
+4023 sprites/spose5.ppm
+4500 sprites/sposf1.ppm
+7011 sprites/sposf2f8.ppm
+7836 sprites/sposf3f7.ppm
+6441 sprites/sposf4f6.ppm
+3717 sprites/sposf5.ppm
+5160 sprites/sposg1.ppm
+5391 sprites/sposg2g8.ppm
+6882 sprites/sposg3g7.ppm
+6753 sprites/sposg4g6.ppm
+4974 sprites/sposg5.ppm
+5985 sprites/sposh0.ppm
+5295 sprites/sposi0.ppm
+4455 sprites/sposj0.ppm
+3933 sprites/sposk0.ppm
+2697 sprites/sposl0.ppm
+6417 sprites/sposm0.ppm
+8043 sprites/sposn0.ppm
+8829 sprites/sposo0.ppm
+8790 sprites/sposp0.ppm
+8460 sprites/sposq0.ppm
+7398 sprites/sposr0.ppm
+6201 sprites/sposs0.ppm
+4491 sprites/spost0.ppm
+3636 sprites/sposu0.ppm
+6849 sprites/sswva1.ppm
+4797 sprites/sswva2a8.ppm
+5271 sprites/sswva3a7.ppm
+6879 sprites/sswva4a6.ppm
+7479 sprites/sswva5.ppm
+7455 sprites/sswvb1.ppm
+6777 sprites/sswvb2b8.ppm
+5613 sprites/sswvb3b7.ppm
+5157 sprites/sswvb4b6.ppm
+6309 sprites/sswvb5.ppm
+6660 sprites/sswvc1.ppm
+6573 sprites/sswvc2c8.ppm
+5115 sprites/sswvc3c7.ppm
+4869 sprites/sswvc4c6.ppm
+7416 sprites/sswvc5.ppm
+6240 sprites/sswvd1.ppm
+4581 sprites/sswvd2d8.ppm
+5229 sprites/sswvd3d7.ppm
+6090 sprites/sswvd4d6.ppm
+7794 sprites/sswvd5.ppm
+6381 sprites/sswve1.ppm
+5700 sprites/sswve2e8.ppm
+4725 sprites/sswve3e7.ppm
+4941 sprites/sswve4e6.ppm
+7389 sprites/sswve5.ppm
+6369 sprites/sswvf1.ppm
+6462 sprites/sswvf2f8.ppm
+9012 sprites/sswvf3f7.ppm
+5634 sprites/sswvf4f6.ppm
+7389 sprites/sswvf5.ppm
+6369 sprites/sswvg1.ppm
+7083 sprites/sswvg2g8.ppm
+9927 sprites/sswvg3g7.ppm
+6669 sprites/sswvg4g6.ppm
+7593 sprites/sswvg5.ppm
+7149 sprites/sswvh1.ppm
+5613 sprites/sswvh2h8.ppm
+4323 sprites/sswvh3h7.ppm
+5229 sprites/sswvh4h6.ppm
+7299 sprites/sswvh5.ppm
+9159 sprites/sswvi0.ppm
+10833 sprites/sswvj0.ppm
+8946 sprites/sswvk0.ppm
+5013 sprites/sswvl0.ppm
+3117 sprites/sswvm0.ppm
+10602 sprites/sswvn0.ppm
+11652 sprites/sswvo0.ppm
+12645 sprites/sswvp0.ppm
+14301 sprites/sswvq0.ppm
+13695 sprites/sswvr0.ppm
+7398 sprites/sswvs0.ppm
+6201 sprites/sswvt0.ppm
+4491 sprites/sswvu0.ppm
+3636 sprites/sswvv0.ppm
+810 sprites/stima0.ppm
+3909 sprites/suita0.ppm
+7533 sprites/tblua0.ppm
+7533 sprites/tblub0.ppm
+7533 sprites/tbluc0.ppm
+7533 sprites/tblud0.ppm
+9045 sprites/tfoga0.ppm
+9045 sprites/tfogb0.ppm
+9045 sprites/tfogc0.ppm
+9045 sprites/tfogd0.ppm
+9045 sprites/tfoge0.ppm
+9045 sprites/tfogf0.ppm
+9045 sprites/tfogg0.ppm
+9045 sprites/tfogh0.ppm
+9045 sprites/tfogi0.ppm
+9045 sprites/tfogj0.ppm
+7533 sprites/tgrna0.ppm
+7533 sprites/tgrnb0.ppm
+7533 sprites/tgrnc0.ppm
+7533 sprites/tgrnd0.ppm
+5565 sprites/tlmpa0.ppm
+5565 sprites/tlmpb0.ppm
+5565 sprites/tlmpc0.ppm
+5565 sprites/tlmpd0.ppm
+3825 sprites/tlp2a0.ppm
+3825 sprites/tlp2b0.ppm
+3825 sprites/tlp2c0.ppm
+3825 sprites/tlp2d0.ppm
+10755 sprites/tre1a0.ppm
+46175 sprites/tre2a0.ppm
+7533 sprites/treda0.ppm
+7533 sprites/tredb0.ppm
+7533 sprites/tredc0.ppm
+7533 sprites/tredd0.ppm
+11763 sprites/trooa1.ppm
+9153 sprites/trooa2a8.ppm
+10647 sprites/trooa3a7.ppm
+12699 sprites/trooa4a6.ppm
+12525 sprites/trooa5.ppm
+7797 sprites/troob1.ppm
+8946 sprites/troob2b8.ppm
+15291 sprites/troob3b7.ppm
+17784 sprites/troob4b6.ppm
+7272 sprites/troob5.ppm
+9894 sprites/trooc1.ppm
+10698 sprites/trooc2c8.ppm
+13509 sprites/trooc3c7.ppm
+8253 sprites/trooc4c6.ppm
+11025 sprites/trooc5.ppm
+7065 sprites/trood1.ppm
+7569 sprites/trood2d8.ppm
+13653 sprites/trood3d7.ppm
+15489 sprites/trood4d6.ppm
+6957 sprites/trood5.ppm
+11925 sprites/trooe1.ppm
+12051 sprites/trooe2e8.ppm
+12465 sprites/trooe3e7.ppm
+17433 sprites/trooe4e6.ppm
+13890 sprites/trooe5.ppm
+8937 sprites/troof1.ppm
+7182 sprites/troof2f8.ppm
+13383 sprites/troof3f7.ppm
+14922 sprites/troof4f6.ppm
+8301 sprites/troof5.ppm
+9012 sprites/troog1.ppm
+12645 sprites/troog2g8.ppm
+16488 sprites/troog3g7.ppm
+10188 sprites/troog4g6.ppm
+13365 sprites/troog5.ppm
+12333 sprites/trooh1.ppm
+12693 sprites/trooh2h8.ppm
+17793 sprites/trooh3h7.ppm
+20691 sprites/trooh4h6.ppm
+13623 sprites/trooh5.ppm
+12333 sprites/trooi0.ppm
+11007 sprites/trooj0.ppm
+8646 sprites/trook0.ppm
+9747 sprites/trool0.ppm
+7149 sprites/troom0.ppm
+12333 sprites/troon0.ppm
+11007 sprites/trooo0.ppm
+8646 sprites/troop0.ppm
+9747 sprites/trooq0.ppm
+7149 sprites/troor0.ppm
+7149 sprites/troos0.ppm
+7149 sprites/troot0.ppm
+7149 sprites/troou0.ppm
+3081 sprites/vile[1.ppm
+3081 sprites/vile[2.ppm
+3081 sprites/vile[3.ppm
+3081 sprites/vile[4.ppm
+3081 sprites/vile[5.ppm
+3081 sprites/vile[6.ppm
+3081 sprites/vile[7.ppm
+3081 sprites/vile[8.ppm
+3081 sprites/vile\1.ppm
+3081 sprites/vile\2.ppm
+3081 sprites/vile\3.ppm
+3081 sprites/vile\4.ppm
+3081 sprites/vile\5.ppm
+3081 sprites/vile\6.ppm
+3081 sprites/vile\7.ppm
+3081 sprites/vile\8.ppm
+3081 sprites/vile]1.ppm
+3081 sprites/vile]2.ppm
+3081 sprites/vile]3.ppm
+3081 sprites/vile]4.ppm
+3081 sprites/vile]5.ppm
+3081 sprites/vile]6.ppm
+3081 sprites/vile]7.ppm
+3081 sprites/vile]8.ppm
+6183 sprites/vilea1d1.ppm
+8085 sprites/vilea2d8.ppm
+12717 sprites/vilea3d7.ppm
+10539 sprites/vilea4d6.ppm
+6165 sprites/vilea5d5.ppm
+7080 sprites/vilea6d4.ppm
+11904 sprites/vilea7d3.ppm
+10698 sprites/vilea8d2.ppm
+6255 sprites/vileb1e1.ppm
+9153 sprites/vileb2e8.ppm
+8235 sprites/vileb3e7.ppm
+4665 sprites/vileb4e6.ppm
+6255 sprites/vileb5e5.ppm
+9495 sprites/vileb6e4.ppm
+8235 sprites/vileb7e3.ppm
+5013 sprites/vileb8e2.ppm
+6975 sprites/vilec1f1.ppm
+9090 sprites/vilec2f8.ppm
+6975 sprites/vilec3f7.ppm
+5553 sprites/vilec4f6.ppm
+6876 sprites/vilec5f5.ppm
+9567 sprites/vilec6f4.ppm
+7185 sprites/vilec7f3.ppm
+5349 sprites/vilec8f2.ppm
+6480 sprites/vileg1.ppm
+6480 sprites/vileg2.ppm
+8037 sprites/vileg3.ppm
+9813 sprites/vileg4.ppm
+6675 sprites/vileg5.ppm
+4833 sprites/vileg6.ppm
+8595 sprites/vileg7.ppm
+8430 sprites/vileg8.ppm
+6480 sprites/vileh1.ppm
+6480 sprites/vileh2.ppm
+8037 sprites/vileh3.ppm
+9813 sprites/vileh4.ppm
+6675 sprites/vileh5.ppm
+4833 sprites/vileh6.ppm
+8595 sprites/vileh7.ppm
+8430 sprites/vileh8.ppm
+6480 sprites/vilei1.ppm
+6480 sprites/vilei2.ppm
+8037 sprites/vilei3.ppm
+9813 sprites/vilei4.ppm
+6675 sprites/vilei5.ppm
+4833 sprites/vilei6.ppm
+8595 sprites/vilei7.ppm
+8430 sprites/vilei8.ppm
+11565 sprites/vilej1.ppm
+12045 sprites/vilej2.ppm
+12045 sprites/vilej3.ppm
+9645 sprites/vilej4.ppm
+10845 sprites/vilej5.ppm
+12045 sprites/vilej6.ppm
+12765 sprites/vilej7.ppm
+9645 sprites/vilej8.ppm
+11565 sprites/vilek1.ppm
+12045 sprites/vilek2.ppm
+12045 sprites/vilek3.ppm
+9645 sprites/vilek4.ppm
+10845 sprites/vilek5.ppm
+12045 sprites/vilek6.ppm
+12765 sprites/vilek7.ppm
+9645 sprites/vilek8.ppm
+7437 sprites/vilel1.ppm
+6372 sprites/vilel2.ppm
+8937 sprites/vilel3.ppm
+11877 sprites/vilel4.ppm
+8541 sprites/vilel5.ppm
+6345 sprites/vilel6.ppm
+10134 sprites/vilel7.ppm
+10137 sprites/vilel8.ppm
+7437 sprites/vilem1.ppm
+6372 sprites/vilem2.ppm
+8937 sprites/vilem3.ppm
+11877 sprites/vilem4.ppm
+8541 sprites/vilem5.ppm
+6345 sprites/vilem6.ppm
+10134 sprites/vilem7.ppm
+10137 sprites/vilem8.ppm
+7437 sprites/vilen1.ppm
+6372 sprites/vilen2.ppm
+8937 sprites/vilen3.ppm
+11877 sprites/vilen4.ppm
+8541 sprites/vilen5.ppm
+6345 sprites/vilen6.ppm
+10134 sprites/vilen7.ppm
+10137 sprites/vilen8.ppm
+7569 sprites/vileo1.ppm
+8097 sprites/vileo2.ppm
+9108 sprites/vileo3.ppm
+10311 sprites/vileo4.ppm
+6714 sprites/vileo5.ppm
+7965 sprites/vileo6.ppm
+9108 sprites/vileo7.ppm
+9450 sprites/vileo8.ppm
+7569 sprites/vilep1.ppm
+8097 sprites/vilep2.ppm
+9108 sprites/vilep3.ppm
+10311 sprites/vilep4.ppm
+6714 sprites/vilep5.ppm
+7965 sprites/vilep6.ppm
+9108 sprites/vilep7.ppm
+9450 sprites/vilep8.ppm
+7437 sprites/vileq1.ppm
+6372 sprites/vileq2.ppm
+8937 sprites/vileq3.ppm
+11877 sprites/vileq4.ppm
+8541 sprites/vileq5.ppm
+6345 sprites/vileq6.ppm
+10134 sprites/vileq7.ppm
+10137 sprites/vileq8.ppm
+9945 sprites/viler0.ppm
+9210 sprites/viles0.ppm
+11745 sprites/vilet0.ppm
+12333 sprites/vileu0.ppm
+10311 sprites/vilev0.ppm
+2154 sprites/vilew0.ppm
+2154 sprites/vilex0.ppm
+2154 sprites/viley0.ppm
+2154 sprites/vilez0.ppm
+717 sprites/ykeya0.ppm
+717 sprites/ykeyb0.ppm
+669 sprites/yskua0.ppm
+669 sprites/yskub0.ppm
+21974850 total

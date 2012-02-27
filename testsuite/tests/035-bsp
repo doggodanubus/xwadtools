@@ -1,0 +1,4 @@
+#!/bin/sh
+
+../bsp/bsp input/map01.wad.nobsp -o output/map01.wad.bsp
+sh md5sum.sh output/map01.wad.bsp

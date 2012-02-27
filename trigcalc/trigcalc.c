@@ -239,10 +239,29 @@ static char *LiftDelays[] =
 static char *Steps[] =
 {"s4", "s8", "s16", "s24"};
 
+#ifndef __MINGW32__
+int use_termios = 1;
+#endif
+
+int getone_no_termios(void) {
+	int ignore = 0;
+	int ret = getchar();
+	while( ignore != '\n' && ignore != EOF )
+		ignore = getchar();
+
+	return ret;
+}
+
 int getone(void)
 {
+#ifdef __MINGW32__
+	return getone_no_termios();
+#else
 	struct termios	old, new;
 	int		ret;
+
+	if(!use_termios)
+		return getone_no_termios();
 
 	tcgetattr(fileno(stdin), &old);
 	new = old;
@@ -260,7 +279,9 @@ int getone(void)
 
 	tcsetattr(fileno(stdin), TCSADRAIN, &old);
 
+	printf("\n");
 	return ret;
+#endif
 }
 
 char *ParseGeneralizedLinedef(int type)
@@ -455,13 +476,15 @@ int main(int argc, char **argv)
 	int forc = 0;
 	int set = 0;
 
+	if(argc == 2 && argv[1][0] == '-')
+		use_termios = 0;
+
 top:
 	ch = 0;
 	printf("Floor, Ceil, Door, Keydoor, Lift, Stair, or cRrusher?"
 	       " [F/c/d/k/l/s/r]: ");
 	fflush(stdout);
 	ch = getone();
-	printf("\n");
 
 	switch (tolower(ch))
 	{
@@ -476,14 +499,12 @@ top:
 			printf("Crushing [N/y]: ");
 			fflush(stdout);
 			ch = getone();
-			printf("\n");
 			if (tolower(ch) == 'y') trig += (1 << FloorCrushShift);
 
 			ch = 0;
 			printf("Speed [0=Slow, 1=Normal, 2=Fast, 3=Turbo]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << FloorSpeedShift);
 
@@ -492,7 +513,6 @@ top:
 			       " 2=text only 3=text & type]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << FloorChangeShift);
 
@@ -503,7 +523,6 @@ top:
 				       " [T(rigger)/n(umeric)]: ");
 				fflush(stdout);
 				ch = getone();
-				printf("\n");
 				if (tolower(ch) == 'n')
 					trig += (1 << FloorModelShift);
 			}
@@ -513,7 +532,6 @@ top:
 				printf("Allow monster activation [N/y]: ");
 				fflush(stdout);
 				ch = getone();
-				printf("\n");
 				if (tolower(ch) == 'y')
 					trig += (1 << FloorModelShift);
 			}
@@ -527,7 +545,6 @@ top:
 				       " 3:HnF, 4:F 5:sT 6:24 7:32]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 7) ch = 7;
 			trig += (ch << FloorTargetShift);
 
@@ -535,7 +552,6 @@ top:
 			printf("Direction [U/d]: ");
 			fflush(stdout);
 			ch = getone();
-			printf("\n");
 			if (tolower(ch) != 'd')
 				trig += (1 << FloorDirectionShift);
 
@@ -550,7 +566,6 @@ top:
 			       " 2=Close-Open, 3=Close]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << DoorKindShift);
 
@@ -559,7 +574,6 @@ top:
 			       " 3=Turbo]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << DoorSpeedShift);
 
@@ -567,7 +581,6 @@ top:
 			printf("Allow monster activation [N/y]: ");
 			fflush(stdout);
 			ch = getone();
-			printf("\n");
 			if (tolower(ch) == 'y')
 				trig += (1 << DoorMonsterShift);
 
@@ -576,7 +589,6 @@ top:
 			       " 3=30sec]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << DoorDelayShift);
 
@@ -590,7 +602,6 @@ top:
 			printf("Kind of Door [0=Open-Close, 1=Open]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 1) ch = 1;
 			trig += (ch << LockedKindShift);
 
@@ -599,7 +610,6 @@ top:
 			       " 3=Turbo]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << LockedSpeedShift);
 
@@ -608,7 +618,6 @@ top:
 			       " 5=BS, 6=YS, 7=All]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 7) ch = 7;
 			trig += (ch << LockedKeyShift);
 
@@ -617,7 +626,6 @@ top:
 			       " for this door? [Y/n]: ");
 			fflush(stdout);
 			ch = getone();
-			printf("\n");
 			if (tolower(ch) != 'n')
 				trig += (1 << LockedNKeysShift);
 
@@ -631,7 +639,6 @@ top:
 			printf("Target [0:LnF 1:NnF, 2:LnC, 3:Perpetual]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << LiftTargetShift);
 
@@ -640,7 +647,6 @@ top:
 			       " 3=10 sec]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << LiftDelayShift);
 
@@ -648,7 +654,6 @@ top:
 			printf("Allow monster activation [N/y]: ");
 			fflush(stdout);
 			ch = getone();
-			printf("\n");
 			if (tolower(ch) == 'y')
 				trig += (1 << LiftMonsterShift);
 
@@ -657,7 +662,6 @@ top:
 			       " 3=Turbo]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << LiftSpeedShift);
 
@@ -671,7 +675,6 @@ top:
 			printf("Direction [U/d]: ");
 			fflush(stdout);
 			ch = getone();
-			printf("\n");
 			if (tolower(ch) != 'd')
 				trig += (1 << StairDirectionShift);
 
@@ -679,7 +682,6 @@ top:
 			printf("Step Size [0=4, 1=8, 2=16, 3=24]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << StairStepShift);
 
@@ -688,7 +690,6 @@ top:
 			printf("Ignore texture difference? [N/y]: ");
 			fflush(stdout);
 			ch = getone();
-			printf("\n");
 			if (tolower(ch) == 'y')
 				trig += (1 << StairIgnoreShift);
 
@@ -696,7 +697,6 @@ top:
 			printf("Allow monster activation [N/y]: ");
 			fflush(stdout);
 			ch = getone();
-			printf("\n");
 			if (tolower(ch) == 'y')
 				trig += (1 << StairMonsterShift);
 
@@ -705,7 +705,6 @@ top:
 			       " 3=Turbo]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << StairSpeedShift);
 
@@ -720,7 +719,6 @@ top:
 			printf("Silent Crusher? [N/y]: ");
 			fflush(stdout);
 			ch = getone();
-			printf("\n");
 			if (tolower(ch) == 'y')
 				trig += (1 << CrusherSilentShift);
 
@@ -728,7 +726,6 @@ top:
 			printf("Allow monster activation [N/y]: ");
 			fflush(stdout);
 			ch = getone();
-			printf("\n");
 			if (tolower(ch) == 'y')
 				trig += (1 << CrusherMonsterShift);
 
@@ -737,7 +734,6 @@ top:
 			       " 2=Fast, 3=Turbo]: ");
 			fflush(stdout);
 			ch = getone() - '0';
-			printf("\n");
 			if (0 > ch) ch = 0; if (ch > 3) ch = 3;
 			trig += (ch << CrusherSpeedShift);
 
@@ -755,7 +751,6 @@ top:
 		       " 5=GR, 6=D1, 7=DR]: ");
 		fflush(stdout);
 		ch = getone() - '0';
-		printf("\n");
 		if (0 > ch) ch = 0; if (ch > 7) ch = 7;
 		trig += (ch << TriggerTypeShift);
 
@@ -767,7 +762,6 @@ top:
 		       " is this correct? [Y/n/Q(uit)]: ", p);
 		fflush(stdout);
 		ch = getone();
-		printf("\n");
 		if (tolower(ch) == 'n')
 			goto top;
 	}

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# "dirty" test, doesn't write to output/
+rm -rf patches
+../wadpat/wadpat "$IWAD"
+wc -c patches/* | sed 's/^ *//'

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../wadps/wadps "$IWAD" | grep -v freedoom

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+../wadext/wadext "$IWAD" D_RUNNIN output/D_RUNNIN.lmp
+sh md5sum.sh output/D_RUNNIN.lmp

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+../mkgipal/mkgipal
+../mkgipal/mkgipal -c heretic
+../mkgipal/mkgipal -c hexen
+../mkgipal/mkgipal -c strife

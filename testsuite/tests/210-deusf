@@ -1,0 +1,13 @@
+#!/bin/sh
+
+rm -rf output/deusf
+mkdir -p output/deusf
+cp "$IWAD" output/deusf/doom2.wad
+cd output/deusf
+
+# For now, until deutex is smarter (see TODO)
+DOOMWADDIR=.
+export DOOMWADDIR
+
+../../../deutex/deusf -add doom2.wad output.wad
+sh ../../md5sum.sh output.wad

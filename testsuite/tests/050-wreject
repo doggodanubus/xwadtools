@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cp input/map02.wad output/wreject.wad
+../reject/wreject output/wreject.wad MAP02 600
+sh md5sum.sh output/wreject.wad

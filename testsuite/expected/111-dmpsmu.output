@@ -1,0 +1,10 @@
+DMPSMU: DooM PostScript Maps Utility, ver 2.6
+ By Frans P. de Vries (fpv@xymph.iaf.nl)
+
+
+[? for help]> 
+Outputting PostScript map of level MAP01 to "output/dmpsmu.ps".
+
+[? for help]> 
+Goodbye...
+3bcc873f33ac3b67295d4d80b0752317  output/dmpsmap.ps

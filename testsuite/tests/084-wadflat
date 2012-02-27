@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# "dirty" test, doesn't write to output/
+rm -rf flats
+../wadflat/wadflat "$IWAD"
+wc -c flats/* | sed 's/^ *//'

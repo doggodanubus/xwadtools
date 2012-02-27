@@ -1,0 +1,4 @@
+#!/bin/sh
+
+( echo p 0 1 output/dmpsmu.ps ; echo q ) | ../dmpsmu/source/dmpsmu -w "$IWAD" | grep -v Derived | grep -v freedoom.wad
+sh md5sum.sh output/dmpsmap.ps

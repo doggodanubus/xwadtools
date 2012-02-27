@@ -1,0 +1,11 @@
+#!/bin/sh
+
+PATH=../wadwhich:../wadldc:../wadlc:../lswad:../warm:$PATH
+export PATH
+
+rm -f *.wcgmap
+ln -s ../wadconvgame/*.wcgmap .
+../wadconvgame/wadconvgame -o output/converted.wad input/map01.wad
+../lswad/lswad output/converted.wad
+sh md5sum.sh output/converted.wad
+rm -f *.wcgmap

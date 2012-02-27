@@ -1,0 +1,12 @@
+===============================================================================
+              Quick MUS->MID v2.0 ! (C) 1995,96 Sebastien Bacquet
+                        E-mail : bacquet@iie.cnam.fr
+===============================================================================
+input/D_RUNNIN.lmp (28395 bytes) contains 6 melodic channels.
+Converting...done !
+Playing time : 3'56''.
+Writing...done !
+Compression : 24%.
+input/D_RUNNIN.lmp converted successfully.
+output/D_RUNNIN.mid (compressed) written : 36027 bytes.
+479ce925cd66646e90fc4585edb8d067  output/D_RUNNIN.mid

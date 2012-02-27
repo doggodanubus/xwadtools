@@ -1,0 +1,19 @@
+* Doom BSP node builder ver 4.0 (c) 1998 Colin Reed, Lee Killough *
+Opened PWAD file : input/map01.wad.nobsp. 11 dir entries at 0x2E39A.
+
+Creating nodes using tunable factor of 17
+
+Building nodes on MAP01
+
+Loaded 2506 vertices, but 446 were unused
+(this is normal if the nodes were built before).
+
+Creating Segs ..........
+Map goes from (-1424,-1792) to (2624,2240)
+1876 NODES created, with 1877 SSECTORS.
+Found 2761 used vertices
+Heights of left and right subtrees = (33,112)
+Completed blockmap building
+
+Saved WAD as output/map01.wad.bsp
+3b0902f3e7ca7ba384d249957da59835  output/map01.wad.bsp

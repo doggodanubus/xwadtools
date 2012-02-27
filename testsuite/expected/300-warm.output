@@ -1,0 +1,3469 @@
+
+                       WAD Auxiliary Resource Manipulator
+      Version 1.6 of January 1996 by Robert Fenske, Jr (rfenske@swri.edu)
+        Ported to OS/2 by Mark K. Mathews (mmathews@genesis.nred.ma.us)
+
+	MAP01...............0 bytes
+	  THINGS............1470 bytes (147)
+	  LINEDEFS..........37240 bytes (2660)
+	  SIDEDEFS..........127410 bytes (4247)
+	  VERTEXES..........10024 bytes (2506)
+	  SEGS..............56976 bytes (4748)
+	  SSECTORS..........6676 bytes (1669)
+	  NODES.............46704 bytes (1668)
+	  SECTORS...........13182 bytes (507)
+	  REJECT............32132 bytes
+	  BLOCKMAP..........12366 bytes (6183)
+	MAP02...............0 bytes
+	  THINGS............1960 bytes (196)
+	  LINEDEFS..........16464 bytes (1176)
+	  SIDEDEFS..........54690 bytes (1823)
+	  VERTEXES..........4504 bytes (1126)
+	  SEGS..............24240 bytes (2020)
+	  SSECTORS..........2292 bytes (573)
+	  NODES.............16016 bytes (572)
+	  SECTORS...........6422 bytes (247)
+	  REJECT............7627 bytes
+	  BLOCKMAP..........5830 bytes (2915)
+	MAP03...............0 bytes
+	  THINGS............4780 bytes (478)
+	  LINEDEFS..........40432 bytes (2888)
+	  SIDEDEFS..........132240 bytes (4408)
+	  VERTEXES..........13500 bytes (3375)
+	  SEGS..............63504 bytes (5292)
+	  SSECTORS..........6744 bytes (1686)
+	  NODES.............47180 bytes (1685)
+	  SECTORS...........12948 bytes (498)
+	  REJECT............31001 bytes
+	  BLOCKMAP..........15712 bytes (7856)
+	MAP04...............0 bytes
+	  THINGS............3250 bytes (325)
+	  LINEDEFS..........26684 bytes (1906)
+	  SIDEDEFS..........93090 bytes (3103)
+	  VERTEXES..........7488 bytes (1872)
+	  SEGS..............41688 bytes (3474)
+	  SSECTORS..........4496 bytes (1124)
+	  NODES.............31444 bytes (1123)
+	  SECTORS...........4186 bytes (161)
+	  REJECT............3241 bytes
+	  BLOCKMAP..........8418 bytes (4209)
+	MAP05...............0 bytes
+	  THINGS............3750 bytes (375)
+	  LINEDEFS..........19670 bytes (1405)
+	  SIDEDEFS..........61920 bytes (2064)
+	  VERTEXES..........5792 bytes (1448)
+	  SEGS..............27792 bytes (2316)
+	  SSECTORS..........3360 bytes (840)
+	  NODES.............23492 bytes (839)
+	  SECTORS...........5850 bytes (225)
+	  REJECT............6329 bytes
+	  BLOCKMAP..........7882 bytes (3941)
+	MAP06...............0 bytes
+	  THINGS............2150 bytes (215)
+	  LINEDEFS..........29708 bytes (2122)
+	  SIDEDEFS..........95790 bytes (3193)
+	  VERTEXES..........8052 bytes (2013)
+	  SEGS..............41448 bytes (3454)
+	  SSECTORS..........4204 bytes (1051)
+	  NODES.............29400 bytes (1050)
+	  SECTORS...........4498 bytes (173)
+	  REJECT............3742 bytes
+	  BLOCKMAP..........15610 bytes (7805)
+	MAP07...............0 bytes
+	  THINGS............750 bytes (75)
+	  LINEDEFS..........12684 bytes (906)
+	  SIDEDEFS..........46860 bytes (1562)
+	  VERTEXES..........4188 bytes (1047)
+	  SEGS..............23808 bytes (1984)
+	  SSECTORS..........2740 bytes (685)
+	  NODES.............19152 bytes (684)
+	  SECTORS...........5304 bytes (204)
+	  REJECT............5202 bytes
+	  BLOCKMAP..........4440 bytes (2220)
+	MAP08...............0 bytes
+	  THINGS............1580 bytes (158)
+	  LINEDEFS..........34916 bytes (2494)
+	  SIDEDEFS..........118680 bytes (3956)
+	  VERTEXES..........11148 bytes (2787)
+	  SEGS..............55116 bytes (4593)
+	  SSECTORS..........5924 bytes (1481)
+	  NODES.............41440 bytes (1480)
+	  SECTORS...........12220 bytes (470)
+	  REJECT............27613 bytes
+	  BLOCKMAP..........11888 bytes (5944)
+	MAP09...............0 bytes
+	  THINGS............3770 bytes (377)
+	  LINEDEFS..........41832 bytes (2988)
+	  SIDEDEFS..........138990 bytes (4633)
+	  VERTEXES..........11168 bytes (2792)
+	  SEGS..............61584 bytes (5132)
+	  SSECTORS..........6636 bytes (1659)
+	  NODES.............46424 bytes (1658)
+	  SECTORS...........14742 bytes (567)
+	  REJECT............40187 bytes
+	  BLOCKMAP..........21660 bytes (10830)
+	MAP10...............0 bytes
+	  THINGS............2640 bytes (264)
+	  LINEDEFS..........37534 bytes (2681)
+	  SIDEDEFS..........151770 bytes (5059)
+	  VERTEXES..........12240 bytes (3060)
+	  SEGS..............64056 bytes (5338)
+	  SSECTORS..........9096 bytes (2274)
+	  NODES.............63644 bytes (2273)
+	  SECTORS...........9204 bytes (354)
+	  REJECT............15665 bytes
+	  BLOCKMAP..........14828 bytes (7414)
+	MAP11...............0 bytes
+	  THINGS............5670 bytes (567)
+	  LINEDEFS..........38066 bytes (2719)
+	  SIDEDEFS..........117420 bytes (3914)
+	  VERTEXES..........10512 bytes (2628)
+	  SEGS..............51660 bytes (4305)
+	  SSECTORS..........5332 bytes (1333)
+	  NODES.............37296 bytes (1332)
+	  SECTORS...........12246 bytes (471)
+	  REJECT............27731 bytes
+	  BLOCKMAP..........21138 bytes (10569)
+	MAP12...............0 bytes
+	  THINGS............4810 bytes (481)
+	  LINEDEFS..........83524 bytes (5966)
+	  SIDEDEFS..........293910 bytes (9797)
+	  VERTEXES..........25052 bytes (6263)
+	  SEGS..............134112 bytes (11176)
+	  SSECTORS..........14708 bytes (3677)
+	  NODES.............102928 bytes (3676)
+	  SECTORS...........27170 bytes (1045)
+	  REJECT............136504 bytes
+	  BLOCKMAP..........43924 bytes (21962)
+	MAP13...............0 bytes
+	  THINGS............7140 bytes (714)
+	  LINEDEFS..........60816 bytes (4344)
+	  SIDEDEFS..........195450 bytes (6515)
+	  VERTEXES..........14468 bytes (3617)
+	  SEGS..............83544 bytes (6962)
+	  SSECTORS..........7728 bytes (1932)
+	  NODES.............54068 bytes (1931)
+	  SECTORS...........26884 bytes (1034)
+	  REJECT............133645 bytes
+	  BLOCKMAP..........23368 bytes (11684)
+	MAP14...............0 bytes
+	  THINGS............1530 bytes (153)
+	  LINEDEFS..........18508 bytes (1322)
+	  SIDEDEFS..........54360 bytes (1812)
+	  VERTEXES..........5044 bytes (1261)
+	  SEGS..............23376 bytes (1948)
+	  SSECTORS..........2668 bytes (667)
+	  NODES.............18648 bytes (666)
+	  SECTORS...........4316 bytes (166)
+	  REJECT............3445 bytes
+	  BLOCKMAP..........7892 bytes (3946)
+	MAP15...............0 bytes
+	  THINGS............5260 bytes (526)
+	  LINEDEFS..........108920 bytes (7780)
+	  SIDEDEFS..........356310 bytes (11877)
+	  VERTEXES..........28688 bytes (7172)
+	  SEGS..............153720 bytes (12810)
+	  SSECTORS..........15456 bytes (3864)
+	  NODES.............108164 bytes (3863)
+	  SECTORS...........33072 bytes (1272)
+	  REJECT............202248 bytes
+	  BLOCKMAP..........28068 bytes (14034)
+	MAP16...............0 bytes
+	  THINGS............2700 bytes (270)
+	  LINEDEFS..........29274 bytes (2091)
+	  SIDEDEFS..........96540 bytes (3218)
+	  VERTEXES..........8832 bytes (2208)
+	  SEGS..............42192 bytes (3516)
+	  SSECTORS..........5396 bytes (1349)
+	  NODES.............37744 bytes (1348)
+	  SECTORS...........5304 bytes (204)
+	  REJECT............5202 bytes
+	  BLOCKMAP..........12672 bytes (6336)
+	MAP17...............0 bytes
+	  THINGS............1890 bytes (189)
+	  LINEDEFS..........11760 bytes (840)
+	  SIDEDEFS..........43620 bytes (1454)
+	  VERTEXES..........3404 bytes (851)
+	  SEGS..............19500 bytes (1625)
+	  SSECTORS..........1824 bytes (456)
+	  NODES.............12740 bytes (455)
+	  SECTORS...........4498 bytes (173)
+	  REJECT............3742 bytes
+	  BLOCKMAP..........13136 bytes (6568)
+	MAP18...............0 bytes
+	  THINGS............2720 bytes (272)
+	  LINEDEFS..........26376 bytes (1884)
+	  SIDEDEFS..........84930 bytes (2831)
+	  VERTEXES..........8028 bytes (2007)
+	  SEGS..............39144 bytes (3262)
+	  SSECTORS..........5048 bytes (1262)
+	  NODES.............35308 bytes (1261)
+	  SECTORS...........6214 bytes (239)
+	  REJECT............7141 bytes
+	  BLOCKMAP..........16426 bytes (8213)
+	MAP19...............0 bytes
+	  THINGS............120 bytes (12)
+	  LINEDEFS..........322 bytes (23)
+	  SIDEDEFS..........960 bytes (32)
+	  VERTEXES..........100 bytes (25)
+	  SEGS..............420 bytes (35)
+	  SSECTORS..........40 bytes (10)
+	  NODES.............252 bytes (9)
+	  SECTORS...........104 bytes (4)
+	  REJECT............2 bytes
+	  BLOCKMAP..........134 bytes (67)
+	MAP20...............0 bytes
+	  THINGS............3110 bytes (311)
+	  LINEDEFS..........53746 bytes (3839)
+	  SIDEDEFS..........188430 bytes (6281)
+	  VERTEXES..........15232 bytes (3808)
+	  SEGS..............84276 bytes (7023)
+	  SSECTORS..........9740 bytes (2435)
+	  NODES.............68152 bytes (2434)
+	  SECTORS...........14352 bytes (552)
+	  REJECT............38088 bytes
+	  BLOCKMAP..........22030 bytes (11015)
+	MAP21...............0 bytes
+	  THINGS............2830 bytes (283)
+	  LINEDEFS..........10276 bytes (734)
+	  SIDEDEFS..........33390 bytes (1113)
+	  VERTEXES..........3252 bytes (813)
+	  SEGS..............15156 bytes (1263)
+	  SSECTORS..........1708 bytes (427)
+	  NODES.............11928 bytes (426)
+	  SECTORS...........3094 bytes (119)
+	  REJECT............1771 bytes
+	  BLOCKMAP..........5358 bytes (2679)
+	MAP22...............0 bytes
+	  THINGS............2250 bytes (225)
+	  LINEDEFS..........47866 bytes (3419)
+	  SIDEDEFS..........163020 bytes (5434)
+	  VERTEXES..........13332 bytes (3333)
+	  SEGS..............71328 bytes (5944)
+	  SSECTORS..........7676 bytes (1919)
+	  NODES.............53704 bytes (1918)
+	  SECTORS...........9984 bytes (384)
+	  REJECT............18432 bytes
+	  BLOCKMAP..........13572 bytes (6786)
+	MAP23...............0 bytes
+	  THINGS............11240 bytes (1124)
+	  LINEDEFS..........62412 bytes (4458)
+	  SIDEDEFS..........218730 bytes (7291)
+	  VERTEXES..........17416 bytes (4354)
+	  SEGS..............95616 bytes (7968)
+	  SSECTORS..........10524 bytes (2631)
+	  NODES.............73640 bytes (2630)
+	  SECTORS...........22334 bytes (859)
+	  REJECT............92236 bytes
+	  BLOCKMAP..........26650 bytes (13325)
+	MAP24...............0 bytes
+	  THINGS............2280 bytes (228)
+	  LINEDEFS..........20272 bytes (1448)
+	  SIDEDEFS..........70890 bytes (2363)
+	  VERTEXES..........5332 bytes (1333)
+	  SEGS..............31224 bytes (2602)
+	  SSECTORS..........2852 bytes (713)
+	  NODES.............19936 bytes (712)
+	  SECTORS...........8086 bytes (311)
+	  REJECT............12091 bytes
+	  BLOCKMAP..........9194 bytes (4597)
+	MAP25...............0 bytes
+	  THINGS............4180 bytes (418)
+	  LINEDEFS..........104146 bytes (7439)
+	  SIDEDEFS..........366240 bytes (12208)
+	  VERTEXES..........29988 bytes (7497)
+	  SEGS..............162084 bytes (13507)
+	  SSECTORS..........17864 bytes (4466)
+	  NODES.............125020 bytes (4465)
+	  SECTORS...........20722 bytes (797)
+	  REJECT............79402 bytes
+	  BLOCKMAP..........28056 bytes (14028)
+	MAP26...............0 bytes
+	  THINGS............4640 bytes (464)
+	  LINEDEFS..........24500 bytes (1750)
+	  SIDEDEFS..........68850 bytes (2295)
+	  VERTEXES..........5996 bytes (1499)
+	  SEGS..............28332 bytes (2361)
+	  SSECTORS..........3040 bytes (760)
+	  NODES.............21252 bytes (759)
+	  SECTORS...........7826 bytes (301)
+	  REJECT............11326 bytes
+	  BLOCKMAP..........8374 bytes (4187)
+	MAP27...............0 bytes
+	  THINGS............7560 bytes (756)
+	  LINEDEFS..........25508 bytes (1822)
+	  SIDEDEFS..........78120 bytes (2604)
+	  VERTEXES..........7144 bytes (1786)
+	  SEGS..............34512 bytes (2876)
+	  SSECTORS..........3916 bytes (979)
+	  NODES.............27384 bytes (978)
+	  SECTORS...........9360 bytes (360)
+	  REJECT............16200 bytes
+	  BLOCKMAP..........19290 bytes (9645)
+	MAP28...............0 bytes
+	  THINGS............7520 bytes (752)
+	  LINEDEFS..........138502 bytes (9893)
+	  SIDEDEFS..........487560 bytes (16252)
+	  VERTEXES..........39700 bytes (9925)
+	  SEGS..............213024 bytes (17752)
+	  SSECTORS..........25444 bytes (6361)
+	  NODES.............178080 bytes (6360)
+	  SECTORS...........30992 bytes (1192)
+	  REJECT............177608 bytes
+	  BLOCKMAP..........40138 bytes (20069)
+	MAP29...............0 bytes
+	  THINGS............4430 bytes (443)
+	  LINEDEFS..........17752 bytes (1268)
+	  SIDEDEFS..........58290 bytes (1943)
+	  VERTEXES..........6156 bytes (1539)
+	  SEGS..............31296 bytes (2608)
+	  SSECTORS..........3964 bytes (991)
+	  NODES.............27720 bytes (990)
+	  SECTORS...........3926 bytes (151)
+	  REJECT............2851 bytes
+	  BLOCKMAP..........11144 bytes (5572)
+	MAP30...............0 bytes
+	  THINGS............4560 bytes (456)
+	  LINEDEFS..........51170 bytes (3655)
+	  SIDEDEFS..........181440 bytes (6048)
+	  VERTEXES..........15576 bytes (3894)
+	  SEGS..............79872 bytes (6656)
+	  SSECTORS..........9932 bytes (2483)
+	  NODES.............69496 bytes (2482)
+	  SECTORS...........10530 bytes (405)
+	  REJECT............20504 bytes
+	  BLOCKMAP..........24646 bytes (12323)
+	MAP31...............0 bytes
+	  THINGS............3370 bytes (337)
+	  LINEDEFS..........61180 bytes (4370)
+	  SIDEDEFS..........216930 bytes (7231)
+	  VERTEXES..........15164 bytes (3791)
+	  SEGS..............93948 bytes (7829)
+	  SSECTORS..........9872 bytes (2468)
+	  NODES.............69076 bytes (2467)
+	  SECTORS...........27456 bytes (1056)
+	  REJECT............139392 bytes
+	  BLOCKMAP..........44926 bytes (22463)
+	MAP32...............0 bytes
+	  THINGS............120 bytes (12)
+	  LINEDEFS..........322 bytes (23)
+	  SIDEDEFS..........960 bytes (32)
+	  VERTEXES..........100 bytes (25)
+	  SEGS..............420 bytes (35)
+	  SSECTORS..........40 bytes (10)
+	  NODES.............252 bytes (9)
+	  SECTORS...........104 bytes (4)
+	  REJECT............2 bytes
+	  BLOCKMAP..........134 bytes (67)
+	PLAYPAL.............10752 bytes
+	COLORMAP............8448 bytes
+	ENDOOM..............4000 bytes
+	GENMIDI.............11908 bytes
+	FREEDOOM............1 bytes
+	DEMO1...............12750 bytes
+	DEMO2...............12506 bytes
+	DEMO3...............6498 bytes
+	C_START.............0 bytes
+	BLOODMAP............8704 bytes
+	BLUEMAP.............8704 bytes
+	LAVAMAP.............8704 bytes
+	NUKEMAP.............8704 bytes
+	FOGMAP..............8704 bytes
+	MFADEMAP............8776 bytes
+	C_END...............0 bytes
+	TEXTURE1............36936 bytes
+	PNAMES..............5932 bytes
+	DSPISTOL............11034 bytes
+	DSSHOTGN............21455 bytes
+	DSSGCOCK............5116 bytes
+	DSSAWUP.............26120 bytes
+	DSSAWIDL............28424 bytes
+	DSSAWFUL............46856 bytes
+	DSSAWHIT............34056 bytes
+	DSRLAUNC............17277 bytes
+	DSRXPLOD............43555 bytes
+	DSFIRSHT............44017 bytes
+	DSFIRXPL............22513 bytes
+	DSPSTART............26500 bytes
+	DSPSTOP.............24301 bytes
+	DSDOROPN............36379 bytes
+	DSDORCLS............36659 bytes
+	DSSTNMOV............2973 bytes
+	DSSWTCHN............18011 bytes
+	DSSWTCHX............8537 bytes
+	DSPLPAIN............17864 bytes
+	DSDMPAIN............17317 bytes
+	DSPOPAIN............8700 bytes
+	DSSLOP..............31207 bytes
+	DSITEMUP............2213 bytes
+	DSWPNUP.............5740 bytes
+	DSOOF...............8538 bytes
+	DSTELEPT............23684 bytes
+	DSPOSIT1............31437 bytes
+	DSPOSIT2............18933 bytes
+	DSPOSIT3............18856 bytes
+	DSBGSIT1............8562 bytes
+	DSBGSIT2............10331 bytes
+	DSSGTSIT............11608 bytes
+	DSBRSSIT............110488 bytes
+	DSSGTATK............22058 bytes
+	DSCLAW..............8968 bytes
+	DSPLDETH............16239 bytes
+	DSPDIEHI............33125 bytes
+	DSPODTH1............37124 bytes
+	DSPODTH2............16239 bytes
+	DSPODTH3............17500 bytes
+	DSBGDTH1............9305 bytes
+	DSBGDTH2............8723 bytes
+	DSSGTDTH............16323 bytes
+	DSBRSDTH............16953 bytes
+	DSPOSACT............22951 bytes
+	DSBGACT.............15948 bytes
+	DSDMACT.............8344 bytes
+	DSNOWAY.............3570 bytes
+	DSBAREXP............16336 bytes
+	DSPUNCH.............5109 bytes
+	DSTINK..............2639 bytes
+	DSBDOPN.............28175 bytes
+	DSBDCLS.............24294 bytes
+	DSITMBK.............15572 bytes
+	DSGETPOW............4520 bytes
+	DSPLASMA............28576 bytes
+	DSBFG...............38307 bytes
+	DSCACSIT............22599 bytes
+	DSCYBSIT............33480 bytes
+	DSSPISIT............150 bytes
+	DSSKLATK............11992 bytes
+	DSCACDTH............150 bytes
+	DSSKLDTH............8538 bytes
+	DSCYBDTH............150 bytes
+	DSSPIDTH............150 bytes
+	DSHOOF..............150 bytes
+	DSMETAL.............8293 bytes
+	DSDSHTGN............12130 bytes
+	DSDBOPN.............4541 bytes
+	DSDBCLS.............3006 bytes
+	DSDBLOAD............2823 bytes
+	DSVIPAIN............18367 bytes
+	DSMNPAIN............13758 bytes
+	DSPEPAIN............150 bytes
+	DSBSPSIT............150 bytes
+	DSKNTSIT............150 bytes
+	DSVILSIT............25612 bytes
+	DSMANSIT............32414 bytes
+	DSPESIT.............17512 bytes
+	DSSKEPCH............150 bytes
+	DSVILATK............24187 bytes
+	DSSKESWG............150 bytes
+	DSBSPDTH............150 bytes
+	DSVILDTH............29931 bytes
+	DSKNTDTH............150 bytes
+	DSPEDTH.............150 bytes
+	DSSKEDTH............150 bytes
+	DSBSPACT............150 bytes
+	DSBSPWLK............150 bytes
+	DSVILACT............36994 bytes
+	DSFLAME.............150 bytes
+	DSFLAMST............150 bytes
+	DSBOSPIT............150 bytes
+	DSBOSCUB............28843 bytes
+	DSBOSSIT............199976 bytes
+	DSBOSPN.............150 bytes
+	DSBOSDTH............202852 bytes
+	DSMANATK............150 bytes
+	DSMANDTH............17735 bytes
+	DSSSSIT.............10402 bytes
+	DSSSDTH.............20695 bytes
+	DSKEENPN............11931 bytes
+	DSKEENDT............26584 bytes
+	DSSKEACT............150 bytes
+	DSSKESIT............150 bytes
+	DSSKEATK............17277 bytes
+	DSRADIO.............9400 bytes
+	DPPISTOL............150 bytes
+	DPSHOTGN............150 bytes
+	DPSGCOCK............150 bytes
+	DPSAWUP.............150 bytes
+	DPSAWIDL............150 bytes
+	DPSAWFUL............150 bytes
+	DPSAWHIT............150 bytes
+	DPRLAUNC............150 bytes
+	DPRXPLOD............150 bytes
+	DPFIRSHT............150 bytes
+	DPFIRXPL............150 bytes
+	DPPSTART............150 bytes
+	DPPSTOP.............150 bytes
+	DPDOROPN............150 bytes
+	DPDORCLS............150 bytes
+	DPSTNMOV............150 bytes
+	DPSWTCHN............150 bytes
+	DPSWTCHX............150 bytes
+	DPPLPAIN............150 bytes
+	DPDMPAIN............150 bytes
+	DPPOPAIN............150 bytes
+	DPSLOP..............150 bytes
+	DPITEMUP............150 bytes
+	DPWPNUP.............150 bytes
+	DPOOF...............150 bytes
+	DPTELEPT............150 bytes
+	DPPOSIT1............150 bytes
+	DPPOSIT2............150 bytes
+	DPPOSIT3............150 bytes
+	DPBGSIT1............150 bytes
+	DPBGSIT2............150 bytes
+	DPSGTSIT............150 bytes
+	DPBRSSIT............150 bytes
+	DPSGTATK............150 bytes
+	DPCLAW..............150 bytes
+	DPPLDETH............150 bytes
+	DPPDIEHI............150 bytes
+	DPPODTH1............150 bytes
+	DPPODTH2............150 bytes
+	DPPODTH3............150 bytes
+	DPBGDTH1............150 bytes
+	DPBGDTH2............150 bytes
+	DPSGTDTH............150 bytes
+	DPBRSDTH............150 bytes
+	DPPOSACT............150 bytes
+	DPBGACT.............150 bytes
+	DPDMACT.............150 bytes
+	DPNOWAY.............150 bytes
+	DPBAREXP............150 bytes
+	DPPUNCH.............150 bytes
+	DPTINK..............150 bytes
+	DPBDOPN.............150 bytes
+	DPBDCLS.............150 bytes
+	DPITMBK.............150 bytes
+	DPGETPOW............150 bytes
+	DPPLASMA............150 bytes
+	DPBFG...............150 bytes
+	DPCACSIT............150 bytes
+	DPCYBSIT............150 bytes
+	DPSPISIT............150 bytes
+	DPSKLATK............150 bytes
+	DPCACDTH............150 bytes
+	DPSKLDTH............150 bytes
+	DPCYBDTH............150 bytes
+	DPSPIDTH............150 bytes
+	DPHOOF..............150 bytes
+	DPMETAL.............150 bytes
+	DPDSHTGN............150 bytes
+	DPDBOPN.............150 bytes
+	DPDBCLS.............150 bytes
+	DPDBLOAD............150 bytes
+	DPVIPAIN............150 bytes
+	DPMNPAIN............150 bytes
+	DPPEPAIN............150 bytes
+	DPBSPSIT............150 bytes
+	DPKNTSIT............150 bytes
+	DPVILSIT............150 bytes
+	DPMANSIT............150 bytes
+	DPPESIT.............150 bytes
+	DPSKEPCH............150 bytes
+	DPVILATK............150 bytes
+	DPSKESWG............150 bytes
+	DPBSPDTH............150 bytes
+	DPVILDTH............150 bytes
+	DPKNTDTH............150 bytes
+	DPPEDTH.............150 bytes
+	DPSKEDTH............150 bytes
+	DPBSPACT............150 bytes
+	DPBSPWLK............150 bytes
+	DPVILACT............150 bytes
+	DPFLAME.............150 bytes
+	DPFLAMST............150 bytes
+	DPBOSPIT............150 bytes
+	DPBOSCUB............150 bytes
+	DPBOSSIT............150 bytes
+	DPBOSPN.............150 bytes
+	DPBOSDTH............150 bytes
+	DPMANATK............150 bytes
+	DPMANDTH............150 bytes
+	DPSSSIT.............150 bytes
+	DPSSDTH.............150 bytes
+	DPKEENPN............150 bytes
+	DPKEENDT............150 bytes
+	DPSKEACT............150 bytes
+	DPSKESIT............150 bytes
+	DPSKEATK............150 bytes
+	DPRADIO.............150 bytes
+	D_RUNNIN............28395 bytes
+	D_STALKS............23707 bytes
+	D_COUNTD............8539 bytes
+	D_BETWEE............14474 bytes
+	D_DOOM..............8190 bytes
+	D_THE_DA............12055 bytes
+	D_SHAWN.............16664 bytes
+	D_DDTBLU............7820 bytes
+	D_IN_CIT............15892 bytes
+	D_DEAD..............7686 bytes
+	D_STLKS2............16601 bytes
+	D_THEDA2............7410 bytes
+	D_DOOM2.............16139 bytes
+	D_DDTBL2............54554 bytes
+	D_RUNNI2............26277 bytes
+	D_DEAD2.............5430 bytes
+	D_STLKS3............14486 bytes
+	D_ROMERO............28299 bytes
+	D_SHAWN2............11984 bytes
+	D_MESSAG............12830 bytes
+	D_COUNT2............8590 bytes
+	D_DDTBL3............17745 bytes
+	D_AMPIE.............17267 bytes
+	D_THEDA3............15884 bytes
+	D_ADRIAN............9974 bytes
+	D_MESSG2............16952 bytes
+	D_ROMER2............14619 bytes
+	D_TENSE.............16601 bytes
+	D_SHAWN3............16664 bytes
+	D_OPENIN............21038 bytes
+	D_EVIL..............8188 bytes
+	D_ULTIMA............7480 bytes
+	D_READ_M............6464 bytes
+	D_DM2TTL............10653 bytes
+	D_DM2INT............9441 bytes
+	TITLEPIC............66888 bytes
+	HELP................66888 bytes
+	CREDIT..............13 bytes
+	BOSSBACK............66888 bytes
+	AMMNUM0.............49 bytes
+	AMMNUM1.............47 bytes
+	AMMNUM2.............59 bytes
+	AMMNUM3.............60 bytes
+	AMMNUM4.............43 bytes
+	AMMNUM5.............62 bytes
+	AMMNUM6.............53 bytes
+	AMMNUM7.............47 bytes
+	AMMNUM8.............56 bytes
+	AMMNUM9.............51 bytes
+	STBAR...............13128 bytes
+	STGNUM0.............68 bytes
+	STGNUM1.............68 bytes
+	STGNUM2.............68 bytes
+	STGNUM3.............76 bytes
+	STGNUM4.............58 bytes
+	STGNUM5.............72 bytes
+	STGNUM6.............65 bytes
+	STGNUM7.............59 bytes
+	STGNUM8.............66 bytes
+	STGNUM9.............60 bytes
+	STTMINUS............126 bytes
+	STTNUM0.............275 bytes
+	STTNUM1.............188 bytes
+	STTNUM2.............269 bytes
+	STTNUM3.............238 bytes
+	STTNUM4.............244 bytes
+	STTNUM5.............277 bytes
+	STTNUM6.............254 bytes
+	STTNUM7.............237 bytes
+	STTNUM8.............274 bytes
+	STTNUM9.............266 bytes
+	STTPRCNT............283 bytes
+	STYSNUM0............70 bytes
+	STYSNUM1............62 bytes
+	STYSNUM2............74 bytes
+	STYSNUM3............76 bytes
+	STYSNUM4............58 bytes
+	STYSNUM5............72 bytes
+	STYSNUM6............65 bytes
+	STYSNUM7............59 bytes
+	STYSNUM8............66 bytes
+	STYSNUM9............60 bytes
+	STKEYS0.............102 bytes
+	STKEYS1.............102 bytes
+	STKEYS2.............102 bytes
+	STKEYS3.............116 bytes
+	STKEYS4.............116 bytes
+	STKEYS5.............116 bytes
+	STDISK..............392 bytes
+	STCDROM.............359 bytes
+	STARMS..............1648 bytes
+	STCFN033............56 bytes
+	STCFN034............73 bytes
+	STCFN035............116 bytes
+	STCFN036............90 bytes
+	STCFN037............109 bytes
+	STCFN038............128 bytes
+	STCFN039............47 bytes
+	STCFN040............88 bytes
+	STCFN041............88 bytes
+	STCFN042............112 bytes
+	STCFN043............104 bytes
+	STCFN044............62 bytes
+	STCFN045............80 bytes
+	STCFN046............44 bytes
+	STCFN047............95 bytes
+	STCFN048............111 bytes
+	STCFN049............64 bytes
+	STCFN050............91 bytes
+	STCFN051............88 bytes
+	STCFN052............82 bytes
+	STCFN053............91 bytes
+	STCFN054............88 bytes
+	STCFN055............80 bytes
+	STCFN056............88 bytes
+	STCFN057............88 bytes
+	STCFN058............50 bytes
+	STCFN059............62 bytes
+	STCFN060............80 bytes
+	STCFN061............78 bytes
+	STCFN062............80 bytes
+	STCFN063............86 bytes
+	STCFN064............119 bytes
+	STCFN065............86 bytes
+	STCFN066............89 bytes
+	STCFN067............88 bytes
+	STCFN068............82 bytes
+	STCFN069............91 bytes
+	STCFN070............81 bytes
+	STCFN071............93 bytes
+	STCFN072............88 bytes
+	STCFN073............56 bytes
+	STCFN074............80 bytes
+	STCFN075............104 bytes
+	STCFN076............80 bytes
+	STCFN077............117 bytes
+	STCFN078............116 bytes
+	STCFN079............111 bytes
+	STCFN080............82 bytes
+	STCFN081............114 bytes
+	STCFN082............88 bytes
+	STCFN083............100 bytes
+	STCFN084............80 bytes
+	STCFN085............88 bytes
+	STCFN086............86 bytes
+	STCFN087............116 bytes
+	STCFN088............120 bytes
+	STCFN089............90 bytes
+	STCFN090............113 bytes
+	STCFN091............105 bytes
+	STCFN092............95 bytes
+	STCFN093............105 bytes
+	STCFN094............64 bytes
+	STCFN095............68 bytes
+	STCFN121............56 bytes
+	STFB1...............1408 bytes
+	STFB0...............1408 bytes
+	STFB2...............1408 bytes
+	STFB3...............1408 bytes
+	STPB1...............1478 bytes
+	STPB0...............1478 bytes
+	STPB2...............1478 bytes
+	STPB3...............1478 bytes
+	STFST01.............766 bytes
+	STFST00.............766 bytes
+	STFST02.............766 bytes
+	STFTL00.............862 bytes
+	STFTR00.............862 bytes
+	STFOUCH0............776 bytes
+	STFEVL0.............769 bytes
+	STFKILL0............769 bytes
+	STFST11.............766 bytes
+	STFST10.............766 bytes
+	STFST12.............766 bytes
+	STFTL10.............862 bytes
+	STFTR10.............862 bytes
+	STFOUCH1............776 bytes
+	STFEVL1.............769 bytes
+	STFKILL1............769 bytes
+	STFST21.............766 bytes
+	STFST20.............766 bytes
+	STFST22.............766 bytes
+	STFTL20.............867 bytes
+	STFTR20.............867 bytes
+	STFOUCH2............776 bytes
+	STFEVL2.............769 bytes
+	STFKILL2............769 bytes
+	STFST31.............769 bytes
+	STFST30.............769 bytes
+	STFST32.............769 bytes
+	STFTL30.............864 bytes
+	STFTR30.............859 bytes
+	STFOUCH3............776 bytes
+	STFEVL3.............769 bytes
+	STFKILL3............769 bytes
+	STFST41.............769 bytes
+	STFST40.............769 bytes
+	STFST42.............769 bytes
+	STFTL40.............869 bytes
+	STFTR40.............859 bytes
+	STFOUCH4............776 bytes
+	STFEVL4.............769 bytes
+	STFKILL4............769 bytes
+	STFGOD0.............769 bytes
+	STFDEAD0............763 bytes
+	M_EPISOD............3694 bytes
+	M_DOOM..............6408 bytes
+	M_RDTHIS............2431 bytes
+	M_OPTION............1839 bytes
+	M_QUITG.............2334 bytes
+	M_NGAME.............2100 bytes
+	M_SKULL1............383 bytes
+	M_SKULL2............385 bytes
+	M_THERMO............108 bytes
+	M_THERMR............134 bytes
+	M_THERMM............206 bytes
+	M_THERML............134 bytes
+	M_ENDGAM............2110 bytes
+	M_PAUSE.............1880 bytes
+	M_MESSG.............2391 bytes
+	M_MSGON.............502 bytes
+	M_MSGOFF............727 bytes
+	M_HURT..............3098 bytes
+	M_JKILL.............3905 bytes
+	M_ROUGH.............3684 bytes
+	M_SKILL.............4358 bytes
+	M_NEWG..............2820 bytes
+	M_ULTRA.............3347 bytes
+	M_NMARE.............3056 bytes
+	M_SVOL..............2997 bytes
+	M_OPTTTL............2570 bytes
+	M_SAVEG.............2365 bytes
+	M_LOADG.............2265 bytes
+	M_DISP..............1777 bytes
+	M_MSENS.............4186 bytes
+	M_GDHIGH............960 bytes
+	M_GDLOW.............736 bytes
+	M_DETAIL............3520 bytes
+	M_DISOPT............5026 bytes
+	M_SCRNSZ............2919 bytes
+	M_SGTTL.............2365 bytes
+	M_LGTTL.............2265 bytes
+	M_SFXVOL............2533 bytes
+	M_MUSVOL............2978 bytes
+	M_LSLEFT............192 bytes
+	M_LSCNTR............192 bytes
+	M_LSRGHT............192 bytes
+	BRDR_TL.............44 bytes
+	BRDR_T..............104 bytes
+	BRDR_TR.............44 bytes
+	BRDR_L..............59 bytes
+	BRDR_R..............59 bytes
+	BRDR_BL.............44 bytes
+	BRDR_B..............104 bytes
+	BRDR_BR.............44 bytes
+	WIOSTK..............1122 bytes
+	WIOSTI..............1279 bytes
+	WIF.................1909 bytes
+	WIMSTT..............1177 bytes
+	WIOSTS..............1033 bytes
+	WIOSTF..............303 bytes
+	WITIME..............996 bytes
+	WIPAR...............731 bytes
+	WIMSTAR.............661 bytes
+	WIMINUS.............113 bytes
+	WIPCNT..............209 bytes
+	WINUM0..............219 bytes
+	WINUM1..............174 bytes
+	WINUM2..............214 bytes
+	WINUM3..............221 bytes
+	WINUM4..............202 bytes
+	WINUM5..............249 bytes
+	WINUM6..............197 bytes
+	WINUM7..............223 bytes
+	WINUM8..............236 bytes
+	WINUM9..............198 bytes
+	WICOLON.............115 bytes
+	WISUCKS.............1270 bytes
+	WIFRGS..............1027 bytes
+	WIP1................420 bytes
+	WIP2................470 bytes
+	WIP3................482 bytes
+	WIP4................458 bytes
+	WIBP1...............420 bytes
+	WIBP2...............470 bytes
+	WIBP3...............482 bytes
+	WIBP4...............458 bytes
+	WIKILRS.............598 bytes
+	WIVCTMS.............1071 bytes
+	WISCRT2.............1553 bytes
+	WIENTER.............1936 bytes
+	CWILV00.............1168 bytes
+	CWILV01.............1213 bytes
+	CWILV02.............1220 bytes
+	CWILV03.............1201 bytes
+	CWILV04.............1248 bytes
+	CWILV05.............1196 bytes
+	CWILV06.............1222 bytes
+	CWILV07.............1235 bytes
+	CWILV08.............1197 bytes
+	CWILV09.............1163 bytes
+	CWILV10.............1113 bytes
+	CWILV11.............1158 bytes
+	CWILV12.............1165 bytes
+	CWILV13.............1141 bytes
+	CWILV14.............1193 bytes
+	CWILV15.............1141 bytes
+	CWILV16.............1162 bytes
+	CWILV17.............1180 bytes
+	CWILV18.............1137 bytes
+	CWILV19.............1208 bytes
+	CWILV22.............1210 bytes
+	CWILV21.............1203 bytes
+	CWILV20.............1158 bytes
+	CWILV23.............1191 bytes
+	CWILV25.............1186 bytes
+	CWILV26.............1212 bytes
+	CWILV27.............1225 bytes
+	CWILV28.............1187 bytes
+	CWILV29.............1220 bytes
+	CWILV24.............1238 bytes
+	CWILV30.............1165 bytes
+	CWILV31.............1215 bytes
+	INTERPIC............66888 bytes
+	S_START.............0 bytes
+	BBRNA0..............3373 bytes
+	BBRNB0..............3368 bytes
+	BOS2A1C1............3143 bytes
+	BOS2A2C8............2611 bytes
+	BOS2A3C7............2735 bytes
+	BOS2A4C6............2080 bytes
+	BOS2A5C5............2300 bytes
+	BOS2C4A6............2470 bytes
+	BOS2C3A7............2893 bytes
+	BOS2C2A8............2722 bytes
+	BOS2B1D1............2996 bytes
+	BOS2B2D8............2510 bytes
+	BOS2B3D7............2585 bytes
+	BOS2B4D6............2134 bytes
+	BOS2B5D5............2180 bytes
+	BOS2D4B6............1844 bytes
+	BOS2D3B7............2354 bytes
+	BOS2D2B8............2445 bytes
+	BOS2E1..............3169 bytes
+	BOS2E2..............3137 bytes
+	BOS2E3..............3137 bytes
+	BOS2E4..............3137 bytes
+	BOS2E5..............3137 bytes
+	BOS2E6..............3137 bytes
+	BOS2E7..............3137 bytes
+	BOS2E8..............3137 bytes
+	BOS2F1..............3137 bytes
+	BOS2F2..............3137 bytes
+	BOS2F3..............3137 bytes
+	BOS2F4..............3137 bytes
+	BOS2F5..............3137 bytes
+	BOS2F6..............3137 bytes
+	BOS2F7..............3137 bytes
+	BOS2F8..............3137 bytes
+	BOS2G1..............3137 bytes
+	BOS2G2..............3137 bytes
+	BOS2G3..............3137 bytes
+	BOS2G4..............3137 bytes
+	BOS2G5..............3137 bytes
+	BOS2G6..............3137 bytes
+	BOS2G7..............3137 bytes
+	BOS2G8..............3137 bytes
+	BOS2H1..............3137 bytes
+	BOS2H2..............3137 bytes
+	BOS2H3..............3137 bytes
+	BOS2H4..............3137 bytes
+	BOS2H5..............3137 bytes
+	BOS2H6..............3137 bytes
+	BOS2H7..............3137 bytes
+	BOS2H8..............3137 bytes
+	BOS2I0..............2775 bytes
+	BOS2J0..............2928 bytes
+	BOS2K0..............3065 bytes
+	BOS2L0..............2084 bytes
+	BOS2M0..............1711 bytes
+	BOS2N0..............1173 bytes
+	BOS2O0..............995 bytes
+	BOSFA0..............2768 bytes
+	BOSFB0..............2768 bytes
+	BOSFC0..............2768 bytes
+	BOSFD0..............2768 bytes
+	BRS1A0..............455 bytes
+	BSPIA1D1............2604 bytes
+	BSPIA2A8............3400 bytes
+	BSPIA3A7............3351 bytes
+	BSPIA4A6............3431 bytes
+	BSPIA5D5............2634 bytes
+	BSPIB1E1............2632 bytes
+	BSPIB2B8............3318 bytes
+	BSPIB3B7............3279 bytes
+	BSPIB4B6............3386 bytes
+	BSPIB5E5............2665 bytes
+	BSPIC1F1............2601 bytes
+	BSPIC2C8............3417 bytes
+	BSPIC3C7............3359 bytes
+	BSPIC4C6............3477 bytes
+	BSPIC5F5............2637 bytes
+	BSPID2D8............3400 bytes
+	BSPID3D7............3351 bytes
+	BSPID4D6............3431 bytes
+	BSPIE2E8............3318 bytes
+	BSPIE3E7............3279 bytes
+	BSPIE4E6............3386 bytes
+	BSPIF2F8............3388 bytes
+	BSPIF3F7............3359 bytes
+	BSPIF4F6............3477 bytes
+	BSPIG1..............2540 bytes
+	BSPIG2G8............3257 bytes
+	BSPIG3G7............3355 bytes
+	BSPIG4G6............3258 bytes
+	BSPIG5..............2627 bytes
+	BSPIH1..............2528 bytes
+	BSPIH2H8............3507 bytes
+	BSPIH3H7............3502 bytes
+	BSPIH4H6............3476 bytes
+	BSPIH5..............2624 bytes
+	BSPII1..............2830 bytes
+	BSPII2I8............3485 bytes
+	BSPII3I7............3324 bytes
+	BSPII4I6............3205 bytes
+	BSPII5..............2850 bytes
+	BSPIJ0..............2808 bytes
+	BSPIK0..............2856 bytes
+	BSPIL0..............2829 bytes
+	BSPIM0..............2862 bytes
+	BSPIN0..............2638 bytes
+	BSPIO0..............2481 bytes
+	BSPIP0..............2101 bytes
+	CPOSA1..............1874 bytes
+	CPOSA2A8............1611 bytes
+	CPOSA3A7............1781 bytes
+	CPOSA4A6............1727 bytes
+	CPOSA5..............1548 bytes
+	CPOSB1..............1699 bytes
+	CPOSB2B8............1277 bytes
+	CPOSB3B7............1274 bytes
+	CPOSB4B6............1723 bytes
+	CPOSB5..............1568 bytes
+	CPOSC1..............1667 bytes
+	CPOSC2C8............1418 bytes
+	CPOSC3C7............1714 bytes
+	CPOSC4C6............1830 bytes
+	CPOSC5..............1581 bytes
+	CPOSD1..............1670 bytes
+	CPOSD2D8............1324 bytes
+	CPOSD3D7............1171 bytes
+	CPOSD4D6............1572 bytes
+	CPOSD5..............1590 bytes
+	CPOSF1..............1383 bytes
+	CPOSF2F8............1749 bytes
+	CPOSF3F7............2058 bytes
+	CPOSF4F6............1708 bytes
+	CPOSF5..............1196 bytes
+	CPOSG1..............1824 bytes
+	CPOSG2G8............1719 bytes
+	CPOSG3G7............2018 bytes
+	CPOSG4G6............1858 bytes
+	CPOSG5..............1800 bytes
+	CPOSH0..............1965 bytes
+	CPOSI0..............1614 bytes
+	CPOSJ0..............1794 bytes
+	CPOSK0..............1624 bytes
+	CPOSL0..............1117 bytes
+	CPOSM0..............1139 bytes
+	CPOSN0..............1121 bytes
+	CPOSO0..............1911 bytes
+	CPOSP0..............1994 bytes
+	CPOSQ0..............2133 bytes
+	CPOSR0..............1950 bytes
+	CPOSS0..............1591 bytes
+	CPOST0..............1128 bytes
+	CPOSE1..............1383 bytes
+	CPOSE2E8............1749 bytes
+	CPOSE3E7............2058 bytes
+	CPOSE4E6............1708 bytes
+	CPOSE5..............1196 bytes
+	FATBA1..............272 bytes
+	FATBA2A8............272 bytes
+	FATBA3A7............272 bytes
+	FATBA4A6............272 bytes
+	FATBA5..............272 bytes
+	FATBB1..............378 bytes
+	FATBB2B8............378 bytes
+	FATBB3B7............378 bytes
+	FATBB4B6............378 bytes
+	FATBB5..............378 bytes
+	FATTA1..............3855 bytes
+	FATTA2A8............3565 bytes
+	FATTA3A7............3747 bytes
+	FATTA4A6............3946 bytes
+	FATTA5..............3764 bytes
+	FATTB1..............4522 bytes
+	FATTB2B8............3809 bytes
+	FATTB3B7............3193 bytes
+	FATTB4B6............3796 bytes
+	FATTB5..............4038 bytes
+	FATTC1..............4160 bytes
+	FATTC2C8............4034 bytes
+	FATTC3C7............3448 bytes
+	FATTC4C6............3558 bytes
+	FATTC5..............3961 bytes
+	FATTD1..............3847 bytes
+	FATTD2D8............4567 bytes
+	FATTD3D7............3828 bytes
+	FATTD4D6............4240 bytes
+	FATTD5..............3677 bytes
+	FATTE1..............4757 bytes
+	FATTE2E8............3888 bytes
+	FATTE3E7............3334 bytes
+	FATTE4E6............3997 bytes
+	FATTE5..............4353 bytes
+	FATTF1..............4038 bytes
+	FATTF2F8............3827 bytes
+	FATTF3F7............3480 bytes
+	FATTF4F6............3566 bytes
+	FATTF5..............4702 bytes
+	FATTG1..............4744 bytes
+	FATTG2G8............5144 bytes
+	FATTG3G7............3664 bytes
+	FATTG4G6............4735 bytes
+	FATTG5..............4869 bytes
+	FATTH1..............5321 bytes
+	FATTH2H8............5640 bytes
+	FATTH3H7............3726 bytes
+	FATTH4H6............4584 bytes
+	FATTH5..............5618 bytes
+	FATTI1..............5113 bytes
+	FATTI2I8............5748 bytes
+	FATTI3I7............3131 bytes
+	FATTI4I6............4856 bytes
+	FATTI5..............4536 bytes
+	FATTJ1..............4378 bytes
+	FATTJ2..............4385 bytes
+	FATTJ3..............3229 bytes
+	FATTJ4..............3171 bytes
+	FATTJ5..............4171 bytes
+	FATTJ6..............3332 bytes
+	FATTJ7..............3230 bytes
+	FATTJ8..............4314 bytes
+	FATTK0..............6848 bytes
+	FATTL0..............6631 bytes
+	FATTM0..............5117 bytes
+	FATTN0..............3735 bytes
+	FATTO0..............3045 bytes
+	FATTP0..............3218 bytes
+	FATTQ0..............3009 bytes
+	FATTR0..............2968 bytes
+	FATTS0..............2900 bytes
+	FATTT0..............2840 bytes
+	FBXPA0..............2783 bytes
+	FBXPB0..............1482 bytes
+	FBXPC0..............1681 bytes
+	FIREA0..............1631 bytes
+	FIREB0..............1992 bytes
+	FIREC0..............2330 bytes
+	FIRED0..............2229 bytes
+	FIREE0..............1956 bytes
+	FIREF0..............1775 bytes
+	FIREG0..............1202 bytes
+	FIREH0..............836 bytes
+	KEENA0..............1416 bytes
+	KEENB0..............1416 bytes
+	KEENC0..............1416 bytes
+	KEEND0..............1416 bytes
+	KEENE0..............1416 bytes
+	KEENF0..............1416 bytes
+	KEENG0..............1416 bytes
+	KEENH0..............1416 bytes
+	KEENI0..............1416 bytes
+	KEENJ0..............1416 bytes
+	KEENK0..............1416 bytes
+	KEENL0..............1416 bytes
+	KEENM0..............1416 bytes
+	MANFA1..............1137 bytes
+	MANFA5..............943 bytes
+	MANFA6A4............1621 bytes
+	MANFA7A3............1881 bytes
+	MANFA8A2............1605 bytes
+	MANFB1..............1137 bytes
+	MANFB5..............841 bytes
+	MANFB6B4............1399 bytes
+	MANFB7B3............1751 bytes
+	MANFB8B2............1418 bytes
+	PAINA1..............2755 bytes
+	PAINA2A8............2596 bytes
+	PAINA3A7............2315 bytes
+	PAINA4A6............2497 bytes
+	PAINA5..............2728 bytes
+	PAINB1..............2755 bytes
+	PAINB2B8............2596 bytes
+	PAINB3B7............2315 bytes
+	PAINB4B6............2497 bytes
+	PAINB5..............2728 bytes
+	PAINC1..............2755 bytes
+	PAINC2C8............2596 bytes
+	PAINC3C7............2315 bytes
+	PAINC4C6............2497 bytes
+	PAINC5..............2728 bytes
+	PAIND1..............2592 bytes
+	PAIND2D8............1416 bytes
+	PAIND3D7............1416 bytes
+	PAIND4D6............1416 bytes
+	PAIND5..............2563 bytes
+	PAINE1..............2862 bytes
+	PAINE2E8............1416 bytes
+	PAINE3E7............1416 bytes
+	PAINE4E6............1416 bytes
+	PAINE5..............2873 bytes
+	PAINF1..............3244 bytes
+	PAINF2F8............1416 bytes
+	PAINF3F7............1416 bytes
+	PAINF4F6............1416 bytes
+	PAINF5..............2873 bytes
+	PAING1..............2755 bytes
+	PAING2G8............2596 bytes
+	PAING3G7............2315 bytes
+	PAING4G6............2497 bytes
+	PAING5..............2728 bytes
+	PAINH0..............2592 bytes
+	PAINI0..............2377 bytes
+	PAINJ0..............1976 bytes
+	PAINK0..............2673 bytes
+	PAINL0..............2677 bytes
+	PAINM0..............3687 bytes
+	SKELA1D1............2463 bytes
+	SKELA2D8............2492 bytes
+	SKELA3D7............2058 bytes
+	SKELA4D6............2209 bytes
+	SKELA5D5............2428 bytes
+	SKELA6D4............2209 bytes
+	SKELA7D3............2058 bytes
+	SKELA8D2............2492 bytes
+	SKELB1E1............2439 bytes
+	SKELB2E8............2766 bytes
+	SKELB3E7............2516 bytes
+	SKELB4E6............2282 bytes
+	SKELB5E5............2513 bytes
+	SKELB6E4............2282 bytes
+	SKELB7E3............2516 bytes
+	SKELB8E2............2766 bytes
+	SKELC1F1............2384 bytes
+	SKELC2F8............2486 bytes
+	SKELC3F7............2446 bytes
+	SKELC4F6............2219 bytes
+	SKELC5F5............2331 bytes
+	SKELC6F4............2219 bytes
+	SKELC7F3............2446 bytes
+	SKELC8F2............2486 bytes
+	SKELG1..............2468 bytes
+	SKELG2..............2304 bytes
+	SKELG3..............2496 bytes
+	SKELG4..............2393 bytes
+	SKELG5..............2429 bytes
+	SKELG6..............2393 bytes
+	SKELG7..............2496 bytes
+	SKELG8..............2304 bytes
+	SKELH1..............2392 bytes
+	SKELH2..............2209 bytes
+	SKELH3..............1904 bytes
+	SKELH4..............2232 bytes
+	SKELH5..............2330 bytes
+	SKELH6..............2232 bytes
+	SKELH7..............1904 bytes
+	SKELH8..............2209 bytes
+	SKELI1..............2219 bytes
+	SKELI2..............2161 bytes
+	SKELI3..............2195 bytes
+	SKELI4..............2392 bytes
+	SKELI5..............2167 bytes
+	SKELI6..............2392 bytes
+	SKELI7..............2195 bytes
+	SKELI8..............2161 bytes
+	SKELJ1..............2468 bytes
+	SKELJ2..............2304 bytes
+	SKELJ3..............2496 bytes
+	SKELJ4..............2393 bytes
+	SKELJ5..............2429 bytes
+	SKELJ6..............2393 bytes
+	SKELJ7..............2496 bytes
+	SKELJ8..............2304 bytes
+	SKELK1..............2392 bytes
+	SKELK2..............2209 bytes
+	SKELK3..............1904 bytes
+	SKELK4..............2232 bytes
+	SKELK5..............2330 bytes
+	SKELK6..............2232 bytes
+	SKELK7..............1904 bytes
+	SKELK8..............2209 bytes
+	SKELL1..............2521 bytes
+	SKELL2..............2534 bytes
+	SKELL3..............2091 bytes
+	SKELL4..............2602 bytes
+	SKELL5..............2621 bytes
+	SKELL6..............2602 bytes
+	SKELL7..............2091 bytes
+	SKELL8..............2534 bytes
+	SKELM0..............2453 bytes
+	SKELN0..............2151 bytes
+	SKELO0..............2666 bytes
+	SKELP0..............2327 bytes
+	SKELQ0..............1758 bytes
+	SSWVA1..............1586 bytes
+	SSWVA2A8............1305 bytes
+	SSWVA3A7............1164 bytes
+	SSWVA4A6............1434 bytes
+	SSWVA5..............1767 bytes
+	SSWVB1..............1757 bytes
+	SSWVB2B8............1617 bytes
+	SSWVB3B7............1335 bytes
+	SSWVB4B6............1307 bytes
+	SSWVB5..............1567 bytes
+	SSWVC1..............1589 bytes
+	SSWVC2C8............1457 bytes
+	SSWVC3C7............1176 bytes
+	SSWVC4C6............1260 bytes
+	SSWVC5..............1738 bytes
+	SSWVD1..............1557 bytes
+	SSWVD2D8............1304 bytes
+	SSWVD3D7............1246 bytes
+	SSWVD4D6............1451 bytes
+	SSWVD5..............1994 bytes
+	SSWVE1..............1683 bytes
+	SSWVE2E8............1500 bytes
+	SSWVE3E7............1203 bytes
+	SSWVE4E6............1384 bytes
+	SSWVE5..............1819 bytes
+	SSWVF1..............1701 bytes
+	SSWVF2F8............1506 bytes
+	SSWVF3F7............1580 bytes
+	SSWVF4F6............1400 bytes
+	SSWVF5..............1819 bytes
+	SSWVG1..............1704 bytes
+	SSWVG2G8............1602 bytes
+	SSWVG3G7............1714 bytes
+	SSWVG4G6............1523 bytes
+	SSWVG5..............1846 bytes
+	SSWVH1..............1672 bytes
+	SSWVH2H8............1437 bytes
+	SSWVH3H7............1177 bytes
+	SSWVH4H6............1405 bytes
+	SSWVH5..............1687 bytes
+	SSWVI0..............1662 bytes
+	SSWVJ0..............1792 bytes
+	SSWVK0..............1706 bytes
+	SSWVL0..............1326 bytes
+	SSWVM0..............1243 bytes
+	SSWVN0..............1823 bytes
+	SSWVO0..............2106 bytes
+	SSWVP0..............2553 bytes
+	SSWVQ0..............2731 bytes
+	SSWVR0..............2057 bytes
+	SSWVS0..............1380 bytes
+	SSWVT0..............1326 bytes
+	SSWVU0..............1499 bytes
+	SSWVV0..............1319 bytes
+	VILEA1D1............1194 bytes
+	VILEA2D8............1349 bytes
+	VILEA3D7............1511 bytes
+	VILEA4D6............1326 bytes
+	VILEA5D5............1233 bytes
+	VILEA6D4............1264 bytes
+	VILEA7D3............1383 bytes
+	VILEA8D2............1420 bytes
+	VILEB1E1............1271 bytes
+	VILEB2E8............1312 bytes
+	VILEB3E7............1120 bytes
+	VILEB4E6............1216 bytes
+	VILEB5E5............1220 bytes
+	VILEB6E4............1384 bytes
+	VILEB7E3............1141 bytes
+	VILEB8E2............1213 bytes
+	VILEC1F1............1145 bytes
+	VILEC2F8............1309 bytes
+	VILEC3F7............1283 bytes
+	VILEC4F6............1233 bytes
+	VILEC5F5............1129 bytes
+	VILEC6F4............1356 bytes
+	VILEC7F3............1297 bytes
+	VILEC8F2............1254 bytes
+	VILEG1..............1250 bytes
+	VILEG2..............1250 bytes
+	VILEG3..............1283 bytes
+	VILEG4..............1503 bytes
+	VILEG5..............1235 bytes
+	VILEG6..............956 bytes
+	VILEG7..............1313 bytes
+	VILEG8..............1497 bytes
+	VILEH1..............1250 bytes
+	VILEH2..............1250 bytes
+	VILEH3..............1283 bytes
+	VILEH4..............1503 bytes
+	VILEH5..............1235 bytes
+	VILEH6..............956 bytes
+	VILEH7..............1313 bytes
+	VILEH8..............1497 bytes
+	VILEI1..............1250 bytes
+	VILEI2..............1250 bytes
+	VILEI3..............1283 bytes
+	VILEI4..............1503 bytes
+	VILEI5..............1235 bytes
+	VILEI6..............956 bytes
+	VILEI7..............1313 bytes
+	VILEI8..............1497 bytes
+	VILEJ1..............1442 bytes
+	VILEJ2..............1440 bytes
+	VILEJ3..............1271 bytes
+	VILEJ4..............1413 bytes
+	VILEJ5..............1416 bytes
+	VILEJ6..............1403 bytes
+	VILEJ7..............1380 bytes
+	VILEJ8..............1414 bytes
+	VILEK1..............1442 bytes
+	VILEK2..............1440 bytes
+	VILEK3..............1271 bytes
+	VILEK4..............1413 bytes
+	VILEK5..............1416 bytes
+	VILEK6..............1403 bytes
+	VILEK7..............1380 bytes
+	VILEK8..............1414 bytes
+	VILEL1..............1304 bytes
+	VILEL2..............1123 bytes
+	VILEL3..............1331 bytes
+	VILEL4..............1608 bytes
+	VILEL5..............1356 bytes
+	VILEL6..............1175 bytes
+	VILEL7..............1389 bytes
+	VILEL8..............1523 bytes
+	VILEM1..............1304 bytes
+	VILEM2..............1123 bytes
+	VILEM3..............1331 bytes
+	VILEM4..............1608 bytes
+	VILEM5..............1356 bytes
+	VILEM6..............1175 bytes
+	VILEM7..............1389 bytes
+	VILEM8..............1523 bytes
+	VILEN1..............1304 bytes
+	VILEN2..............1123 bytes
+	VILEN3..............1331 bytes
+	VILEN4..............1608 bytes
+	VILEN5..............1356 bytes
+	VILEN6..............1175 bytes
+	VILEN7..............1389 bytes
+	VILEN8..............1523 bytes
+	VILEO1..............1257 bytes
+	VILEO2..............1403 bytes
+	VILEO3..............1339 bytes
+	VILEO4..............1445 bytes
+	VILEO5..............1125 bytes
+	VILEO6..............1294 bytes
+	VILEO7..............1385 bytes
+	VILEO8..............1439 bytes
+	VILEP1..............1257 bytes
+	VILEP2..............1403 bytes
+	VILEP3..............1339 bytes
+	VILEP4..............1445 bytes
+	VILEP5..............1125 bytes
+	VILEP6..............1294 bytes
+	VILEP7..............1385 bytes
+	VILEP8..............1439 bytes
+	VILEQ1..............1304 bytes
+	VILEQ2..............1123 bytes
+	VILEQ3..............1331 bytes
+	VILEQ4..............1608 bytes
+	VILEQ5..............1356 bytes
+	VILEQ6..............1175 bytes
+	VILEQ7..............1389 bytes
+	VILEQ8..............1523 bytes
+	VILER0..............1914 bytes
+	VILES0..............2045 bytes
+	VILET0..............2242 bytes
+	VILEU0..............3978 bytes
+	VILEV0..............2291 bytes
+	VILEW0..............801 bytes
+	VILEX0..............801 bytes
+	VILEY0..............801 bytes
+	VILEZ0..............801 bytes
+	VILE[1..............1416 bytes
+	VILE[2..............1416 bytes
+	VILE[3..............1416 bytes
+	VILE[4..............1416 bytes
+	VILE[5..............1416 bytes
+	VILE[6..............1416 bytes
+	VILE[7..............1416 bytes
+	VILE[8..............1416 bytes
+	VILE\1..............1416 bytes
+	VILE\2..............1416 bytes
+	VILE\3..............1416 bytes
+	VILE\4..............1416 bytes
+	VILE\5..............1416 bytes
+	VILE\6..............1416 bytes
+	VILE\7..............1416 bytes
+	VILE\8..............1416 bytes
+	VILE]1..............1416 bytes
+	VILE]2..............1416 bytes
+	VILE]3..............1416 bytes
+	VILE]4..............1416 bytes
+	VILE]5..............1416 bytes
+	VILE]6..............1416 bytes
+	VILE]7..............1416 bytes
+	VILE]8..............1416 bytes
+	BOSSA1..............3143 bytes
+	BOSSA2A8............2611 bytes
+	BOSSA3A7............2735 bytes
+	BOSSA4A6............2080 bytes
+	BOSSA5..............2300 bytes
+	BOSSB1..............2996 bytes
+	BOSSB2B8............2510 bytes
+	BOSSB3B7............2585 bytes
+	BOSSB4B6............2134 bytes
+	BOSSB5..............2180 bytes
+	BOSSC1..............3169 bytes
+	BOSSC2C8............2722 bytes
+	BOSSC3C7............2893 bytes
+	BOSSC4C6............2470 bytes
+	BOSSC5..............2308 bytes
+	BOSSD1..............3021 bytes
+	BOSSD2D8............2445 bytes
+	BOSSD3D7............2354 bytes
+	BOSSD4D6............1844 bytes
+	BOSSD5..............2192 bytes
+	BOSSE1..............3137 bytes
+	BOSSE2..............3137 bytes
+	BOSSE3..............3137 bytes
+	BOSSE4..............3137 bytes
+	BOSSE5..............3137 bytes
+	BOSSE6..............3137 bytes
+	BOSSE7..............3137 bytes
+	BOSSE8..............3137 bytes
+	BOSSF1..............3137 bytes
+	BOSSF2..............3137 bytes
+	BOSSF3..............3137 bytes
+	BOSSF4..............3137 bytes
+	BOSSF5..............3137 bytes
+	BOSSF6..............3137 bytes
+	BOSSF7..............3137 bytes
+	BOSSF8..............3137 bytes
+	BOSSG1..............3137 bytes
+	BOSSG2..............3137 bytes
+	BOSSG3..............3137 bytes
+	BOSSG4..............3137 bytes
+	BOSSG5..............3137 bytes
+	BOSSG6..............3137 bytes
+	BOSSG7..............3137 bytes
+	BOSSG8..............3137 bytes
+	BOSSH1..............3137 bytes
+	BOSSH2..............3137 bytes
+	BOSSH3..............3137 bytes
+	BOSSH4..............3137 bytes
+	BOSSH5..............3137 bytes
+	BOSSH6..............3137 bytes
+	BOSSH7..............3137 bytes
+	BOSSH8..............3137 bytes
+	BOSSI0..............2775 bytes
+	BOSSJ0..............2928 bytes
+	BOSSK0..............3065 bytes
+	BOSSL0..............2084 bytes
+	BOSSM0..............1711 bytes
+	BOSSN0..............1173 bytes
+	BOSSO0..............995 bytes
+	POSSA1..............1311 bytes
+	POSSA2A8............1263 bytes
+	POSSA3A7............1290 bytes
+	POSSA4A6............1086 bytes
+	POSSA5..............1267 bytes
+	POSSB1..............1308 bytes
+	POSSB2B8............1269 bytes
+	POSSB3B7............1144 bytes
+	POSSB4B6............1040 bytes
+	POSSB5..............1237 bytes
+	POSSC1..............1314 bytes
+	POSSC2C8............1063 bytes
+	POSSC3C7............967 bytes
+	POSSC4C6............1031 bytes
+	POSSC5..............1217 bytes
+	POSSD1..............1288 bytes
+	POSSD2D8............1149 bytes
+	POSSD3D7............1161 bytes
+	POSSD4D6............1133 bytes
+	POSSD5..............1240 bytes
+	POSSE1..............955 bytes
+	POSSE2E8............1364 bytes
+	POSSE3E7............1517 bytes
+	POSSE4E6............1071 bytes
+	POSSE5..............870 bytes
+	POSSF1..............954 bytes
+	POSSF2F8............1320 bytes
+	POSSF3F7............1427 bytes
+	POSSF4F6............1266 bytes
+	POSSF5..............805 bytes
+	POSSG1..............1456 bytes
+	POSSG2G8............1323 bytes
+	POSSG3G7............1351 bytes
+	POSSG4G6............1371 bytes
+	POSSG5..............1348 bytes
+	POSSH0..............1490 bytes
+	POSSI0..............1166 bytes
+	POSSJ0..............1115 bytes
+	POSSK0..............1209 bytes
+	POSSL0..............944 bytes
+	POSSM0..............1675 bytes
+	POSSN0..............2475 bytes
+	POSSO0..............2697 bytes
+	POSSP0..............2359 bytes
+	POSSQ0..............1841 bytes
+	POSSR0..............1380 bytes
+	POSSS0..............1326 bytes
+	POSST0..............1499 bytes
+	POSSU0..............1319 bytes
+	SARGA1..............1830 bytes
+	SARGA2A8............2562 bytes
+	SARGA3A7............2422 bytes
+	SARGA4A6............1935 bytes
+	SARGA5..............1849 bytes
+	SARGB1..............1596 bytes
+	SARGB2B8............2357 bytes
+	SARGB3B7............2314 bytes
+	SARGB4B6............1912 bytes
+	SARGB5..............1556 bytes
+	SARGC1..............1831 bytes
+	SARGC2C8............2085 bytes
+	SARGC3C7............2243 bytes
+	SARGC4C6............1954 bytes
+	SARGC5..............1849 bytes
+	SARGD1..............1617 bytes
+	SARGD2D8............2239 bytes
+	SARGD3D7............2279 bytes
+	SARGD4D6............2093 bytes
+	SARGD5..............1556 bytes
+	SARGE1..............1815 bytes
+	SARGE2..............2469 bytes
+	SARGE3..............2426 bytes
+	SARGE4..............2037 bytes
+	SARGE5..............1626 bytes
+	SARGE6..............2037 bytes
+	SARGE7..............2426 bytes
+	SARGE8..............2469 bytes
+	SARGF1..............1923 bytes
+	SARGF2..............2427 bytes
+	SARGF3..............2561 bytes
+	SARGF4..............2093 bytes
+	SARGF5..............1658 bytes
+	SARGF6..............2093 bytes
+	SARGF7..............2561 bytes
+	SARGF8..............2427 bytes
+	SARGG1..............1617 bytes
+	SARGG2..............2276 bytes
+	SARGG3..............2158 bytes
+	SARGG4..............1838 bytes
+	SARGG5..............1435 bytes
+	SARGG6..............1838 bytes
+	SARGG7..............2158 bytes
+	SARGG8..............2286 bytes
+	SARGH1..............1499 bytes
+	SARGH2..............1877 bytes
+	SARGH3..............1875 bytes
+	SARGH4..............1712 bytes
+	SARGH5..............1523 bytes
+	SARGH6..............1712 bytes
+	SARGH7..............1875 bytes
+	SARGH8..............1877 bytes
+	SARGI0..............1951 bytes
+	SARGJ0..............2257 bytes
+	SARGK0..............2232 bytes
+	SARGL0..............1539 bytes
+	SARGM0..............1494 bytes
+	SARGN0..............1460 bytes
+	SPOSA1..............1349 bytes
+	SPOSA2A8............1257 bytes
+	SPOSA3A7............1304 bytes
+	SPOSA4A6............1320 bytes
+	SPOSA5..............1144 bytes
+	SPOSB1..............1372 bytes
+	SPOSB2B8............1144 bytes
+	SPOSB3B7............1136 bytes
+	SPOSB4B6............1305 bytes
+	SPOSB5..............1263 bytes
+	SPOSC1..............1259 bytes
+	SPOSC2C8............1183 bytes
+	SPOSC3C7............1234 bytes
+	SPOSC4C6............1229 bytes
+	SPOSC5..............1282 bytes
+	SPOSD1..............1321 bytes
+	SPOSD2D8............1163 bytes
+	SPOSD3D7............1056 bytes
+	SPOSD4D6............1162 bytes
+	SPOSD5..............1376 bytes
+	SPOSE1..............992 bytes
+	SPOSE2E8............1133 bytes
+	SPOSE3E7............1480 bytes
+	SPOSE4E6............1308 bytes
+	SPOSE5..............996 bytes
+	SPOSF1..............1029 bytes
+	SPOSF2F8............1338 bytes
+	SPOSF3F7............1543 bytes
+	SPOSF4F6............1440 bytes
+	SPOSF5..............1005 bytes
+	SPOSG1..............1347 bytes
+	SPOSG2G8............1261 bytes
+	SPOSG3G7............1433 bytes
+	SPOSG4G6............1445 bytes
+	SPOSG5..............1342 bytes
+	SPOSH0..............1561 bytes
+	SPOSI0..............1542 bytes
+	SPOSJ0..............1448 bytes
+	SPOSK0..............1173 bytes
+	SPOSL0..............985 bytes
+	SPOSM0..............1640 bytes
+	SPOSN0..............2032 bytes
+	SPOSO0..............2445 bytes
+	SPOSP0..............2045 bytes
+	SPOSQ0..............1874 bytes
+	SPOSR0..............1577 bytes
+	SPOSS0..............1272 bytes
+	SPOST0..............1003 bytes
+	SPOSU0..............822 bytes
+	TROOA1..............2210 bytes
+	TROOA2A8............2171 bytes
+	TROOA3A7............2135 bytes
+	TROOA4A6............2155 bytes
+	TROOA5..............1919 bytes
+	TROOB1..............1940 bytes
+	TROOB2B8............2188 bytes
+	TROOB3B7............2473 bytes
+	TROOB4B6............2519 bytes
+	TROOB5..............1580 bytes
+	TROOC1..............2098 bytes
+	TROOC2C8............2185 bytes
+	TROOC3C7............2431 bytes
+	TROOC4C6............1849 bytes
+	TROOC5..............1922 bytes
+	TROOD1..............1926 bytes
+	TROOD2D8............2023 bytes
+	TROOD3D7............2365 bytes
+	TROOD4D6............2427 bytes
+	TROOD5..............1598 bytes
+	TROOE1..............2120 bytes
+	TROOE2E8............2140 bytes
+	TROOE3E7............1877 bytes
+	TROOE4E6............2448 bytes
+	TROOE5..............2053 bytes
+	TROOF1..............1841 bytes
+	TROOF2F8............2054 bytes
+	TROOF3F7............2192 bytes
+	TROOF4F6............2449 bytes
+	TROOF5..............1719 bytes
+	TROOG1..............2094 bytes
+	TROOG2G8............2276 bytes
+	TROOG3G7............2433 bytes
+	TROOG4G6............1933 bytes
+	TROOG5..............1670 bytes
+	TROOH1..............2199 bytes
+	TROOH2H8............2459 bytes
+	TROOH3H7............2586 bytes
+	TROOH4H6............2729 bytes
+	TROOH5..............1933 bytes
+	TROOI0..............2199 bytes
+	TROOJ0..............1913 bytes
+	TROOK0..............1819 bytes
+	TROOL0..............2270 bytes
+	TROOM0..............1941 bytes
+	TROON0..............2199 bytes
+	TROOO0..............1913 bytes
+	TROOP0..............1819 bytes
+	TROOQ0..............2270 bytes
+	TROOR0..............1941 bytes
+	TROOS0..............1941 bytes
+	TROOT0..............1941 bytes
+	TROOU0..............1941 bytes
+	CYBRA1..............5045 bytes
+	CYBRA2..............5008 bytes
+	CYBRA3..............4942 bytes
+	CYBRA4..............4764 bytes
+	CYBRA5..............5180 bytes
+	CYBRA6..............4764 bytes
+	CYBRA7..............4942 bytes
+	CYBRA8..............5008 bytes
+	CYBRB1..............4854 bytes
+	CYBRB2..............4890 bytes
+	CYBRB3..............4656 bytes
+	CYBRB4..............5195 bytes
+	CYBRB5..............5141 bytes
+	CYBRB6..............5195 bytes
+	CYBRB7..............4656 bytes
+	CYBRB8..............4890 bytes
+	CYBRC1..............4823 bytes
+	CYBRC2..............5125 bytes
+	CYBRC3..............5257 bytes
+	CYBRC4..............4886 bytes
+	CYBRC5..............4792 bytes
+	CYBRC6..............4886 bytes
+	CYBRC7..............5257 bytes
+	CYBRC8..............5125 bytes
+	CYBRD1..............4904 bytes
+	CYBRD2..............5216 bytes
+	CYBRD3..............5244 bytes
+	CYBRD4..............4592 bytes
+	CYBRD5..............4849 bytes
+	CYBRD6..............4592 bytes
+	CYBRD7..............5244 bytes
+	CYBRD8..............5216 bytes
+	CYBRE1..............4656 bytes
+	CYBRE2..............5270 bytes
+	CYBRE3..............5282 bytes
+	CYBRE4..............4863 bytes
+	CYBRE5..............4953 bytes
+	CYBRE6..............4863 bytes
+	CYBRE7..............5282 bytes
+	CYBRE8..............5270 bytes
+	CYBRF1..............5001 bytes
+	CYBRF2..............5066 bytes
+	CYBRF3..............4897 bytes
+	CYBRF4..............4917 bytes
+	CYBRF5..............5044 bytes
+	CYBRF6..............4917 bytes
+	CYBRF7..............4897 bytes
+	CYBRF8..............5066 bytes
+	CYBRG1..............5001 bytes
+	CYBRG2..............5028 bytes
+	CYBRG3..............4737 bytes
+	CYBRG4..............4805 bytes
+	CYBRG5..............5044 bytes
+	CYBRG6..............4805 bytes
+	CYBRG7..............4737 bytes
+	CYBRG8..............5028 bytes
+	CYBRH0..............5005 bytes
+	CYBRI0..............5330 bytes
+	CYBRJ0..............6052 bytes
+	CYBRK0..............6900 bytes
+	CYBRL0..............6254 bytes
+	CYBRM0..............6719 bytes
+	CYBRN0..............6498 bytes
+	CYBRO0..............6083 bytes
+	CYBRP0..............5858 bytes
+	HEADA1..............2755 bytes
+	HEADA2A8............2596 bytes
+	HEADA3A7............2315 bytes
+	HEADA4A6............2497 bytes
+	HEADA5..............2728 bytes
+	HEADB1..............2592 bytes
+	HEADB2B8............2374 bytes
+	HEADB3B7............2177 bytes
+	HEADB4B6............2606 bytes
+	HEADB5..............2563 bytes
+	HEADC1..............2862 bytes
+	HEADC2C8............2543 bytes
+	HEADC3C7............2533 bytes
+	HEADC4C6............2690 bytes
+	HEADC5..............2873 bytes
+	HEADD1..............3244 bytes
+	HEADD2D8............2495 bytes
+	HEADD3D7............2916 bytes
+	HEADD4D6............2706 bytes
+	HEADD5..............2873 bytes
+	HEADE1..............2755 bytes
+	HEADE2E8............2596 bytes
+	HEADE3E7............2315 bytes
+	HEADE4E6............2497 bytes
+	HEADE5..............2728 bytes
+	HEADF1..............2592 bytes
+	HEADF2F8............2298 bytes
+	HEADF3F7............2180 bytes
+	HEADF4F6............2606 bytes
+	HEADF5..............2563 bytes
+	HEADG0..............2592 bytes
+	HEADH0..............2592 bytes
+	HEADI0..............2377 bytes
+	HEADJ0..............1976 bytes
+	HEADK0..............2139 bytes
+	HEADL0..............1628 bytes
+	SKULA1..............1412 bytes
+	SKULA8A2............1339 bytes
+	SKULA7A3............1455 bytes
+	SKULA6A4............1495 bytes
+	SKULA5..............1408 bytes
+	SKULB1..............1398 bytes
+	SKULB8B2............1339 bytes
+	SKULB7B3............1455 bytes
+	SKULB6B4............1485 bytes
+	SKULB5..............1408 bytes
+	SKULC1..............1412 bytes
+	SKULC8C2............1339 bytes
+	SKULC7C3............1455 bytes
+	SKULC6C4............1485 bytes
+	SKULC5..............1408 bytes
+	SKULD1..............1412 bytes
+	SKULD8D2............1339 bytes
+	SKULD7D3............1455 bytes
+	SKULD6D4............1485 bytes
+	SKULD5..............1408 bytes
+	SKULE1..............1412 bytes
+	SKULE8E2............1339 bytes
+	SKULE7E3............1455 bytes
+	SKULE6E4............1485 bytes
+	SKULE5..............1408 bytes
+	SKULF0..............1412 bytes
+	SKULG0..............1423 bytes
+	SKULH0..............1800 bytes
+	SKULI0..............2205 bytes
+	SKULJ0..............4146 bytes
+	SKULK0..............4828 bytes
+	SPIDA1..............9649 bytes
+	SPIDA2..............10768 bytes
+	SPIDA3..............9046 bytes
+	SPIDA4..............10779 bytes
+	SPIDA5..............9696 bytes
+	SPIDA6..............10826 bytes
+	SPIDA7..............9131 bytes
+	SPIDA8..............11099 bytes
+	SPIDB1..............10139 bytes
+	SPIDB2..............10850 bytes
+	SPIDB3..............8768 bytes
+	SPIDB4..............10831 bytes
+	SPIDB5..............10171 bytes
+	SPIDB6..............10663 bytes
+	SPIDB7..............8809 bytes
+	SPIDB8..............11097 bytes
+	SPIDC1..............9959 bytes
+	SPIDC2..............10931 bytes
+	SPIDC3..............8925 bytes
+	SPIDC4..............10987 bytes
+	SPIDC5..............10182 bytes
+	SPIDC6..............10894 bytes
+	SPIDC7..............8909 bytes
+	SPIDC8..............11033 bytes
+	SPIDD1..............9651 bytes
+	SPIDD2..............10967 bytes
+	SPIDD3..............9031 bytes
+	SPIDD4..............10854 bytes
+	SPIDD5..............9694 bytes
+	SPIDD6..............10749 bytes
+	SPIDD7..............8919 bytes
+	SPIDD8..............10878 bytes
+	SPIDE1..............10094 bytes
+	SPIDE2..............11027 bytes
+	SPIDE3..............8820 bytes
+	SPIDE4..............10698 bytes
+	SPIDE5..............10134 bytes
+	SPIDE6..............10781 bytes
+	SPIDE7..............8763 bytes
+	SPIDE8..............10991 bytes
+	SPIDF1..............9952 bytes
+	SPIDF2..............10949 bytes
+	SPIDF3..............8883 bytes
+	SPIDF4..............10885 bytes
+	SPIDF5..............10143 bytes
+	SPIDF6..............10909 bytes
+	SPIDF7..............8911 bytes
+	SPIDF8..............11131 bytes
+	SPIDG1..............9745 bytes
+	SPIDG2..............11281 bytes
+	SPIDG3..............8933 bytes
+	SPIDG4..............11075 bytes
+	SPIDG5..............9757 bytes
+	SPIDG6..............11001 bytes
+	SPIDG7..............8914 bytes
+	SPIDG8..............11275 bytes
+	SPIDH1..............9745 bytes
+	SPIDH2..............11398 bytes
+	SPIDH3..............9032 bytes
+	SPIDH4..............11191 bytes
+	SPIDH5..............9887 bytes
+	SPIDH6..............11091 bytes
+	SPIDH7..............9019 bytes
+	SPIDH8..............11399 bytes
+	SPIDI1..............10150 bytes
+	SPIDI2..............11023 bytes
+	SPIDI3..............8761 bytes
+	SPIDI4..............10733 bytes
+	SPIDI5..............10512 bytes
+	SPIDI6..............10842 bytes
+	SPIDI7..............8764 bytes
+	SPIDI8..............10961 bytes
+	SPIDJ1..............10105 bytes
+	SPIDJ2..............11113 bytes
+	SPIDJ3..............8930 bytes
+	SPIDJ4..............10798 bytes
+	SPIDJ5..............10779 bytes
+	SPIDJ6..............10974 bytes
+	SPIDJ7..............8907 bytes
+	SPIDJ8..............10981 bytes
+	SPIDK0..............10531 bytes
+	SPIDL0..............12056 bytes
+	SPIDM0..............16712 bytes
+	SPIDN0..............14221 bytes
+	SPIDO0..............16663 bytes
+	SPIDP0..............17952 bytes
+	SPIDQ0..............9625 bytes
+	SPIDR0..............8479 bytes
+	SPIDS0..............2981 bytes
+	AMMOA0..............702 bytes
+	ARM1A0..............922 bytes
+	ARM1B0..............922 bytes
+	ARM2A0..............922 bytes
+	ARM2B0..............922 bytes
+	BAL1A0..............272 bytes
+	BAL1B0..............272 bytes
+	BAL1C0..............1130 bytes
+	BAL1D0..............1482 bytes
+	BAL1E0..............1681 bytes
+	BAL7A1A5............426 bytes
+	BAL7A2A8............762 bytes
+	BAL7A3A7............1135 bytes
+	BAL7A4A6............758 bytes
+	BAL7B1B5............462 bytes
+	BAL7B2B8............843 bytes
+	BAL7B3B7............1144 bytes
+	BAL7B4B6............685 bytes
+	BAL7C0..............1124 bytes
+	BAL7D0..............1393 bytes
+	BAL7E0..............1218 bytes
+	BAR1A0..............931 bytes
+	BAR1B0..............931 bytes
+	BEXPA0..............2190 bytes
+	BEXPB0..............4146 bytes
+	BEXPC0..............4828 bytes
+	BEXPD0..............3437 bytes
+	BEXPE0..............1881 bytes
+	BKEYA0..............327 bytes
+	BKEYB0..............327 bytes
+	BLUDA0..............136 bytes
+	BLUDB0..............188 bytes
+	BLUDC0..............252 bytes
+	BON1A0..............278 bytes
+	BON1B0..............278 bytes
+	BON1C0..............278 bytes
+	BON1D0..............278 bytes
+	BON2A0..............278 bytes
+	BON2B0..............278 bytes
+	BON2C0..............278 bytes
+	BON2D0..............278 bytes
+	BPAKA0..............772 bytes
+	BROKA0..............1616 bytes
+	CANDA0..............253 bytes
+	CBRAA0..............1007 bytes
+	CHGGA0..............6240 bytes
+	CHGFA0..............2340 bytes
+	CHGGB0..............6218 bytes
+	CHGFB0..............1272 bytes
+	CLIPA0..............184 bytes
+	COLUA0..............787 bytes
+	CSAWA0..............987 bytes
+	ELECA1..............4612 bytes
+	ELECA2..............4445 bytes
+	ELECA3..............3907 bytes
+	ELECA4..............4145 bytes
+	ELECA5..............4693 bytes
+	ELECA6..............4430 bytes
+	ELECA7..............3868 bytes
+	ELECA8..............4185 bytes
+	IFOGA0..............2130 bytes
+	IFOGB0..............2095 bytes
+	IFOGC0..............1713 bytes
+	IFOGD0..............1200 bytes
+	IFOGE0..............843 bytes
+	LAUNA0..............1294 bytes
+	MEDIA0..............903 bytes
+	MGUNA0..............1625 bytes
+	MISGA0..............7551 bytes
+	MISGB0..............7530 bytes
+	MISFA0..............7868 bytes
+	MISFB0..............9067 bytes
+	MISFC0..............9109 bytes
+	MISFD0..............8740 bytes
+	MISLA1..............239 bytes
+	MISLA5..............217 bytes
+	MISLA6A4............416 bytes
+	MISLA7A3............647 bytes
+	MISLA8A2............466 bytes
+	MISLB0..............2673 bytes
+	MISLC0..............2677 bytes
+	MISLD0..............3687 bytes
+	PINSA0..............751 bytes
+	PINSB0..............751 bytes
+	PINSC0..............751 bytes
+	PINSD0..............751 bytes
+	PISFA0..............1134 bytes
+	PISGA0..............2542 bytes
+	PISGB0..............3570 bytes
+	PISGC0..............3483 bytes
+	PISGD0..............3483 bytes
+	PISGE0..............2542 bytes
+	PLAYA1..............1874 bytes
+	PLAYA2A8............1611 bytes
+	PLAYA3A7............1781 bytes
+	PLAYA4A6............1727 bytes
+	PLAYA5..............1548 bytes
+	PLAYB1..............1699 bytes
+	PLAYB2B8............1277 bytes
+	PLAYB3B7............1274 bytes
+	PLAYB4B6............1723 bytes
+	PLAYB5..............1568 bytes
+	PLAYC1..............1667 bytes
+	PLAYC2C8............1418 bytes
+	PLAYC3C7............1714 bytes
+	PLAYC4C6............1830 bytes
+	PLAYC5..............1581 bytes
+	PLAYD1..............1670 bytes
+	PLAYD2D8............1324 bytes
+	PLAYD3D7............1171 bytes
+	PLAYD4D6............1572 bytes
+	PLAYD5..............1590 bytes
+	PLAYE1..............1388 bytes
+	PLAYE2E8............1645 bytes
+	PLAYE3E7............2048 bytes
+	PLAYE4E6............1663 bytes
+	PLAYE5..............1325 bytes
+	PLAYF1..............1383 bytes
+	PLAYF2F8............1749 bytes
+	PLAYF3F7............2058 bytes
+	PLAYF4F6............1708 bytes
+	PLAYF5..............1196 bytes
+	PLAYG1..............1824 bytes
+	PLAYG2G8............1719 bytes
+	PLAYG3G7............2018 bytes
+	PLAYG4G6............1858 bytes
+	PLAYG5..............1800 bytes
+	PLAYH0..............1965 bytes
+	PLAYI0..............1614 bytes
+	PLAYJ0..............1794 bytes
+	PLAYK0..............1624 bytes
+	PLAYL0..............1117 bytes
+	PLAYM0..............1139 bytes
+	PLAYN0..............1121 bytes
+	PLAYO0..............1911 bytes
+	PLAYP0..............1994 bytes
+	PLAYQ0..............2130 bytes
+	PLAYR0..............2068 bytes
+	PLAYS0..............1950 bytes
+	PLAYT0..............1591 bytes
+	PLAYU0..............1287 bytes
+	PLAYV0..............1111 bytes
+	PLAYW0..............1128 bytes
+	PMAPA0..............1158 bytes
+	PMAPB0..............1158 bytes
+	PMAPC0..............1158 bytes
+	PMAPD0..............1158 bytes
+	POL5A0..............931 bytes
+	PUFFA0..............74 bytes
+	PUFFB0..............142 bytes
+	PUFFC0..............222 bytes
+	PUFFD0..............391 bytes
+	PUNGA0..............2866 bytes
+	PUNGB0..............8325 bytes
+	PUNGC0..............8385 bytes
+	PUNGD0..............12996 bytes
+	PVISA0..............564 bytes
+	PVISB0..............564 bytes
+	RKEYA0..............327 bytes
+	RKEYB0..............327 bytes
+	ROCKA0..............330 bytes
+	SAWGA0..............8130 bytes
+	SAWGB0..............8280 bytes
+	SAWGC0..............13410 bytes
+	SAWGD0..............13740 bytes
+	SBOXA0..............412 bytes
+	SHELA0..............240 bytes
+	SHOTA0..............871 bytes
+	SHTGB0..............4459 bytes
+	SHTGC0..............8738 bytes
+	SHTFA0..............1359 bytes
+	SHTFB0..............1140 bytes
+	SHTGD0..............7693 bytes
+	SHTGA0..............3991 bytes
+	SOULA0..............722 bytes
+	SOULB0..............722 bytes
+	SOULC0..............722 bytes
+	SOULD0..............722 bytes
+	STIMA0..............392 bytes
+	SUITA0..............1171 bytes
+	TFOGA0..............2431 bytes
+	TFOGB0..............2447 bytes
+	TFOGC0..............2048 bytes
+	TFOGD0..............1804 bytes
+	TFOGE0..............1543 bytes
+	TFOGF0..............1190 bytes
+	TFOGG0..............1052 bytes
+	TFOGH0..............716 bytes
+	TFOGI0..............429 bytes
+	TFOGJ0..............293 bytes
+	TREDA0..............1269 bytes
+	TREDB0..............1251 bytes
+	TREDC0..............1252 bytes
+	TREDD0..............1249 bytes
+	YKEYA0..............327 bytes
+	YKEYB0..............327 bytes
+	SMITA0..............2681 bytes
+	TRE1A0..............1960 bytes
+	TRE2A0..............5227 bytes
+	HDB1A0..............1255 bytes
+	HDB2A0..............1147 bytes
+	HDB3A0..............820 bytes
+	HDB4A0..............773 bytes
+	HDB5A0..............810 bytes
+	HDB6A0..............740 bytes
+	MEGAA0..............722 bytes
+	MEGAB0..............722 bytes
+	MEGAC0..............722 bytes
+	MEGAD0..............722 bytes
+	SHT2A0..............3370 bytes
+	SHT2B0..............3370 bytes
+	SHT2C0..............3059 bytes
+	SHT2D0..............5499 bytes
+	SHT2E0..............5944 bytes
+	SHT2F0..............4423 bytes
+	SHT2G0..............3588 bytes
+	SHT2H0..............3463 bytes
+	SHT2I0..............3936 bytes
+	SHT2J0..............4660 bytes
+	SGN2A0..............920 bytes
+	TLMPA0..............1033 bytes
+	TLMPB0..............1033 bytes
+	TLMPC0..............1033 bytes
+	TLMPD0..............1033 bytes
+	TLP2A0..............769 bytes
+	TLP2B0..............769 bytes
+	TLP2C0..............769 bytes
+	TLP2D0..............769 bytes
+	POB1A0..............682 bytes
+	POB2A0..............379 bytes
+	APBXA0..............636 bytes
+	APBXB0..............868 bytes
+	APBXC0..............1077 bytes
+	APBXD0..............1079 bytes
+	APBXE0..............824 bytes
+	APLSA0..............403 bytes
+	APLSB0..............375 bytes
+	BAL2A0..............430 bytes
+	BAL2B0..............378 bytes
+	BAL2C0..............2783 bytes
+	BAL2D0..............2911 bytes
+	BAL2E0..............3267 bytes
+	BFS1A0..............2494 bytes
+	BFS1B0..............2494 bytes
+	BFUGA0..............1861 bytes
+	BFGGA0..............11280 bytes
+	BFGGB0..............11280 bytes
+	BFGFA0..............12047 bytes
+	BFGFB0..............12090 bytes
+	BFE1A0..............5546 bytes
+	BFE1B0..............8318 bytes
+	BFE1C0..............10916 bytes
+	BFE1D0..............5964 bytes
+	BFE1E0..............394 bytes
+	BFE1F0..............96 bytes
+	BFE2A0..............3097 bytes
+	BFE2B0..............1956 bytes
+	BFE2C0..............394 bytes
+	BFE2D0..............96 bytes
+	BSKUA0..............290 bytes
+	BSKUB0..............290 bytes
+	CELLA0..............359 bytes
+	CELPA0..............946 bytes
+	CEYEA0..............1287 bytes
+	CEYEB0..............1376 bytes
+	CEYEC0..............1320 bytes
+	COL1A0..............1989 bytes
+	COL2A0..............1507 bytes
+	COL3A0..............1989 bytes
+	COL4A0..............1507 bytes
+	COL5A0..............1553 bytes
+	COL5B0..............1561 bytes
+	COL6A0..............1595 bytes
+	FCANA0..............1652 bytes
+	FCANB0..............1728 bytes
+	FCANC0..............1700 bytes
+	FSKUA0..............1626 bytes
+	FSKUB0..............1626 bytes
+	FSKUC0..............1626 bytes
+	GOR1A0..............1073 bytes
+	GOR1B0..............1034 bytes
+	GOR1C0..............1057 bytes
+	GOR2A0..............550 bytes
+	GOR3A0..............745 bytes
+	GOR4A0..............1261 bytes
+	GOR5A0..............753 bytes
+	PINVA0..............722 bytes
+	PINVB0..............722 bytes
+	PINVC0..............722 bytes
+	PINVD0..............722 bytes
+	PLASA0..............981 bytes
+	PLSEA0..............636 bytes
+	PLSEB0..............868 bytes
+	PLSEC0..............1077 bytes
+	PLSED0..............1079 bytes
+	PLSEE0..............824 bytes
+	PLSFA0..............10551 bytes
+	PLSFB0..............10537 bytes
+	PLSGA0..............9209 bytes
+	PLSGB0..............9209 bytes
+	PLSSA0..............403 bytes
+	PLSSB0..............385 bytes
+	POL1A0..............1084 bytes
+	POL2A0..............979 bytes
+	POL3A0..............1670 bytes
+	POL3B0..............1646 bytes
+	POL4A0..............870 bytes
+	POL6A0..............1395 bytes
+	POL6B0..............1446 bytes
+	PSTRA0..............758 bytes
+	RSKUA0..............290 bytes
+	RSKUB0..............290 bytes
+	SMBTA0..............634 bytes
+	SMBTB0..............622 bytes
+	SMBTC0..............649 bytes
+	SMBTD0..............655 bytes
+	SMGTA0..............634 bytes
+	SMGTB0..............622 bytes
+	SMGTC0..............649 bytes
+	SMGTD0..............655 bytes
+	SMRTA0..............634 bytes
+	SMRTB0..............622 bytes
+	SMRTC0..............649 bytes
+	SMRTD0..............655 bytes
+	SMT2A0..............738 bytes
+	TBLUA0..............1269 bytes
+	TBLUB0..............1251 bytes
+	TBLUC0..............1252 bytes
+	TBLUD0..............1249 bytes
+	TGRNA0..............1269 bytes
+	TGRNB0..............1251 bytes
+	TGRNC0..............1252 bytes
+	TGRND0..............1249 bytes
+	YSKUA0..............290 bytes
+	YSKUB0..............290 bytes
+	S_END...............0 bytes
+	P_START.............0 bytes
+	P1_START............0 bytes
+	AG128_1.............8776 bytes
+	AG128_2.............8776 bytes
+	AGB128_1............1104 bytes
+	AGM.................769 bytes
+	AGM_GRN.............769 bytes
+	ALTAQUA.............17544 bytes
+	AROCK2..............17544 bytes
+	AROCK3..............17544 bytes
+	AROCK4..............17544 bytes
+	AROCK5..............17544 bytes
+	ASPHALT.............35080 bytes
+	BCRAT16.............408 bytes
+	BCRAT32.............1320 bytes
+	BCRATEL1............2344 bytes
+	BCRATEM1............592 bytes
+	BCRATER1............2344 bytes
+	BFALL1..............8776 bytes
+	BFALL2..............8776 bytes
+	BFALL3..............8776 bytes
+	BFALL4..............8776 bytes
+	BIGMURAL............35080 bytes
+	BIGWALL.............17544 bytes
+	BLITA0..............144 bytes
+	BLITB0..............144 bytes
+	BLITC0..............144 bytes
+	BLOD128A............2739 bytes
+	BLOD128B............2739 bytes
+	BLOD64A.............1351 bytes
+	BLOD64B.............1351 bytes
+	BLUTNT..............769 bytes
+	BODIES..............8776 bytes
+	BODY_1..............17544 bytes
+	BODY_2..............17544 bytes
+	BRBRICK.............17544 bytes
+	BRBRICK2............17544 bytes
+	BRICK...............17544 bytes
+	BRICK1..............17544 bytes
+	BRICK2..............17544 bytes
+	BRNOPEN.............6398 bytes
+	BROCK2..............17544 bytes
+	BROWN1..............17544 bytes
+	BROWN2..............17544 bytes
+	BROWN3..............17544 bytes
+	BROWN4..............17544 bytes
+	BROWN5..............17544 bytes
+	BTNTCRAT............317 bytes
+	BUL64A..............893 bytes
+	BUL64B..............893 bytes
+	BUL64C..............1244 bytes
+	BUL64D..............1244 bytes
+	CAMO1...............17544 bytes
+	CAMO4...............17544 bytes
+	CAMO5...............17544 bytes
+	CARLLF1.............17544 bytes
+	CARLLF2.............17544 bytes
+	CARLRT1.............17544 bytes
+	CARLRT2.............17544 bytes
+	CAVERN1.............17544 bytes
+	CAVERN4.............17544 bytes
+	CAVERN5.............6398 bytes
+	CAVERN6.............17544 bytes
+	CAVERN7.............17544 bytes
+	CLWDVS3.............1064 bytes
+	COMP01_1............3648 bytes
+	COMP01_5............3648 bytes
+	COMP01_6............3648 bytes
+	COMP02_1............4168 bytes
+	COMP02_2............4168 bytes
+	COMP02_3............4168 bytes
+	COMP02_4............4168 bytes
+	COMP02_5............4168 bytes
+	COMP02_6............4168 bytes
+	COMP02_7............4168 bytes
+	COMP02_8............4168 bytes
+	COMP03_1............4680 bytes
+	COMP03_2............4680 bytes
+	COMP03_4............2344 bytes
+	COMP03_5............4680 bytes
+	COMP03_6............2344 bytes
+	COMP03_7............2344 bytes
+	COMP03_8............2344 bytes
+	COMP03_9............4680 bytes
+	COMP04_1............4680 bytes
+	COMP04_2............4680 bytes
+	COMP04_5............4680 bytes
+	COMP04_6............4680 bytes
+	COMP04_7............4680 bytes
+	COMP04_8............4680 bytes
+	COMP1B_4............3648 bytes
+	COMP1C_6............3648 bytes
+	CONCRETE............17544 bytes
+	CRLWDH6.............8776 bytes
+	CRLWDH6B............8776 bytes
+	CRLWDL12............9352 bytes
+	CRLWDL6.............4680 bytes
+	CRLWDL6B............4680 bytes
+	CRLWDL6C............4680 bytes
+	CRLWDL6D............4680 bytes
+	CRLWDL6E............4680 bytes
+	CRLWDS6.............2632 bytes
+	CRLWDT3.............9352 bytes
+	CRWDH6..............8776 bytes
+	CRWDH6B.............8776 bytes
+	CRWDL12.............9352 bytes
+	CRWDL6..............4680 bytes
+	CRWDL6B.............4680 bytes
+	CRWDL6C.............4680 bytes
+	CRWDL6D.............4680 bytes
+	CRWDS6..............2632 bytes
+	CRWDT3..............808 bytes
+	CRWDVS3.............1064 bytes
+	CYAN................328 bytes
+	CYL1_1..............9566 bytes
+	DARKROCK............35080 bytes
+	DIRBRI1.............17544 bytes
+	DIRBRI2.............17544 bytes
+	DISASTER............3452 bytes
+	DOBIGTVA............9872 bytes
+	DOBIGTVB............9872 bytes
+	DOBIGTVC............9872 bytes
+	DOBIGTVD............9872 bytes
+	DOBLIP1A............9872 bytes
+	DOBLIP2A............9872 bytes
+	DOBLIP3A............9872 bytes
+	DOBLIP4A............9872 bytes
+	DOBWIRE.............2269 bytes
+	DOBWIRE2............2831 bytes
+	DOEHELL.............35080 bytes
+	DOGLDIR.............17544 bytes
+	DOGLPANL............5935 bytes
+	DOGRID..............2269 bytes
+	DOGRMSC.............17544 bytes
+	DOGRNMEN............17544 bytes
+	DOKGRIR.............17544 bytes
+	DOKODO1B............8776 bytes
+	DOKODO2B............8776 bytes
+	DOOR11_1............14528 bytes
+	DOOR12_1............10868 bytes
+	DOOR15_1............8776 bytes
+	DOOR15_2............8776 bytes
+	DOOR15_3............8776 bytes
+	DOOR15_4............8776 bytes
+	DOOR2_1.............10088 bytes
+	DOOR2_3.............2632 bytes
+	DOOR2_4.............17544 bytes
+	DOOR2_5.............5192 bytes
+	DOOR3_4.............1952 bytes
+	DOOR3_5.............1952 bytes
+	DOOR3_6.............5192 bytes
+	DOOR9_1.............17544 bytes
+	DOOR9_2.............17544 bytes
+	DOORTRAK............1104 bytes
+	DOPUNK4.............17544 bytes
+	DORED...............17544 bytes
+	DOSHA1..............18640 bytes
+	DOSHB1..............18640 bytes
+	DOSHC1..............18640 bytes
+	DOSHD1..............18640 bytes
+	DOSHE1..............18640 bytes
+	DOSHF1..............18640 bytes
+	DOSLVR11............9872 bytes
+	DOSLVR12............9872 bytes
+	DOSLVR13............9872 bytes
+	DOSLVR14............9872 bytes
+	DOSLVR21............9872 bytes
+	DOSLVR22............9872 bytes
+	DOSLVR23............9872 bytes
+	DOSLVR24............9872 bytes
+	DOSPI1B.............1194 bytes
+	DOSPI2B.............1194 bytes
+	DOSPI3B.............1194 bytes
+	DOSPI4B.............1194 bytes
+	DOSW1...............9872 bytes
+	DOSW1C..............9872 bytes
+	DOSW2...............9872 bytes
+	DOSW2C..............9872 bytes
+	DOSW3...............9872 bytes
+	DOSW3C..............9872 bytes
+	DOSW4...............9872 bytes
+	DOSW4C..............9872 bytes
+	DOSWX1..............9872 bytes
+	DOSWX1C.............9872 bytes
+	DOSWX2..............9872 bytes
+	DOSWX2C.............9872 bytes
+	DOSWX3..............9872 bytes
+	DOSWX3C.............9872 bytes
+	DOSWX4..............9872 bytes
+	DOSWX4C.............9872 bytes
+	DOTNTDR.............17544 bytes
+	DOTV1B..............9872 bytes
+	DOTV2B..............9872 bytes
+	DOTV3B..............9872 bytes
+	DOTV4B..............9872 bytes
+	DOWEBL..............1194 bytes
+	DOWEBR..............1194 bytes
+	DOWINDOW............1808 bytes
+	DRFRONT.............17544 bytes
+	DRSIDE1.............4392 bytes
+	DRSIDE2.............4392 bytes
+	DRTOPFR.............9480 bytes
+	DRTOPSID............2376 bytes
+	DUCT1...............951 bytes
+	DUMMY...............13 bytes
+	EGGREENI............1104 bytes
+	EGREDI..............1104 bytes
+	EXIT1...............808 bytes
+	EXIT2...............208 bytes
+	FENCE4..............2269 bytes
+	FENCE5..............929 bytes
+	FIREBLU1............17544 bytes
+	FIREBLU2............17544 bytes
+	FLAMP...............1710 bytes
+	GCRATEL1............2344 bytes
+	GCRATEM1............592 bytes
+	GCRATER1............2344 bytes
+	GLASS1..............1150 bytes
+	GLASS1B.............1150 bytes
+	GLASS2..............1354 bytes
+	GLASS2B.............1354 bytes
+	GRATE...............20712 bytes
+	GRIDBLUE............4680 bytes
+	GRIDGRN.............4680 bytes
+	GRIDPURP............4680 bytes
+	GRIDRED.............4680 bytes
+	GRIDWHT2............4680 bytes
+	GRIDWHTE............4680 bytes
+	GRIDYLW.............4680 bytes
+	GRNLIT1.............4392 bytes
+	GRNOPEN.............6154 bytes
+	HELL5_1.............17544 bytes
+	HELL5_2.............17544 bytes
+	HELL6_1.............4392 bytes
+	HELL6_2.............8776 bytes
+	HELL6_3.............8776 bytes
+	HELL8_1.............8776 bytes
+	HELL8_2.............8776 bytes
+	HELL8_3.............4392 bytes
+	HELL8_4.............8776 bytes
+	LADDER16............1608 bytes
+	LOGO................35080 bytes
+	LOGO3...............5481 bytes
+	LOGO4...............5481 bytes
+	LOGO5...............7956 bytes
+	LONGWALL............35080 bytes
+	LOOP................1056 bytes
+	LOOP_GRN............1056 bytes
+	M1_1................10152 bytes
+	MARBLE1.............17544 bytes
+	MC1.................17544 bytes
+	MC10................17544 bytes
+	MC11................17544 bytes
+	MC12................17544 bytes
+	MC13................17544 bytes
+	MC14................17544 bytes
+	MC15................17544 bytes
+	MC16................17544 bytes
+	MC17................17544 bytes
+	MC18................17544 bytes
+	MC19................17544 bytes
+	MC2.................17544 bytes
+	MC20................17544 bytes
+	MC3.................17544 bytes
+	MC4.................17544 bytes
+	MC5.................17544 bytes
+	MC6.................17544 bytes
+	MC7.................17544 bytes
+	MC8.................17544 bytes
+	MC9.................17544 bytes
+	MOSROK2.............17544 bytes
+	MOSSBRIK............17544 bytes
+	MOSSROCK............17544 bytes
+	MOULD...............17544 bytes
+	MTNT2...............1623 bytes
+	MUD.................17544 bytes
+	MURAL1..............17544 bytes
+	MURAL2..............17544 bytes
+	MWALL1_1............17544 bytes
+	MWALL1_2............17544 bytes
+	MWALL2_1............17544 bytes
+	MWALL3_1............17544 bytes
+	MWALL4_1............17544 bytes
+	MWALL4_2............17544 bytes
+	MWALL5_1............17544 bytes
+	MYWOOD..............17544 bytes
+	NATROCK.............35080 bytes
+	NUKEDGE.............2120 bytes
+	PBLAK...............8776 bytes
+	PCWINL..............1244 bytes
+	PILLAR..............4392 bytes
+	PIVY3...............1194 bytes
+	PL_01...............46 bytes
+	PL_05...............342 bytes
+	PL_10...............558 bytes
+	PL_18...............558 bytes
+	PL_19...............280 bytes
+	PL_20...............280 bytes
+	PL_25...............158 bytes
+	PL_31...............318 bytes
+	PL_A................146 bytes
+	PL_C................146 bytes
+	PL_N................146 bytes
+	PL_T................146 bytes
+	PL_U................146 bytes
+	PLAT2_1.............17544 bytes
+	POISON..............4680 bytes
+	PREEL1..............328 bytes
+	PREEL2..............328 bytes
+	PREEL3..............328 bytes
+	PREEL4..............328 bytes
+	PREEL5..............328 bytes
+	PREEL6..............328 bytes
+	PREEL7..............328 bytes
+	PS15A0..............1228 bytes
+	PS18A0..............2282 bytes
+	PS20A0..............1924 bytes
+	PSTON2..............17544 bytes
+	RAILING.............1960 bytes
+	REDLITE1............4392 bytes
+	REDLITE2............1104 bytes
+	REDOPEN.............6154 bytes
+	REDROCK.............35080 bytes
+	REDTNT2.............4411 bytes
+	RIPW15..............3208 bytes
+	ROCK................17544 bytes
+	ROMERO1.............1175 bytes
+	RP1_1...............17544 bytes
+	RP1_2...............17544 bytes
+	RP2_1...............4392 bytes
+	RP2_2...............4392 bytes
+	RP2_3...............4392 bytes
+	RP2_4...............4392 bytes
+	RSKY1...............35080 bytes
+	RSKY2...............35080 bytes
+	RSKY3...............35080 bytes
+	RW10_1..............8776 bytes
+	RW10_2..............8776 bytes
+	RW10_3..............8776 bytes
+	RW10_4..............7364 bytes
+	RW11_2..............8776 bytes
+	RW11_3..............8776 bytes
+	RW12_1..............8776 bytes
+	RW12_2..............8776 bytes
+	RW12_3..............8776 bytes
+	RW12_4..............8776 bytes
+	RW13_1..............17544 bytes
+	RW14_1..............8776 bytes
+	RW15_1..............8776 bytes
+	RW15_2..............8776 bytes
+	RW15_3..............8776 bytes
+	RW15_4..............8776 bytes
+	RW16_1..............8776 bytes
+	RW16_2..............8776 bytes
+	RW16_3..............8776 bytes
+	RW16_4..............8776 bytes
+	RW18_1..............8776 bytes
+	RW18_2..............8776 bytes
+	RW18_3..............8776 bytes
+	RW18_4..............8776 bytes
+	RW19_1..............8776 bytes
+	RW19_2..............8776 bytes
+	RW19_3..............8776 bytes
+	RW19_4..............8776 bytes
+	RW1_1...............8776 bytes
+	RW1_2...............8776 bytes
+	RW1_3...............8776 bytes
+	RW1_4...............8776 bytes
+	RW20_1..............8776 bytes
+	RW20_2..............8776 bytes
+	RW20_3..............8776 bytes
+	RW20_4..............8776 bytes
+	RW21_1..............4392 bytes
+	RW21_2..............2200 bytes
+	RW21_3..............8776 bytes
+	RW21_4..............8776 bytes
+	RW21_5..............8776 bytes
+	RW22_1..............8776 bytes
+	RW22_2..............8776 bytes
+	RW22_3..............8776 bytes
+	RW23_1..............8776 bytes
+	RW23_2..............8776 bytes
+	RW23_3..............8776 bytes
+	RW23_4..............8776 bytes
+	RW24_1..............8776 bytes
+	RW24_2..............8776 bytes
+	RW24_3..............8776 bytes
+	RW24_4..............8776 bytes
+	RW25_1..............8776 bytes
+	RW25_2..............8776 bytes
+	RW25_3..............8776 bytes
+	RW25_4..............8776 bytes
+	RW26_1..............8776 bytes
+	RW26_2..............8776 bytes
+	RW26_3..............8776 bytes
+	RW26_4..............8776 bytes
+	RW27_2..............8776 bytes
+	RW27_3..............8776 bytes
+	RW28_1..............8776 bytes
+	RW28_2..............8776 bytes
+	RW28_3..............8776 bytes
+	RW28_4..............8776 bytes
+	RW30_1..............8776 bytes
+	RW30_2..............8776 bytes
+	RW30_3..............8776 bytes
+	RW31_1..............8776 bytes
+	RW31_2..............8776 bytes
+	RW31_3..............8776 bytes
+	RW31_4..............8776 bytes
+	RW32_1..............8776 bytes
+	RW32_2..............8776 bytes
+	RW32_3..............8776 bytes
+	RW33_1..............8776 bytes
+	RW33_2..............8776 bytes
+	RW33_3..............8776 bytes
+	RW33_4..............8776 bytes
+	RW34_1..............8776 bytes
+	RW34_2..............8776 bytes
+	RW35_1..............17544 bytes
+	RW35_2..............17544 bytes
+	RW36_1..............8776 bytes
+	RW36_2..............8776 bytes
+	RW36_3..............8776 bytes
+	RW37_1..............8776 bytes
+	RW37_2..............8776 bytes
+	RW37_3..............8776 bytes
+	RW37_4..............8776 bytes
+	RW38_1..............8776 bytes
+	RW38_2..............8776 bytes
+	RW38_3..............8776 bytes
+	RW38_4..............8776 bytes
+	RW39_1..............8776 bytes
+	RW39_2..............8776 bytes
+	RW41_1..............8776 bytes
+	RW41_2..............8776 bytes
+	RW41_3..............8776 bytes
+	RW41_4..............8776 bytes
+	RW42_1..............8776 bytes
+	RW42_3..............8776 bytes
+	RW42_4..............8776 bytes
+	RW43_1..............4728 bytes
+	RW43_3..............8776 bytes
+	RW43_4..............8776 bytes
+	RW44_2..............8776 bytes
+	RW44_4..............8776 bytes
+	RW45_1..............2904 bytes
+	RW46_2..............8776 bytes
+	RW46_3..............8776 bytes
+	RW46_4..............8776 bytes
+	RW47_1..............10360 bytes
+	RW47_3..............8776 bytes
+	RW47_4..............8776 bytes
+	RW48_1..............8776 bytes
+	RW48_2..............8776 bytes
+	RW48_3..............8776 bytes
+	RW48_4..............8776 bytes
+	RW5_1...............8776 bytes
+	RW5_2...............8776 bytes
+	RW5_3...............8776 bytes
+	RW5_4...............8776 bytes
+	RW6_1...............8776 bytes
+	RW7_1...............8776 bytes
+	RW7_2...............8776 bytes
+	RW7_3...............8776 bytes
+	RW8_1...............8776 bytes
+	RW8_2...............8776 bytes
+	RW8_3...............8776 bytes
+	RW8_4...............8776 bytes
+	RW9_1...............8776 bytes
+	RW9_2...............8776 bytes
+	RW9_3...............8776 bytes
+	RW9_4...............8776 bytes
+	RWDM11A.............2632 bytes
+	RWDM11B.............2632 bytes
+	RWDM11C.............2632 bytes
+	RWDM11D.............2632 bytes
+	RWDMON1.............35080 bytes
+	RWDMON10............35080 bytes
+	RWDMON2.............35080 bytes
+	RWDMON3.............35080 bytes
+	RWDMON4.............35080 bytes
+	RWDMON5.............35080 bytes
+	RWDMON7.............35080 bytes
+	RWDMON8.............35080 bytes
+	RWDMON9.............35080 bytes
+	SAW1................1131 bytes
+	SAW1SD..............4392 bytes
+	SAW2................1104 bytes
+	SAW2SD..............4392 bytes
+	SAW3................1028 bytes
+	SAW3SD..............4392 bytes
+	SAW4................1018 bytes
+	SAW4SD..............4392 bytes
+	SAW5................1112 bytes
+	SAW5SD..............4392 bytes
+	SAW6................1155 bytes
+	SAW6SD..............4392 bytes
+	SFALL1..............8776 bytes
+	SFALL2..............8776 bytes
+	SFALL3..............8776 bytes
+	SFALL4..............8776 bytes
+	SGCRATE2............2344 bytes
+	SKIRTING............13320 bytes
+	SKY1................35080 bytes
+	SKY2................35080 bytes
+	SKY2A...............35080 bytes
+	SKY2B...............35080 bytes
+	SKY2C...............35080 bytes
+	SKY2D...............35080 bytes
+	SKY3................35080 bytes
+	SKY3A...............35080 bytes
+	SKY3B...............35080 bytes
+	SKY4................35080 bytes
+	SMCRATG.............167 bytes
+	SMFILLER............556 bytes
+	SNAK7_1.............8776 bytes
+	SNAK8_1.............8776 bytes
+	SPINE3_1............13448 bytes
+	SPINE3_2............13448 bytes
+	SPINE4_1............17544 bytes
+	STEP03..............552 bytes
+	STEP04..............552 bytes
+	STEP05..............552 bytes
+	STEP06..............552 bytes
+	STEP07..............552 bytes
+	STEP08..............552 bytes
+	STEP09..............552 bytes
+	STEP10..............552 bytes
+	STONEW1.............17544 bytes
+	STONEW5.............17544 bytes
+	STWALL..............17544 bytes
+	SUPPORT2............1952 bytes
+	SW11_1..............4392 bytes
+	SW11_2..............4392 bytes
+	SW11_4..............4392 bytes
+	SW11_5..............4392 bytes
+	SW12_1..............4392 bytes
+	SW12_2..............4392 bytes
+	SW12_4..............4392 bytes
+	SW12_5..............4392 bytes
+	SW15_1..............4392 bytes
+	SW15_3..............4392 bytes
+	SW15_4..............4392 bytes
+	SW15_6..............4392 bytes
+	SW16_1..............4392 bytes
+	SW16_2..............4392 bytes
+	SW16_4..............4392 bytes
+	SW16_6..............4392 bytes
+	SW17_1..............4392 bytes
+	SW17_2..............4392 bytes
+	SW17_3..............4392 bytes
+	SW17_4..............4392 bytes
+	SW17_5..............4392 bytes
+	SW17_6..............4392 bytes
+	SW18_5..............4392 bytes
+	SW18_7..............4392 bytes
+	SW19_1..............8776 bytes
+	SW19_2..............8776 bytes
+	SW19_3..............8776 bytes
+	SW19_4..............8776 bytes
+	SW1S0...............1320 bytes
+	SW1S1...............1320 bytes
+	SW1SKULL............4680 bytes
+	SW2_1...............678 bytes
+	SW2_2...............678 bytes
+	SW2_3...............2128 bytes
+	SW2_4...............2128 bytes
+	SW2_5...............2533 bytes
+	SW2_6...............2533 bytes
+	SW2_7...............1600 bytes
+	SW2_8...............1600 bytes
+	SW2S0...............1320 bytes
+	SW2S1...............1320 bytes
+	SW2SKULL............4680 bytes
+	SW3S0...............1320 bytes
+	SW3S1...............1320 bytes
+	SW4S0...............800 bytes
+	SW4S1...............800 bytes
+	T14_3...............5192 bytes
+	T14_5...............1304 bytes
+	TILE................17544 bytes
+	TOMW2_1.............10376 bytes
+	TOMW2_2.............10376 bytes
+	TP2_1...............17544 bytes
+	TP2_2...............17544 bytes
+	TP3_1...............17544 bytes
+	TP3_2...............17544 bytes
+	TP5_1...............4392 bytes
+	TP5_2...............4392 bytes
+	TP5_3...............4392 bytes
+	TP5_4...............4392 bytes
+	TP7_1...............17544 bytes
+	TP7_2...............17544 bytes
+	TSCRN2..............3473 bytes
+	TSCRN3..............3473 bytes
+	TSCRN4..............3473 bytes
+	TSCRN5..............3473 bytes
+	TSCRN6..............3473 bytes
+	TSCRN8..............3473 bytes
+	TTALL1_2............1104 bytes
+	TYUNDER1............4680 bytes
+	TYWFALL1............9872 bytes
+	TYWFALL2............9872 bytes
+	TYWFALL3............9872 bytes
+	TYWFALL4............9872 bytes
+	TYWHEEL1............9352 bytes
+	VGCRATE1............408 bytes
+	VINES1..............17544 bytes
+	W101_1..............17544 bytes
+	W101_2..............17544 bytes
+	W102_1..............17544 bytes
+	W102_2..............17544 bytes
+	W103_1..............17544 bytes
+	W103_2..............17544 bytes
+	W104_1..............8776 bytes
+	W105_1..............18568 bytes
+	W106_1..............21702 bytes
+	W107_1..............21713 bytes
+	W108_1..............8776 bytes
+	W108_2..............536 bytes
+	W108_3..............536 bytes
+	W108_4..............536 bytes
+	W109_1..............17544 bytes
+	W109_2..............17544 bytes
+	W110_1..............35080 bytes
+	W111_2..............3726 bytes
+	W111_3..............3726 bytes
+	W112_1..............4240 bytes
+	W112_2..............2271 bytes
+	W112_3..............2212 bytes
+	W113_1..............15548 bytes
+	W113_2..............4299 bytes
+	W113_3..............4341 bytes
+	W13_1...............5192 bytes
+	W13_8...............1304 bytes
+	W13_A...............1304 bytes
+	W15_4...............5192 bytes
+	W15_5...............5192 bytes
+	W15_6...............1952 bytes
+	W17_1...............28080 bytes
+	W28_5...............4680 bytes
+	W28_6...............4680 bytes
+	W28_7...............4680 bytes
+	W28_8...............4680 bytes
+	W31_1...............4680 bytes
+	W32_1...............4680 bytes
+	W32_4...............4680 bytes
+	W33_5...............4680 bytes
+	W33_7...............4680 bytes
+	W33_8...............1096 bytes
+	W46_37..............208 bytes
+	W46_38..............208 bytes
+	W46_39..............208 bytes
+	W64B_1..............17544 bytes
+	W64B_2..............17544 bytes
+	W65B_1..............17544 bytes
+	W65B_2..............17544 bytes
+	W67_1...............4680 bytes
+	W67_2...............2344 bytes
+	W73A_1..............17544 bytes
+	W73A_2..............17544 bytes
+	W73B_1..............17544 bytes
+	W74A_1..............17544 bytes
+	W74A_2..............17544 bytes
+	W74B_1..............17544 bytes
+	W92_1...............14472 bytes
+	W92_2...............14472 bytes
+	W94_1...............17544 bytes
+	W96_1...............17544 bytes
+	W96_2...............17544 bytes
+	W98_1...............17544 bytes
+	W98_2...............17544 bytes
+	W99_1...............17544 bytes
+	W99_2...............17544 bytes
+	WALL00_1............9800 bytes
+	WALL00_2............2456 bytes
+	WALL00_3............2456 bytes
+	WALL00_5............2456 bytes
+	WALL00_6............2456 bytes
+	WALL00_7............2456 bytes
+	WALL00_8............2456 bytes
+	WALL01_1............1304 bytes
+	WALL01_2............1304 bytes
+	WALL01_3............1304 bytes
+	WALL01_4............1304 bytes
+	WALL01_5............1304 bytes
+	WALL01_6............1304 bytes
+	WALL01_7............1304 bytes
+	WALL01_8............1304 bytes
+	WALL01_9............1304 bytes
+	WALL01_A............1304 bytes
+	WALL01_B............1304 bytes
+	WALL01_C............1304 bytes
+	WALL02_1............5192 bytes
+	WALL02_2............5192 bytes
+	WALL02_3............1952 bytes
+	WALL03_1............5192 bytes
+	WALL03_3............5192 bytes
+	WALL03_4............5192 bytes
+	WALL03_7............4680 bytes
+	WALL04_2............1304 bytes
+	WALL04_3............1304 bytes
+	WALL04_4............1304 bytes
+	WALL04_5............1304 bytes
+	WALL04_7............1304 bytes
+	WALL04_9............1304 bytes
+	WALL04_A............1304 bytes
+	WALL04_B............1304 bytes
+	WALL04_C............1304 bytes
+	WALL05_2............4168 bytes
+	WALL21_1............5192 bytes
+	WALL21_3............5192 bytes
+	WALL21_5............5192 bytes
+	WALL22_1............15496 bytes
+	WALL23_1............15496 bytes
+	WALL23_2............15496 bytes
+	WALL24_1............35968 bytes
+	WALL25_1............13448 bytes
+	WALL30_2............8776 bytes
+	WALL30_3............8776 bytes
+	WALL30_4............8776 bytes
+	WALL40_1............17544 bytes
+	WALL40_2............17544 bytes
+	WALL42_1............5488 bytes
+	WALL42_3............3296 bytes
+	WALL42_5............5488 bytes
+	WALL42_6............5488 bytes
+	WALL47_1............8776 bytes
+	WALL47_2............8776 bytes
+	WALL47_3............5488 bytes
+	WALL47_4............5488 bytes
+	WALL47_5............5488 bytes
+	WALL48_1............8776 bytes
+	WALL48_2............8776 bytes
+	WALL48_3............8776 bytes
+	WALL48_4............8776 bytes
+	WALL49_1............8776 bytes
+	WALL49_2............8776 bytes
+	WALL49_3............8776 bytes
+	WALL49_4............8776 bytes
+	WALL50_1............17544 bytes
+	WALL50_2............17544 bytes
+	WALL51_1............8776 bytes
+	WALL51_2............8776 bytes
+	WALL51_3............8776 bytes
+	WALL52_1............17544 bytes
+	WALL52_2............17544 bytes
+	WALL53_1............17544 bytes
+	WALL54_1............17544 bytes
+	WALL54_2............17544 bytes
+	WALL55_1............17544 bytes
+	WALL57_1............8776 bytes
+	WALL57_2............8776 bytes
+	WALL57_3............8776 bytes
+	WALL57_4............8776 bytes
+	WALL58_1............8776 bytes
+	WALL58_2............8776 bytes
+	WALL58_3............8776 bytes
+	WALL59_1............8776 bytes
+	WALL59_2............8776 bytes
+	WALL59_3............8776 bytes
+	WALL59_4............8776 bytes
+	WALL62_1............17544 bytes
+	WALL62_2............8776 bytes
+	WALL63_1............17544 bytes
+	WALL63_2............17544 bytes
+	WALL64_1............17544 bytes
+	WALL64_2............17544 bytes
+	WALL69_4............4680 bytes
+	WALL69_9............2928 bytes
+	WALL70_2............4096 bytes
+	WALL70_3............4680 bytes
+	WALL70_4............4680 bytes
+	WALL70_9............2928 bytes
+	WALL71_5............4680 bytes
+	WALL72_3............4680 bytes
+	WALL72_5............4680 bytes
+	WALL72_7............4680 bytes
+	WALL76_1............17544 bytes
+	WALL78_1............17544 bytes
+	WALL79_1............17544 bytes
+	WALL97_1............8776 bytes
+	WALL97_2............8776 bytes
+	WALL97_3............8776 bytes
+	WARNA0..............552 bytes
+	WARNB0..............552 bytes
+	WFALL1..............8776 bytes
+	WFALL2..............8776 bytes
+	WFALL3..............8776 bytes
+	WFALL4..............8776 bytes
+	WLA128_1............8776 bytes
+	WLITA0..............144 bytes
+	WLITB0..............144 bytes
+	WLITC0..............144 bytes
+	WOLF1...............17544 bytes
+	WOLF10..............17544 bytes
+	WOLF11..............17544 bytes
+	WOLF12..............17544 bytes
+	WOLF13..............17544 bytes
+	WOLF14..............17544 bytes
+	WOLF17..............17544 bytes
+	WOLF18..............17544 bytes
+	WOLF2...............17544 bytes
+	WOLF3...............17544 bytes
+	WOLF4...............17544 bytes
+	WOLF5...............17544 bytes
+	WOLF6...............17544 bytes
+	WOLF7...............17544 bytes
+	WOLF9...............17544 bytes
+	WOOD................17544 bytes
+	YELLITE1............4392 bytes
+	YELLITE2............1104 bytes
+	YELLITE3............17544 bytes
+	YELLOW..............280 bytes
+	YELTNT..............3074 bytes
+	P1_END..............0 bytes
+	P2_START............0 bytes
+	P2_END..............0 bytes
+	P3_START............0 bytes
+	P3_END..............0 bytes
+	P_END...............0 bytes
+	F_START.............0 bytes
+	F1_START............0 bytes
+	GRIDBLUE............4096 bytes
+	GRIDGRN.............4096 bytes
+	GRIDPURP............4096 bytes
+	GRIDRED.............4096 bytes
+	GRIDTELE............4096 bytes
+	GRIDWHT2............4096 bytes
+	GRIDWHTE............4096 bytes
+	GRIDYLW.............4096 bytes
+	BLOOD1..............4096 bytes
+	BLOOD2..............4096 bytes
+	BLOOD3..............4096 bytes
+	CEIL1_2.............4096 bytes
+	CEIL1_3.............4096 bytes
+	CEIL3_1.............4096 bytes
+	CEIL3_2.............4096 bytes
+	CEIL3_4.............4096 bytes
+	CEIL3_5.............4096 bytes
+	CEIL3_6.............4096 bytes
+	CEIL4_3.............4096 bytes
+	CEIL4_3.............4096 bytes
+	CEIL5_1.............4096 bytes
+	CEIL5_1.............4096 bytes
+	CEIL5_2.............4096 bytes
+	CEIL5_2.............4096 bytes
+	DEM1_3..............4096 bytes
+	DEM1_3..............4096 bytes
+	DEM1_5..............4096 bytes
+	DEM1_6..............4096 bytes
+	FLAT17..............4096 bytes
+	FLAT1_1.............4096 bytes
+	FLAT1_2.............4096 bytes
+	FLAT1_3.............4096 bytes
+	FLAT22..............4096 bytes
+	FLAT22..............4096 bytes
+	FLAT5_1.............4096 bytes
+	FLAT5_2.............4096 bytes
+	FLAT5_6.............4096 bytes
+	FLAT5_7.............4096 bytes
+	FLAT8...............4096 bytes
+	FLOOR0_2............4096 bytes
+	FLOOR0_7............4096 bytes
+	FLOOR1_6............4096 bytes
+	GRASS1..............4096 bytes
+	GRASS2..............4096 bytes
+	GRNLITE1............4096 bytes
+	GRNROCK.............4096 bytes
+	LAVA1...............4096 bytes
+	LAVA2...............4096 bytes
+	LAVA3...............4096 bytes
+	LAVA4...............4096 bytes
+	MFLR8_3.............4096 bytes
+	MFLR8_4.............4096 bytes
+	RROCK01.............4096 bytes
+	RROCK02.............4096 bytes
+	RROCK03.............4096 bytes
+	RROCK04.............4096 bytes
+	RROCK05.............4096 bytes
+	RROCK06.............4096 bytes
+	RROCK07.............4096 bytes
+	RROCK08.............4096 bytes
+	RROCK09.............4096 bytes
+	RROCK10.............4096 bytes
+	RROCK11.............4096 bytes
+	RROCK12.............4096 bytes
+	RROCK13.............4096 bytes
+	RROCK14.............4096 bytes
+	RROCK15.............4096 bytes
+	RROCK16.............4096 bytes
+	RROCK17.............4096 bytes
+	RROCK18.............4096 bytes
+	RROCK19.............4096 bytes
+	RROCK20.............4096 bytes
+	SFLR6_1.............4096 bytes
+	SFLR6_4.............4096 bytes
+	SFLR7_1.............4096 bytes
+	SFLR7_4.............4096 bytes
+	SLIME01.............4096 bytes
+	SLIME02.............4096 bytes
+	SLIME03.............4096 bytes
+	SLIME04.............4096 bytes
+	SLIME05.............4096 bytes
+	SLIME06.............4096 bytes
+	SLIME07.............4096 bytes
+	SLIME08.............4096 bytes
+	SLIME09.............4096 bytes
+	SLIME10.............4096 bytes
+	SLIME11.............4096 bytes
+	SLIME12.............4096 bytes
+	SLIME13.............4096 bytes
+	SLIME14.............4096 bytes
+	SLIME15.............4096 bytes
+	SLIME16.............4096 bytes
+	CEIL3_1.............4096 bytes
+	CEIL3_2.............4096 bytes
+	CEIL3_5.............4096 bytes
+	CEIL4_2.............4096 bytes
+	CEIL4_3.............4096 bytes
+	CEIL5_1.............4096 bytes
+	CEIL5_2.............4096 bytes
+	CONS1_1.............4096 bytes
+	CONS1_5.............4096 bytes
+	CONS1_7.............4096 bytes
+	CONS1_9.............4096 bytes
+	DEM1_1..............4096 bytes
+	DEM1_2..............4096 bytes
+	DEM1_3..............4096 bytes
+	DEM1_4..............4096 bytes
+	FLAT1...............4096 bytes
+	FLAT10..............4096 bytes
+	FLAT14..............4096 bytes
+	FLAT18..............4096 bytes
+	FLAT2...............4096 bytes
+	FLAT20..............4096 bytes
+	FLAT22..............4096 bytes
+	FLAT23..............4096 bytes
+	FLAT5...............4096 bytes
+	FLAT5_4.............4096 bytes
+	FLAT5_5.............4096 bytes
+	FLOOR0_1............4096 bytes
+	FLOOR0_3............4096 bytes
+	FLOOR0_6............4096 bytes
+	FLOOR1_1............4096 bytes
+	FLOOR1_7............4096 bytes
+	FLOOR3_3............4096 bytes
+	FLOOR4_1............4096 bytes
+	FLOOR4_5............4096 bytes
+	FLOOR4_6............4096 bytes
+	FLOOR4_8............4096 bytes
+	FLOOR5_1............4096 bytes
+	FLOOR5_2............4096 bytes
+	FLOOR5_3............4096 bytes
+	FLOOR5_4............4096 bytes
+	FLOOR6_1............4096 bytes
+	FLOOR6_2............4096 bytes
+	FLOOR7_1............4096 bytes
+	FLOOR7_2............4096 bytes
+	F_SKY1..............4096 bytes
+	MFLR8_1.............4096 bytes
+	NUKAGE1.............4096 bytes
+	NUKAGE2.............4096 bytes
+	NUKAGE3.............4096 bytes
+	STEP1...............4096 bytes
+	STEP2...............4096 bytes
+	TLITE6_1............4096 bytes
+	TLITE6_4............4096 bytes
+	TLITE6_5............4096 bytes
+	TLITE6_6............4096 bytes
+	CEIL1_1.............4096 bytes
+	CEIL3_3.............4096 bytes
+	CEIL4_1.............4096 bytes
+	COMP01..............4096 bytes
+	FLAT3...............4096 bytes
+	FLAT4...............4096 bytes
+	FLAT5_3.............4096 bytes
+	FLAT5_8.............4096 bytes
+	FLAT9...............4096 bytes
+	FLOOR0_5............4096 bytes
+	FWATER1.............4096 bytes
+	FWATER2.............4096 bytes
+	FWATER3.............4096 bytes
+	FWATER4.............4096 bytes
+	GATE1...............4096 bytes
+	GATE2...............4096 bytes
+	GATE3...............4096 bytes
+	GATE4...............4096 bytes
+	CRATOP1.............4096 bytes
+	CRATOP2.............4096 bytes
+	FLAT19..............4096 bytes
+	MFLR8_2.............4096 bytes
+	FLAT17..............4096 bytes
+	FLAT5_1.............4096 bytes
+	BLOOD1..............4096 bytes
+	BLOOD2..............4096 bytes
+	BLOOD3..............4096 bytes
+	RROCK12.............4096 bytes
+	FLOOR0_2............4096 bytes
+	FLOOR1_6............4096 bytes
+	DEM1_6..............4096 bytes
+	SLIME14.............4096 bytes
+	SLIME16.............4096 bytes
+	GRASS1..............4096 bytes
+	SLIME13.............4096 bytes
+	RROCK03.............4096 bytes
+	F1_END..............0 bytes
+	F2_START............0 bytes
+	F2_END..............0 bytes
+	F3_START............0 bytes
+	F3_END..............0 bytes
+	F_END...............0 bytes
+
+                       WAD Auxiliary Resource Manipulator
+      Version 1.6 of January 1996 by Robert Fenske, Jr (rfenske@swri.edu)
+        Ported to OS/2 by Mark K. Mathews (mmathews@genesis.nred.ma.us)
+
+Writing DOOM/HERETIC file output/warm.wad...done
+MAP05
+THINGS
+LINEDEFS
+SIDEDEFS
+VERTEXES
+SEGS
+SSECTORS
+NODES
+SECTORS
+REJECT
+BLOCKMAP
+MAP06
+THINGS
+LINEDEFS
+SIDEDEFS
+VERTEXES
+SEGS
+SSECTORS
+NODES
+SECTORS
+REJECT
+BLOCKMAP
+MAP10
+THINGS
+LINEDEFS
+SIDEDEFS
+VERTEXES
+SEGS
+SSECTORS
+NODES
+SECTORS
+REJECT
+BLOCKMAP
+MAP20
+THINGS
+LINEDEFS
+SIDEDEFS
+VERTEXES
+SEGS
+SSECTORS
+NODES
+SECTORS
+REJECT
+BLOCKMAP
+21c6d0ab039c1ce67add7b1f0709d8a7  output/warm.wad
+
+                       WAD Auxiliary Resource Manipulator
+      Version 1.6 of January 1996 by Robert Fenske, Jr (rfenske@swri.edu)
+        Ported to OS/2 by Mark K. Mathews (mmathews@genesis.nred.ma.us)
+
+Writing DOOM/HERETIC file output/warm1.wad...done
+
+                       WAD Auxiliary Resource Manipulator
+      Version 1.6 of January 1996 by Robert Fenske, Jr (rfenske@swri.edu)
+        Ported to OS/2 by Mark K. Mathews (mmathews@genesis.nred.ma.us)
+
+Reading DOOM/HERETIC file output/warm.wad...4 levels
+Merging output/warm.wad with...output/warm1.wad...done
+Writing DOOM/HERETIC file output/warm2.wad...done
+MAP05
+THINGS
+LINEDEFS
+SIDEDEFS
+VERTEXES
+SEGS
+SSECTORS
+NODES
+SECTORS
+REJECT
+BLOCKMAP
+MAP06
+THINGS
+LINEDEFS
+SIDEDEFS
+VERTEXES
+SEGS
+SSECTORS
+NODES
+SECTORS
+REJECT
+BLOCKMAP
+MAP10
+THINGS
+LINEDEFS
+SIDEDEFS
+VERTEXES
+SEGS
+SSECTORS
+NODES
+SECTORS
+REJECT
+BLOCKMAP
+MAP20
+THINGS
+LINEDEFS
+SIDEDEFS
+VERTEXES
+SEGS
+SSECTORS
+NODES
+SECTORS
+REJECT
+BLOCKMAP
+MAP01
+THINGS
+LINEDEFS
+SIDEDEFS
+VERTEXES
+SEGS
+SSECTORS
+NODES
+SECTORS
+REJECT
+BLOCKMAP
+8f85ce5234cc0658e1e274e77b6e3873  output/warm2.wad
+
+                       WAD Auxiliary Resource Manipulator
+      Version 1.6 of January 1996 by Robert Fenske, Jr (rfenske@swri.edu)
+        Ported to OS/2 by Mark K. Mathews (mmathews@genesis.nred.ma.us)
+
+Writing DOOM/HERETIC file output/warm3.wad...done
+
+                       WAD Auxiliary Resource Manipulator
+      Version 1.6 of January 1996 by Robert Fenske, Jr (rfenske@swri.edu)
+        Ported to OS/2 by Mark K. Mathews (mmathews@genesis.nred.ma.us)
+
+Reading DOOM/HERETIC file output/warm3.wad...1 level
+Building BSP for level MAP01...4185 used segs ==>1707 nodes, 4748 segs          
+Building BLOCKMAP for level MAP01...32 x 32 blocks
+Building REJECT for level MAP01...82.2%
+Writing DOOM/HERETIC file output/warm4.wad...done
+94ea0840046a61a6ef70c034dd5bf276  output/warm4.wad

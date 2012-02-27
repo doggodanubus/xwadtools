@@ -1,0 +1,1423 @@
+
+WADWHAT 2.3 by Gregory P. Kwok (gkwok@jps.net)
+Based on WADWHAT 1.1 by Randall R. Spangler (rspangle@micro.caltech.edu)
+===============================================================================
+-------------------------------------------------------------------------------
+MAP 01              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (10 starts)
+    Bosses:
+    Monsters:
+	Trooper                  8     8    11     8 |     8     8    11     8
+	Sergeant                 0     0     4    16 |     0     0     4    16
+	Imp                      3     3     3     3 |     3     3     3     3
+    Weapons:
+	Shotgun                  0     0     0     0 |     4     4     4     4
+	Chaingun                 0     0     0     0 |     3     3     3     3
+	Rocket launcher          0     0     0     0 |     2     2     2     2
+    Equipment:
+	Berserk                  0     0     0     0 |     1     1     1     1
+    Expendibles:
+	Bullets                 80    40    55    40 |   200   100   115   100
+	Shells                  80    40    56    88 |   144    72    88   120
+	Rockets                  0     0     0     0 |    38    19    19    19
+	Armor points           200   100   100   100 |   240   120   120   120
+	Health points           30    15    15    15 |   332   166   166   166
+	Barrels                  7     7     7     7 |     7     7     7     7
+    Difficulty:
+	Total monster hp        34    34    52    82 |    34    34    52    82
+	Max ammo damage        640   320   447   656 |  1968   984  1111  1320
+	RATIO                0.053 0.106 0.116 0.125 | 0.017 0.035 0.047 0.062
+    Other info:
+	Average brightness             139 (0=dark, 255=bright)
+	Secrets                          1
+	Nukeage / sectors        46 /  507
+	Triggers / linedefs      82 / 2660
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 02              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (6 starts)
+    Bosses:
+    Monsters:
+	Trooper                 13    13    10    10 |    13    13    10    10
+	Sergeant                 3     3    10    11 |     3     3    10    11
+	Imp                     15    15    21    21 |    15    15    21    21
+	Demon                   12    12    10     8 |    12    12    10     8
+	Spectre                  0     0     5     9 |     0     0     5     9
+    Weapons:
+	Shotgun                  2     2     2     2 |     2     2     2     2
+	Super shotgun            1     1     1     1 |     2     2     2     2
+	Chaingun                 0     0     0     0 |     1     1     1     1
+	Rocket launcher          0     0     0     0 |     2     2     2     2
+	Plasma gun               0     0     0     0 |     1     1     1     1
+	BFG-9000                 0     0     0     0 |     1     1     1     1
+    Equipment:
+    Expendibles:
+	Bullets                350   175   160   160 |   390   195   180   180
+	Shells                 256   128   156   160 |   288   144   172   176
+	Rockets                  0     0     0     0 |    78    39    39    39
+	Cells                    0     0     0     0 |   440   220   220   220
+	Armor points           248   124   124   124 |   248   124   124   124
+	Health points          350   175   175   175 |   550   275   275   275
+    Difficulty:
+	Total monster hp       305   305   401   434 |   305   305   401   434
+	Max ammo damage       2142  1071  1252  1280 |  4846  2423  2604  2632
+	RATIO                0.142 0.285 0.320 0.339 | 0.063 0.126 0.154 0.165
+    Other info:
+	Average brightness             136 (0=dark, 255=bright)
+	Secrets                          0
+	Nukeage / sectors         0 /  247
+	Triggers / linedefs      48 / 1176
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 03              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (4 starts)
+    Bosses:
+    Monsters:
+	Trooper                 35    35    17    17 |    35    35    17    17
+	Sergeant                28    28    42    26 |    28    28    42    26
+	Chaingun guy             1     1     7    17 |     1     1     7    17
+	Imp                     25    25    38    71 |    25    25    38    71
+	Demon                    3     3     4     9 |     3     3     4     9
+	Spectre                  7     7     8    12 |     7     7     8    12
+	Cacodemon                0     0     0     2 |     0     0     0     2
+	Archvile                 0     0     0     1 |     0     0     0     1
+	Revenant                 0     0     0    10 |     0     0     0    10
+	Mini Baron               0     0     1     1 |     0     0     1     1
+    Weapons:
+	Shotgun                  0     0     0     0 |     4     4     4     4
+	Super shotgun            1     1     1     1 |     1     1     1     1
+    Equipment:
+    Expendibles:
+	Bullets                750   375   285   335 |   750   375   285   335
+	Shells                 688   344   400   336 |   800   400   456   392
+	Armor points           520   260   260   260 |   520   260   260   260
+	Health points          452   226   226   266 |   452   226   226   266
+	Barrels                 12    12    12    12 |    12    12    12    12
+    Difficulty:
+	Total monster hp       461   461   667  1472 |   461   461   667  1472
+	Max ammo damage       5566  2783  3085  2687 |  6350  3175  3477  3079
+	RATIO                0.083 0.166 0.216 0.548 | 0.073 0.145 0.192 0.478
+    Other info:
+	Average brightness             149 (0=dark, 255=bright)
+	Secrets                          3
+	Nukeage / sectors        10 /  498
+	Triggers / linedefs      68 / 2888
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 04              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (5 starts)
+    Bosses:
+    Monsters:
+	Trooper                  4     4    13    13 |     4     4    13    13
+	Sergeant                21    21    36    40 |    21    21    36    40
+	Chaingun guy            14    14    19    30 |    14    14    19    30
+	Imp                      8     8    13    22 |     8     8    13    22
+	Demon                   17    17    29    32 |    17    17    29    32
+	Spectre                  1     1     1     1 |     1     1     1     1
+	Lost soul                2     2     2    10 |     4     4     4    12
+	Arachnotron              0     0     0     4 |     0     0     0     4
+    Weapons:
+	Shotgun                  1     1     1     1 |     5     5     5     5
+	Super shotgun            0     0     1     1 |     0     0     1     1
+	Rocket launcher          0     0     1     1 |     0     0     1     1
+    Equipment:
+	Invisibility             1     1     1     1 |     1     1     1     1
+	Computer map             1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets                 40    20    65    65 |    40    20    65    65
+	Shells                 504   252   328   344 |   568   284   360   376
+	Rockets                 40    20    22    22 |    40    20    22    22
+	Armor points             0     0     0   200 |     0     0     0   200
+	Health points          960   480   480   480 |   960   480   480   480
+	Barrels                 23    23    23    23 |    23    23    23    23
+    Difficulty:
+	Total monster hp       507   507   815  1283 |   527   527   835  1303
+	Max ammo damage       4368  2184  2801  2913 |  4816  2408  3025  3137
+	RATIO                0.116 0.232 0.291 0.440 | 0.109 0.219 0.276 0.415
+    Other info:
+	Average brightness             141 (0=dark, 255=bright)
+	Secrets                          2
+	Nukeage / sectors         0 /  161
+	Triggers / linedefs      52 / 1906
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 05              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (11 starts)
+    Bosses:
+	Baron                    1     1     1     2 |     1     1     1     2
+    Monsters:
+	Trooper                 23    23    23    23 |    23    23    23    23
+	Sergeant                 0     0     0    16 |     0     0     0    16
+	Imp                     22    22    40    50 |    22    22    40    50
+	Demon                    9     9    12    17 |     9     9    12    17
+	Spectre                  1     1     5    11 |     1     1     5    11
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Super shotgun            0     0     0     0 |     2     2     2     2
+	Chaingun                 1     1     1     1 |     4     4     4     4
+	Rocket launcher          1     1     1     1 |     3     3     3     3
+	Plasma gun               0     0     0     0 |     2     2     2     2
+	BFG-9000                 0     0     0     0 |     1     1     1     1
+	Chainsaw                 1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 2     2     2     2 |     2     2     2     2
+	Invisibility             1     1     1     1 |     1     1     1     1
+	Radiation suit           8     8     8     8 |     8     8     8     8
+	Computer map             1     1     1     1 |     1     1     1     1
+	Lite amp goggles         1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets               1710   855   855   855 |  1830   915   915   915
+	Shells                 440   220   220   276 |   504   252   252   308
+	Rockets                 56    28    28    28 |    64    32    32    32
+	Cells                   80    40    40    40 |  3520  1760  1760  1760
+	Armor points          1400   700   600   500 |  1400   700   600   500
+	Health points         1700   850   850   850 |  1700   850   850   850
+	Barrels                 47    47    47    47 |    47    47    47    47
+    Difficulty:
+	Total monster hp       428   428   641  1014 |   428   428   641  1014
+	Max ammo damage       6070  3035  3035  3427 | 13678  6839  6839  7231
+	RATIO                0.071 0.141 0.211 0.296 | 0.031 0.063 0.094 0.140
+    Other info:
+	Average brightness             164 (0=dark, 255=bright)
+	Secrets                         11
+	Nukeage / sectors        88 /  225
+	Triggers / linedefs      76 / 1405
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 06              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (8 starts)
+    Bosses:
+	Spiderdemon              1     1     1     1 |     1     1     1     1
+    Monsters:
+	Sergeant                10    10    15    25 |    10    10    15    25
+	Chaingun guy             8     8    13    19 |     8     8    13    19
+	Imp                     16    16    21    33 |    16    16    21    33
+	Demon                   12    12    20    20 |    12    12    20    20
+	Spectre                  5     5     8    11 |     5     5     8    11
+	Revenant                 0     0     2     5 |     0     0     2     5
+	Mini Baron               1     1     3     6 |     1     1     3     6
+    Weapons:
+	Super shotgun            1     1     1     1 |     5     5     5     5
+	Chaingun                 1     1     1     1 |     1     1     1     1
+	Rocket launcher          1     1     1     1 |     1     1     1     1
+	Plasma gun               1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 1     1     1     1 |     1     1     1     1
+	Berserk                  1     1     1     1 |     1     1     1     1
+	Invisibility             0     0     0     0 |     4     4     4     4
+	Radiation suit           3     3     3     3 |     3     3     3     3
+    Expendibles:
+	Bullets                 60    30    30    30 |   160    80    80    80
+	Shells                 480   240   260   300 |   768   384   404   444
+	Rockets                 16     8     8     8 |    16     8     8     8
+	Cells                  720   360   360   360 |   720   360   360   360
+	Armor points          1416   708   708   708 |  1416   708   708   708
+	Health points         1450   725   725   725 |  1450   725   725   725
+    Difficulty:
+	Total monster hp       787   787  1192  1621 |   787   787  1192  1621
+	Max ammo damage       5180  2590  2730  3010 |  7296  3648  3788  4068
+	RATIO                0.152 0.304 0.437 0.539 | 0.108 0.216 0.315 0.398
+    Other info:
+	Average brightness             167 (0=dark, 255=bright)
+	Secrets                          0
+	Nukeage / sectors         7 /  173
+	Triggers / linedefs      26 / 2122
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 07              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (8 starts)
+    Bosses:
+    Monsters:
+	Mancubis                 5     5    11    16 |     5     5    11    16
+	Arachnotron              4     4     8    11 |     4     4     8    11
+    Weapons:
+	Super shotgun            2     2     2     2 |     2     2     2     2
+	Chaingun                 2     2     2     2 |     2     2     2     2
+	Rocket launcher          2     2     2     2 |     2     2     2     2
+	Plasma gun               2     2     2     2 |     2     2     2     2
+    Equipment:
+    Expendibles:
+	Bullets                420   210   210   210 |   420   210   210   210
+	Shells                 200   100   100   100 |   200   100   100   100
+	Rockets                 88    44    44    44 |    88    44    44    44
+	Cells                  680   340   340   340 |   680   340   340   340
+	Armor points           400   200   200   200 |   400   200   200   200
+	Health points          600   300   300   300 |   600   300   300   300
+    Difficulty:
+	Total monster hp       400   400   840  1190 |   400   400   840  1190
+	Max ammo damage       4940  2470  2470  2470 |  4940  2470  2470  2470
+	RATIO                0.081 0.162 0.340 0.482 | 0.081 0.162 0.340 0.482
+    Other info:
+	Average brightness             189 (0=dark, 255=bright)
+	Secrets                          1
+	Nukeage / sectors         0 /  204
+	Triggers / linedefs     103 /  906
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 08              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+    Bosses:
+    Monsters:
+	Trooper                 18    18    18    18 |    18    18    18    18
+	Sergeant                28    28    28    28 |    28    28    28    28
+	Imp                     15    15    15    15 |    15    15    15    15
+	Demon                   29    29    29    29 |    29    29    29    29
+    Weapons:
+    Equipment:
+	Berserk                  1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets                220   110   110   110 |   220   110   110   110
+	Shells                 304   152   152   152 |   304   152   152   152
+	Armor points           220   110   110   110 |   220   110   110   110
+	Health points          400   200   200   200 |   400   200   200   200
+    Difficulty:
+	Total monster hp       645   645   645   645 |   645   645   645   645
+	Max ammo damage       2348  1174  1174  1174 |  2348  1174  1174  1174
+	RATIO                0.275 0.549 0.549 0.549 | 0.275 0.549 0.549 0.549
+    Other info:
+	Average brightness             178 (0=dark, 255=bright)
+	Secrets                          3
+	Nukeage / sectors         0 /  470
+	Triggers / linedefs     106 / 2494
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 09              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (5 starts)
+    Bosses:
+	Baron                    0     0     0     1 |     0     0     0     1
+    Monsters:
+	Trooper                 28    28    36    39 |    28    28    36    39
+	Sergeant                 7     7    11    13 |     7     7    11    13
+	Chaingun guy             1     1     1     1 |     1     1     1     1
+	Imp                     27    27    38    52 |    27    27    38    52
+	Demon                    8     8     7     8 |     8     8     7     8
+	Cacodemon                0     0     1     2 |     0     0     1     2
+	Revenant                 2     2     5     6 |     2     2     5     6
+	Mini Baron               3     3     6     6 |     3     3     6     6
+    Weapons:
+	Shotgun                  2     2     2     2 |     2     2     2     2
+	Super shotgun            1     1     1     1 |     1     1     1     1
+	Chaingun                 1     1     1     1 |     1     1     1     1
+	Rocket launcher          3     3     2     2 |     3     3     2     2
+	Plasma gun               1     1     1     1 |     1     1     1     1
+	Chainsaw                 1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 1     1     1     1 |     1     1     1     1
+	Berserk                  1     1     1     1 |     1     1     1     1
+	Invisibility             2     2     2     1 |     2     2     2     1
+	Computer map             1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets               1420   710   660   525 |  1420   710   660   525
+	Shells                 456   228   284   248 |   456   228   284   248
+	Rockets                 94    47    30    25 |    94    47    30    25
+	Cells                 1520   760   740   620 |  1520   760   740   620
+	Armor points          1248   624   525   525 |  1248   624   525   525
+	Health points         1342   671   661   626 |  1342   671   661   626
+	Barrels                  3     3     3     3 |     3     3     3     3
+    Difficulty:
+	Total monster hp       576   576   935  1216 |   576   576   935  1216
+	Max ammo damage       9532  4766  4728  4001 |  9532  4766  4728  4001
+	RATIO                0.060 0.121 0.198 0.304 | 0.060 0.121 0.198 0.304
+    Other info:
+	Average brightness             134 (0=dark, 255=bright)
+	Secrets                          4
+	Nukeage / sectors         1 /  567
+	Triggers / linedefs      91 / 2988
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 10              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (4 starts)
+    Bosses:
+    Monsters:
+	Imp                      8     8    10    15 |     8     8    10    15
+	Cacodemon                0     0     0    10 |     0     0     0    10
+    Weapons:
+	Shotgun                  0     0     1     1 |     0     0     1     1
+	Super shotgun            1     1     1     1 |     1     1     1     1
+	Chaingun                 1     1     1     1 |     1     1     1     1
+	Rocket launcher          1     1     1     1 |     1     1     1     1
+	Plasma gun               1     1     1     1 |     1     1     1     1
+    Equipment:
+    Expendibles:
+	Bullets                 80    40    40    40 |    80    40    40    40
+	Shells                 112    56    64   120 |   112    56    64   120
+	Rockets                 10     5     5     5 |    10     5     5     5
+	Cells                   80    40    40    40 |    80    40    40    40
+	Armor points           606   303   303   303 |   606   303   303   303
+	Health points           72    36    46    46 |    72    36    46    46
+    Difficulty:
+	Total monster hp        48    48    60   490 |    48    48    60   490
+	Max ammo damage       1224   612   668  1060 |  1224   612   668  1060
+	RATIO                0.039 0.078 0.090 0.462 | 0.039 0.078 0.090 0.462
+    Other info:
+	Average brightness             154 (0=dark, 255=bright)
+	Secrets                          1
+	Nukeage / sectors         0 /  354
+	Triggers / linedefs       4 / 2681
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 11              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (4 starts)
+    Bosses:
+	Baron                    0     0     1     1 |     0     0     1     1
+    Monsters:
+	Trooper                 25    25    25    28 |    25    25    25    28
+	Sergeant                22    22    22    31 |    22    22    22    31
+	Chaingun guy            30    30    33    35 |    30    30    33    35
+	Imp                     84    84    91    95 |    84    84    91    95
+	Demon                    5     5     7     7 |     5     5     7     7
+	Spectre                 10    10    10    10 |    10    10    10    10
+	Cacodemon                5     5     5     5 |     5     5     5     5
+	Archvile                 1     1     1     1 |     1     1     1     1
+	Revenant                 7     7     7     7 |     7     7     7     7
+	Mancubis                 2     2     4     4 |     2     2     4     4
+	Arachnotron              3     3     5     5 |     3     3     5     5
+	Mini Baron               4     4     4     4 |     4     4     4     4
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Super shotgun            2     2     2     2 |     3     3     3     3
+	Chaingun                 1     1     1     1 |     1     1     1     1
+	Rocket launcher          1     1     1     1 |     3     3     3     3
+	Plasma gun               0     0     0     0 |     1     1     1     1
+	BFG-9000                 1     1     1     1 |     1     1     1     1
+	Chainsaw                 1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 7     7     7     7 |     7     7     7     7
+	Invulnerability          1     1     1     1 |     1     1     1     1
+	Berserk                  1     1     1     1 |     1     1     1     1
+	Invisibility             1     1     1     1 |     1     1     1     1
+	Computer map             1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets               1110   555   555   570 |  1110   555   555   570
+	Shells                 736   368   368   392 |   848   424   424   448
+	Rockets                 86    43    43    43 |   144    72    72    72
+	Cells                  560   280   280   280 |   680   340   340   340
+	Armor points          1054   527   527   527 |  1054   527   527   527
+	Health points         1400   700   700   700 |  1400   700   700   700
+	Barrels                 22    22    22    22 |    22    22    22    22
+    Difficulty:
+	Total monster hp      1965  1965  2338  2409 |  1965  1965  2338  2409
+	Max ammo damage       9102  4551  4551  4734 | 11286  5643  5643  5826
+	RATIO                0.216 0.432 0.514 0.509 | 0.174 0.348 0.414 0.413
+    Other info:
+	Average brightness             166 (0=dark, 255=bright)
+	Secrets                         11
+	Nukeage / sectors        10 /  471
+	Triggers / linedefs     134 / 2719
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 12              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (5 starts)
+    Bosses:
+	Baron                    4     4     7     7 |     4     4     7     7
+	Spiderdemon              0     0     0     1 |     0     0     0     1
+    Monsters:
+	Trooper                 17    17    13    12 |    17    17    13    12
+	Sergeant                15    15    22    22 |    15    15    22    22
+	Chaingun guy             8     8    15    26 |     8     8    15    26
+	Imp                     40    40    37    32 |    40    40    37    32
+	Demon                   17    17    17    17 |    17    17    17    17
+	Spectre                  3     3     5     7 |     3     3     5     7
+	Lost soul                5     5     8    11 |     5     5     8    11
+	Cacodemon                3     3     4     6 |     3     3     4     6
+	Archvile                 1     1     3     5 |     1     1     3     5
+	Revenant                 4     4    11    19 |     4     4    11    19
+	Mancubis                 3     3     5     9 |     3     3     5     9
+	Arachnotron              5     5     7     8 |     5     5     7     8
+	Mini Baron               6     6     7     7 |     6     6     7     7
+	Pain Elemental           1     1     4     5 |     1     1     4     5
+    Weapons:
+	Shotgun                  2     2     1     2 |     2     2     1     2
+	Super shotgun            2     2     3     2 |     2     2     3     2
+	Chaingun                 1     1     1     0 |     1     1     1     0
+	Rocket launcher          1     1     1     2 |     1     1     1     2
+	Plasma gun               2     2     2     2 |     2     2     2     2
+	BFG-9000                 2     2     2     2 |     2     2     2     2
+    Equipment:
+	Backpack                 2     2     2     2 |     2     2     2     2
+	Invulnerability          1     1     0     0 |     1     1     0     0
+	Berserk                  2     2     2     1 |     2     2     2     1
+	Lite amp goggles         1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets               1210   605   475   560 |  1210   605   475   560
+	Shells                 784   392   444   432 |   784   392   444   432
+	Rockets                 54    27    27    24 |    54    27    27    24
+	Cells                  720   360   360   260 |   720   360   360   260
+	Armor points          2206  1103   803   805 |  2206  1103   803   805
+	Health points         3432  1716  1136   846 |  3432  1716  1136   846
+    Difficulty:
+	Total monster hp      2145  2145  3289  4404 |  2145  2145  3289  4404
+	Max ammo damage       9218  4609  4843  4584 |  9218  4609  4843  4584
+	RATIO                0.233 0.465 0.679 0.961 | 0.233 0.465 0.679 0.961
+    Other info:
+	Average brightness             155 (0=dark, 255=bright)
+	Secrets                          9
+	Nukeage / sectors         8 / 1045
+	Triggers / linedefs     180 / 5966
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 13              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (7 starts)
+    Bosses:
+	Baron                    4     4     3     2 |     4     4     3     2
+    Monsters:
+	Trooper                 30    30    30    38 |    30    30    30    38
+	Sergeant                10    10    15    24 |    10    10    15    24
+	Chaingun guy             0     0     3     2 |     0     0     3     2
+	Imp                     35    35    53    53 |    35    35    53    53
+	Demon                   11    11    12    13 |    11    11    12    13
+	Spectre                  6     6    12    13 |     6     6    12    13
+	Lost soul                3     3     5    12 |     3     3     5    12
+	Cacodemon                5     5    10    14 |     5     5    10    14
+	Archvile                 0     0     1     3 |     0     0     1     3
+	Revenant                 2     2     3     4 |     2     2     3     4
+	Mancubis                 1     1     2     3 |     1     1     2     3
+	Arachnotron              0     0     0     1 |     0     0     0     1
+	Mini Baron               1     1     4     5 |     1     1     4     5
+	Pain Elemental           1     1     2     5 |     1     1     2     5
+    Weapons:
+	Shotgun                  2     2     1     2 |     2     2     1     2
+	Super shotgun            2     2     4     2 |     2     2     4     2
+	Chaingun                 2     2     1     2 |     2     2     1     2
+	Rocket launcher          2     2     1     1 |     2     2     1     1
+	Plasma gun               1     1     1     2 |     1     1     1     2
+	Chainsaw                 2     2     2     2 |     2     2     2     2
+    Equipment:
+	Backpack                 1     1     1     1 |     1     1     1     1
+	Invulnerability          1     1     0     0 |     1     1     0     0
+	Berserk                  2     2     2     2 |     2     2     2     2
+	Invisibility             1     1     1     1 |     1     1     1     1
+	Radiation suit          11    11    11     6 |    11    11    11     6
+	Computer map             1     1     1     1 |     1     1     1     1
+	Lite amp goggles         1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets               3100  1550  1470  1420 |  3100  1550  1470  1420
+	Shells                 824   412   424   400 |   824   412   424   400
+	Rockets                108    54    27    17 |   108    54    27    17
+	Cells                 2240  1120  1140  1100 |  2240  1120  1140  1100
+	Armor points          1286   643   846   765 |  1286   643   846   765
+	Health points         1774   887  1094  1098 |  1774   887  1094  1098
+	Barrels                107   107   106   108 |   107   107   106   108
+    Difficulty:
+	Total monster hp      1375  1375  2074  2700 |  1375  1375  2074  2700
+	Max ammo damage      15508  7754  7258  6760 | 15508  7754  7258  6760
+	RATIO                0.089 0.177 0.286 0.399 | 0.089 0.177 0.286 0.399
+    Other info:
+	Average brightness             144 (0=dark, 255=bright)
+	Secrets                          4
+	Nukeage / sectors        27 / 1034
+	Triggers / linedefs     231 / 4344
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 14              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+    Bosses:
+	Baron                    0     0     0     1 |     0     0     0     1
+    Monsters:
+	Trooper                  1     1     1     1 |     1     1     1     1
+	Sergeant                 1     1     1     3 |     1     1     1     3
+	Chaingun guy             1     1     1     5 |     1     1     1     5
+	Imp                     11    11    14    16 |    11    11    14    16
+	Demon                    4     4     6    14 |     4     4     6    14
+	Spectre                  2     2     4     7 |     2     2     4     7
+	Cacodemon                0     0     1     5 |     0     0     1     5
+	Revenant                 1     1     5     6 |     1     1     5     6
+	Mini Baron               1     1     2     4 |     1     1     2     4
+    Weapons:
+	Super shotgun            1     1     1     1 |     1     1     1     1
+	Rocket launcher          1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 1     1     1     1 |     1     1     1     1
+	Berserk                  1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets                 30    15    15    15 |    30    15    15    15
+	Shells                 264   132   112   116 |   264   132   112   116
+	Rockets                 48    24    19    22 |    48    24    19    22
+	Cells                   40    20    20    20 |    40    20    20    20
+	Armor points           200   100     0     0 |   200   100     0     0
+	Health points          450   225   225   275 |   450   225   225   275
+	Barrels                  0     0     0     5 |     0     0     0     5
+    Difficulty:
+	Total monster hp       248   248   536  1137 |   248   248   536  1137
+	Max ammo damage       2918  1459  1219  1307 |  2918  1459  1219  1307
+	RATIO                0.085 0.170 0.440 0.870 | 0.085 0.170 0.440 0.870
+    Other info:
+	Average brightness             161 (0=dark, 255=bright)
+	Secrets                          1
+	Nukeage / sectors         0 /  166
+	Triggers / linedefs      45 / 1322
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 15              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+    Bosses:
+    Monsters:
+	Trooper                  9     9    11    11 |     9     9    11    11
+	Sergeant                64    64    69    72 |    69    69    74    77
+	Chaingun guy            15    15    28    35 |    17    17    32    39
+	Imp                     40    40    44    50 |    40    40    44    50
+	Demon                    3     3     4     7 |     3     3     4     7
+	Spectre                  1     1     7     7 |     1     1     7     7
+	Lost soul               12    12    14    15 |    12    12    14    15
+	Cacodemon                4     4     8     9 |     4     4     8     9
+	Archvile                 0     0     0     3 |     0     0     0     3
+	Revenant                 4     4     6     8 |     7     7     9    12
+	Mini Baron               2     2     5    10 |     2     2     5    10
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Super shotgun            1     1     1     1 |     1     1     1     1
+	Rocket launcher          1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 3     3     3     3 |     3     3     3     3
+	Berserk                  1     1     1     1 |     1     1     1     1
+	Computer map             1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets               1170   585   445   495 |  1170   585   445   495
+	Shells                1136   568   528   560 |  1176   588   548   580
+	Rockets                 28    14    14    14 |    28    14    14    14
+	Cells                 1520   760   760   860 |  1520   760   760   860
+	Armor points           874   437   537   737 |   874   437   537   737
+	Health points         1686   843   808   858 |  1686   843   808   858
+    Difficulty:
+	Total monster hp      1115  1115  1744  2453 |  1234  1234  1877  2616
+	Max ammo damage      12722  6361  5941  6415 | 13002  6501  6081  6555
+	RATIO                0.088 0.175 0.294 0.382 | 0.095 0.190 0.309 0.399
+    Other info:
+	Average brightness             164 (0=dark, 255=bright)
+	Secrets                          7
+	Nukeage / sectors        43 / 1272
+	Triggers / linedefs     152 / 7780
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 16              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (6 starts)
+    Bosses:
+	Baron                    1     1     2     2 |     4     4     5     5
+	Final Boss               4     4     4     4 |     4     4     4     4
+    Monsters:
+	Trooper                  4     4     4     8 |     4     4     4     8
+	Sergeant                17    17    17    21 |    17    17    17    21
+	Chaingun guy             5     5     5     6 |     5     5     5     6
+	Imp                     16    16    24    37 |    24    24    32    51
+	Demon                    2     2     2     2 |     4     4     4     4
+	Spectre                  1     1     1     1 |     8     8    12    12
+	Lost soul                3     3     6     9 |     3     3     6     9
+	Cacodemon                4     4     7    11 |     7     7    10    14
+	Archvile                 0     0     0     0 |     2     2     2     3
+	Revenant                 0     0     0     3 |     2     2     3     9
+	Mancubis                 3     3     3     3 |     6     6     6     7
+	Arachnotron              2     2     3     3 |     4     4     5     5
+	Mini Baron               3     3     5     4 |     4     4     6     5
+    Weapons:
+	Shotgun                  1     1     1     1 |     2     2     2     2
+	Super shotgun            1     1     1     1 |     2     2     2     2
+	Chaingun                 0     0     0     0 |     1     1     1     1
+	Rocket launcher          1     1     1     1 |     1     1     1     1
+	Plasma gun               1     1     1     1 |     1     1     1     1
+	BFG-9000                 0     0     0     0 |     1     1     1     1
+	Chainsaw                 0     0     0     0 |     1     1     1     1
+    Equipment:
+	Backpack                 1     1     1     1 |     1     1     1     1
+	Berserk                  1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets                160    80    80   150 |   300   150   150   220
+	Shells                 360   180   200   220 |   528   264   284   304
+	Rockets                 18     9    10    11 |    18     9    10    11
+	Cells                  520   260   260   260 |   600   300   300   300
+	Armor points           206   103   103   103 |   206   103   103   103
+	Health points          390   195   273   293 |   590   295   273   293
+    Difficulty:
+	Total monster hp       995   995  1443  1778 |  2068  2068  2606  3177
+	Max ammo damage       4080  2040  2200  2430 |  5556  2778  2938  3168
+	RATIO                0.244 0.488 0.656 0.732 | 0.372 0.744 0.887 1.003
+    Other info:
+	Average brightness             129 (0=dark, 255=bright)
+	Secrets                          3
+	Nukeage / sectors         0 /  204
+	Triggers / linedefs      51 / 2091
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 17              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (4 starts)
+    Bosses:
+	Baron                    0     0     1     2 |     0     0     1     2
+    Monsters:
+	Trooper                  2     2     3     3 |     2     2     3     3
+	Sergeant                 6     6     3     5 |     6     6     3     5
+	Chaingun guy             2     2     6     9 |     2     2     6     9
+	SS Nazi                  1     1     1     1 |     1     1     1     1
+	Imp                      1     1     9    17 |     1     1     9    17
+	Demon                    1     1     5    13 |     1     1     5    13
+	Spectre                 11    11    16    18 |    11    11    16    18
+	Cacodemon                1     1     3     6 |     1     1     3     6
+	Mancubis                 2     2     4     4 |     2     2     4     4
+	Mini Baron               2     2     1     0 |     2     2     1     0
+    Weapons:
+	Super shotgun            1     1     1     1 |     1     1     1     1
+	Chaingun                 1     1     1     1 |     1     1     1     1
+	Rocket launcher          2     2     2     2 |     2     2     2     2
+	Plasma gun               2     2     2     2 |     2     2     2     2
+	BFG-9000                 1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 1     1     1     1 |     1     1     1     1
+	Berserk                  1     1     1     1 |     1     1     1     1
+	Radiation suit           2     2     1     0 |     2     2     1     0
+    Expendibles:
+	Bullets                280   140   145   145 |   280   140   145   145
+	Shells                 184    92    80    88 |   184    92    80    88
+	Rockets                 36    18    18    18 |    36    18    18    18
+	Cells                 1160   580   580   580 |  1160   580   580   580
+	Armor points          1010   505   505   505 |  1010   505   505   505
+	Health points          750   375   385   375 |   750   375   385   375
+    Difficulty:
+	Total monster hp       447   447   861  1256 |   447   447   861  1256
+	Max ammo damage       4608  2304  2225  2281 |  4608  2304  2225  2281
+	RATIO                0.097 0.194 0.387 0.551 | 0.097 0.194 0.387 0.551
+    Other info:
+	Average brightness             157 (0=dark, 255=bright)
+	Secrets                          2
+	Nukeage / sectors         3 /  173
+	Triggers / linedefs      69 /  840
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 18              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+    Bosses:
+    Monsters:
+	Trooper                  4     4     4     4 |     4     4     4     4
+	Sergeant                18    18    21    21 |    18    18    21    21
+	Imp                     13    13    17    17 |    13    13    17    17
+	Demon                   15    15    18    18 |    15    15    18    18
+	Spectre                  5     5     5     5 |     5     5     5     5
+	Cacodemon                7     7    11    13 |     7     7    11    13
+	Revenant                 4     4     8     8 |     4     4     8     8
+	Mancubis                 3     3     2     2 |     3     3     2     2
+	Mini Baron               4     4     6     6 |     4     4     6     6
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Super shotgun            2     2     2     2 |     2     2     2     2
+	Chaingun                 1     1     1     1 |     1     1     1     1
+	Rocket launcher          1     1     1     1 |     1     1     1     1
+	Chainsaw                 1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets                600   300   300   300 |   600   300   300   300
+	Shells                 544   272   284   304 |   544   272   284   304
+	Rockets                 34    17    17    17 |    34    17    17    17
+	Cells                   40    20    20    20 |    40    20    20    20
+	Armor points           244   122   122   122 |   244   122   122   122
+	Health points          716   358   315   315 |   716   358   315   315
+    Difficulty:
+	Total monster hp      1160  1160  1578  1658 |  1160  1160  1578  1658
+	Max ammo damage       5168  2584  2668  2808 |  5168  2584  2668  2808
+	RATIO                0.224 0.449 0.591 0.590 | 0.224 0.449 0.591 0.590
+    Other info:
+	Average brightness             154 (0=dark, 255=bright)
+	Secrets                          3
+	Nukeage / sectors         0 /  239
+	Triggers / linedefs     101 / 1884
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 19              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (8 starts)
+    Bosses:
+    Monsters:
+    Weapons:
+    Equipment:
+    Expendibles:
+    Difficulty:
+	RATIO                0.000 0.000 0.000 0.000 | 0.000 0.000 0.000 0.000
+    Other info:
+	Average brightness             185 (0=dark, 255=bright)
+	Secrets                          0
+	Nukeage / sectors         0 /    4
+	Triggers / linedefs       1 /   23
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 20              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (10 starts)
+    Bosses:
+	Baron                    3     3     4     6 |     3     3     4     6
+	Cyberdemon               1     1     1     1 |     1     1     1     1
+    Monsters:
+	Trooper                 22    22    21    21 |    22    22    21    21
+	Sergeant                19    19    20    20 |    19    19    20    20
+	Chaingun guy             4     4     4     4 |     4     4     4     4
+	Imp                     44    44    43    43 |    44    44    43    43
+	Demon                    7     7     6     6 |     7     7     6     6
+	Spectre                  4     4     5     5 |     4     4     5     5
+	Lost soul                6     6     6     6 |     6     6     6     6
+	Cacodemon                2     2     2     2 |     2     2     2     2
+	Mancubis                 1     1     1     1 |     1     1     1     1
+	Arachnotron              1     1     1     1 |     1     1     1     1
+	Mini Baron               5     5     5     3 |     5     5     5     3
+    Weapons:
+	Shotgun                  0     0     0     0 |     1     1     1     1
+	Super shotgun            1     1     1     1 |     3     3     3     3
+	Chaingun                 0     0     0     0 |     2     2     2     2
+	Rocket launcher          1     1     1     1 |     3     3     3     3
+	Plasma gun               1     1     1     1 |     2     2     2     2
+    Equipment:
+	Radiation suit           1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets                820   410   405   405 |  1500   750   745   745
+	Shells                 376   188   192   192 |   600   300   304   304
+	Rockets                 24    12    12    12 |    80    40    40    40
+	Cells                  120    60    60    60 |   280   140   140   140
+	Armor points           240   120   120    31 |   240   120   120    31
+	Health points          532   266   266   266 |  1180   590   590   590
+    Difficulty:
+	Total monster hp      1738  1738  1833  1933 |  1738  1738  1833  1933
+	Max ammo damage       4172  2086  2109  2109 |  7860  3930  3953  3953
+	RATIO                0.417 0.833 0.869 0.917 | 0.221 0.442 0.464 0.489
+    Other info:
+	Average brightness             196 (0=dark, 255=bright)
+	Secrets                          0
+	Nukeage / sectors        25 /  552
+	Triggers / linedefs     167 / 3839
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 21              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (8 starts)
+    Bosses:
+	Baron                    1     1     2     5 |     1     1     2     5
+	Cyberdemon               0     0     0     1 |     0     0     0     1
+    Monsters:
+	Sergeant                 6     6    14    14 |     6     6    14    14
+	Chaingun guy             0     0     0     2 |     0     0     0     2
+	Imp                     18    18    28    36 |    18    18    28    36
+	Demon                   10    10    10    10 |    10    10    10    10
+	Lost soul                4     4     8     2 |     4     4     8     2
+	Cacodemon                1     1     4     5 |     1     1     4     5
+	Archvile                 0     0     0     2 |     0     0     0     2
+	Revenant                 1     1     5     9 |     1     1     5     9
+	Mancubis                 2     2     4     2 |     2     2     4     2
+	Mini Baron               4     4     4     4 |     4     4     4     4
+	Pain Elemental           0     0     1     4 |     0     0     1     4
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Super shotgun            1     1     1     1 |     1     1     1     1
+	Chaingun                 1     1     1     1 |     1     1     1     1
+	Rocket launcher          1     1     1     1 |     9     9     9     9
+	Plasma gun               1     1     1     1 |     1     1     1     1
+	BFG-9000                 1     1     1     1 |     1     1     1     1
+	Chainsaw                 1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                10    10    10    10 |    10    10    10    10
+	Berserk                  1     1     1     1 |     1     1     1     1
+	Invisibility             2     2     2     2 |     2     2     2     2
+	Radiation suit           4     4     3     2 |     4     4     3     2
+    Expendibles:
+	Bullets                740   370   370   370 |   740   370   370   370
+	Shells                 376   188   220   220 |   376   188   220   220
+	Rockets                 68    34    34    34 |   100    50    50    50
+	Cells                  760   380   380   380 |   760   380   380   380
+	Armor points          1846   923   923   923 |  1846   923   923   923
+	Health points         2610  1305  1305  1305 |  2610  1305  1305  1305
+    Difficulty:
+	Total monster hp       766   766  1350  2392 |   766   766  1350  2392
+	Max ammo damage       6252  3126  3350  3350 |  6892  3446  3670  3670
+	RATIO                0.123 0.245 0.403 0.714 | 0.111 0.222 0.368 0.652
+    Other info:
+	Average brightness             167 (0=dark, 255=bright)
+	Secrets                          4
+	Nukeage / sectors         5 /  119
+	Triggers / linedefs     101 /  734
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 22              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+    Bosses:
+	Baron                    2     2     2     3 |     2     2     2     3
+	Cyberdemon               1     1     1     1 |     1     1     1     1
+    Monsters:
+	Trooper                 10    10    10    10 |    10    10    10    10
+	Sergeant                 9     9     9     9 |     9     9     9     9
+	Chaingun guy             6     6     7     8 |     6     6     7     8
+	Imp                     21    21    23    23 |    21    21    23    23
+	Demon                    5     5     6     7 |     5     5     6     7
+	Spectre                  3     3     3     3 |     3     3     3     3
+	Lost soul                2     2     4     4 |     2     2     4     4
+	Cacodemon                6     6     6     6 |     6     6     6     6
+	Revenant                 7     7    12    18 |     7     7    12    18
+	Mancubis                 1     1     1     2 |     1     1     1     2
+	Arachnotron              2     2     2     2 |     2     2     2     2
+	Mini Baron               2     2     2     2 |     2     2     2     2
+	Pain Elemental           0     0     0     1 |     0     0     0     1
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Super shotgun            1     1     1     1 |     1     1     1     1
+	Rocket launcher          1     1     1     1 |     1     1     1     1
+    Equipment:
+    Expendibles:
+	Bullets                560   280   280   280 |   560   280   280   280
+	Shells                 496   248   248   252 |   496   248   248   252
+	Rockets                124    62    62    62 |   124    62    62    62
+	Armor points           400   200   200   200 |   400   200   200   200
+	Health points          270   135   135   135 |   270   135   135   135
+    Difficulty:
+	Total monster hp      1645  1645  1849  2231 |  1645  1645  1849  2231
+	Max ammo damage       6512  3256  3256  3284 |  6512  3256  3256  3284
+	RATIO                0.253 0.505 0.568 0.679 | 0.253 0.505 0.568 0.679
+    Other info:
+	Average brightness             162 (0=dark, 255=bright)
+	Secrets                          2
+	Nukeage / sectors         4 /  384
+	Triggers / linedefs      56 / 3419
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 23              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (8 starts)
+    Bosses:
+	Baron                    4     4     9    12 |     4     4     9    12
+	Spiderdemon              0     0     0     1 |     0     0     0     1
+    Monsters:
+	Trooper                108   108   209   281 |   108   108   209   281
+	Sergeant                 8     8    12    17 |     8     8    12    17
+	Chaingun guy             4     4     5    12 |     4     4     5    12
+	SS Nazi                  9     9    11    21 |     9     9    11    21
+	Imp                      4     4    13    21 |     4     4    13    21
+	Demon                    5     5     9    16 |     5     5     9    16
+	Spectre                  4     4     7    14 |     4     4     7    14
+	Lost soul                1     1     4     8 |     1     1     4     8
+	Cacodemon                6     6     8     8 |     6     6     8     8
+	Archvile                 1     1     2     4 |     1     1     2     5
+	Revenant                 2     2     4     7 |     2     2     4     7
+	Mancubis                 2     2     2     2 |     2     2     2     2
+	Arachnotron              2     2     4     3 |     3     3     5     4
+	Mini Baron              14    14    13    16 |    14    14    13    16
+    Weapons:
+	Shotgun                  4     4     4     4 |     4     4     4    16
+	Super shotgun            4     4     4     4 |     6     6     6     8
+	Chaingun                 3     3     3     3 |     3     3     3     6
+	Rocket launcher          3     3     3     3 |     3     3    17     5
+	Plasma gun               2     2     2     2 |     2     2     2     4
+	BFG-9000                 2     2     2     2 |     2     2     2     2
+	Chainsaw                 1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 8     8     8     8 |     8     8     8     8
+	Invulnerability          1     1     1     1 |     1     1     1     1
+	Berserk                  5     5     5     5 |    17    17     5     8
+	Invisibility             1     1     1     1 |     1     1     7     7
+	Computer map             1     1     1     1 |     1     1     1     1
+	Lite amp goggles         1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets               2960  1480  1985  2345 |  2960  1480  1985  2405
+	Shells                 832   416   432   452 |   896   448   464   612
+	Rockets                 68    34    34    34 |    68    34    69    40
+	Cells                 3040  1520  1520  1520 |  3040  1520  1520  1600
+	Armor points          2230  1115  1115  1115 |  2230  1115  1115  1315
+	Health points         3562  1781  1781  1766 |  5962  2981  1781  2066
+	Barrels                105   105   105   105 |   105   105   105   105
+    Difficulty:
+	Total monster hp      2132  2132  3312  4798 |  2182  2182  3362  4918
+	Max ammo damage      16224  8112  8729  9229 | 16672  8336  9653 10689
+	RATIO                0.131 0.263 0.379 0.520 | 0.131 0.262 0.348 0.460
+    Other info:
+	Average brightness             145 (0=dark, 255=bright)
+	Secrets                         14
+	Nukeage / sectors        17 /  859
+	Triggers / linedefs     280 / 4458
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 24              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+    Bosses:
+    Monsters:
+	Trooper                 39    39    43    43 |    39    39    43    43
+	Sergeant                23    23    23    23 |    23    23    23    23
+	Imp                     36    36    36    36 |    36    36    36    36
+	Demon                   11    11    13    13 |    11    11    13    13
+	Spectre                  3     3     3     3 |     3     3     3     3
+	Cacodemon               10    10    10    10 |    14    14    14    14
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Chaingun                 1     1     1     1 |     1     1     1     1
+	Rocket launcher          1     1     1     1 |     2     2     2     2
+    Equipment:
+	Backpack                 1     1     1     1 |     1     1     1     1
+	Berserk                  1     1     1     1 |     1     1     1     1
+	Radiation suit           2     2     2     2 |     5     5     5     5
+    Expendibles:
+	Bullets                890   445   465   465 |   890   445   465   465
+	Shells                 384   192   192   192 |   384   192   192   192
+	Rockets                 28    14    14    14 |    42    21    21    21
+	Cells                  640   320   320   320 |   640   320   320   320
+	Armor points           224   112   112   112 |   224   112   112   112
+	Health points          780   390   390   390 |   870   435   435   435
+    Difficulty:
+	Total monster hp       973   973  1011  1011 |  1133  1133  1171  1171
+	Max ammo damage       5418  2709  2729  2729 |  5698  2849  2869  2869
+	RATIO                0.180 0.359 0.370 0.370 | 0.199 0.398 0.408 0.408
+    Other info:
+	Average brightness             198 (0=dark, 255=bright)
+	Secrets                          3
+	Nukeage / sectors        21 /  311
+	Triggers / linedefs      38 / 1448
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 25              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (9 starts)
+    Bosses:
+	Baron                    4     4    10    10 |     4     4    10    10
+    Monsters:
+	Trooper                  3     3     3     3 |     3     3     3     3
+	Sergeant                25    25    30    34 |    25    25    30    34
+	Chaingun guy             7     7    12    13 |     7     7    12    13
+	Imp                     18    18    13    13 |    18    18    13    13
+	Demon                    9     9    10    10 |     9     9    10    10
+	Spectre                  4     4     7     7 |     4     4     7     7
+	Lost soul                3     3     3     3 |     3     3     3     3
+	Cacodemon               10    10    16    19 |    10    10    16    19
+	Archvile                 1     1     3     4 |     1     1     3     4
+	Revenant                 8     8    10    11 |     8     8    10    11
+	Arachnotron              0     0     1     1 |     0     0     1     1
+	Mini Baron              15    15    18    18 |    15    15    18    18
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Super shotgun            3     3     3     3 |     3     3     3     3
+	Chaingun                 2     2     2     2 |     2     2     2     2
+	Rocket launcher          4     4     4     4 |     4     4     4     4
+	Plasma gun               1     1     1     1 |     1     1     1     1
+	BFG-9000                 1     1     1     1 |     1     1     1     1
+    Equipment:
+	Berserk                  1     1     1     1 |     1     1     1     1
+	Invisibility             1     1     1     1 |     1     1     1     1
+	Radiation suit           2     2     2     2 |     2     2     2     2
+    Expendibles:
+	Bullets               1150   575   575   575 |  1150   575   575   575
+	Shells                1088   544   540   556 |  1088   544   540   556
+	Rockets                 34    17    17    17 |    34    17    17    17
+	Cells                  600   300   300   300 |   600   300   300   300
+	Armor points          1440   720   720   720 |  1440   720   720   720
+	Health points         1544   772   722   722 |  1544   772   722   722
+	Barrels                  6     6     6     6 |     6     6     6     6
+    Difficulty:
+	Total monster hp      2323  2323  3643  3882 |  2323  2323  3643  3882
+	Max ammo damage      10646  5323  5295  5407 | 10646  5323  5295  5407
+	RATIO                0.218 0.436 0.688 0.718 | 0.218 0.436 0.688 0.718
+    Other info:
+	Average brightness             143 (0=dark, 255=bright)
+	Secrets                          6
+	Nukeage / sectors        64 /  797
+	Triggers / linedefs     352 / 7439
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 26              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (5 starts)
+    Bosses:
+	Baron                    0     0     3     9 |     0     0     3     9
+    Monsters:
+	Trooper                 14    14    10    12 |    14    14    10    12
+	Sergeant                12    12    18    19 |    12    12    18    19
+	Chaingun guy             4     4    11    20 |     4     4    11    20
+	Imp                     35    35    55    68 |    35    35    55    68
+	Demon                   10    10     7    11 |    10    10     7    11
+	Spectre                  4     4     9    11 |     4     4     9    11
+	Lost soul                6     6     9    12 |     6     6     9    12
+	Cacodemon                3     3     6     9 |     3     3     6     9
+	Revenant                 1     1     2     3 |     1     1     2     3
+	Mancubis                 2     2     3     4 |     2     2     3     4
+	Mini Baron               4     4     8     5 |     4     4     8     5
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Super shotgun            1     1     1     1 |     5     5     5     5
+	Chaingun                 0     0     0     0 |     2     2     2     2
+	Rocket launcher          1     1     1     1 |     4     4     4     4
+	Plasma gun               0     0     0     0 |     2     2     2     2
+	BFG-9000                 0     0     0     0 |     1     1     1     1
+	Chainsaw                 0     0     0     0 |     1     1     1     1
+    Equipment:
+	Berserk                  1     1     1     1 |     1     1     1     1
+	Invisibility             1     1     1     1 |     1     1     1     1
+	Radiation suit           1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets                380   190   220   250 |   580   290   320   350
+	Shells                 368   184   252   288 |   536   268   336   372
+	Rockets                 20    10    10    12 |    32    16    16    18
+	Cells                    0     0     0     0 |   240   120   120   120
+	Armor points           224   112   112   212 |   224   112   112   212
+	Health points         1118   559   729   718 |  1218   609   779   768
+	Barrels                  6     6     6     6 |     6     6     6     6
+    Difficulty:
+	Total monster hp      1002  1002  1931  2839 |  1002  1002  1931  2839
+	Max ammo damage       3356  1678  2184  2506 |  5452  2726  3232  3554
+	RATIO                0.299 0.597 0.884 1.133 | 0.184 0.368 0.597 0.799
+    Other info:
+	Average brightness             154 (0=dark, 255=bright)
+	Secrets                          5
+	Nukeage / sectors         2 /  301
+	Triggers / linedefs      62 / 1750
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 27              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (8 starts)
+    Bosses:
+	Baron                   19    19    11     9 |    19    19    11     9
+	Cyberdemon               1     1     3     4 |     1     1     3     4
+	Spiderdemon              1     1     1     2 |     1     1     1     2
+    Monsters:
+	Imp                    101   101   101   101 |   101   101   101   101
+	Demon                   21    21    21    21 |    21    21    21    21
+	Spectre                 18    18    18    18 |    18    18    18    18
+	Lost soul               40    40    40    40 |    40    40    40    40
+	Cacodemon               35    35    35    35 |    35    35    35    35
+	Archvile                 3     3     4     4 |     3     3     4     4
+	Revenant                20    20    29    30 |    20    20    29    30
+	Mancubis                 9     9     9     9 |     9     9     9     9
+	Mini Baron              19    19    19    19 |    19    19    19    19
+	Pain Elemental          12    12    12    12 |    12    12    12    12
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Super shotgun            1     1     1     1 |     3     3     3     3
+	Chaingun                 1     1     1     1 |     3     3     3     3
+	Rocket launcher          1     1     1     1 |     3     3     3     3
+	Plasma gun               1     1     1     1 |     3     3     3     3
+	BFG-9000                 1     1     1     1 |     2     2     2     2
+	Chainsaw                 1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 2     2     2     2 |     2     2     2     2
+	Invulnerability          1     1     1     1 |     1     1     1     1
+	Berserk                  1     1     1     1 |     1     1     1     1
+	Invisibility             1     1     1     1 |     1     1     1     1
+	Computer map             1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets               2680  1340  1340  1340 |  2760  1380  1380  1380
+	Shells                1064   532   532   532 |  1128   564   564   564
+	Rockets                168    84    84    84 |   176    88    88    88
+	Cells                 4240  2120  2120  2120 |  4480  2240  2240  2240
+	Armor points          2472  1236  1236  1236 |  2472  1236  1236  1236
+	Health points         6388  3194  3194  3194 |  6388  3194  3194  3194
+    Difficulty:
+	Total monster hp      8191  8191  8531  9061 |  8191  8191  8531  9061
+	Max ammo damage      21968 10984 10984 10984 | 23136 11568 11568 11568
+	RATIO                0.373 0.746 0.777 0.825 | 0.354 0.708 0.737 0.783
+    Other info:
+	Average brightness             140 (0=dark, 255=bright)
+	Secrets                         15
+	Nukeage / sectors         7 /  360
+	Triggers / linedefs     221 / 1822
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 28              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+    Bosses:
+    Monsters:
+	Sergeant                16    16    12    12 |    16    16    12    12
+	Chaingun guy            10    10    20    14 |    10    10    20    14
+	Imp                    110   110   121   142 |   110   110   121   142
+	Spectre                  4     4     4     4 |     4     4     4     4
+	Lost soul               13    13    10    14 |    13    13    10    14
+	Cacodemon                2     2     7     8 |     2     2     7     8
+	Archvile                 0     0     0     6 |     0     0     0     6
+	Revenant                 4     4    12    14 |     5     5    13    18
+	Mancubis                 0     0     0     1 |     0     0     0     1
+	Arachnotron              1     1     1     2 |     1     1     1     2
+	Mini Baron               2     2     4    17 |     2     2     4    17
+	Pain Elemental           0     0     0     2 |     0     0     0     2
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Super shotgun            1     1     1     1 |     1     1     1     1
+	Chaingun                 1     1     1     1 |     1     1     1     1
+	Rocket launcher          1     1     1     1 |     1     1     1     1
+	Plasma gun               1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 1     1     1     1 |     1     1     1     1
+	Berserk                  1     1     1     1 |     1     1     1     1
+	Invisibility             1     1     1     1 |     1     1     1     1
+	Radiation suit           3     3     3     0 |     3     3     3     0
+    Expendibles:
+	Bullets               1880   940   940   840 |  1880   940   940   840
+	Shells                1216   608   592   552 |  1216   608   592   552
+	Rockets                166    83    83    83 |   166    83    83    83
+	Cells                 1160   580   580   580 |  1160   580   580   580
+	Armor points          1828   914   914   714 |  1828   914   914   714
+	Health points         3170  1585  1395  1240 |  3170  1585  1395  1240
+    Difficulty:
+	Total monster hp      1318  1318  1952  3416 |  1348  1348  1982  3536
+	Max ammo damage      16032  8016  7904  7524 | 16032  8016  7904  7524
+	RATIO                0.082 0.164 0.247 0.454 | 0.084 0.168 0.251 0.470
+    Other info:
+	Average brightness             153 (0=dark, 255=bright)
+	Secrets                          6
+	Nukeage / sectors        58 / 1192
+	Triggers / linedefs     213 / 9893
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 29              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (8 starts)
+    Bosses:
+	Baron                    3     3     3     3 |     3     3     3     3
+	Cyberdemon               1     1     1     1 |     1     1     1     1
+    Monsters:
+	Chaingun guy             4     4    12    20 |     4     4    12    20
+	Imp                     21    21    29    38 |    21    21    29    38
+	Demon                   14    14    22    28 |    14    14    22    28
+	Spectre                  1     1     3     5 |     1     1     3     5
+	Cacodemon               12    12    24    36 |    12    12    24    36
+	Archvile                 1     1     2     2 |     1     1     2     2
+	Arachnotron              2     2     4     6 |     2     2     4     6
+	Pain Elemental           0     0     0     4 |     0     0     0     4
+    Weapons:
+	Shotgun                  1     1     1     1 |     1     1     1     1
+	Super shotgun            1     1     1     1 |     2     2     2     2
+	Chaingun                 0     0     0     0 |     2     2     2     2
+	Rocket launcher          1     1     1     1 |     2     2     2     2
+	Plasma gun               1     1     1     1 |     1     1     1     1
+	BFG-9000                 1     1     1     1 |     1     1     1     1
+	Chainsaw                 1     1     1     1 |     1     1     1     1
+    Equipment:
+	Backpack                 1     1     1     1 |     1     1     1     1
+	Invulnerability          1     1     1     0 |     1     1     1     0
+	Berserk                  2     2     2     2 |     2     2     2     2
+	Invisibility             0     0     1     4 |     0     0     1     4
+	Computer map             1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets                620   310   310   310 |   700   350   350   350
+	Shells                 304   152   152   152 |   336   168   168   168
+	Rockets                 82    41    36    31 |    96    48    43    38
+	Cells                 2280  1140  1140  1140 |  2280  1140  1140  1140
+	Armor points          1854   927   519   100 |  1854   927   519   100
+	Health points         3182  1591  1494   974 |  3182  1591  1494   974
+    Difficulty:
+	Total monster hp      1729  1729  2633  3603 |  1729  1729  2633  3603
+	Max ammo damage       8948  4474  4374  4274 |  9532  4766  4666  4566
+	RATIO                0.193 0.386 0.602 0.843 | 0.181 0.363 0.564 0.789
+    Other info:
+	Average brightness             185 (0=dark, 255=bright)
+	Secrets                          5
+	Nukeage / sectors        31 /  151
+	Triggers / linedefs     181 / 1268
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 30              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (7 starts)
+    Bosses:
+	Baron                    3     3     3     3 |     3     3     3     3
+	Cyberdemon               1     1     1     2 |     1     1     1     2
+	Spiderdemon              1     1     1     1 |     1     1     1     1
+	Final Boss               1     1     1     1 |     1     1     1     1
+    Monsters:
+	Sergeant                 3     3     0     0 |     3     3     0     0
+	Chaingun guy             0     0     3     3 |     0     0     3     3
+	Imp                     16    16    18    14 |    16    16    18    14
+	Demon                   18    18    18    17 |    18    18    18    17
+	Spectre                  1     1     1     1 |     1     1     1     1
+	Lost soul                0     0     2     2 |     0     0     2     2
+	Cacodemon                4     4     4     8 |     4     4     4     8
+	Archvile                 3     3     3     4 |     3     3     3     4
+	Revenant                 4     4     4     4 |     4     4     4     4
+	Mancubis                 1     1     1     2 |     1     1     1     2
+	Arachnotron              3     3     3     3 |     3     3     3     3
+	Mini Baron               3     3     3     3 |     3     3     3     3
+	Pain Elemental           0     0     2     5 |     0     0     2     5
+    Weapons:
+	Shotgun                  2     2     2     2 |     7     7     7     7
+	Super shotgun            2     2     2     2 |     5     5     5     5
+	Chaingun                 2     2     2     2 |     5     5     5     5
+	Rocket launcher          2     2     2     2 |     3     3     3     3
+	Plasma gun               4     4     4     3 |     5     5     5     4
+	BFG-9000                 2     2     2     2 |     3     3     3     3
+	Chainsaw                 1     1     1     1 |     4     4     4     4
+    Equipment:
+	Backpack                 2     2     2     2 |     2     2     2     2
+	Invulnerability          4     4     4     0 |     4     4     4     0
+	Berserk                  1     1     1     1 |     4     4     4     4
+	Invisibility             1     1     1     1 |     1     1     1     1
+	Radiation suit           8     8     8     8 |     8     8     8     8
+	Computer map             1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets               1380   690   690   690 |  2100  1050  1050  1050
+	Shells                 616   308   296   296 |  1032   516   504   504
+	Rockets                726   363   363   288 |   730   365   365   290
+	Cells                 2560  1280  1280  1240 |  2720  1360  1360  1320
+	Armor points          3400  1700  1700  1600 |  3400  1700  1700  1600
+	Health points         4088  2044  2044  2044 |  4688  2344  2344  2344
+    Difficulty:
+	Total monster hp      2245  2245  2369  3120 |  2245  2245  2369  3120
+	Max ammo damage      25332 12666 12582 11002 | 29364 14682 14598 13018
+	RATIO                0.089 0.177 0.188 0.284 | 0.076 0.153 0.162 0.240
+    Other info:
+	Average brightness             166 (0=dark, 255=bright)
+	Secrets                          4
+	Nukeage / sectors         6 /  405
+	Triggers / linedefs     173 / 3655
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 31              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+    Bosses:
+	Baron                    2     2     2     2 |     2     2     2     2
+	Cyberdemon               3     3     3     3 |     3     3     3     3
+	Spiderdemon              1     1     1     1 |     1     1     1     1
+    Monsters:
+	Demon                    4     4     4     4 |     4     4     4     4
+	Archvile                11    11    11    11 |    11    11    11    11
+	Revenant                 7     7     4    12 |     7     7     4    12
+	Mini Baron               1     1     1     1 |     1     1     1     1
+	Pain Elemental           3     3     3     3 |     3     3     3     3
+    Weapons:
+	Shotgun                  8     8     8     8 |     8     8     8     8
+	Super shotgun            9     9     9     9 |     9     9     9     9
+	Chaingun                 4     4     4     4 |     4     4     4     4
+	Rocket launcher          5     5     5     5 |     5     5     5     5
+	Plasma gun               5     5     5     5 |     5     5     5     5
+	BFG-9000                 4     4     4     4 |     4     4     4     4
+	Chainsaw                 4     4     4     4 |     4     4     4     4
+    Equipment:
+	Backpack                 5     5     5     5 |     5     5     5     5
+	Berserk                  1     1     1     1 |     1     1     1     1
+    Expendibles:
+	Bullets               3860  1930  1930  1930 |  3860  1930  1930  1930
+	Shells                1504   752   752   752 |  1504   752   752   752
+	Rockets                832   416   416   416 |   832   416   416   416
+	Cells                 2080  1040  1040  1040 |  2080  1040  1040  1040
+	Armor points          1200   600   600   600 |  1200   600   600   600
+	Health points         1600   800   800   800 |  1600   800   800   800
+    Difficulty:
+	Total monster hp      2910  2910  2820  3060 |  2910  2910  2820  3060
+	Max ammo damage      35188 17594 17594 17594 | 35188 17594 17594 17594
+	RATIO                0.083 0.165 0.160 0.174 | 0.083 0.165 0.160 0.174
+    Other info:
+	Average brightness             162 (0=dark, 255=bright)
+	Secrets                          2
+	Nukeage / sectors        18 / 1056
+	Triggers / linedefs     157 / 4370
+	Reject resource                YES
+-------------------------------------------------------------------------------
+MAP 32              Difficulty: S1    S2    S3   S45 |    M1    M2    M3   M45
+-------------------------------------------------------------------------------
+    Play modes:
+	Single player
+	Cooperative (4 player)
+	Deathmatch (8 starts)
+    Bosses:
+    Monsters:
+    Weapons:
+    Equipment:
+    Expendibles:
+    Difficulty:
+	RATIO                0.000 0.000 0.000 0.000 | 0.000 0.000 0.000 0.000
+    Other info:
+	Average brightness             185 (0=dark, 255=bright)
+	Secrets                          0
+	Nukeage / sectors         0 /    4
+	Triggers / linedefs       1 /   23
+	Reject resource                YES

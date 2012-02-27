@@ -1,0 +1,4 @@
+#!/bin/sh
+
+../idbsp/waddwd input/map01.wad.nobsp output/map01.dwd
+cat output/map01.dwd

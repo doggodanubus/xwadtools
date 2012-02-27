@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# This script should probably do more testing than it
+# does right now. All it does is replace MAP01 and MAP02 music with
+# something very familiar...
+
+../mkwad/mkwad output/mkwad.wad D_RUNNIN input/tnfdm.mus D_STALKS input/tnfdm.mus
+sh md5sum.sh output/mkwad.wad

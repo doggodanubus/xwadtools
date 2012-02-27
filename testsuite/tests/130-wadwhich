@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Don't expect them to already be on the path
+PATH=../lswad:../wadldc:$PATH
+export PATH
+
+../wadwhich/wadwhich input/map01.wad
+../wadwhich/wadwhich input/map02.wad

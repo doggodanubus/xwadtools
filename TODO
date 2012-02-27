@@ -1,5 +1,25 @@
 Before first release:
 
+wadconvgame still missing lots of textures.
+
+deutex DOOMWADDIR support. It sort-of exists, but it expects a DOS-style
+setup, where there's one IWAD per directory. It looks in DOOMWADDIR
+for each supported IWAD in a hard-coded order and uses the first one it
+finds. Which means if DOOMWADDIR contains both doom.wad and doom2.wad,
+there is no way to use deutex with doom2.wad.
+
+deutex also creates directories mode 700. Ugh.
+
+dmpsu needs to exit when EOF on stdin. Also, its idea of what's a
+printable character for the hex dump command is too permissive.
+
+wadgc segfaults on invalid input... and I'm not even sure why my input
+was invalid.
+
+Lots of stuff has a high-ASCII copyright symbol embedded in it. Get rid
+of these (replace with UTF-8 one? Does the Windows cmd.exe support UTF-8?),
+maybe just replace with (c).
+
 Test the utilities more thorougly on FreeBSD and Windows. The Windows
 stuff probably needs more win-ish hard-coded paths.
 
@@ -16,6 +36,11 @@ do, hence slige's -nulls option). Ideally, warm should add the lumps
 if they're missing. If that's too much trouble, it should at least warn
 and exit(1) or such, if the lumps are missing from the input.
 
+warm can also segfault when using -m=, see the testsuite.
+
+wadldc (and probably a lot of other tools) can segfault if fed a bad
+wad file. Should exit with an error message instead.
+
 Add support for games other than doom/doom2 to wadwhat. It might be better
 to rewrite from scratch (still in C though, don't make it a perl script).
 
@@ -25,6 +50,9 @@ make it able to use SDL_mixer to play MIDI and audio files internally
 platform has).
 
 Replace the fricken Makefile. Use autoconf too?
+
+Look at adding doom64ex support for at least some of the tools. See
+README_doom64ex.txt.
 
 Autodetection for xforms (should be automatic, if I go with autoconf),
 and for ARCH in the slackware target.

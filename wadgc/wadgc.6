@@ -236,7 +236,9 @@ texture animations see \fBswantbls\fR(6).
 The used color quantization algorithm is not very good, use \fBmkqmap\fR(6)
 and \fBppmquant\fR(1) to quantize colors, before processing graphic files
 which don't use colors from the game palettes only.
-
+.LP
+Temporary files are written to the current directory, and not deleted.
+You can clean up with "rm temp.*".
 .SH AUTHOR
 Stefan Gustavson (stefang@isy.liu.se)
 .LP

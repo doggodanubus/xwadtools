@@ -1,0 +1,4 @@
+Floor, Ceil, Door, Keydoor, Lift, Stair, or cRrusher? [F/c/d/k/l/s/r]: Kind of Door [0=Open-Close, 1=Open, 2=Close-Open, 3=Close]: Speed of Door [0=Slow, 1=Normal, 2=Fast, 3=Turbo]: Allow monster activation [N/y]: Door Delay [0=1sec, 1=4sec, 2=9sec, 3=30sec]: Trigger Type [0=W1, 1=WR, 2=S1, 3=SR, 4=G1, 5=GR, 6=D1, 7=DR]: 
+Linedef special type is: 15935 (dec) 3e3fH (hex)
+
+Functional description: DR Opn T, is this correct? [Y/n/Q(uit)]: 

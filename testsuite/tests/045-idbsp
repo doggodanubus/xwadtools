@@ -1,0 +1,9 @@
+#!/bin/sh
+
+../idbsp/idbsp input/map01.dwd output/idbsp.wad
+
+# Don't use md5sum, FreeBSD moves one vertex by one
+# map unit, probably due to differences in the compiler
+# and math lib.
+#sh md5sum.sh output/idbsp.wad
+../spitwad/spitwad output/idbsp.wad

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+../dm2au/dm2au -f "$IWAD" DSSHOTGN output/shotgun.au
+../dm2au/dm2au -r -f "$IWAD" DSSHOTGN output/shotgun.raw
+../dm2au/dm2au -w -f "$IWAD" DSSHOTGN output/shotgun.wav
+sh md5sum.sh output/shotgun.au output/shotgun.raw output/shotgun.wav

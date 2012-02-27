@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# warm does a lot...
+
+rm -f output/warm*wad
+
+# list contents:
+../warm/warm -dir "$IWAD" | grep -v freedoom.wad
+
+# extract stuff from a wad:
+../warm/warm -e=MAP05,MAP06,MAP10,MAP20 "$IWAD" output/warm.wad | grep -v freedoom.wad
+../lswad/lswad output/warm.wad
+sh md5sum.sh output/warm.wad
+
+# extract & merge:
+../warm/warm -e=MAP01 "$IWAD" output/warm1.wad | grep -v freedoom.wad
+# FIXME: swapping warm1.wad and warm.wad results in a segfault!
+../warm/warm -m=output/warm1.wad output/warm.wad output/warm2.wad | grep -v freedoom.wad
+../lswad/lswad output/warm2.wad
+sh md5sum.sh output/warm2.wad
+
+# build nodes:
+../warm/warm -e=MAP01 "$IWAD" output/warm3.wad | grep -v freedoom.wad
+../warm/warm -q output/warm3.wad output/warm4.wad | grep -v freedoom.wad | grep -v seconds
+sh md5sum.sh output/warm4.wad
