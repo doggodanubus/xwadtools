@@ -11,10 +11,10 @@ patches should be sent to B. Watson <yalhcru@gmail.com>.
 
 New features:
 
-- All of Andre Amajorel's patches have been integrated, plus a few
+- All of André Majorel's patches have been integrated, plus a few
   from Gentoo, Debian, and/or FreeBSD.
 
-- All the tools now compile and run correctly on:
+- All the tools now compile and (seem to) run correctly on:
   x86 and x86_64 Linux
   x86 and x86_64 FreeBSD
   Windows x86 (with mingw-w64 cross compiler; not tried native build)
