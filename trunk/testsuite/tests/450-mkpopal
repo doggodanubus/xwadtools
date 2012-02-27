@@ -1,0 +1,6 @@
+#!/bin/sh
+
+../mkpopal/mkpopal
+../mkpopal/mkpopal -c heretic
+../mkpopal/mkpopal -c hexen
+../mkpopal/mkpopal -c strife

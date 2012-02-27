@@ -1,5 +1,14 @@
 See "ChangeLog.old" for Udo's changes.
 
+20120227 bkw:
+
+- testsuite, made a pretty good start on.
+
+- Add - option to trigcalc (normal I/O rather than termios). Allow
+  it to compile for mingw (acts like - always present).
+
+- various minor man page fixes
+
 20120223 bkw:
 
 - Fixed FreeBSD 9.0 compile.

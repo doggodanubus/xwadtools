@@ -1,0 +1,14 @@
+i AA17 Doom directory is .
+i ME88 Copying sprites and/or flats
+i ME88  from iwad ./doom2.wad
+i ME88  and  pwad doom2.wad
+i ME88  into pwad output.wad
+i WR19 Reading WAD ./doom2.wad:	(3326 entries)
+i ID50 IWAD entry identification...
+i WR19 Reading WAD doom2.wad:	(3326 entries)
+i ID10 PWAD entry identification...
+i WW01 Creating pwad output.wad
+i WW28 output.wad: wad is complete, 3299 entries, 27461788 bytes
+i ME98 Addition of sprites and floors is complete
+i AA99 Normal exit
+ebe550f970001d8db3c1a01ee2ecc3c0  output.wad

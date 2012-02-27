@@ -1,0 +1,4 @@
+#!/bin/sh
+
+../raw2sfx/raw2sfx input/DSSAWUP.snd output/DSSAWUP.sfx
+sh md5sum.sh output/DSSAWUP.sfx

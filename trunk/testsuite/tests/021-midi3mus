@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+../midi3mus/midi3mus input/tnfdm.mid output/tnfdm.mus
+sh md5sum.sh output/tnfdm.mus

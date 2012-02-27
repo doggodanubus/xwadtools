@@ -1,0 +1,8 @@
+#!/bin/sh
+
+touch output/wadcat.wad
+../wadcat/wadcat -o output/wadcat.wad input/map01.wad input/map02.wad || echo "Won't overwrite, OK"
+rm -f output/wadcat.wad
+../wadcat/wadcat -o output/wadcat.wad input/map01.wad input/map02.wad
+../lswad/lswad output/wadcat.wad
+sh md5sum.sh output/wadcat.wad

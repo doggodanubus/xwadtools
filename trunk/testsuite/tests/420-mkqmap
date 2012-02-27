@@ -1,0 +1,6 @@
+#!/bin/sh
+
+../mkqmap/mkqmap
+../mkqmap/mkqmap -c heretic
+../mkqmap/mkqmap -c hexen
+../mkqmap/mkqmap -c strife

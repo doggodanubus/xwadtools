@@ -1,0 +1,4 @@
+#!/bin/sh
+
+../wadldc/wadldc MAP01 "$IWAD" output/map01.map
+sh md5sum.sh output/map01.map

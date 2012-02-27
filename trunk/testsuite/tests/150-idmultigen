@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm -f info.h info.c
+cp ../idmultigen/multigen.txt output
+( cd output && ../../idmultigen/idmultigen && cat info.h info.c )

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+../pal2c/pal2c "$IWAD" 0 prefix0
+../pal2c/pal2c "$IWAD" 1 prefix1
+../pal2c/pal2c "$IWAD" 2 prefix2

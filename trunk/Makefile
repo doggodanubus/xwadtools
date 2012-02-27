@@ -417,6 +417,7 @@ clean:
 	cd trigcalc; $(MAKE) clean
 	cd midi3mus; $(MAKE) clean
 	cd spitwad; $(MAKE) clean
+	cd testsuite; $(MAKE) clean
 
 crosswin: clean
 	$(MAKE) PREFIX='C:\\xwadtools' CROSS=1 CC=/opt/mingw-w64-win32/bin/i686-w64-mingw32-gcc CPP=/opt/mingw-w64-win32/bin/i686-w64-mingw32-g++ AR="/opt/mingw-w64-win32/bin/i686-w64-mingw32-ar -ru" COPTFLAGS="-O2 -Wall" CPPOPTFLAGS="-O2 -Wall" HAVE_FNMATCH=no

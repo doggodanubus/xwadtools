@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Make sure we're using the correct IWAD
+
+GOT="$( sh md5sum.sh "$IWAD" | cut -d' ' -f1 )"
+if [ "$GOT" = "21ea277fa5612267eb7985493b33150e" ]; then
+	exit 0
+else
+	echo "Wrong FreeDoom IWAD version for freedoom.wad" 1>&2
+	echo "You need the one from FreeDoom 0.7, md5sum 21ea277fa5612267eb7985493b33150e" 1>&2
+	exit 1
+fi

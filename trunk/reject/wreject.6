@@ -49,7 +49,18 @@ The Unofficial Doom Specs by Matthew S Fell.
 .BR xwadtools (6)
 
 .SH BUGS/ERRORS
-The reject map will not be build based on line of sight calculations,
+The input file
+.I must
+already have a REJECT resource. This can be a zeroed-out REJECT map
+or a zero\-length marker lump, but it must be present. If not,
+.B wreject
+will fail to do anything (but will not print an error/warning or
+appear to fail in any way).
+.P
+.B wreject
+always modifies its input file. Make sure you keep backups!
+.P
+The reject map will not be built based on line of sight calculations,
 instead it uses the distance between two sectors to reject them. This
 might be wrong if the used threshold value was to small. Monsters in
 maps with the REJECT resource build with this program might stand in

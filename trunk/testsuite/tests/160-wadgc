@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cat <<EOF >output/wadgc.test
+S_START
+ TESTPAT input/bodies.ppm @ 0 0 W 64 H 128
+S_END
+EOF
+
+../wadgc/wadgc output/wadgc.test output/wadgc.wad
+sh md5sum.sh output/wadgc.wad
+rm -f temp.*

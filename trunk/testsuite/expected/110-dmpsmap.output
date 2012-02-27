@@ -1,0 +1,9 @@
+DMPSMAP: DooM PostScript Map sidekick, ver 2.6
+ By Frans P. de Vries (fpv@xymph.iaf.nl)
+
+Episode number: 0.
+Mission number: 1.
+PostScript file: output/dmpsmap.ps.
+
+Outputting PostScript map of level MAP01 to "output/dmpsmap.ps".
+3bcc873f33ac3b67295d4d80b0752317  output/dmpsmap.ps

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Just to be safe, get rid of the line with the copyright
+# symbol (which isn't in UTF-8 or anything)
+
+../wadtxls/wadtxls -w "$IWAD" +v | grep -v Derived | grep -v freedoom.wad

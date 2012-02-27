@@ -1,0 +1,3292 @@
+wadtex version 1.8
+
+Got TEXTURE1 lump, decompiling...
+  found 677 textures
+  decompiling texture AASHITTY, 1 patches, 64x64
+    Got patch BODIES, width 64, x=0 y=0
+  decompiling texture AASTINKY, 3 patches, 32x72
+    Got patch WALL00_3, width 16, x=0 y=0
+    Got patch WALL00_3, width 16, x=12 y=0
+    Got patch WALL00_3, width 16, x=24 y=0
+  decompiling texture GLASS2B, 1 patches, 64x96
+    Got patch GLASS2B, width 64, x=0 y=0
+  decompiling texture GLASS1B, 1 patches, 64x96
+    Got patch GLASS1B, width 64, x=0 y=0
+  decompiling texture GLASS2, 1 patches, 64x96
+    Got patch GLASS2, width 64, x=0 y=0
+  decompiling texture GLASS1, 1 patches, 64x96
+    Got patch GLASS1, width 64, x=0 y=0
+  decompiling texture BLODGR1, 1 patches, 32x128
+    Got patch TP5_1, width 32, x=0 y=0
+  decompiling texture BLODGR2, 1 patches, 32x128
+    Got patch TP5_2, width 32, x=0 y=0
+  decompiling texture BLODGR3, 1 patches, 32x128
+    Got patch TP5_3, width 32, x=0 y=0
+  decompiling texture BLODGR4, 1 patches, 32x128
+    Got patch TP5_4, width 32, x=0 y=0
+  decompiling texture BROVINE, 9 patches, 256x128
+    Got patch WALL02_2, width 64, x=0 y=56
+    Got patch WALL02_2, width 64, x=0 y=0
+    Got patch WALL02_2, width 64, x=192 y=56
+    Got patch WALL02_2, width 64, x=192 y=0
+    Got patch WALL02_1, width 64, x=64 y=56
+    Got patch WALL02_1, width 64, x=64 y=0
+    Got patch WALL02_1, width 64, x=128 y=56
+    Got patch WALL02_1, width 64, x=128 y=0
+    Got patch W107_1, width 256, x=0 y=0
+  decompiling texture BROWNWEL, 4 patches, 256x72
+    Got patch WALL03_4, width 64, x=0 y=0
+    Got patch WALL03_4, width 64, x=64 y=0
+    Got patch WALL03_4, width 64, x=192 y=0
+    Got patch WALL03_3, width 64, x=128 y=0
+  decompiling texture CEMPOIS, 2 patches, 128x128
+    Got patch WALL52_1, width 128, x=0 y=0
+    Got patch PS20A0, width 62, x=0 y=28
+  decompiling texture COMPOHSO, 4 patches, 128x128
+    Got patch WALL21_1, width 64, x=64 y=0
+    Got patch WALL21_1, width 64, x=64 y=70
+    Got patch WALL21_3, width 64, x=0 y=0
+    Got patch WALL21_5, width 64, x=0 y=70
+  decompiling texture DOORHI, 4 patches, 64x128
+    Got patch DOOR2_3, width 64, x=0 y=0
+    Got patch DOOR2_3, width 64, x=0 y=32
+    Got patch DOOR2_3, width 64, x=0 y=64
+    Got patch DOOR2_3, width 64, x=0 y=96
+  decompiling texture GRAYDANG, 3 patches, 64x128
+    Got patch W33_7, width 64, x=0 y=0
+    Got patch W33_7, width 64, x=0 y=64
+    Got patch PS15A0, width 36, x=14 y=72
+  decompiling texture ICKDOOR1, 3 patches, 64x72
+    Got patch WALL00_1, width 64, x=0 y=8
+    Got patch WALL00_2, width 16, x=-8 y=22
+    Got patch WALL70_3, width 64, x=0 y=0
+  decompiling texture ICKWALL6, 3 patches, 64x128
+    Got patch W32_4, width 64, x=0 y=64
+    Got patch W32_4, width 64, x=0 y=0
+    Got patch WALL70_2, width 56, x=4 y=0
+  decompiling texture LITE96, 3 patches, 64x128
+    Got patch WALL62_1, width 128, x=-1 y=0
+    Got patch FLAMP, width 22, x=4 y=16
+    Got patch FLAMP, width 22, x=38 y=1
+  decompiling texture LITEMET, 6 patches, 128x128
+    Got patch WALL03_7, width 64, x=0 y=0
+    Got patch WALL03_7, width 64, x=0 y=64
+    Got patch WALL03_7, width 64, x=64 y=64
+    Got patch WALL03_7, width 64, x=64 y=0
+    Got patch FLAMP, width 22, x=19 y=34
+    Got patch FLAMP, width 22, x=81 y=34
+  decompiling texture LITERED, 2 patches, 16x128
+    Got patch W15_6, width 24, x=-4 y=56
+    Got patch W15_6, width 24, x=-4 y=0
+  decompiling texture MIDVINE1, 1 patches, 256x128
+    Got patch W106_1, width 256, x=0 y=0
+  decompiling texture MIDVINE2, 1 patches, 256x128
+    Got patch W107_1, width 256, x=0 y=0
+  decompiling texture SKINBORD, 2 patches, 64x128
+    Got patch HELL6_1, width 32, x=0 y=0
+    Got patch HELL8_3, width 32, x=32 y=0
+  decompiling texture SKINTEK1, 2 patches, 256x128
+    Got patch W109_1, width 128, x=0 y=0
+    Got patch W109_2, width 128, x=128 y=0
+  decompiling texture SKINTEK2, 1 patches, 256x128
+    Got patch W110_1, width 256, x=0 y=0
+  decompiling texture SKULWAL3, 2 patches, 128x128
+    Got patch WALL76_1, width 128, x=-12 y=0
+    Got patch WALL76_1, width 128, x=116 y=0
+  decompiling texture SKULWALL, 2 patches, 128x128
+    Got patch WALL79_1, width 128, x=-4 y=0
+    Got patch WALL79_1, width 128, x=124 y=0
+  decompiling texture ASHWALL, 1 patches, 64x128
+    Got patch W104_1, width 64, x=0 y=0
+  decompiling texture BRNBIGC, 1 patches, 128x128
+    Got patch W113_1, width 128, x=0 y=0
+  decompiling texture BRNBIGL, 1 patches, 32x128
+    Got patch W113_2, width 32, x=0 y=0
+  decompiling texture BRNBIGR, 1 patches, 32x128
+    Got patch W113_3, width 32, x=0 y=0
+  decompiling texture BRNPOIS2, 2 patches, 64x128
+    Got patch WALL62_1, width 128, x=0 y=0
+    Got patch PS20A0, width 62, x=0 y=56
+  decompiling texture COMP2, 24 patches, 256x128
+    Got patch COMP02_7, width 64, x=128 y=64
+    Got patch COMP02_6, width 64, x=0 y=64
+    Got patch COMP02_5, width 64, x=192 y=64
+    Got patch COMP02_4, width 64, x=128 y=0
+    Got patch COMP02_3, width 64, x=192 y=0
+    Got patch COMP02_2, width 64, x=64 y=0
+    Got patch COMP02_8, width 64, x=64 y=64
+    Got patch COMP02_1, width 64, x=0 y=0
+    Got patch STEP08, width 32, x=0 y=56
+    Got patch STEP08, width 32, x=32 y=56
+    Got patch STEP08, width 32, x=64 y=56
+    Got patch STEP08, width 32, x=96 y=56
+    Got patch STEP08, width 32, x=128 y=56
+    Got patch STEP08, width 32, x=160 y=56
+    Got patch STEP08, width 32, x=192 y=56
+    Got patch STEP08, width 32, x=224 y=56
+    Got patch STEP08, width 32, x=224 y=120
+    Got patch STEP08, width 32, x=192 y=120
+    Got patch STEP08, width 32, x=160 y=120
+    Got patch STEP08, width 32, x=128 y=120
+    Got patch STEP08, width 32, x=96 y=120
+    Got patch STEP08, width 32, x=64 y=120
+    Got patch STEP08, width 32, x=32 y=120
+    Got patch STEP08, width 32, x=0 y=120
+  decompiling texture COMPTILE, 6 patches, 128x128
+    Got patch COMP03_1, width 64, x=32 y=0
+    Got patch COMP03_6, width 32, x=96 y=0
+    Got patch COMP03_6, width 32, x=96 y=64
+    Got patch COMP03_7, width 32, x=0 y=0
+    Got patch COMP03_7, width 32, x=0 y=64
+    Got patch COMP03_1, width 64, x=32 y=64
+  decompiling texture COMPUTE1, 10 patches, 128x128
+    Got patch W33_8, width 64, x=64 y=56
+    Got patch W33_8, width 64, x=0 y=56
+    Got patch W33_8, width 64, x=0 y=120
+    Got patch W33_8, width 64, x=64 y=120
+    Got patch COMP01_5, width 56, x=28 y=0
+    Got patch COMP01_6, width 56, x=72 y=0
+    Got patch COMP1B_4, width 56, x=0 y=0
+    Got patch COMP01_5, width 56, x=28 y=64
+    Got patch COMP01_1, width 56, x=0 y=64
+    Got patch COMP1C_6, width 56, x=72 y=64
+  decompiling texture COMPUTE2, 4 patches, 256x56
+    Got patch COMP02_2, width 64, x=64 y=0
+    Got patch COMP02_3, width 64, x=128 y=0
+    Got patch COMP02_1, width 64, x=0 y=0
+    Got patch COMP02_7, width 64, x=192 y=0
+  decompiling texture COMPUTE3, 10 patches, 128x128
+    Got patch SW11_4, width 32, x=0 y=4
+    Got patch SW11_5, width 32, x=32 y=4
+    Got patch SW11_4, width 32, x=64 y=4
+    Got patch SW11_5, width 32, x=96 y=4
+    Got patch COMP02_1, width 64, x=0 y=0
+    Got patch COMP02_2, width 64, x=64 y=0
+    Got patch STEP08, width 32, x=0 y=56
+    Got patch STEP08, width 32, x=32 y=56
+    Got patch STEP08, width 32, x=64 y=56
+    Got patch STEP08, width 32, x=96 y=56
+  decompiling texture LITE2, 4 patches, 64x128
+    Got patch WALL02_2, width 64, x=0 y=56
+    Got patch WALL02_2, width 64, x=0 y=0
+    Got patch FLAMP, width 22, x=5 y=0
+    Got patch FLAMP, width 22, x=35 y=0
+  decompiling texture LITE4, 15 patches, 16x128
+    Got patch WLITA0, width 8, x=0 y=0
+    Got patch WLITA0, width 8, x=0 y=8
+    Got patch WLITA0, width 8, x=0 y=16
+    Got patch WLITA0, width 8, x=0 y=24
+    Got patch WLITA0, width 8, x=0 y=32
+    Got patch WLITA0, width 8, x=0 y=40
+    Got patch WLITA0, width 8, x=0 y=48
+    Got patch WLITC0, width 8, x=8 y=48
+    Got patch WLITC0, width 8, x=8 y=32
+    Got patch WLITC0, width 8, x=8 y=24
+    Got patch WLITC0, width 8, x=8 y=40
+    Got patch WLITC0, width 8, x=8 y=16
+    Got patch WLITC0, width 8, x=8 y=8
+    Got patch WLITC0, width 8, x=8 y=0
+    Got patch T14_5, width 16, x=0 y=56
+  decompiling texture LITEBLU2, 1 patches, 16x72
+    Got patch W13_A, width 16, x=0 y=0
+  decompiling texture LITEBLU3, 2 patches, 16x128
+    Got patch W13_8, width 16, x=0 y=0
+    Got patch W13_8, width 16, x=0 y=56
+  decompiling texture NUKESLAD, 1 patches, 64x128
+    Got patch WALL57_1, width 64, x=0 y=0
+  decompiling texture PLANET1, 10 patches, 256x128
+    Got patch AG128_1, width 64, x=192 y=0
+    Got patch AG128_1, width 64, x=128 y=0
+    Got patch AG128_1, width 64, x=64 y=0
+    Got patch AG128_1, width 64, x=0 y=0
+    Got patch TSCRN2, width 55, x=4 y=69
+    Got patch TSCRN3, width 55, x=68 y=69
+    Got patch TSCRN4, width 55, x=132 y=69
+    Got patch TSCRN5, width 55, x=68 y=6
+    Got patch TSCRN6, width 55, x=4 y=6
+    Got patch TSCRN8, width 55, x=132 y=6
+  decompiling texture SLADRIP1, 1 patches, 64x128
+    Got patch WALL57_2, width 64, x=0 y=0
+  decompiling texture SLADRIP2, 1 patches, 64x128
+    Got patch WALL57_3, width 64, x=0 y=0
+  decompiling texture SLADRIP3, 1 patches, 64x128
+    Got patch WALL57_4, width 64, x=0 y=0
+  decompiling texture STARTAN1, 2 patches, 64x128
+    Got patch SW12_4, width 32, x=0 y=0
+    Got patch SW12_5, width 32, x=32 y=0
+  decompiling texture STONPOIS, 10 patches, 64x128
+    Got patch WALL01_1, width 16, x=0 y=0
+    Got patch WALL01_2, width 16, x=16 y=0
+    Got patch WALL01_3, width 16, x=32 y=0
+    Got patch WALL01_4, width 16, x=48 y=0
+    Got patch WALL01_4, width 16, x=48 y=64
+    Got patch WALL01_3, width 16, x=32 y=64
+    Got patch WALL01_2, width 16, x=16 y=64
+    Got patch WALL01_1, width 16, x=0 y=64
+    Got patch PS20A0, width 62, x=1 y=42
+    Got patch W33_8, width 64, x=0 y=120
+  decompiling texture TEKWALL2, 1 patches, 128x128
+    Got patch WALL24_1, width 248, x=0 y=0
+  decompiling texture TEKWALL3, 1 patches, 128x112
+    Got patch W17_1, width 232, x=-104 y=0
+  decompiling texture TEKWALL5, 1 patches, 128x128
+    Got patch WALL24_1, width 248, x=-120 y=0
+  decompiling texture ALTAQUA, 1 patches, 128x128
+    Got patch ALTAQUA, width 128, x=0 y=0
+  decompiling texture ASPHALT, 1 patches, 256x128
+    Got patch ASPHALT, width 256, x=0 y=0
+  decompiling texture BIGMURAL, 1 patches, 256x128
+    Got patch BIGMURAL, width 256, x=0 y=0
+  decompiling texture BIGWALL, 1 patches, 128x128
+    Got patch BIGWALL, width 128, x=0 y=0
+  decompiling texture BLOD3, 8 patches, 512x128
+    Got patch RW48_4, width 64, x=0 y=0
+    Got patch RW48_4, width 64, x=64 y=0
+    Got patch DOSW3C, width 72, x=128 y=0
+    Got patch DOSW3, width 72, x=200 y=0
+    Got patch DOSLVR13, width 72, x=272 y=0
+    Got patch DOSLVR23, width 72, x=344 y=0
+    Got patch DOBLIP3A, width 72, x=416 y=0
+    Got patch CYAN, width 64, x=488 y=0
+  decompiling texture BRNOPEN, 1 patches, 64x128
+    Got patch BRNOPEN, width 64, x=0 y=0
+  decompiling texture BTNTMETL, 2 patches, 64x128
+    Got patch WALL47_1, width 64, x=0 y=0
+    Got patch BLUTNT, width 51, x=6 y=40
+  decompiling texture BTNTSLVR, 2 patches, 64x128
+    Got patch RW32_1, width 64, x=0 y=0
+    Got patch BLUTNT, width 51, x=6 y=49
+  decompiling texture CARLLF1, 1 patches, 128x128
+    Got patch CARLLF1, width 128, x=0 y=0
+  decompiling texture CARLLF2, 1 patches, 128x128
+    Got patch CARLLF2, width 128, x=0 y=0
+  decompiling texture CARLRT1, 1 patches, 128x128
+    Got patch CARLRT1, width 128, x=0 y=0
+  decompiling texture CARLRT2, 1 patches, 128x128
+    Got patch CARLRT2, width 128, x=0 y=0
+  decompiling texture CAVERN1, 1 patches, 128x128
+    Got patch CAVERN1, width 128, x=0 y=0
+  decompiling texture CAVERN4, 1 patches, 128x128
+    Got patch CAVERN4, width 128, x=0 y=0
+  decompiling texture CAVERN5, 1 patches, 64x128
+    Got patch CAVERN5, width 64, x=0 y=0
+  decompiling texture CAVERN6, 1 patches, 128x128
+    Got patch CAVERN6, width 128, x=0 y=0
+  decompiling texture CAVERN7, 1 patches, 128x128
+    Got patch CAVERN7, width 128, x=0 y=0
+  decompiling texture CRBLWDH6, 2 patches, 64x128
+    Got patch CRLWDH6, width 64, x=0 y=0
+    Got patch BLOD64A, width 64, x=-1 y=0
+  decompiling texture CRBWDH64, 2 patches, 64x128
+    Got patch CRWDH6B, width 64, x=0 y=0
+    Got patch BLOD64A, width 64, x=-1 y=9
+  decompiling texture CRLWDL6B, 2 patches, 64x128
+    Got patch CRLWDL6B, width 64, x=0 y=0
+    Got patch CRWDL6D, width 64, x=0 y=64
+  decompiling texture CRWDL128, 3 patches, 128x128
+    Got patch CRWDL12, width 128, x=0 y=0
+    Got patch CRWDL6, width 64, x=0 y=64
+    Got patch CRWDL6B, width 64, x=64 y=64
+  decompiling texture CRAWHBP, 24 patches, 128x128
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATEM1, width 8, x=40 y=64
+    Got patch BCRATEM1, width 8, x=32 y=64
+    Got patch BCRATEM1, width 8, x=48 y=64
+    Got patch BCRATEM1, width 8, x=56 y=64
+    Got patch BCRATEM1, width 8, x=96 y=64
+    Got patch BCRATEM1, width 8, x=88 y=64
+    Got patch BCRATEM1, width 8, x=80 y=64
+    Got patch BCRATEM1, width 8, x=72 y=64
+    Got patch BCRATEM1, width 8, x=64 y=64
+    Got patch BCRATER1, width 32, x=96 y=64
+    Got patch GCRATEL1, width 32, x=0 y=0
+    Got patch GCRATER1, width 32, x=96 y=0
+    Got patch GCRATEM1, width 8, x=48 y=0
+    Got patch GCRATEM1, width 8, x=40 y=0
+    Got patch GCRATEM1, width 8, x=32 y=0
+    Got patch GCRATEM1, width 8, x=72 y=0
+    Got patch GCRATEM1, width 8, x=64 y=0
+    Got patch GCRATEM1, width 8, x=56 y=0
+    Got patch GCRATEM1, width 8, x=80 y=0
+    Got patch GCRATEM1, width 8, x=88 y=0
+    Got patch BTNTCRAT, width 23, x=16 y=96
+    Got patch BTNTCRAT, width 23, x=16 y=32
+    Got patch BUL64D, width 64, x=54 y=0
+  decompiling texture CR64HBRM, 10 patches, 64x128
+    Got patch BCRATEL1, width 32, x=0 y=0
+    Got patch BCRATER1, width 32, x=32 y=0
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATER1, width 32, x=32 y=64
+    Got patch BTNTCRAT, width 23, x=16 y=32
+    Got patch BTNTCRAT, width 23, x=16 y=96
+    Got patch BUL64A, width 64, x=0 y=0
+    Got patch BUL64B, width 64, x=0 y=64
+    Got patch BLOD64B, width 64, x=0 y=0
+    Got patch ROMERO1, width 55, x=3 y=98
+  decompiling texture CR64HBBP, 9 patches, 64x128
+    Got patch BCRATEL1, width 32, x=0 y=0
+    Got patch BCRATER1, width 32, x=32 y=0
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATER1, width 32, x=32 y=64
+    Got patch BTNTCRAT, width 23, x=16 y=32
+    Got patch BTNTCRAT, width 23, x=16 y=96
+    Got patch BLOD64A, width 64, x=1 y=0
+    Got patch BUL64C, width 64, x=0 y=0
+    Got patch BLOD64B, width 64, x=0 y=0
+  decompiling texture CR64HGBP, 9 patches, 64x128
+    Got patch GCRATEL1, width 32, x=0 y=0
+    Got patch GCRATER1, width 32, x=32 y=0
+    Got patch GCRATEL1, width 32, x=0 y=64
+    Got patch GCRATER1, width 32, x=32 y=64
+    Got patch BTNTCRAT, width 23, x=16 y=32
+    Got patch BTNTCRAT, width 23, x=16 y=96
+    Got patch BLOD64A, width 64, x=0 y=16
+    Got patch BUL64A, width 64, x=0 y=0
+    Got patch BUL64B, width 64, x=0 y=0
+  decompiling texture CR64SLGB, 9 patches, 64x128
+    Got patch SGCRATE2, width 32, x=0 y=0
+    Got patch SGCRATE2, width 32, x=32 y=0
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATER1, width 32, x=32 y=64
+    Got patch SMCRATG, width 15, x=7 y=15
+    Got patch SMCRATG, width 15, x=38 y=15
+    Got patch SMCRATG, width 15, x=7 y=47
+    Got patch SMCRATG, width 15, x=38 y=47
+    Got patch BTNTCRAT, width 23, x=16 y=96
+  decompiling texture CR64HBG, 6 patches, 64x128
+    Got patch GCRATEL1, width 32, x=0 y=64
+    Got patch GCRATER1, width 32, x=32 y=64
+    Got patch BCRATEL1, width 32, x=0 y=0
+    Got patch BCRATER1, width 32, x=32 y=0
+    Got patch BTNTCRAT, width 23, x=16 y=96
+    Got patch BTNTCRAT, width 23, x=16 y=32
+  decompiling texture CR128LG, 11 patches, 128x64
+    Got patch GCRATEL1, width 32, x=0 y=0
+    Got patch GCRATER1, width 32, x=96 y=0
+    Got patch GCRATEM1, width 8, x=48 y=0
+    Got patch GCRATEM1, width 8, x=40 y=0
+    Got patch GCRATEM1, width 8, x=32 y=0
+    Got patch GCRATEM1, width 8, x=72 y=0
+    Got patch GCRATEM1, width 8, x=64 y=0
+    Got patch GCRATEM1, width 8, x=56 y=0
+    Got patch GCRATEM1, width 8, x=80 y=0
+    Got patch GCRATEM1, width 8, x=88 y=0
+    Got patch BTNTCRAT, width 23, x=16 y=32
+  decompiling texture CR64LB, 3 patches, 64x64
+    Got patch BCRATEL1, width 32, x=0 y=0
+    Got patch BCRATER1, width 32, x=32 y=0
+    Got patch BTNTCRAT, width 23, x=16 y=32
+  decompiling texture CR64HBB, 6 patches, 64x128
+    Got patch BCRATEL1, width 32, x=0 y=0
+    Got patch BCRATER1, width 32, x=32 y=0
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATER1, width 32, x=32 y=64
+    Got patch BTNTCRAT, width 23, x=16 y=32
+    Got patch BTNTCRAT, width 23, x=16 y=96
+  decompiling texture CR64HGB, 6 patches, 64x128
+    Got patch GCRATEL1, width 32, x=0 y=0
+    Got patch GCRATER1, width 32, x=32 y=0
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATER1, width 32, x=32 y=64
+    Got patch BTNTCRAT, width 23, x=16 y=32
+    Got patch BTNTCRAT, width 23, x=16 y=96
+  decompiling texture CR64HGG, 6 patches, 64x128
+    Got patch GCRATEL1, width 32, x=0 y=0
+    Got patch GCRATER1, width 32, x=32 y=0
+    Got patch GCRATEL1, width 32, x=0 y=64
+    Got patch GCRATER1, width 32, x=32 y=64
+    Got patch BTNTCRAT, width 23, x=16 y=32
+    Got patch BTNTCRAT, width 23, x=16 y=96
+  decompiling texture CRBWHBP, 24 patches, 128x128
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATEM1, width 8, x=40 y=64
+    Got patch BCRATEM1, width 8, x=32 y=64
+    Got patch BCRATEM1, width 8, x=48 y=64
+    Got patch BCRATEM1, width 8, x=56 y=64
+    Got patch BCRATER1, width 32, x=96 y=64
+    Got patch BCRATEM1, width 8, x=88 y=64
+    Got patch BCRATEM1, width 8, x=80 y=64
+    Got patch BCRATEM1, width 8, x=72 y=64
+    Got patch BCRATEM1, width 8, x=64 y=64
+    Got patch GCRATEL1, width 32, x=0 y=0
+    Got patch GCRATER1, width 32, x=96 y=0
+    Got patch GCRATEM1, width 8, x=48 y=0
+    Got patch GCRATEM1, width 8, x=40 y=0
+    Got patch GCRATEM1, width 8, x=32 y=0
+    Got patch GCRATEM1, width 8, x=72 y=0
+    Got patch GCRATEM1, width 8, x=64 y=0
+    Got patch GCRATEM1, width 8, x=56 y=0
+    Got patch GCRATEM1, width 8, x=80 y=0
+    Got patch GCRATEM1, width 8, x=88 y=0
+    Got patch BTNTCRAT, width 23, x=16 y=96
+    Got patch BTNTCRAT, width 23, x=16 y=32
+    Got patch BUL64C, width 64, x=37 y=0
+    Got patch BLOD128B, width 128, x=-2 y=11
+  decompiling texture CRSMB, 14 patches, 64x128
+    Got patch BCRAT32, width 32, x=0 y=0
+    Got patch BCRAT32, width 32, x=32 y=0
+    Got patch SMCRATG, width 15, x=5 y=17
+    Got patch SMCRATG, width 15, x=37 y=17
+    Got patch SGCRATE2, width 32, x=0 y=32
+    Got patch SGCRATE2, width 32, x=32 y=32
+    Got patch SMCRATG, width 15, x=5 y=49
+    Got patch SMCRATG, width 15, x=37 y=49
+    Got patch SMCRATG, width 15, x=5 y=81
+    Got patch SMCRATG, width 15, x=37 y=81
+    Got patch BCRAT32, width 32, x=0 y=96
+    Got patch BCRAT32, width 32, x=32 y=96
+    Got patch SMCRATG, width 15, x=5 y=115
+    Got patch SMCRATG, width 15, x=37 y=115
+  decompiling texture CRWDL64A, 2 patches, 64x128
+    Got patch CRWDL6B, width 64, x=0 y=0
+    Got patch CRWDL6B, width 64, x=0 y=64
+  decompiling texture CRWDL64B, 2 patches, 64x128
+    Got patch CRWDL6C, width 64, x=0 y=0
+    Got patch CRWDL6B, width 64, x=0 y=64
+  decompiling texture CRWDL64C, 2 patches, 64x128
+    Got patch CRWDL6D, width 64, x=0 y=0
+    Got patch CRWDL6B, width 64, x=0 y=64
+  decompiling texture CRLWDT3, 1 patches, 32x16
+    Got patch CRLWDT3, width 128, x=0 y=0
+  decompiling texture CRWDT32, 7 patches, 64x128
+    Got patch CRWDT3, width 32, x=0 y=0
+    Got patch CRWDT3, width 32, x=32 y=0
+    Got patch CLWDVS3, width 32, x=0 y=16
+    Got patch CLWDVS3, width 32, x=32 y=16
+    Got patch CRWDVS3, width 32, x=0 y=40
+    Got patch CRWDVS3, width 32, x=32 y=40
+    Got patch CRWDL6D, width 64, x=0 y=64
+  decompiling texture CRBWLBP, 13 patches, 128x64
+    Got patch BCRATEL1, width 32, x=0 y=0
+    Got patch BCRATEM1, width 8, x=32 y=0
+    Got patch BCRATEM1, width 8, x=40 y=0
+    Got patch BCRATEM1, width 8, x=48 y=0
+    Got patch BCRATEM1, width 8, x=56 y=0
+    Got patch BCRATEM1, width 8, x=64 y=0
+    Got patch BCRATEM1, width 8, x=72 y=0
+    Got patch BCRATEM1, width 8, x=80 y=0
+    Got patch BCRATEM1, width 8, x=88 y=0
+    Got patch BCRATER1, width 32, x=96 y=0
+    Got patch BTNTCRAT, width 23, x=16 y=32
+    Got patch BUL64B, width 64, x=28 y=0
+    Got patch BLOD64A, width 64, x=56 y=0
+  decompiling texture CR128LB, 11 patches, 128x64
+    Got patch BCRATEL1, width 32, x=0 y=0
+    Got patch BCRATEM1, width 8, x=32 y=0
+    Got patch BCRATEM1, width 8, x=40 y=0
+    Got patch BCRATEM1, width 8, x=48 y=0
+    Got patch BCRATEM1, width 8, x=56 y=0
+    Got patch BCRATEM1, width 8, x=64 y=0
+    Got patch BCRATEM1, width 8, x=72 y=0
+    Got patch BCRATEM1, width 8, x=80 y=0
+    Got patch BCRATEM1, width 8, x=88 y=0
+    Got patch BCRATER1, width 32, x=96 y=0
+    Got patch BTNTCRAT, width 23, x=16 y=32
+  decompiling texture CRWDH64, 1 patches, 64x128
+    Got patch CRWDH6, width 64, x=0 y=0
+  decompiling texture CRWDH64B, 1 patches, 64x128
+    Got patch CRWDH6B, width 64, x=0 y=0
+  decompiling texture CRLWDS6, 1 patches, 64x32
+    Got patch CRLWDS6, width 64, x=0 y=0
+  decompiling texture CR128HGB, 22 patches, 128x128
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATEM1, width 8, x=40 y=64
+    Got patch BCRATEM1, width 8, x=32 y=64
+    Got patch BCRATEM1, width 8, x=48 y=64
+    Got patch BCRATEM1, width 8, x=56 y=64
+    Got patch BCRATER1, width 32, x=96 y=64
+    Got patch BCRATEM1, width 8, x=88 y=64
+    Got patch BCRATEM1, width 8, x=80 y=64
+    Got patch BCRATEM1, width 8, x=72 y=64
+    Got patch BCRATEM1, width 8, x=64 y=64
+    Got patch GCRATEL1, width 32, x=0 y=0
+    Got patch GCRATER1, width 32, x=96 y=0
+    Got patch GCRATEM1, width 8, x=48 y=0
+    Got patch GCRATEM1, width 8, x=40 y=0
+    Got patch GCRATEM1, width 8, x=32 y=0
+    Got patch GCRATEM1, width 8, x=72 y=0
+    Got patch GCRATEM1, width 8, x=64 y=0
+    Got patch GCRATEM1, width 8, x=56 y=0
+    Got patch GCRATEM1, width 8, x=80 y=0
+    Got patch GCRATEM1, width 8, x=88 y=0
+    Got patch BTNTCRAT, width 23, x=16 y=96
+    Got patch BTNTCRAT, width 23, x=16 y=32
+  decompiling texture CRAWLBP, 24 patches, 128x128
+    Got patch BCRATEL1, width 32, x=0 y=0
+    Got patch BCRATEM1, width 8, x=40 y=0
+    Got patch BCRATEM1, width 8, x=32 y=0
+    Got patch BCRATEM1, width 8, x=48 y=0
+    Got patch BCRATEM1, width 8, x=56 y=0
+    Got patch BCRATER1, width 32, x=96 y=0
+    Got patch BCRATEM1, width 8, x=88 y=0
+    Got patch BCRATEM1, width 8, x=80 y=0
+    Got patch BCRATEM1, width 8, x=72 y=0
+    Got patch BCRATEM1, width 8, x=64 y=0
+    Got patch BTNTCRAT, width 23, x=16 y=32
+    Got patch BCRATEM1, width 8, x=88 y=64
+    Got patch BCRATEM1, width 8, x=32 y=64
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATEM1, width 8, x=48 y=64
+    Got patch BCRATEM1, width 8, x=56 y=64
+    Got patch BCRATER1, width 32, x=96 y=64
+    Got patch BCRATEM1, width 8, x=40 y=64
+    Got patch BTNTCRAT, width 23, x=16 y=96
+    Got patch BCRATEM1, width 8, x=64 y=64
+    Got patch BCRATEM1, width 8, x=72 y=64
+    Got patch BCRATEM1, width 8, x=80 y=64
+    Got patch BUL64A, width 64, x=60 y=0
+    Got patch BLOD128A, width 128, x=2 y=0
+  decompiling texture CRWDS64, 4 patches, 64x128
+    Got patch CRWDS6, width 64, x=0 y=0
+    Got patch CRLWDL6D, width 64, x=0 y=64
+    Got patch CRLWDS6, width 64, x=0 y=32
+    Got patch BLOD64A, width 64, x=0 y=2
+  decompiling texture CRLWDH6B, 1 patches, 64x128
+    Got patch CRLWDH6B, width 64, x=0 y=0
+  decompiling texture CRLWDL6, 2 patches, 64x128
+    Got patch CRLWDL6, width 64, x=0 y=0
+    Got patch CRLWDL6D, width 64, x=0 y=64
+  decompiling texture CRLWDL6E, 2 patches, 64x128
+    Got patch CRLWDL6E, width 64, x=0 y=0
+    Got patch CRLWDL6C, width 64, x=0 y=64
+  decompiling texture CRLWDL6C, 2 patches, 64x128
+    Got patch CRLWDL6C, width 64, x=0 y=0
+    Got patch CRLWDL6E, width 64, x=0 y=64
+  decompiling texture CRLWDL6D, 2 patches, 64x128
+    Got patch CRLWDL6D, width 64, x=0 y=0
+    Got patch CRLWDL6B, width 64, x=0 y=64
+  decompiling texture CRTINYB, 22 patches, 64x128
+    Got patch BCRAT16, width 16, x=0 y=0
+    Got patch BCRAT16, width 16, x=16 y=0
+    Got patch BCRAT16, width 16, x=32 y=0
+    Got patch BCRAT16, width 16, x=48 y=0
+    Got patch VGCRATE1, width 16, x=0 y=16
+    Got patch VGCRATE1, width 16, x=16 y=16
+    Got patch VGCRATE1, width 16, x=32 y=16
+    Got patch VGCRATE1, width 16, x=48 y=16
+    Got patch BCRAT16, width 16, x=32 y=32
+    Got patch BCRAT16, width 16, x=48 y=32
+    Got patch VGCRATE1, width 16, x=0 y=32
+    Got patch VGCRATE1, width 16, x=16 y=32
+    Got patch BCRAT16, width 16, x=0 y=48
+    Got patch BCRAT16, width 16, x=16 y=48
+    Got patch VGCRATE1, width 16, x=32 y=48
+    Got patch VGCRATE1, width 16, x=48 y=48
+    Got patch SGCRATE2, width 32, x=0 y=64
+    Got patch SGCRATE2, width 32, x=32 y=64
+    Got patch SMCRATG, width 15, x=7 y=79
+    Got patch SMCRATG, width 15, x=38 y=79
+    Got patch SMCRATG, width 15, x=7 y=111
+    Got patch SMCRATG, width 15, x=38 y=111
+  decompiling texture CUBICLE, 14 patches, 128x128
+    Got patch RW34_2, width 64, x=0 y=0
+    Got patch RW34_2, width 64, x=64 y=0
+    Got patch WLITA0, width 8, x=3 y=60
+    Got patch WLITC0, width 8, x=117 y=60
+    Got patch WLITB0, width 8, x=109 y=60
+    Got patch WLITB0, width 8, x=11 y=60
+    Got patch WLITC0, width 8, x=19 y=60
+    Got patch WLITA0, width 8, x=101 y=60
+    Got patch WLITC0, width 8, x=52 y=60
+    Got patch WLITB0, width 8, x=44 y=60
+    Got patch WLITA0, width 8, x=36 y=60
+    Got patch WLITA0, width 8, x=68 y=60
+    Got patch WLITB0, width 8, x=76 y=60
+    Got patch WLITC0, width 8, x=84 y=60
+  decompiling texture CRLWDL12, 2 patches, 128x128
+    Got patch CRLWDL12, width 128, x=0 y=0
+    Got patch CRWDL12, width 128, x=0 y=64
+  decompiling texture CRLWDH6, 1 patches, 64x128
+    Got patch CRLWDH6, width 64, x=0 y=0
+  decompiling texture CRBWDL12, 3 patches, 128x128
+    Got patch CRWDL12, width 128, x=0 y=0
+    Got patch CRWDL12, width 128, x=0 y=64
+    Got patch BLOD64B, width 64, x=23 y=0
+  decompiling texture CR64LG, 6 patches, 64x128
+    Got patch GCRATEL1, width 32, x=0 y=0
+    Got patch GCRATER1, width 32, x=32 y=0
+    Got patch BTNTCRAT, width 23, x=16 y=32
+    Got patch GCRATEL1, width 32, x=0 y=64
+    Got patch GCRATER1, width 32, x=32 y=64
+    Got patch BTNTCRAT, width 23, x=16 y=96
+  decompiling texture CRLWDVS, 7 patches, 64x128
+    Got patch CLWDVS3, width 32, x=0 y=0
+    Got patch CLWDVS3, width 32, x=32 y=0
+    Got patch CRWDL6C, width 64, x=0 y=64
+    Got patch CRWDT3, width 32, x=0 y=24
+    Got patch CRWDT3, width 32, x=32 y=48
+    Got patch CLWDVS3, width 32, x=0 y=40
+    Got patch CLWDVS3, width 32, x=32 y=24
+  decompiling texture DOC1, 3 patches, 128x128
+    Got patch AG128_1, width 64, x=0 y=0
+    Got patch AG128_1, width 64, x=64 y=0
+    Got patch REDTNT2, width 119, x=4 y=32
+  decompiling texture DOGRID, 1 patches, 128x128
+    Got patch DOGRID, width 128, x=0 y=0
+  decompiling texture DOWINDOW, 1 patches, 64x68
+    Got patch DOWINDOW, width 64, x=0 y=0
+  decompiling texture DOGLPANL, 1 patches, 64x128
+    Got patch DOGLPANL, width 64, x=0 y=0
+  decompiling texture DOGRMSC, 1 patches, 128x128
+    Got patch DOGRMSC, width 128, x=0 y=0
+  decompiling texture DOKGRIR, 1 patches, 128x128
+    Got patch DOKGRIR, width 128, x=0 y=0
+  decompiling texture DOPUNK4, 1 patches, 128x128
+    Got patch DOPUNK4, width 128, x=0 y=0
+  decompiling texture DRFRONT, 1 patches, 128x128
+    Got patch DRFRONT, width 128, x=0 y=0
+  decompiling texture DRSIDE1, 1 patches, 32x128
+    Got patch DRSIDE1, width 32, x=0 y=0
+  decompiling texture DRSIDE2, 1 patches, 32x128
+    Got patch DRSIDE2, width 32, x=0 y=0
+  decompiling texture DRTOPFR, 1 patches, 128x65
+    Got patch DRTOPFR, width 128, x=0 y=0
+  decompiling texture DRTOPSID, 1 patches, 32x65
+    Got patch DRTOPSID, width 32, x=0 y=0
+  decompiling texture DORED, 1 patches, 128x128
+    Got patch DORED, width 128, x=0 y=0
+  decompiling texture DISASTER, 2 patches, 128x128
+    Got patch DOGRNMEN, width 128, x=0 y=0
+    Got patch DISASTER, width 128, x=0 y=32
+  decompiling texture DOGLDIR, 1 patches, 128x128
+    Got patch DOGLDIR, width 128, x=0 y=0
+  decompiling texture DOKODO1B, 1 patches, 64x128
+    Got patch DOKODO1B, width 64, x=0 y=0
+  decompiling texture DOKODO2B, 1 patches, 64x128
+    Got patch DOKODO2B, width 64, x=0 y=0
+  decompiling texture DOBWIRE, 1 patches, 128x128
+    Got patch DOBWIRE, width 128, x=0 y=0
+  decompiling texture DOBWIRE2, 1 patches, 128x128
+    Got patch DOBWIRE2, width 128, x=0 y=0
+  decompiling texture EGGREENI, 1 patches, 8x128
+    Got patch EGGREENI, width 8, x=0 y=0
+  decompiling texture EGREDI, 1 patches, 8x128
+    Got patch EGREDI, width 8, x=0 y=0
+  decompiling texture EGSUPRT3, 1 patches, 16x128
+    Got patch WALL42_3, width 24, x=-4 y=0
+  decompiling texture GRNMEN, 1 patches, 128x128
+    Got patch DOGRNMEN, width 128, x=0 y=0
+  decompiling texture GRNOPEN, 1 patches, 64x128
+    Got patch GRNOPEN, width 64, x=0 y=0
+  decompiling texture LITEGRN1, 1 patches, 32x128
+    Got patch GRNLIT1, width 32, x=0 y=0
+  decompiling texture LITERED1, 1 patches, 32x128
+    Got patch REDLITE1, width 32, x=0 y=0
+  decompiling texture LITERED2, 1 patches, 8x128
+    Got patch REDLITE2, width 8, x=0 y=0
+  decompiling texture LITEYEL1, 1 patches, 32x128
+    Got patch YELLITE1, width 32, x=0 y=0
+  decompiling texture LITEYEL2, 1 patches, 8x128
+    Got patch YELLITE2, width 8, x=0 y=0
+  decompiling texture LITEYEL3, 1 patches, 128x128
+    Got patch YELLITE3, width 128, x=0 y=0
+  decompiling texture LONGWALL, 1 patches, 256x128
+    Got patch LONGWALL, width 256, x=0 y=0
+  decompiling texture MURAL1, 1 patches, 128x128
+    Got patch MURAL1, width 128, x=0 y=0
+  decompiling texture MURAL2, 1 patches, 128x128
+    Got patch MURAL2, width 128, x=0 y=0
+  decompiling texture MTNT1, 2 patches, 128x128
+    Got patch MWALL3_1, width 128, x=0 y=0
+    Got patch MTNT2, width 128, x=0 y=0
+  decompiling texture METAL-BD, 2 patches, 64x128
+    Got patch WALL47_1, width 64, x=0 y=0
+    Got patch BLOD64A, width 64, x=0 y=0
+  decompiling texture METAL-RM, 2 patches, 64x128
+    Got patch WALL47_1, width 64, x=0 y=0
+    Got patch ROMERO1, width 55, x=4 y=81
+  decompiling texture METAL2BD, 2 patches, 64x128
+    Got patch RW33_1, width 64, x=0 y=0
+    Got patch BLOD64B, width 64, x=0 y=6
+  decompiling texture METALDR, 9 patches, 128x128
+    Got patch WALL47_1, width 64, x=0 y=0
+    Got patch WALL47_1, width 64, x=64 y=0
+    Got patch WALL42_3, width 24, x=21 y=0
+    Got patch WALL42_3, width 24, x=85 y=0
+    Got patch W111_3, width 64, x=0 y=0
+    Got patch W111_3, width 64, x=0 y=64
+    Got patch W111_3, width 64, x=64 y=0
+    Got patch W111_3, width 64, x=64 y=64
+    Got patch SW2_1, width 22, x=52 y=37
+  decompiling texture M_TEC, 7 patches, 256x128
+    Got patch RW33_1, width 64, x=0 y=0
+    Got patch RW33_2, width 64, x=32 y=0
+    Got patch RW33_3, width 64, x=96 y=0
+    Got patch RW33_2, width 64, x=192 y=0
+    Got patch COMP03_5, width 64, x=160 y=0
+    Got patch COMP04_1, width 64, x=160 y=43
+    Got patch COMP04_8, width 64, x=160 y=86
+  decompiling texture M_RDOOR, 8 patches, 128x128
+    Got patch RW33_1, width 64, x=0 y=0
+    Got patch RW33_1, width 64, x=64 y=0
+    Got patch RIPW15, width 128, x=0 y=112
+    Got patch RIPW15, width 128, x=0 y=0
+    Got patch W46_38, width 8, x=13 y=29
+    Got patch W46_38, width 8, x=45 y=29
+    Got patch W46_38, width 8, x=77 y=29
+    Got patch W46_38, width 8, x=109 y=29
+  decompiling texture M_YDOOR, 8 patches, 128x128
+    Got patch RW33_1, width 64, x=0 y=0
+    Got patch RW33_1, width 64, x=64 y=0
+    Got patch RIPW15, width 128, x=0 y=0
+    Got patch RIPW15, width 128, x=0 y=112
+    Got patch W46_39, width 8, x=13 y=29
+    Got patch W46_39, width 8, x=44 y=29
+    Got patch W46_39, width 8, x=109 y=29
+    Got patch W46_39, width 8, x=77 y=29
+  decompiling texture PILLAR, 1 patches, 32x128
+    Got patch PILLAR, width 32, x=0 y=0
+  decompiling texture PNK4EXIT, 2 patches, 128x128
+    Got patch DOPUNK4, width 128, x=0 y=0
+    Got patch EXIT1, width 32, x=48 y=25
+  decompiling texture REDOPEN, 1 patches, 64x128
+    Got patch REDOPEN, width 64, x=0 y=0
+  decompiling texture SLAD2, 14 patches, 512x128
+    Got patch DOSHB1, width 136, x=0 y=0
+    Got patch DOSPI2B, width 136, x=136 y=0
+    Got patch SMFILLER, width 4, x=272 y=0
+    Got patch COMP03_4, width 32, x=276 y=0
+    Got patch COMP03_4, width 32, x=276 y=64
+    Got patch COMP03_4, width 32, x=308 y=0
+    Got patch COMP03_4, width 32, x=308 y=64
+    Got patch SMFILLER, width 4, x=340 y=0
+    Got patch PREEL1, width 22, x=283 y=21
+    Got patch PREEL2, width 22, x=311 y=21
+    Got patch SAW2, width 72, x=344 y=0
+    Got patch SAW2SD, width 32, x=416 y=0
+    Got patch PBLAK, width 64, x=448 y=0
+    Got patch PL_05, width 18, x=454 y=2
+  decompiling texture SLAD3, 14 patches, 512x128
+    Got patch DOSHC1, width 136, x=0 y=0
+    Got patch DOSPI3B, width 136, x=136 y=0
+    Got patch SMFILLER, width 4, x=272 y=0
+    Got patch COMP03_4, width 32, x=276 y=0
+    Got patch COMP03_4, width 32, x=276 y=64
+    Got patch COMP03_4, width 32, x=308 y=0
+    Got patch COMP03_4, width 32, x=308 y=64
+    Got patch SMFILLER, width 4, x=340 y=0
+    Got patch PREEL4, width 22, x=283 y=21
+    Got patch PREEL5, width 22, x=311 y=21
+    Got patch SAW3, width 72, x=344 y=0
+    Got patch SAW3SD, width 32, x=416 y=0
+    Got patch PBLAK, width 64, x=448 y=0
+    Got patch PL_10, width 30, x=454 y=2
+  decompiling texture SLAD4, 14 patches, 512x128
+    Got patch DOSHD1, width 136, x=0 y=0
+    Got patch DOSPI2B, width 136, x=136 y=0
+    Got patch SMFILLER, width 4, x=272 y=0
+    Got patch COMP03_4, width 32, x=276 y=0
+    Got patch COMP03_4, width 32, x=276 y=64
+    Got patch COMP03_4, width 32, x=308 y=0
+    Got patch COMP03_4, width 32, x=308 y=64
+    Got patch SMFILLER, width 4, x=340 y=0
+    Got patch PREEL3, width 22, x=283 y=21
+    Got patch PREEL3, width 22, x=311 y=21
+    Got patch SAW4, width 72, x=344 y=0
+    Got patch SAW2SD, width 32, x=416 y=0
+    Got patch PBLAK, width 64, x=448 y=0
+    Got patch PL_18, width 30, x=454 y=2
+  decompiling texture SLAD5, 15 patches, 512x128
+    Got patch DOSHE1, width 136, x=0 y=0
+    Got patch DOSPI3B, width 136, x=136 y=0
+    Got patch SMFILLER, width 4, x=272 y=0
+    Got patch COMP03_4, width 32, x=276 y=0
+    Got patch COMP03_4, width 32, x=276 y=64
+    Got patch COMP03_4, width 32, x=308 y=0
+    Got patch COMP03_4, width 32, x=308 y=64
+    Got patch SMFILLER, width 4, x=340 y=0
+    Got patch PREEL3, width 22, x=283 y=21
+    Got patch PREEL3, width 22, x=311 y=21
+    Got patch SAW5, width 72, x=344 y=0
+    Got patch SAW5SD, width 32, x=416 y=0
+    Got patch PBLAK, width 64, x=448 y=0
+    Got patch PL_18, width 30, x=454 y=2
+    Got patch PL_19, width 15, x=454 y=2
+  decompiling texture SLAD6, 15 patches, 512x128
+    Got patch DOSHF1, width 136, x=0 y=0
+    Got patch DOSPI4B, width 136, x=136 y=0
+    Got patch SMFILLER, width 4, x=272 y=0
+    Got patch COMP03_4, width 32, x=276 y=0
+    Got patch COMP03_4, width 32, x=276 y=64
+    Got patch COMP03_4, width 32, x=308 y=0
+    Got patch COMP03_4, width 32, x=308 y=64
+    Got patch SMFILLER, width 4, x=340 y=0
+    Got patch PREEL2, width 22, x=283 y=21
+    Got patch PREEL1, width 22, x=311 y=21
+    Got patch SAW6, width 72, x=344 y=0
+    Got patch SAW6SD, width 32, x=416 y=0
+    Got patch PBLAK, width 64, x=448 y=0
+    Got patch PL_18, width 30, x=454 y=2
+    Got patch PL_20, width 15, x=453 y=4
+  decompiling texture SLAD7, 16 patches, 512x128
+    Got patch DOSHA1, width 136, x=0 y=0
+    Got patch DOSPI1B, width 136, x=136 y=0
+    Got patch SMFILLER, width 4, x=272 y=0
+    Got patch COMP03_4, width 32, x=276 y=0
+    Got patch COMP03_4, width 32, x=276 y=64
+    Got patch COMP03_4, width 32, x=308 y=0
+    Got patch COMP03_4, width 32, x=308 y=64
+    Got patch SMFILLER, width 4, x=340 y=0
+    Got patch PREEL2, width 22, x=283 y=21
+    Got patch PREEL1, width 22, x=311 y=21
+    Got patch SAW1, width 72, x=344 y=0
+    Got patch SAW1SD, width 32, x=416 y=0
+    Got patch PBLAK, width 64, x=448 y=0
+    Got patch PL_18, width 30, x=454 y=2
+    Got patch PL_U, width 9, x=452 y=20
+    Got patch PL_25, width 10, x=464 y=6
+  decompiling texture SLAD8, 17 patches, 512x128
+    Got patch DOSHB1, width 136, x=0 y=0
+    Got patch DOSPI2B, width 136, x=136 y=0
+    Got patch SMFILLER, width 4, x=272 y=0
+    Got patch COMP03_4, width 32, x=276 y=0
+    Got patch COMP03_4, width 32, x=276 y=64
+    Got patch COMP03_4, width 32, x=308 y=0
+    Got patch COMP03_4, width 32, x=308 y=64
+    Got patch SMFILLER, width 4, x=340 y=0
+    Got patch PREEL7, width 22, x=283 y=21
+    Got patch PREEL6, width 22, x=311 y=21
+    Got patch SAW2, width 72, x=344 y=0
+    Got patch SAW2SD, width 32, x=416 y=0
+    Got patch PBLAK, width 64, x=448 y=0
+    Got patch PL_18, width 30, x=454 y=2
+    Got patch PL_U, width 9, x=452 y=20
+    Got patch PL_A, width 9, x=464 y=20
+    Got patch PL_31, width 17, x=467 y=2
+  decompiling texture SLAD9, 17 patches, 512x128
+    Got patch DOSHC1, width 136, x=0 y=0
+    Got patch DOSPI3B, width 136, x=136 y=0
+    Got patch SMFILLER, width 4, x=272 y=0
+    Got patch COMP03_4, width 32, x=276 y=0
+    Got patch COMP03_4, width 32, x=276 y=64
+    Got patch COMP03_4, width 32, x=308 y=0
+    Got patch COMP03_4, width 32, x=308 y=64
+    Got patch SMFILLER, width 4, x=340 y=0
+    Got patch PREEL3, width 22, x=283 y=21
+    Got patch PREEL3, width 22, x=311 y=21
+    Got patch SAW3, width 72, x=344 y=0
+    Got patch SAW3SD, width 32, x=416 y=0
+    Got patch PBLAK, width 64, x=448 y=0
+    Got patch PL_18, width 30, x=454 y=2
+    Got patch PL_U, width 9, x=452 y=20
+    Got patch PL_A, width 9, x=464 y=20
+    Got patch PL_C, width 9, x=476 y=20
+  decompiling texture SLAD10, 18 patches, 512x128
+    Got patch DOSHD1, width 136, x=0 y=0
+    Got patch DOSPI2B, width 136, x=136 y=0
+    Got patch SMFILLER, width 4, x=272 y=0
+    Got patch COMP03_4, width 32, x=276 y=0
+    Got patch COMP03_4, width 32, x=276 y=64
+    Got patch COMP03_4, width 32, x=308 y=0
+    Got patch COMP03_4, width 32, x=308 y=64
+    Got patch SMFILLER, width 4, x=340 y=0
+    Got patch PREEL3, width 22, x=283 y=21
+    Got patch PREEL3, width 22, x=311 y=21
+    Got patch SAW4, width 72, x=344 y=0
+    Got patch SAW4SD, width 32, x=416 y=0
+    Got patch PBLAK, width 64, x=448 y=0
+    Got patch PL_18, width 30, x=454 y=2
+    Got patch PL_A, width 9, x=464 y=20
+    Got patch PL_C, width 9, x=476 y=20
+    Got patch TFOGF0, width 50, x=452 y=20
+    Got patch TFOGI0, width 50, x=462 y=18
+  decompiling texture SLAD11, 18 patches, 512x128
+    Got patch DOSHE1, width 136, x=0 y=0
+    Got patch DOSPI3B, width 136, x=136 y=0
+    Got patch SMFILLER, width 4, x=272 y=0
+    Got patch COMP03_4, width 32, x=276 y=0
+    Got patch COMP03_4, width 32, x=276 y=64
+    Got patch COMP03_4, width 32, x=308 y=0
+    Got patch COMP03_4, width 32, x=308 y=64
+    Got patch SMFILLER, width 4, x=340 y=0
+    Got patch PREEL3, width 22, x=283 y=21
+    Got patch PREEL3, width 22, x=311 y=21
+    Got patch SAW5, width 72, x=344 y=0
+    Got patch SAW5SD, width 32, x=416 y=0
+    Got patch PBLAK, width 64, x=448 y=0
+    Got patch PL_19, width 15, x=454 y=2
+    Got patch PL_T, width 9, x=452 y=20
+    Got patch PL_N, width 9, x=464 y=20
+    Got patch TFOGF0, width 50, x=458 y=20
+    Got patch TFOGI0, width 50, x=476 y=18
+  decompiling texture SMGLASS1, 1 patches, 64x128
+    Got patch PCWINL, width 64, x=0 y=0
+  decompiling texture SMSTONE6, 2 patches, 128x128
+    Got patch PSTON2, width 128, x=0 y=0
+    Got patch PIVY3, width 136, x=0 y=0
+  decompiling texture STONEW1, 1 patches, 128x128
+    Got patch STONEW1, width 128, x=0 y=0
+  decompiling texture STONEW5, 1 patches, 128x128
+    Got patch STONEW5, width 128, x=0 y=0
+  decompiling texture SKIRTING, 1 patches, 256x43
+    Got patch SKIRTING, width 256, x=0 y=0
+  decompiling texture STWALL, 1 patches, 128x128
+    Got patch STWALL, width 128, x=0 y=0
+  decompiling texture TNTDOOR, 1 patches, 128x128
+    Got patch DOTNTDR, width 128, x=0 y=0
+  decompiling texture TYIRONLG, 1 patches, 128x128
+    Got patch FENCE4, width 128, x=0 y=0
+  decompiling texture TYIRONSM, 1 patches, 64x72
+    Got patch FENCE5, width 64, x=0 y=0
+  decompiling texture TYWHEEL1, 1 patches, 128x64
+    Got patch TYWHEEL1, width 128, x=0 y=0
+  decompiling texture TYUNDER1, 1 patches, 64x64
+    Got patch TYUNDER1, width 64, x=0 y=0
+  decompiling texture WEBL, 1 patches, 128x128
+    Got patch DOWEBL, width 136, x=0 y=0
+  decompiling texture WEBR, 1 patches, 128x128
+    Got patch DOWEBR, width 136, x=0 y=0
+  decompiling texture YELMETAL, 3 patches, 128x128
+    Got patch RW38_1, width 64, x=0 y=0
+    Got patch RW38_1, width 64, x=64 y=0
+    Got patch YELTNT, width 128, x=0 y=0
+  decompiling texture ASHWALL3, 1 patches, 64x128
+    Got patch RW22_2, width 64, x=0 y=0
+  decompiling texture ASHWALL4, 1 patches, 64x128
+    Got patch RW22_3, width 64, x=0 y=0
+  decompiling texture ASHWALL6, 1 patches, 64x128
+    Got patch RW27_2, width 64, x=0 y=0
+  decompiling texture ASHWALL7, 1 patches, 64x128
+    Got patch RW27_3, width 64, x=0 y=0
+  decompiling texture BIGBRIK1, 1 patches, 64x128
+    Got patch RW23_3, width 64, x=0 y=0
+  decompiling texture BIGBRIK2, 1 patches, 64x128
+    Got patch RW23_4, width 64, x=0 y=0
+  decompiling texture BIGBRIK3, 1 patches, 64x128
+    Got patch RW38_4, width 64, x=0 y=0
+  decompiling texture BLAKWAL1, 1 patches, 64x128
+    Got patch RW34_1, width 64, x=0 y=0
+  decompiling texture BLAKWAL2, 1 patches, 64x128
+    Got patch RW34_2, width 64, x=0 y=0
+  decompiling texture BRICK1, 1 patches, 64x128
+    Got patch RW1_3, width 64, x=0 y=0
+  decompiling texture BRICK11, 1 patches, 64x128
+    Got patch RW41_3, width 64, x=0 y=0
+  decompiling texture BRICK12, 1 patches, 64x128
+    Got patch RW41_4, width 64, x=0 y=0
+  decompiling texture BRICK2, 1 patches, 64x128
+    Got patch RW1_4, width 64, x=0 y=0
+  decompiling texture BRICK3, 1 patches, 64x128
+    Got patch RW5_1, width 64, x=0 y=0
+  decompiling texture BRICK4, 1 patches, 64x128
+    Got patch RW5_2, width 64, x=0 y=0
+  decompiling texture BRICK5, 2 patches, 128x128
+    Got patch RW5_3, width 64, x=0 y=0
+    Got patch RW5_4, width 64, x=64 y=0
+  decompiling texture BRICK6, 1 patches, 64x128
+    Got patch RW24_1, width 64, x=0 y=0
+  decompiling texture BRICK7, 1 patches, 64x128
+    Got patch RW24_2, width 64, x=0 y=0
+  decompiling texture BRICK8, 1 patches, 64x128
+    Got patch RW24_3, width 64, x=0 y=0
+  decompiling texture BRICK9, 1 patches, 64x128
+    Got patch RW24_4, width 64, x=0 y=0
+  decompiling texture BRICKLIT, 1 patches, 64x128
+    Got patch RW12_3, width 64, x=0 y=0
+  decompiling texture BRONZE1, 1 patches, 64x128
+    Got patch RW10_1, width 64, x=0 y=0
+  decompiling texture BRONZE3, 1 patches, 64x128
+    Got patch RW10_3, width 64, x=0 y=0
+  decompiling texture BRONZE4, 1 patches, 64x128
+    Got patch RW38_3, width 64, x=0 y=0
+  decompiling texture BRWINDOW, 1 patches, 64x128
+    Got patch RW6_1, width 64, x=0 y=0
+  decompiling texture BSTONE1, 1 patches, 64x128
+    Got patch RW1_1, width 64, x=0 y=0
+  decompiling texture BSTONE3, 1 patches, 64x128
+    Got patch RW12_2, width 64, x=0 y=0
+  decompiling texture A-BRBRK, 1 patches, 128x128
+    Got patch BRBRICK, width 128, x=0 y=0
+  decompiling texture A-BRBRK2, 1 patches, 128x128
+    Got patch BRBRICK2, width 128, x=0 y=0
+  decompiling texture A-BRICK1, 1 patches, 128x128
+    Got patch BRICK1, width 128, x=0 y=0
+  decompiling texture A-BRICK2, 1 patches, 128x128
+    Got patch BRICK2, width 128, x=0 y=0
+  decompiling texture A-BRICK3, 1 patches, 128x128
+    Got patch BRICK, width 128, x=0 y=0
+  decompiling texture A-BROCK2, 1 patches, 128x128
+    Got patch BROCK2, width 128, x=0 y=0
+  decompiling texture A-BROWN1, 1 patches, 128x128
+    Got patch BROWN1, width 128, x=0 y=0
+  decompiling texture A-BROWN2, 1 patches, 128x128
+    Got patch BROWN2, width 128, x=0 y=0
+  decompiling texture A-BROWN3, 1 patches, 128x128
+    Got patch BROWN3, width 128, x=0 y=0
+  decompiling texture A-BROWN4, 6 patches, 128x128
+    Got patch BROWN1, width 128, x=0 y=0
+    Got patch W111_2, width 64, x=0 y=0
+    Got patch W111_3, width 64, x=64 y=64
+    Got patch W111_2, width 64, x=0 y=64
+    Got patch W111_3, width 64, x=64 y=0
+    Got patch BOSFA0, width 40, x=47 y=49
+  decompiling texture A-BROWN5, 1 patches, 128x128
+    Got patch BROWN5, width 128, x=0 y=0
+  decompiling texture A-DBRI1, 1 patches, 128x128
+    Got patch DIRBRI1, width 128, x=0 y=0
+  decompiling texture A-DBRI2, 1 patches, 128x128
+    Got patch DIRBRI2, width 128, x=0 y=0
+  decompiling texture A-CAMO1, 1 patches, 128x128
+    Got patch CAMO1, width 128, x=0 y=0
+  decompiling texture A-CAMO2, 3 patches, 256x128
+    Got patch CAMO1, width 128, x=0 y=0
+    Got patch CAMO1, width 128, x=128 y=0
+    Got patch W107_1, width 256, x=0 y=0
+  decompiling texture A-CAMO3, 3 patches, 256x128
+    Got patch CAMO1, width 128, x=0 y=0
+    Got patch CAMO1, width 128, x=128 y=0
+    Got patch W106_1, width 256, x=0 y=0
+  decompiling texture A-CAMO4, 1 patches, 128x128
+    Got patch CAMO4, width 128, x=0 y=0
+  decompiling texture A-CAMO5, 1 patches, 128x128
+    Got patch CAMO5, width 128, x=0 y=0
+  decompiling texture A-DROCK1, 1 patches, 256x128
+    Got patch DARKROCK, width 256, x=0 y=0
+  decompiling texture A-DROCK2, 1 patches, 256x128
+    Got patch NATROCK, width 256, x=0 y=0
+  decompiling texture A-GRATE, 1 patches, 128x128
+    Got patch GRATE, width 128, x=0 y=0
+  decompiling texture A-MARBLE, 1 patches, 128x128
+    Got patch MARBLE1, width 128, x=0 y=0
+  decompiling texture A-MOSBRI, 1 patches, 128x128
+    Got patch MOSSBRIK, width 128, x=0 y=0
+  decompiling texture A-MOSROK, 1 patches, 128x128
+    Got patch MOSSROCK, width 128, x=0 y=0
+  decompiling texture A-MOSRK2, 1 patches, 128x128
+    Got patch MOSROK2, width 128, x=0 y=0
+  decompiling texture A-MOULD, 1 patches, 128x128
+    Got patch MOULD, width 128, x=0 y=0
+  decompiling texture A-MUD, 1 patches, 128x128
+    Got patch MUD, width 128, x=0 y=0
+  decompiling texture A-MYWOOD, 1 patches, 128x128
+    Got patch MYWOOD, width 128, x=0 y=0
+  decompiling texture A-POIS, 1 patches, 64x64
+    Got patch POISON, width 64, x=0 y=0
+  decompiling texture A-RAIL1, 1 patches, 64x32
+    Got patch RAILING, width 64, x=0 y=0
+  decompiling texture A-ASKIN1, 1 patches, 32x128
+    Got patch HELL6_1, width 32, x=0 y=0
+  decompiling texture A-ASKIN2, 1 patches, 32x128
+    Got patch HELL8_3, width 32, x=0 y=0
+  decompiling texture A-ASKIN3, 1 patches, 128x128
+    Got patch W109_1, width 128, x=0 y=0
+  decompiling texture A-ASKIN4, 1 patches, 128x128
+    Got patch W109_2, width 128, x=0 y=0
+  decompiling texture A-ASKIN5, 1 patches, 256x128
+    Got patch W110_1, width 256, x=0 y=0
+  decompiling texture A-REDROK, 1 patches, 256x128
+    Got patch REDROCK, width 256, x=0 y=0
+  decompiling texture SLIME1, 4 patches, 128x128
+    Got patch RW41_1, width 64, x=0 y=0
+    Got patch RW41_1, width 64, x=64 y=0
+    Got patch RW9_1, width 64, x=0 y=0
+    Got patch RW9_1, width 64, x=64 y=0
+  decompiling texture SLIME2, 4 patches, 128x128
+    Got patch RW41_1, width 64, x=0 y=0
+    Got patch RW41_1, width 64, x=64 y=0
+    Got patch WALL47_1, width 64, x=0 y=64
+    Got patch WALL47_1, width 64, x=64 y=64
+  decompiling texture SLIME3, 7 patches, 128x128
+    Got patch RW41_1, width 64, x=0 y=0
+    Got patch RW41_1, width 64, x=64 y=0
+    Got patch W111_3, width 64, x=0 y=0
+    Got patch W111_3, width 64, x=64 y=0
+    Got patch W111_3, width 64, x=0 y=64
+    Got patch W111_3, width 64, x=64 y=64
+    Got patch PS20A0, width 62, x=33 y=51
+  decompiling texture SLIME4, 3 patches, 128x128
+    Got patch RW41_1, width 64, x=0 y=0
+    Got patch RW41_1, width 64, x=64 y=0
+    Got patch DUCT1, width 23, x=16 y=16
+  decompiling texture SLIME5, 4 patches, 128x128
+    Got patch RW41_1, width 64, x=0 y=0
+    Got patch RW41_1, width 64, x=64 y=0
+    Got patch RW33_1, width 64, x=0 y=64
+    Got patch RW33_1, width 64, x=64 y=64
+  decompiling texture SLIME8, 3 patches, 128x128
+    Got patch RW41_1, width 64, x=0 y=0
+    Got patch RW41_1, width 64, x=64 y=0
+    Got patch T14_5, width 16, x=20 y=32
+  decompiling texture A-TILE, 1 patches, 128x128
+    Got patch TILE, width 128, x=0 y=0
+  decompiling texture A-VINES, 1 patches, 128x128
+    Got patch VINES1, width 128, x=0 y=0
+  decompiling texture A-VINE1, 1 patches, 256x128
+    Got patch W107_1, width 256, x=0 y=0
+  decompiling texture A-VINE2, 1 patches, 256x128
+    Got patch W106_1, width 256, x=0 y=0
+  decompiling texture A-VINE3, 5 patches, 256x128
+    Got patch RW1_2, width 64, x=0 y=0
+    Got patch RW1_2, width 64, x=64 y=0
+    Got patch RW1_2, width 64, x=128 y=0
+    Got patch RW1_2, width 64, x=192 y=0
+    Got patch W107_1, width 256, x=0 y=0
+  decompiling texture A-VINE4, 5 patches, 256x128
+    Got patch RW1_2, width 64, x=0 y=0
+    Got patch RW1_2, width 64, x=64 y=0
+    Got patch RW1_2, width 64, x=128 y=0
+    Got patch RW1_2, width 64, x=192 y=0
+    Got patch W106_1, width 256, x=0 y=0
+  decompiling texture A-WOOD1, 2 patches, 128x128
+    Got patch WOOD, width 128, x=0 y=0
+    Got patch WOOD, width 128, x=0 y=64
+  decompiling texture A-YELLOW, 1 patches, 16x8
+    Got patch YELLOW, width 16, x=0 y=0
+  decompiling texture CEMENT7, 1 patches, 64x128
+    Got patch RW7_1, width 64, x=0 y=0
+  decompiling texture CEMENT8, 1 patches, 64x128
+    Got patch RW11_3, width 64, x=0 y=0
+  decompiling texture CEMENT9, 1 patches, 64x128
+    Got patch RW28_1, width 64, x=0 y=0
+  decompiling texture CRACKLE2, 1 patches, 64x128
+    Got patch RW44_2, width 64, x=0 y=0
+  decompiling texture CRACKLE4, 1 patches, 64x128
+    Got patch RW44_4, width 64, x=0 y=0
+  decompiling texture DBRAIN1, 21 patches, 128x128
+    Got patch RWDM11A, width 64, x=0 y=0
+    Got patch MC1, width 128, x=0 y=0
+    Got patch MC2, width 128, x=0 y=0
+    Got patch MC3, width 128, x=0 y=0
+    Got patch MC4, width 128, x=0 y=0
+    Got patch MC5, width 128, x=0 y=0
+    Got patch MC6, width 128, x=0 y=0
+    Got patch MC7, width 128, x=0 y=0
+    Got patch MC8, width 128, x=0 y=0
+    Got patch MC9, width 128, x=0 y=0
+    Got patch MC10, width 128, x=0 y=0
+    Got patch MC11, width 128, x=0 y=0
+    Got patch MC12, width 128, x=0 y=0
+    Got patch MC13, width 128, x=0 y=0
+    Got patch MC14, width 128, x=0 y=0
+    Got patch MC15, width 128, x=0 y=0
+    Got patch MC16, width 128, x=0 y=0
+    Got patch MC17, width 128, x=0 y=0
+    Got patch MC18, width 128, x=0 y=0
+    Got patch MC19, width 128, x=0 y=0
+    Got patch MC20, width 128, x=0 y=0
+  decompiling texture DBRAIN2, 1 patches, 64x32
+    Got patch RWDM11B, width 64, x=0 y=0
+  decompiling texture DBRAIN3, 1 patches, 64x32
+    Got patch RWDM11C, width 64, x=0 y=0
+  decompiling texture DBRAIN4, 1 patches, 64x32
+    Got patch RWDM11D, width 64, x=0 y=0
+  decompiling texture MARBFAC4, 1 patches, 64x128
+    Got patch RW7_3, width 64, x=0 y=0
+  decompiling texture METAL3, 1 patches, 64x128
+    Got patch RW33_2, width 64, x=0 y=0
+  decompiling texture METAL4, 1 patches, 64x128
+    Got patch RW33_3, width 64, x=0 y=0
+  decompiling texture METAL6, 1 patches, 64x128
+    Got patch RW38_1, width 64, x=0 y=0
+  decompiling texture METAL7, 1 patches, 64x128
+    Got patch RW38_2, width 64, x=0 y=0
+  decompiling texture MIDBARS1, 1 patches, 64x128
+    Got patch RW43_1, width 64, x=0 y=0
+  decompiling texture MIDBRONZ, 1 patches, 64x128
+    Got patch RW10_4, width 64, x=0 y=0
+  decompiling texture MIDSPACE, 1 patches, 64x128
+    Got patch RW47_1, width 64, x=0 y=0
+  decompiling texture MODWALL1, 1 patches, 64x128
+    Got patch RW31_1, width 64, x=0 y=0
+  decompiling texture MODWALL2, 1 patches, 64x128
+    Got patch RW31_2, width 64, x=0 y=0
+  decompiling texture MODWALL3, 1 patches, 64x128
+    Got patch RW31_3, width 64, x=0 y=0
+  decompiling texture MODWALL4, 1 patches, 64x128
+    Got patch RW31_4, width 64, x=0 y=0
+  decompiling texture PANBLACK, 1 patches, 64x128
+    Got patch RW16_1, width 64, x=0 y=0
+  decompiling texture PANBLUE, 1 patches, 64x128
+    Got patch RW16_3, width 64, x=0 y=0
+  decompiling texture PANBOOK, 1 patches, 64x128
+    Got patch RW21_5, width 64, x=0 y=0
+  decompiling texture PANBORD1, 1 patches, 32x128
+    Got patch RW21_1, width 32, x=0 y=0
+  decompiling texture PANBORD2, 1 patches, 16x128
+    Got patch RW21_2, width 16, x=0 y=0
+  decompiling texture PANCASE1, 1 patches, 64x128
+    Got patch RW21_3, width 64, x=0 y=0
+  decompiling texture PANCASE2, 1 patches, 64x128
+    Got patch RW21_4, width 64, x=0 y=0
+  decompiling texture PANEL1, 1 patches, 64x128
+    Got patch RW15_1, width 64, x=0 y=0
+  decompiling texture PANEL2, 1 patches, 64x128
+    Got patch RW15_2, width 64, x=0 y=0
+  decompiling texture PANEL3, 1 patches, 64x128
+    Got patch RW15_3, width 64, x=0 y=0
+  decompiling texture PANEL4, 1 patches, 64x128
+    Got patch RW15_4, width 64, x=0 y=0
+  decompiling texture PANEL5, 1 patches, 64x128
+    Got patch RW16_4, width 64, x=0 y=0
+  decompiling texture PANEL6, 1 patches, 64x128
+    Got patch RW19_1, width 64, x=0 y=0
+  decompiling texture PANEL7, 1 patches, 64x128
+    Got patch RW19_2, width 64, x=0 y=0
+  decompiling texture PANEL8, 1 patches, 64x128
+    Got patch RW19_3, width 64, x=0 y=0
+  decompiling texture PANEL9, 1 patches, 64x128
+    Got patch RW19_4, width 64, x=0 y=0
+  decompiling texture PANRED, 1 patches, 64x128
+    Got patch RW16_2, width 64, x=0 y=0
+  decompiling texture PIPEWAL1, 1 patches, 64x128
+    Got patch RW28_2, width 64, x=0 y=0
+  decompiling texture PIPEWAL2, 1 patches, 64x128
+    Got patch RW36_2, width 64, x=0 y=0
+  decompiling texture ROCK1, 1 patches, 64x128
+    Got patch RW30_1, width 64, x=0 y=0
+  decompiling texture ROCK2, 1 patches, 64x128
+    Got patch RW30_2, width 64, x=0 y=0
+  decompiling texture ROCK3, 1 patches, 64x128
+    Got patch RW30_3, width 64, x=0 y=0
+  decompiling texture ROCK4, 1 patches, 128x128
+    Got patch RW35_1, width 128, x=0 y=0
+  decompiling texture ROCK5, 1 patches, 128x128
+    Got patch RW35_2, width 128, x=0 y=0
+  decompiling texture SILVER1, 1 patches, 64x128
+    Got patch RW32_1, width 64, x=0 y=0
+  decompiling texture SILVER2, 1 patches, 64x128
+    Got patch RW32_2, width 64, x=0 y=0
+  decompiling texture SILVER3, 1 patches, 64x128
+    Got patch RW32_3, width 64, x=0 y=0
+  decompiling texture SK_LEFT, 1 patches, 64x128
+    Got patch RW48_1, width 64, x=0 y=0
+  decompiling texture SK_RIGHT, 1 patches, 64x128
+    Got patch RW48_3, width 64, x=0 y=0
+  decompiling texture SLOPPY1, 1 patches, 64x128
+    Got patch RW47_3, width 64, x=0 y=0
+  decompiling texture SLOPPY2, 1 patches, 64x128
+    Got patch RW47_4, width 64, x=0 y=0
+  decompiling texture SPACEW2, 1 patches, 64x128
+    Got patch RW46_2, width 64, x=0 y=0
+  decompiling texture SPACEW3, 1 patches, 64x128
+    Got patch RW46_3, width 64, x=0 y=0
+  decompiling texture SPACEW4, 1 patches, 64x128
+    Got patch RW46_4, width 64, x=0 y=0
+  decompiling texture SPCDOOR1, 1 patches, 64x128
+    Got patch DOOR15_1, width 64, x=0 y=0
+  decompiling texture SPCDOOR2, 1 patches, 64x128
+    Got patch DOOR15_2, width 64, x=0 y=0
+  decompiling texture SPCDOOR3, 1 patches, 64x128
+    Got patch DOOR15_3, width 64, x=0 y=0
+  decompiling texture SPCDOOR4, 1 patches, 64x128
+    Got patch DOOR15_4, width 64, x=0 y=0
+  decompiling texture STONE5, 1 patches, 64x128
+    Got patch RW18_2, width 64, x=0 y=0
+  decompiling texture STONE6, 1 patches, 64x128
+    Got patch RW18_3, width 64, x=0 y=0
+  decompiling texture STONE7, 1 patches, 64x128
+    Got patch RW18_4, width 64, x=0 y=0
+  decompiling texture STUCCO, 1 patches, 64x128
+    Got patch RW8_1, width 64, x=0 y=0
+  decompiling texture STUCCO1, 1 patches, 64x128
+    Got patch RW8_2, width 64, x=0 y=0
+  decompiling texture STUCCO2, 1 patches, 64x128
+    Got patch RW8_3, width 64, x=0 y=0
+  decompiling texture STUCCO3, 1 patches, 64x128
+    Got patch RW8_4, width 64, x=0 y=0
+  decompiling texture SW1BRIK, 2 patches, 64x128
+    Got patch RW23_4, width 64, x=0 y=0
+    Got patch SW1S0, width 32, x=16 y=72
+  decompiling texture SW1MARB, 2 patches, 64x128
+    Got patch MWALL1_1, width 128, x=0 y=0
+    Got patch SW2_7, width 36, x=13 y=55
+  decompiling texture SW1MET2, 2 patches, 64x128
+    Got patch RW33_1, width 64, x=0 y=0
+    Got patch SW1S0, width 32, x=16 y=19
+  decompiling texture SW1MOD1, 2 patches, 64x128
+    Got patch RW31_1, width 64, x=0 y=0
+    Got patch SW4S0, width 24, x=20 y=80
+  decompiling texture SW1PANEL, 2 patches, 64x128
+    Got patch RW21_4, width 64, x=0 y=0
+    Got patch SW2_7, width 36, x=14 y=64
+  decompiling texture SW1ROCK, 2 patches, 64x128
+    Got patch RW30_1, width 64, x=0 y=0
+    Got patch SW2_7, width 36, x=14 y=66
+  decompiling texture SW1SKULL, 1 patches, 64x128
+    Got patch RW48_4, width 64, x=0 y=0
+  decompiling texture SW1STON6, 2 patches, 64x128
+    Got patch RW18_3, width 64, x=0 y=0
+    Got patch SW2S0, width 32, x=16 y=72
+  decompiling texture SW1TEK, 2 patches, 64x128
+    Got patch RW37_2, width 64, x=0 y=0
+    Got patch SW4S0, width 24, x=20 y=80
+  decompiling texture SW1WDMET, 10 patches, 64x128
+    Got patch RW26_1, width 64, x=0 y=0
+    Got patch EXIT2, width 8, x=16 y=48
+    Got patch EXIT2, width 8, x=24 y=48
+    Got patch EXIT2, width 8, x=32 y=48
+    Got patch EXIT2, width 8, x=40 y=48
+    Got patch EXIT2, width 8, x=40 y=64
+    Got patch EXIT2, width 8, x=32 y=64
+    Got patch EXIT2, width 8, x=24 y=64
+    Got patch EXIT2, width 8, x=16 y=64
+    Got patch W108_2, width 16, x=24 y=52
+  decompiling texture SW1ZIM, 2 patches, 64x128
+    Got patch RW20_1, width 64, x=0 y=0
+    Got patch SW2_7, width 36, x=16 y=65
+  decompiling texture SW2BRIK, 2 patches, 64x128
+    Got patch RW23_4, width 64, x=0 y=0
+    Got patch SW1S1, width 32, x=16 y=72
+  decompiling texture SW2MARB, 2 patches, 64x128
+    Got patch MWALL1_1, width 128, x=0 y=0
+    Got patch SW2_8, width 36, x=13 y=55
+  decompiling texture SW2MET2, 2 patches, 64x128
+    Got patch RW33_1, width 64, x=0 y=0
+    Got patch SW1S1, width 32, x=16 y=19
+  decompiling texture SW2MOD1, 2 patches, 64x128
+    Got patch RW31_1, width 64, x=0 y=0
+    Got patch SW4S1, width 24, x=20 y=80
+  decompiling texture SW2PANEL, 2 patches, 64x128
+    Got patch RW21_4, width 64, x=0 y=0
+    Got patch SW2_8, width 36, x=14 y=64
+  decompiling texture SW2ROCK, 2 patches, 64x128
+    Got patch RW30_1, width 64, x=0 y=0
+    Got patch SW2_8, width 36, x=14 y=66
+  decompiling texture SW2SKULL, 1 patches, 64x128
+    Got patch RW48_2, width 64, x=0 y=0
+  decompiling texture SW2STON6, 2 patches, 64x128
+    Got patch RW18_3, width 64, x=0 y=0
+    Got patch SW2S1, width 32, x=16 y=72
+  decompiling texture SW2TEK, 2 patches, 64x128
+    Got patch RW37_2, width 64, x=0 y=0
+    Got patch SW4S1, width 24, x=20 y=80
+  decompiling texture SW2WDMET, 10 patches, 64x128
+    Got patch RW26_1, width 64, x=0 y=0
+    Got patch EXIT2, width 8, x=16 y=48
+    Got patch EXIT2, width 8, x=24 y=48
+    Got patch EXIT2, width 8, x=32 y=48
+    Got patch EXIT2, width 8, x=40 y=48
+    Got patch EXIT2, width 8, x=40 y=64
+    Got patch EXIT2, width 8, x=32 y=64
+    Got patch EXIT2, width 8, x=24 y=64
+    Got patch EXIT2, width 8, x=16 y=64
+    Got patch W108_3, width 16, x=24 y=52
+  decompiling texture SW2ZIM, 2 patches, 64x128
+    Got patch RW20_1, width 64, x=0 y=0
+    Got patch SW2_8, width 36, x=16 y=65
+  decompiling texture TANROCK2, 1 patches, 64x128
+    Got patch RW11_2, width 64, x=0 y=0
+  decompiling texture TANROCK3, 1 patches, 64x128
+    Got patch RW12_1, width 64, x=0 y=0
+  decompiling texture TANROCK4, 1 patches, 64x128
+    Got patch RW12_4, width 64, x=0 y=0
+  decompiling texture TANROCK5, 1 patches, 64x128
+    Got patch RW14_1, width 64, x=0 y=0
+  decompiling texture TANROCK7, 1 patches, 64x128
+    Got patch RW23_2, width 64, x=0 y=0
+  decompiling texture TANROCK8, 1 patches, 64x128
+    Got patch RW28_3, width 64, x=0 y=0
+  decompiling texture TEKBRON1, 2 patches, 128x128
+    Got patch RW36_1, width 64, x=0 y=0
+    Got patch RW36_3, width 64, x=64 y=0
+  decompiling texture TEKBRON2, 1 patches, 64x128
+    Got patch RW39_2, width 64, x=0 y=0
+  decompiling texture TEKGREN1, 1 patches, 64x128
+    Got patch RW37_1, width 64, x=0 y=0
+  decompiling texture TEKGREN2, 1 patches, 64x128
+    Got patch RW37_2, width 64, x=0 y=0
+  decompiling texture TEKGREN3, 1 patches, 64x128
+    Got patch RW37_3, width 64, x=0 y=0
+  decompiling texture TEKGREN4, 1 patches, 64x128
+    Got patch RW37_4, width 64, x=0 y=0
+  decompiling texture TEKGREN5, 1 patches, 64x128
+    Got patch RW39_1, width 64, x=0 y=0
+  decompiling texture TEKLITE, 1 patches, 64x128
+    Got patch RW43_3, width 64, x=0 y=0
+  decompiling texture TEKLITE2, 1 patches, 64x128
+    Got patch RW43_4, width 64, x=0 y=0
+  decompiling texture TEKWALL6, 4 patches, 256x128
+    Got patch RW25_1, width 64, x=0 y=0
+    Got patch RW25_2, width 64, x=128 y=0
+    Got patch RW25_3, width 64, x=64 y=0
+    Got patch RW25_4, width 64, x=192 y=0
+  decompiling texture WOOD10, 1 patches, 128x128
+    Got patch RW13_1, width 128, x=0 y=0
+  decompiling texture WOOD12, 1 patches, 64x128
+    Got patch RW41_2, width 64, x=0 y=0
+  decompiling texture WOOD6, 1 patches, 64x128
+    Got patch RW9_1, width 64, x=0 y=0
+  decompiling texture WOOD7, 1 patches, 64x128
+    Got patch RW9_2, width 64, x=0 y=0
+  decompiling texture WOOD8, 1 patches, 64x128
+    Got patch RW9_3, width 64, x=0 y=0
+  decompiling texture WOOD9, 1 patches, 64x128
+    Got patch RW9_4, width 64, x=0 y=0
+  decompiling texture ZDOORB1, 1 patches, 128x128
+    Got patch WOLF18, width 128, x=0 y=0
+  decompiling texture ZDOORF1, 1 patches, 128x128
+    Got patch WOLF10, width 128, x=0 y=0
+  decompiling texture ZELDOOR, 1 patches, 128x128
+    Got patch WOLF11, width 128, x=0 y=0
+  decompiling texture ZIMMER1, 1 patches, 64x128
+    Got patch RW20_1, width 64, x=0 y=0
+  decompiling texture ZIMMER2, 1 patches, 64x128
+    Got patch RW20_2, width 64, x=0 y=0
+  decompiling texture ZIMMER3, 1 patches, 64x128
+    Got patch RW20_3, width 64, x=0 y=0
+  decompiling texture ZIMMER4, 1 patches, 64x128
+    Got patch RW20_4, width 64, x=0 y=0
+  decompiling texture ZIMMER5, 1 patches, 64x128
+    Got patch RW42_1, width 64, x=0 y=0
+  decompiling texture ZIMMER7, 1 patches, 64x128
+    Got patch RW42_3, width 64, x=0 y=0
+  decompiling texture ZIMMER8, 1 patches, 64x128
+    Got patch RW42_4, width 64, x=0 y=0
+  decompiling texture ZZWOLF1, 1 patches, 128x128
+    Got patch WOLF1, width 128, x=0 y=0
+  decompiling texture ZZWOLF10, 1 patches, 128x128
+    Got patch WOLF12, width 128, x=0 y=0
+  decompiling texture ZZWOLF11, 1 patches, 128x128
+    Got patch WOLF13, width 128, x=0 y=0
+  decompiling texture ZZWOLF12, 1 patches, 128x128
+    Got patch WOLF14, width 128, x=0 y=0
+  decompiling texture ZZWOLF13, 1 patches, 128x128
+    Got patch WOLF17, width 128, x=0 y=0
+  decompiling texture ZZWOLF2, 1 patches, 128x128
+    Got patch WOLF2, width 128, x=0 y=0
+  decompiling texture ZZWOLF3, 1 patches, 128x128
+    Got patch WOLF3, width 128, x=0 y=0
+  decompiling texture ZZWOLF4, 1 patches, 128x128
+    Got patch WOLF4, width 128, x=0 y=0
+  decompiling texture ZZWOLF5, 1 patches, 128x128
+    Got patch WOLF5, width 128, x=0 y=0
+  decompiling texture ZZWOLF6, 1 patches, 128x128
+    Got patch WOLF6, width 128, x=0 y=0
+  decompiling texture ZZWOLF7, 1 patches, 128x128
+    Got patch WOLF7, width 128, x=0 y=0
+  decompiling texture ZZWOLF9, 1 patches, 128x128
+    Got patch WOLF9, width 128, x=0 y=0
+  decompiling texture ZZZFACE1, 1 patches, 256x128
+    Got patch RWDMON4, width 256, x=0 y=0
+  decompiling texture ZZZFACE2, 1 patches, 256x128
+    Got patch RWDMON5, width 256, x=0 y=0
+  decompiling texture ZZZFACE3, 1 patches, 256x128
+    Got patch RWDMON3, width 256, x=0 y=0
+  decompiling texture ZZZFACE4, 1 patches, 256x128
+    Got patch RWDMON2, width 256, x=0 y=0
+  decompiling texture ZZZFACE5, 1 patches, 256x128
+    Got patch RWDMON1, width 256, x=0 y=0
+  decompiling texture ZZZFACE6, 1 patches, 256x128
+    Got patch RWDMON7, width 256, x=0 y=0
+  decompiling texture ZZZFACE7, 1 patches, 256x128
+    Got patch RWDMON8, width 256, x=0 y=0
+  decompiling texture ZZZFACE8, 1 patches, 256x128
+    Got patch RWDMON9, width 256, x=0 y=0
+  decompiling texture ZZZFACE9, 1 patches, 256x128
+    Got patch RWDMON10, width 256, x=0 y=0
+  decompiling texture BFALL, 1 patches, 64x128
+    Got patch BFALL1, width 64, x=0 y=0
+  decompiling texture BFALL1, 1 patches, 64x128
+    Got patch BFALL1, width 64, x=0 y=0
+  decompiling texture BFALL2, 1 patches, 64x128
+    Got patch BFALL2, width 64, x=0 y=0
+  decompiling texture BFALL3, 1 patches, 64x128
+    Got patch BFALL3, width 64, x=0 y=0
+  decompiling texture BFALL4, 1 patches, 64x128
+    Got patch BFALL4, width 64, x=0 y=0
+  decompiling texture WOODMET1, 1 patches, 64x128
+    Got patch RW26_1, width 64, x=0 y=0
+  decompiling texture WOODMET2, 1 patches, 64x128
+    Got patch RW26_2, width 64, x=0 y=0
+  decompiling texture WOODMET3, 1 patches, 64x128
+    Got patch RW26_3, width 64, x=0 y=0
+  decompiling texture WOODMET4, 1 patches, 64x128
+    Got patch RW26_4, width 64, x=0 y=0
+  decompiling texture BIGDOOR5, 4 patches, 128x128
+    Got patch WALL40_1, width 128, x=0 y=0
+    Got patch WALL42_3, width 24, x=0 y=0
+    Got patch WALL42_3, width 24, x=51 y=0
+    Got patch WALL42_3, width 24, x=104 y=0
+  decompiling texture BIGDOOR6, 3 patches, 128x112
+    Got patch DOOR11_1, width 120, x=-48 y=0
+    Got patch DOOR11_1, width 120, x=32 y=0
+    Got patch DOOR11_1, width 120, x=5 y=0
+  decompiling texture BIGDOOR7, 2 patches, 128x128
+    Got patch W105_1, width 128, x=123 y=0
+    Got patch W105_1, width 128, x=-5 y=0
+  decompiling texture BLODRIP1, 1 patches, 32x128
+    Got patch RP2_1, width 32, x=0 y=0
+  decompiling texture BLODRIP2, 1 patches, 32x128
+    Got patch RP2_2, width 32, x=0 y=0
+  decompiling texture BLODRIP3, 1 patches, 32x128
+    Got patch RP2_3, width 32, x=0 y=0
+  decompiling texture BLODRIP4, 1 patches, 32x128
+    Got patch RP2_4, width 32, x=0 y=0
+  decompiling texture BROVINE2, 5 patches, 256x128
+    Got patch WALL62_2, width 64, x=64 y=0
+    Got patch WALL62_2, width 64, x=128 y=0
+    Got patch WALL62_2, width 64, x=192 y=0
+    Got patch WALL62_2, width 64, x=0 y=0
+    Got patch W106_1, width 256, x=0 y=0
+  decompiling texture CEMENT2, 1 patches, 128x128
+    Got patch WALL53_1, width 128, x=0 y=0
+  decompiling texture CEMENT3, 1 patches, 128x128
+    Got patch WALL54_1, width 128, x=0 y=0
+  decompiling texture CEMENT4, 1 patches, 128x128
+    Got patch WALL55_1, width 128, x=0 y=0
+  decompiling texture CEMENT5, 1 patches, 128x128
+    Got patch WALL52_2, width 128, x=0 y=0
+  decompiling texture DOORBLU2, 6 patches, 16x128
+    Got patch W108_2, width 16, x=0 y=0
+    Got patch W108_2, width 16, x=0 y=24
+    Got patch W108_2, width 16, x=0 y=48
+    Got patch W108_2, width 16, x=0 y=72
+    Got patch W108_2, width 16, x=0 y=96
+    Got patch STEP07, width 32, x=0 y=120
+  decompiling texture DOORRED2, 6 patches, 16x128
+    Got patch W108_3, width 16, x=0 y=0
+    Got patch W108_3, width 16, x=0 y=24
+    Got patch W108_3, width 16, x=0 y=48
+    Got patch W108_3, width 16, x=0 y=72
+    Got patch W108_3, width 16, x=0 y=96
+    Got patch STEP07, width 32, x=0 y=120
+  decompiling texture DOORYEL2, 6 patches, 16x128
+    Got patch W108_4, width 16, x=0 y=0
+    Got patch W108_4, width 16, x=0 y=24
+    Got patch W108_4, width 16, x=0 y=48
+    Got patch W108_4, width 16, x=0 y=72
+    Got patch W108_4, width 16, x=0 y=96
+    Got patch STEP07, width 32, x=0 y=120
+  decompiling texture EXITSTON, 3 patches, 64x128
+    Got patch W28_8, width 64, x=0 y=0
+    Got patch W28_8, width 64, x=0 y=64
+    Got patch EXIT1, width 32, x=16 y=22
+  decompiling texture FIREBLU1, 1 patches, 128x128
+    Got patch W65B_1, width 128, x=0 y=0
+  decompiling texture FIREBLU2, 1 patches, 128x128
+    Got patch W65B_2, width 128, x=0 y=0
+  decompiling texture FIRELAV3, 1 patches, 128x128
+    Got patch W73B_1, width 128, x=0 y=0
+  decompiling texture FIRELAVA, 1 patches, 128x128
+    Got patch W73A_1, width 128, x=0 y=0
+  decompiling texture FIREWALA, 1 patches, 128x112
+    Got patch WALL23_1, width 128, x=0 y=0
+  decompiling texture FIREWALB, 1 patches, 128x112
+    Got patch WALL23_2, width 128, x=0 y=0
+  decompiling texture FIREWALL, 1 patches, 128x112
+    Got patch WALL22_1, width 128, x=0 y=0
+  decompiling texture GRAY2, 3 patches, 64x72
+    Got patch W33_7, width 64, x=0 y=0
+    Got patch W31_1, width 64, x=0 y=56
+    Got patch DUCT1, width 23, x=21 y=16
+  decompiling texture GRAYVINE, 5 patches, 256x128
+    Got patch WALL00_1, width 64, x=192 y=0
+    Got patch WALL00_1, width 64, x=64 y=0
+    Got patch WALL00_1, width 64, x=128 y=0
+    Got patch WALL00_1, width 64, x=0 y=0
+    Got patch W106_1, width 256, x=0 y=0
+  decompiling texture GSTFONT1, 1 patches, 64x128
+    Got patch WALL58_1, width 64, x=0 y=0
+  decompiling texture GSTFONT2, 1 patches, 64x128
+    Got patch WALL58_2, width 64, x=0 y=0
+  decompiling texture GSTFONT3, 1 patches, 64x128
+    Got patch WALL58_3, width 64, x=0 y=0
+  decompiling texture GSTGARG, 1 patches, 64x128
+    Got patch WALL30_2, width 64, x=0 y=0
+  decompiling texture GSTLION, 1 patches, 64x128
+    Got patch WALL30_4, width 64, x=0 y=0
+  decompiling texture GSTONE1, 4 patches, 256x128
+    Got patch WALL48_1, width 64, x=0 y=0
+    Got patch WALL48_2, width 64, x=64 y=0
+    Got patch WALL48_3, width 64, x=128 y=0
+    Got patch WALL48_4, width 64, x=192 y=0
+  decompiling texture GSTONE2, 4 patches, 256x128
+    Got patch WALL59_3, width 64, x=0 y=0
+    Got patch WALL59_2, width 64, x=64 y=0
+    Got patch WALL59_3, width 64, x=128 y=0
+    Got patch WALL59_4, width 64, x=192 y=0
+  decompiling texture GSTSATYR, 1 patches, 64x128
+    Got patch WALL30_3, width 64, x=0 y=0
+  decompiling texture ICKWALL1, 2 patches, 64x128
+    Got patch W32_4, width 64, x=0 y=64
+    Got patch WALL69_4, width 64, x=0 y=0
+  decompiling texture ICKWALL2, 2 patches, 64x128
+    Got patch WALL71_5, width 64, x=0 y=0
+    Got patch W33_5, width 64, x=0 y=64
+  decompiling texture ICKWALL3, 3 patches, 64x128
+    Got patch WALL72_7, width 64, x=0 y=0
+    Got patch WALL69_9, width 40, x=0 y=64
+    Got patch W67_2, width 32, x=32 y=64
+  decompiling texture ICKWALL4, 2 patches, 64x128
+    Got patch WALL72_5, width 64, x=0 y=0
+    Got patch WALL72_3, width 64, x=0 y=64
+  decompiling texture ICKWALL5, 2 patches, 64x128
+    Got patch WALL70_4, width 64, x=0 y=0
+    Got patch W32_4, width 64, x=0 y=64
+  decompiling texture ICKWALL7, 3 patches, 64x128
+    Got patch WALL70_9, width 40, x=28 y=64
+    Got patch W67_2, width 32, x=0 y=64
+    Got patch W67_1, width 64, x=0 y=0
+  decompiling texture MARBLE2, 1 patches, 128x128
+    Got patch MWALL2_1, width 128, x=0 y=0
+  decompiling texture MARBLE3, 1 patches, 128x128
+    Got patch MWALL3_1, width 128, x=0 y=0
+  decompiling texture MARBLOD1, 1 patches, 128x128
+    Got patch MWALL1_2, width 128, x=0 y=0
+  decompiling texture MIDGRATE, 1 patches, 128x128
+    Got patch M1_1, width 128, x=0 y=0
+  decompiling texture NUKEPOIS, 19 patches, 128x128
+    Got patch WALL04_7, width 16, x=96 y=0
+    Got patch WALL04_5, width 16, x=112 y=0
+    Got patch WALL04_5, width 16, x=112 y=32
+    Got patch WALL04_5, width 16, x=96 y=32
+    Got patch NUKEDGE, width 64, x=64 y=104
+    Got patch WALL04_2, width 16, x=64 y=0
+    Got patch WALL04_2, width 16, x=48 y=0
+    Got patch WALL04_2, width 16, x=48 y=32
+    Got patch WALL04_2, width 16, x=64 y=32
+    Got patch NUKEDGE, width 64, x=0 y=104
+    Got patch WALL04_4, width 16, x=16 y=32
+    Got patch WALL04_5, width 16, x=32 y=0
+    Got patch WALL04_5, width 16, x=32 y=32
+    Got patch WALL04_3, width 16, x=80 y=32
+    Got patch WALL04_3, width 16, x=80 y=0
+    Got patch WALL04_3, width 16, x=0 y=32
+    Got patch WALL04_3, width 16, x=0 y=0
+    Got patch WALL04_4, width 16, x=16 y=0
+    Got patch PS20A0, width 62, x=0 y=68
+  decompiling texture PIPE1, 2 patches, 256x128
+    Got patch RP1_1, width 128, x=0 y=0
+    Got patch RP1_2, width 128, x=128 y=0
+  decompiling texture PIPE4, 2 patches, 256x128
+    Got patch TP7_2, width 128, x=128 y=0
+    Got patch TP7_1, width 128, x=0 y=0
+  decompiling texture PIPE6, 2 patches, 256x128
+    Got patch TP3_2, width 128, x=128 y=0
+    Got patch TP3_1, width 128, x=0 y=0
+  decompiling texture ROCKRED1, 1 patches, 128x128
+    Got patch WALL64_2, width 128, x=0 y=0
+  decompiling texture ROCKRED2, 1 patches, 128x128
+    Got patch W64B_1, width 128, x=0 y=0
+  decompiling texture ROCKRED3, 1 patches, 128x128
+    Got patch W64B_2, width 128, x=0 y=0
+  decompiling texture SHAWN1, 5 patches, 128x128
+    Got patch W13_1, width 64, x=0 y=56
+    Got patch W13_1, width 64, x=64 y=56
+    Got patch W13_1, width 64, x=64 y=0
+    Got patch W13_1, width 64, x=0 y=0
+    Got patch CYL1_1, width 118, x=0 y=0
+  decompiling texture SHAWN3, 1 patches, 64x72
+    Got patch T14_3, width 64, x=0 y=0
+  decompiling texture SKIN2, 2 patches, 128x128
+    Got patch HELL8_2, width 64, x=64 y=0
+    Got patch HELL8_4, width 64, x=0 y=0
+  decompiling texture SKINCUT, 2 patches, 256x128
+    Got patch W102_1, width 128, x=0 y=0
+    Got patch W102_2, width 128, x=128 y=0
+  decompiling texture SKINEDGE, 2 patches, 128x128
+    Got patch HELL6_2, width 64, x=0 y=0
+    Got patch HELL8_1, width 64, x=64 y=0
+  decompiling texture SKINFACE, 2 patches, 256x128
+    Got patch HELL5_1, width 128, x=0 y=0
+    Got patch HELL5_2, width 128, x=128 y=0
+  decompiling texture SKINLOW, 2 patches, 256x104
+    Got patch W92_1, width 128, x=0 y=0
+    Got patch W92_2, width 128, x=128 y=0
+  decompiling texture SKINMET1, 2 patches, 256x128
+    Got patch W98_1, width 128, x=0 y=0
+    Got patch W98_2, width 128, x=128 y=0
+  decompiling texture SKINMET2, 2 patches, 256x128
+    Got patch W99_1, width 128, x=0 y=0
+    Got patch W99_2, width 128, x=128 y=0
+  decompiling texture SKINSCAB, 2 patches, 256x128
+    Got patch W101_1, width 128, x=0 y=0
+    Got patch W101_2, width 128, x=128 y=0
+  decompiling texture SKINSYMB, 2 patches, 256x128
+    Got patch W103_1, width 128, x=0 y=0
+    Got patch W103_2, width 128, x=128 y=0
+  decompiling texture SKSNAKE1, 1 patches, 64x128
+    Got patch SNAK7_1, width 64, x=0 y=0
+  decompiling texture SKSNAKE2, 1 patches, 64x128
+    Got patch SNAK8_1, width 64, x=0 y=0
+  decompiling texture SKSPINE1, 1 patches, 128x128
+    Got patch SPINE4_1, width 128, x=0 y=0
+  decompiling texture SKSPINE2, 2 patches, 256x96
+    Got patch SPINE3_1, width 128, x=0 y=0
+    Got patch SPINE3_2, width 128, x=128 y=0
+  decompiling texture SKY2, 1 patches, 256x128
+    Got patch RSKY2, width 256, x=0 y=0
+  decompiling texture SKY3, 1 patches, 256x128
+    Got patch RSKY3, width 256, x=0 y=0
+  decompiling texture SLADSKUL, 2 patches, 64x128
+    Got patch WLA128_1, width 64, x=0 y=0
+    Got patch SW2_2, width 22, x=21 y=65
+  decompiling texture SP_DUDE1, 1 patches, 128x128
+    Got patch WALL50_1, width 128, x=0 y=0
+  decompiling texture SP_DUDE2, 1 patches, 128x128
+    Got patch WALL50_2, width 128, x=0 y=0
+  decompiling texture SP_DUDE3, 1 patches, 64x128
+    Got patch WALL51_1, width 64, x=0 y=0
+  decompiling texture SP_DUDE4, 1 patches, 64x128
+    Got patch WALL51_2, width 64, x=0 y=0
+  decompiling texture SP_DUDE5, 1 patches, 64x128
+    Got patch WALL51_3, width 64, x=0 y=0
+  decompiling texture SP_DUDE6, 1 patches, 64x128
+    Got patch W108_1, width 64, x=0 y=0
+  decompiling texture SP_DUDE7, 1 patches, 128x128
+    Got patch BODY_1, width 128, x=0 y=0
+  decompiling texture SP_DUDE8, 1 patches, 128x128
+    Got patch BODY_2, width 128, x=0 y=0
+  decompiling texture SP_FACE2, 1 patches, 64x128
+    Got patch BODIES, width 64, x=0 y=0
+  decompiling texture SP_HOT1, 4 patches, 256x128
+    Got patch WALL49_1, width 64, x=0 y=0
+    Got patch WALL49_2, width 64, x=64 y=0
+    Got patch WALL49_3, width 64, x=128 y=0
+    Got patch WALL49_4, width 64, x=192 y=0
+  decompiling texture SP_ROCK1, 1 patches, 128x128
+    Got patch WALL63_1, width 128, x=0 y=0
+  decompiling texture SP_ROCK2, 1 patches, 128x128
+    Got patch WALL63_2, width 128, x=0 y=0
+  decompiling texture STARGR2, 4 patches, 128x128
+    Got patch SW15_1, width 32, x=0 y=0
+    Got patch SW16_2, width 32, x=32 y=0
+    Got patch SW15_3, width 32, x=64 y=0
+    Got patch SW16_1, width 32, x=96 y=0
+  decompiling texture STEPLAD1, 1 patches, 64x16
+    Got patch LADDER16, width 64, x=0 y=0
+  decompiling texture STEPTOP, 1 patches, 128x16
+    Got patch RIPW15, width 128, x=0 y=0
+  decompiling texture SW1BLUE, 3 patches, 64x128
+    Got patch COMP03_1, width 64, x=0 y=0
+    Got patch COMP03_2, width 64, x=0 y=64
+    Got patch SW2_7, width 36, x=14 y=66
+  decompiling texture SW1CMT, 2 patches, 64x128
+    Got patch WALL54_1, width 128, x=-42 y=0
+    Got patch SW3S0, width 32, x=16 y=72
+  decompiling texture SW1GSTON, 2 patches, 64x128
+    Got patch WALL48_2, width 64, x=0 y=0
+    Got patch SW2_7, width 36, x=14 y=67
+  decompiling texture SW1HOT, 2 patches, 64x128
+    Got patch WALL49_1, width 64, x=0 y=0
+    Got patch SW2_7, width 36, x=13 y=66
+  decompiling texture SW1LION, 2 patches, 64x128
+    Got patch WALL47_2, width 64, x=0 y=0
+    Got patch WALL42_5, width 40, x=12 y=62
+  decompiling texture SW1SATYR, 2 patches, 64x128
+    Got patch WALL47_2, width 64, x=0 y=0
+    Got patch WALL42_1, width 40, x=12 y=60
+  decompiling texture SW1SKIN, 2 patches, 64x128
+    Got patch HELL6_3, width 64, x=0 y=0
+    Got patch SW2_5, width 64, x=0 y=59
+  decompiling texture SW1VINE, 3 patches, 64x128
+    Got patch WALL00_1, width 64, x=0 y=0
+    Got patch W106_1, width 256, x=0 y=0
+    Got patch SW4S0, width 24, x=20 y=84
+  decompiling texture SW1WOOD, 2 patches, 64x128
+    Got patch WALL40_2, width 128, x=-64 y=0
+    Got patch SW2_7, width 36, x=14 y=66
+  decompiling texture SW2BLUE, 3 patches, 64x128
+    Got patch COMP03_1, width 64, x=0 y=0
+    Got patch COMP03_2, width 64, x=0 y=64
+    Got patch SW2_8, width 36, x=14 y=66
+  decompiling texture SW2CMT, 2 patches, 64x128
+    Got patch WALL54_1, width 128, x=-42 y=0
+    Got patch SW3S1, width 32, x=16 y=72
+  decompiling texture SW2GSTON, 2 patches, 64x128
+    Got patch WALL48_2, width 64, x=0 y=0
+    Got patch SW2_8, width 36, x=14 y=67
+  decompiling texture SW2HOT, 2 patches, 64x128
+    Got patch WALL49_1, width 64, x=0 y=0
+    Got patch SW2_8, width 36, x=13 y=66
+  decompiling texture SW2LION, 2 patches, 64x128
+    Got patch WALL47_2, width 64, x=0 y=0
+    Got patch WALL47_4, width 40, x=12 y=62
+  decompiling texture SW2SATYR, 2 patches, 64x128
+    Got patch WALL47_2, width 64, x=0 y=0
+    Got patch WALL47_3, width 40, x=12 y=60
+  decompiling texture SW2SKIN, 2 patches, 64x128
+    Got patch HELL6_3, width 64, x=0 y=0
+    Got patch SW2_6, width 64, x=0 y=59
+  decompiling texture SW2VINE, 3 patches, 64x128
+    Got patch WALL00_1, width 64, x=0 y=0
+    Got patch W106_1, width 256, x=0 y=0
+    Got patch SW4S1, width 24, x=20 y=84
+  decompiling texture SW2WOOD, 2 patches, 64x128
+    Got patch WALL40_2, width 128, x=-64 y=0
+    Got patch SW2_8, width 36, x=14 y=66
+  decompiling texture WOOD3, 4 patches, 256x128
+    Got patch WALL97_1, width 64, x=0 y=0
+    Got patch WALL97_2, width 64, x=64 y=0
+    Got patch WALL97_2, width 64, x=192 y=0
+    Got patch WALL97_3, width 64, x=128 y=0
+  decompiling texture WOOD4, 3 patches, 64x128
+    Got patch WALL97_2, width 64, x=0 y=0
+    Got patch SW2_1, width 22, x=26 y=76
+    Got patch SW2_2, width 22, x=26 y=18
+  decompiling texture WOOD5, 2 patches, 256x128
+    Got patch W96_2, width 128, x=128 y=0
+    Got patch W96_1, width 128, x=0 y=0
+  decompiling texture WOODGARG, 2 patches, 64x128
+    Got patch WALL40_1, width 128, x=0 y=0
+    Got patch SW2_4, width 53, x=6 y=63
+  decompiling texture WOODSKUL, 2 patches, 64x128
+    Got patch WALL40_1, width 128, x=0 y=0
+    Got patch SW2_2, width 22, x=24 y=70
+  decompiling texture WFALL, 1 patches, 64x128
+    Got patch WFALL1, width 64, x=0 y=0
+  decompiling texture WFALL1, 1 patches, 64x128
+    Got patch WFALL1, width 64, x=0 y=0
+  decompiling texture WFALL2, 1 patches, 64x128
+    Got patch WFALL2, width 64, x=0 y=0
+  decompiling texture WFALL3, 1 patches, 64x128
+    Got patch WFALL3, width 64, x=0 y=0
+  decompiling texture WFALL4, 1 patches, 64x128
+    Got patch WFALL4, width 64, x=0 y=0
+  decompiling texture ASHWALL2, 1 patches, 64x128
+    Got patch RW22_1, width 64, x=0 y=0
+  decompiling texture BIGDOOR1, 5 patches, 128x96
+    Got patch W13_1, width 64, x=0 y=0
+    Got patch W13_1, width 64, x=0 y=24
+    Got patch W13_1, width 64, x=64 y=0
+    Got patch W13_1, width 64, x=64 y=24
+    Got patch DOOR2_1, width 96, x=16 y=0
+  decompiling texture BIGDOOR2, 1 patches, 128x128
+    Got patch DOOR2_4, width 128, x=0 y=0
+  decompiling texture BIGDOOR3, 1 patches, 128x128
+    Got patch DOOR9_2, width 128, x=0 y=0
+  decompiling texture BIGDOOR4, 1 patches, 128x128
+    Got patch DOOR9_1, width 128, x=0 y=0
+  decompiling texture BRNPOIS, 3 patches, 128x128
+    Got patch WALL62_2, width 64, x=0 y=0
+    Got patch WALL62_2, width 64, x=64 y=0
+    Got patch PS20A0, width 62, x=0 y=60
+  decompiling texture BRNSMAL1, 1 patches, 64x64
+    Got patch W111_2, width 64, x=0 y=0
+  decompiling texture BRNSMAL2, 1 patches, 64x64
+    Got patch W111_3, width 64, x=0 y=0
+  decompiling texture BRNSMALC, 1 patches, 64x64
+    Got patch W112_1, width 64, x=0 y=0
+  decompiling texture BRNSMALL, 1 patches, 32x64
+    Got patch W112_3, width 32, x=0 y=0
+  decompiling texture BRNSMALR, 1 patches, 32x64
+    Got patch W112_2, width 32, x=0 y=0
+  decompiling texture BROWN1, 6 patches, 128x128
+    Got patch WALL02_2, width 64, x=0 y=56
+    Got patch WALL02_1, width 64, x=64 y=56
+    Got patch WALL02_2, width 64, x=0 y=0
+    Got patch WALL02_1, width 64, x=64 y=0
+    Got patch WALL02_3, width 24, x=64 y=56
+    Got patch WALL02_3, width 24, x=64 y=0
+  decompiling texture BROWN144, 8 patches, 128x128
+    Got patch WALL00_5, width 16, x=0 y=0
+    Got patch WALL00_6, width 16, x=16 y=0
+    Got patch WALL00_7, width 16, x=32 y=0
+    Got patch WALL00_8, width 16, x=48 y=0
+    Got patch WALL00_6, width 16, x=64 y=0
+    Got patch WALL00_6, width 16, x=80 y=0
+    Got patch WALL00_7, width 16, x=96 y=0
+    Got patch WALL00_7, width 16, x=112 y=0
+  decompiling texture BROWN96, 1 patches, 128x128
+    Got patch WALL62_1, width 128, x=0 y=0
+  decompiling texture BROWNGRN, 1 patches, 64x128
+    Got patch WALL62_2, width 64, x=0 y=0
+  decompiling texture BROWNHUG, 8 patches, 64x128
+    Got patch WALL04_7, width 16, x=32 y=0
+    Got patch WALL04_2, width 16, x=0 y=0
+    Got patch WALL04_3, width 16, x=16 y=0
+    Got patch WALL04_2, width 16, x=48 y=0
+    Got patch WALL04_4, width 16, x=0 y=64
+    Got patch WALL04_5, width 16, x=16 y=64
+    Got patch WALL04_7, width 16, x=32 y=64
+    Got patch WALL04_3, width 16, x=48 y=64
+  decompiling texture BROWNPIP, 12 patches, 128x128
+    Got patch TP2_1, width 128, x=0 y=0
+    Got patch STEP07, width 32, x=0 y=64
+    Got patch STEP07, width 32, x=32 y=64
+    Got patch STEP07, width 32, x=64 y=64
+    Got patch STEP07, width 32, x=96 y=64
+    Got patch WALL05_2, width 64, x=0 y=72
+    Got patch WALL05_2, width 64, x=64 y=72
+    Got patch STEP07, width 32, x=0 y=120
+    Got patch STEP07, width 32, x=32 y=120
+    Got patch STEP07, width 32, x=64 y=120
+    Got patch STEP07, width 32, x=96 y=120
+    Got patch STEP07, width 32, x=0 y=0
+  decompiling texture CEMENT1, 1 patches, 128x128
+    Got patch WALL52_1, width 128, x=0 y=0
+  decompiling texture CEMENT6, 1 patches, 128x128
+    Got patch WALL54_2, width 128, x=0 y=0
+  decompiling texture COMPBLUE, 2 patches, 64x128
+    Got patch COMP03_1, width 64, x=0 y=0
+    Got patch COMP03_2, width 64, x=0 y=64
+  decompiling texture COMPSPAN, 2 patches, 32x128
+    Got patch COMP03_4, width 32, x=0 y=0
+    Got patch COMP03_4, width 32, x=0 y=64
+  decompiling texture COMPSTA1, 3 patches, 128x128
+    Got patch AG128_2, width 64, x=0 y=70
+    Got patch AG128_2, width 64, x=64 y=70
+    Got patch TOMW2_1, width 128, x=0 y=0
+  decompiling texture COMPSTA2, 3 patches, 128x128
+    Got patch AG128_2, width 64, x=0 y=70
+    Got patch AG128_2, width 64, x=64 y=70
+    Got patch TOMW2_2, width 128, x=0 y=0
+  decompiling texture COMPTALL, 9 patches, 256x128
+    Got patch COMP03_5, width 64, x=192 y=0
+    Got patch COMP03_8, width 32, x=0 y=0
+    Got patch COMP03_8, width 32, x=160 y=0
+    Got patch COMP04_1, width 64, x=192 y=64
+    Got patch COMP04_2, width 64, x=128 y=64
+    Got patch COMP04_5, width 64, x=32 y=0
+    Got patch COMP04_6, width 64, x=0 y=64
+    Got patch COMP04_7, width 64, x=64 y=64
+    Got patch COMP04_8, width 64, x=96 y=0
+  decompiling texture COMPWERD, 2 patches, 64x128
+    Got patch COMP04_6, width 64, x=0 y=0
+    Got patch COMP04_6, width 64, x=0 y=64
+  decompiling texture CRATE1, 4 patches, 64x128
+    Got patch BCRATEL1, width 32, x=0 y=0
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATER1, width 32, x=32 y=64
+    Got patch BCRATER1, width 32, x=32 y=0
+  decompiling texture CRATE2, 4 patches, 64x128
+    Got patch GCRATEL1, width 32, x=0 y=0
+    Got patch GCRATEL1, width 32, x=0 y=64
+    Got patch GCRATER1, width 32, x=32 y=0
+    Got patch GCRATER1, width 32, x=32 y=64
+  decompiling texture CRATE3, 4 patches, 64x128
+    Got patch GCRATEL1, width 32, x=0 y=0
+    Got patch GCRATER1, width 32, x=32 y=0
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATER1, width 32, x=32 y=64
+  decompiling texture CRATELIT, 4 patches, 64x128
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATER1, width 32, x=32 y=64
+    Got patch SGCRATE2, width 32, x=0 y=0
+    Got patch SGCRATE2, width 32, x=32 y=0
+  decompiling texture CRATINY, 4 patches, 64x16
+    Got patch VGCRATE1, width 16, x=0 y=0
+    Got patch VGCRATE1, width 16, x=16 y=0
+    Got patch VGCRATE1, width 16, x=32 y=0
+    Got patch VGCRATE1, width 16, x=48 y=0
+  decompiling texture CRATWIDE, 21 patches, 128x128
+    Got patch GCRATEL1, width 32, x=0 y=0
+    Got patch GCRATER1, width 32, x=96 y=0
+    Got patch GCRATEM1, width 8, x=32 y=0
+    Got patch GCRATEM1, width 8, x=40 y=0
+    Got patch GCRATEM1, width 8, x=48 y=0
+    Got patch GCRATEM1, width 8, x=56 y=0
+    Got patch GCRATEM1, width 8, x=60 y=0
+    Got patch GCRATEM1, width 8, x=64 y=0
+    Got patch GCRATEM1, width 8, x=72 y=0
+    Got patch GCRATEM1, width 8, x=80 y=0
+    Got patch GCRATEM1, width 8, x=88 y=0
+    Got patch BCRATEL1, width 32, x=0 y=64
+    Got patch BCRATER1, width 32, x=96 y=64
+    Got patch BCRATEM1, width 8, x=32 y=64
+    Got patch BCRATEM1, width 8, x=40 y=64
+    Got patch BCRATEM1, width 8, x=48 y=64
+    Got patch BCRATEM1, width 8, x=56 y=64
+    Got patch BCRATEM1, width 8, x=64 y=64
+    Got patch BCRATEM1, width 8, x=72 y=64
+    Got patch BCRATEM1, width 8, x=88 y=64
+    Got patch BCRATEM1, width 8, x=80 y=64
+  decompiling texture DOOR1, 1 patches, 64x72
+    Got patch WALL03_1, width 64, x=0 y=0
+  decompiling texture DOOR3, 1 patches, 64x72
+    Got patch DOOR2_5, width 64, x=0 y=0
+  decompiling texture DOORBLU, 8 patches, 8x128
+    Got patch W46_37, width 8, x=0 y=0
+    Got patch W46_37, width 8, x=0 y=16
+    Got patch W46_37, width 8, x=0 y=32
+    Got patch W46_37, width 8, x=0 y=64
+    Got patch W46_37, width 8, x=0 y=48
+    Got patch W46_37, width 8, x=0 y=80
+    Got patch W46_37, width 8, x=0 y=96
+    Got patch W46_37, width 8, x=0 y=112
+  decompiling texture DOORRED, 8 patches, 8x128
+    Got patch W46_38, width 8, x=0 y=0
+    Got patch W46_38, width 8, x=0 y=16
+    Got patch W46_38, width 8, x=0 y=32
+    Got patch W46_38, width 8, x=0 y=48
+    Got patch W46_38, width 8, x=0 y=64
+    Got patch W46_38, width 8, x=0 y=80
+    Got patch W46_38, width 8, x=0 y=96
+    Got patch W46_38, width 8, x=0 y=112
+  decompiling texture DOORSTOP, 1 patches, 8x128
+    Got patch TTALL1_2, width 8, x=0 y=0
+  decompiling texture DOORTRAK, 1 patches, 8x128
+    Got patch DOORTRAK, width 8, x=0 y=0
+  decompiling texture DOORYEL, 8 patches, 8x128
+    Got patch W46_39, width 8, x=0 y=112
+    Got patch W46_39, width 8, x=0 y=96
+    Got patch W46_39, width 8, x=0 y=80
+    Got patch W46_39, width 8, x=0 y=64
+    Got patch W46_39, width 8, x=0 y=48
+    Got patch W46_39, width 8, x=0 y=32
+    Got patch W46_39, width 8, x=0 y=16
+    Got patch W46_39, width 8, x=0 y=0
+  decompiling texture EXITDOOR, 4 patches, 128x72
+    Got patch DOOR3_6, width 64, x=0 y=0
+    Got patch DOOR3_4, width 24, x=64 y=0
+    Got patch DOOR3_5, width 24, x=88 y=0
+    Got patch T14_5, width 16, x=112 y=0
+  decompiling texture EXITSIGN, 5 patches, 64x16
+    Got patch EXIT1, width 32, x=0 y=0
+    Got patch EXIT2, width 8, x=32 y=0
+    Got patch EXIT2, width 8, x=40 y=0
+    Got patch EXIT2, width 8, x=48 y=0
+    Got patch EXIT2, width 8, x=56 y=0
+  decompiling texture GRAY1, 2 patches, 64x128
+    Got patch W33_7, width 64, x=0 y=0
+    Got patch W33_7, width 64, x=0 y=64
+  decompiling texture GRAY4, 2 patches, 64x128
+    Got patch W33_5, width 64, x=0 y=0
+    Got patch W33_5, width 64, x=0 y=64
+  decompiling texture GRAY5, 3 patches, 64x128
+    Got patch W33_7, width 64, x=0 y=0
+    Got patch W33_7, width 64, x=0 y=72
+    Got patch W33_8, width 64, x=0 y=64
+  decompiling texture GRAY7, 12 patches, 256x128
+    Got patch W33_8, width 64, x=0 y=120
+    Got patch W33_8, width 64, x=64 y=120
+    Got patch W33_8, width 64, x=128 y=120
+    Got patch W33_8, width 64, x=192 y=120
+    Got patch W32_1, width 64, x=64 y=0
+    Got patch W32_4, width 64, x=0 y=0
+    Got patch W32_4, width 64, x=128 y=0
+    Got patch W32_4, width 64, x=192 y=0
+    Got patch W32_4, width 64, x=0 y=56
+    Got patch W32_4, width 64, x=64 y=56
+    Got patch W32_4, width 64, x=192 y=56
+    Got patch W32_1, width 64, x=128 y=56
+  decompiling texture GRAYBIG, 3 patches, 128x128
+    Got patch WALL00_1, width 64, x=0 y=0
+    Got patch WALL00_1, width 64, x=64 y=0
+    Got patch WALL00_2, width 16, x=80 y=0
+  decompiling texture GRAYPOIS, 2 patches, 64x72
+    Got patch WALL00_1, width 64, x=0 y=0
+    Got patch PS18A0, width 64, x=1 y=18
+  decompiling texture GRAYTALL, 3 patches, 128x128
+    Got patch WALL00_1, width 64, x=0 y=0
+    Got patch WALL00_1, width 64, x=64 y=0
+    Got patch WALL00_3, width 16, x=80 y=0
+  decompiling texture LITE3, 64 patches, 32x128
+    Got patch WLITA0, width 8, x=0 y=0
+    Got patch WLITA0, width 8, x=0 y=8
+    Got patch WLITA0, width 8, x=0 y=16
+    Got patch WLITA0, width 8, x=0 y=24
+    Got patch WLITA0, width 8, x=0 y=32
+    Got patch WLITA0, width 8, x=0 y=40
+    Got patch WLITA0, width 8, x=0 y=48
+    Got patch WLITA0, width 8, x=0 y=56
+    Got patch WLITA0, width 8, x=0 y=64
+    Got patch WLITA0, width 8, x=0 y=72
+    Got patch WLITA0, width 8, x=0 y=80
+    Got patch WLITA0, width 8, x=0 y=88
+    Got patch WLITA0, width 8, x=0 y=96
+    Got patch WLITA0, width 8, x=0 y=104
+    Got patch WLITA0, width 8, x=0 y=112
+    Got patch WLITA0, width 8, x=0 y=120
+    Got patch WLITB0, width 8, x=8 y=120
+    Got patch WLITB0, width 8, x=8 y=112
+    Got patch WLITB0, width 8, x=8 y=104
+    Got patch WLITB0, width 8, x=8 y=96
+    Got patch WLITB0, width 8, x=8 y=88
+    Got patch WLITB0, width 8, x=8 y=80
+    Got patch WLITB0, width 8, x=8 y=72
+    Got patch WLITB0, width 8, x=8 y=64
+    Got patch WLITB0, width 8, x=8 y=56
+    Got patch WLITB0, width 8, x=8 y=40
+    Got patch WLITB0, width 8, x=8 y=48
+    Got patch WLITB0, width 8, x=8 y=32
+    Got patch WLITB0, width 8, x=8 y=24
+    Got patch WLITB0, width 8, x=8 y=16
+    Got patch WLITB0, width 8, x=8 y=8
+    Got patch WLITB0, width 8, x=8 y=0
+    Got patch WLITB0, width 8, x=16 y=0
+    Got patch WLITB0, width 8, x=16 y=8
+    Got patch WLITB0, width 8, x=16 y=16
+    Got patch WLITB0, width 8, x=16 y=24
+    Got patch WLITB0, width 8, x=16 y=32
+    Got patch WLITB0, width 8, x=16 y=40
+    Got patch WLITB0, width 8, x=16 y=48
+    Got patch WLITB0, width 8, x=16 y=56
+    Got patch WLITB0, width 8, x=16 y=64
+    Got patch WLITB0, width 8, x=16 y=72
+    Got patch WLITB0, width 8, x=16 y=80
+    Got patch WLITB0, width 8, x=16 y=88
+    Got patch WLITB0, width 8, x=16 y=96
+    Got patch WLITB0, width 8, x=16 y=104
+    Got patch WLITB0, width 8, x=16 y=112
+    Got patch WLITB0, width 8, x=16 y=120
+    Got patch WLITC0, width 8, x=24 y=0
+    Got patch WLITC0, width 8, x=24 y=8
+    Got patch WLITC0, width 8, x=24 y=16
+    Got patch WLITC0, width 8, x=24 y=24
+    Got patch WLITC0, width 8, x=24 y=32
+    Got patch WLITC0, width 8, x=24 y=40
+    Got patch WLITC0, width 8, x=24 y=48
+    Got patch WLITC0, width 8, x=24 y=56
+    Got patch WLITC0, width 8, x=24 y=64
+    Got patch WLITC0, width 8, x=24 y=72
+    Got patch WLITC0, width 8, x=24 y=80
+    Got patch WLITC0, width 8, x=24 y=88
+    Got patch WLITC0, width 8, x=24 y=96
+    Got patch WLITC0, width 8, x=24 y=104
+    Got patch WLITC0, width 8, x=24 y=112
+    Got patch WLITC0, width 8, x=24 y=120
+  decompiling texture LITE5, 32 patches, 16x128
+    Got patch WLITA0, width 8, x=0 y=0
+    Got patch WLITA0, width 8, x=0 y=8
+    Got patch WLITA0, width 8, x=0 y=16
+    Got patch WLITA0, width 8, x=0 y=24
+    Got patch WLITA0, width 8, x=0 y=32
+    Got patch WLITA0, width 8, x=0 y=40
+    Got patch WLITA0, width 8, x=0 y=48
+    Got patch WLITA0, width 8, x=0 y=56
+    Got patch WLITA0, width 8, x=0 y=64
+    Got patch WLITA0, width 8, x=0 y=72
+    Got patch WLITA0, width 8, x=0 y=80
+    Got patch WLITA0, width 8, x=0 y=88
+    Got patch WLITA0, width 8, x=0 y=96
+    Got patch WLITA0, width 8, x=0 y=104
+    Got patch WLITA0, width 8, x=0 y=112
+    Got patch WLITA0, width 8, x=0 y=120
+    Got patch WLITC0, width 8, x=8 y=120
+    Got patch WLITC0, width 8, x=8 y=112
+    Got patch WLITC0, width 8, x=8 y=104
+    Got patch WLITC0, width 8, x=8 y=96
+    Got patch WLITC0, width 8, x=8 y=88
+    Got patch WLITC0, width 8, x=8 y=80
+    Got patch WLITC0, width 8, x=8 y=72
+    Got patch WLITC0, width 8, x=8 y=64
+    Got patch WLITC0, width 8, x=8 y=56
+    Got patch WLITC0, width 8, x=8 y=48
+    Got patch WLITC0, width 8, x=8 y=40
+    Got patch WLITC0, width 8, x=8 y=32
+    Got patch WLITC0, width 8, x=8 y=16
+    Got patch WLITC0, width 8, x=8 y=24
+    Got patch WLITC0, width 8, x=8 y=8
+    Got patch WLITC0, width 8, x=8 y=0
+  decompiling texture LITEBLU1, 1 patches, 8x128
+    Got patch AGB128_1, width 8, x=0 y=0
+  decompiling texture LITEBLU4, 32 patches, 16x128
+    Got patch BLITA0, width 8, x=0 y=0
+    Got patch BLITA0, width 8, x=0 y=8
+    Got patch BLITA0, width 8, x=0 y=16
+    Got patch BLITA0, width 8, x=0 y=24
+    Got patch BLITA0, width 8, x=0 y=32
+    Got patch BLITA0, width 8, x=0 y=40
+    Got patch BLITA0, width 8, x=0 y=48
+    Got patch BLITA0, width 8, x=0 y=56
+    Got patch BLITA0, width 8, x=0 y=64
+    Got patch BLITA0, width 8, x=0 y=72
+    Got patch BLITA0, width 8, x=0 y=80
+    Got patch BLITA0, width 8, x=0 y=88
+    Got patch BLITA0, width 8, x=0 y=96
+    Got patch BLITA0, width 8, x=0 y=104
+    Got patch BLITA0, width 8, x=0 y=112
+    Got patch BLITA0, width 8, x=0 y=120
+    Got patch BLITC0, width 8, x=8 y=120
+    Got patch BLITC0, width 8, x=8 y=112
+    Got patch BLITC0, width 8, x=8 y=104
+    Got patch BLITC0, width 8, x=8 y=96
+    Got patch BLITC0, width 8, x=8 y=88
+    Got patch BLITC0, width 8, x=8 y=80
+    Got patch BLITC0, width 8, x=8 y=72
+    Got patch BLITC0, width 8, x=8 y=64
+    Got patch BLITC0, width 8, x=8 y=56
+    Got patch BLITC0, width 8, x=8 y=48
+    Got patch BLITC0, width 8, x=8 y=40
+    Got patch BLITC0, width 8, x=8 y=32
+    Got patch BLITC0, width 8, x=8 y=24
+    Got patch BLITC0, width 8, x=8 y=16
+    Got patch BLITC0, width 8, x=8 y=8
+    Got patch BLITC0, width 8, x=8 y=0
+  decompiling texture MARBLE1, 1 patches, 128x128
+    Got patch MWALL1_1, width 128, x=0 y=0
+  decompiling texture METAL, 1 patches, 64x128
+    Got patch WALL47_1, width 64, x=0 y=0
+  decompiling texture METAL1, 2 patches, 64x128
+    Got patch WALL03_7, width 64, x=0 y=0
+    Got patch WALL03_7, width 64, x=0 y=64
+  decompiling texture METAL2, 1 patches, 64x128
+    Got patch RW33_1, width 64, x=0 y=0
+  decompiling texture NUKE24, 1 patches, 64x24
+    Got patch NUKEDGE, width 64, x=0 y=0
+  decompiling texture NUKEDGE1, 18 patches, 128x128
+    Got patch WALL04_7, width 16, x=96 y=0
+    Got patch WALL04_5, width 16, x=112 y=0
+    Got patch WALL04_5, width 16, x=112 y=32
+    Got patch WALL04_5, width 16, x=96 y=32
+    Got patch NUKEDGE, width 64, x=64 y=104
+    Got patch WALL04_2, width 16, x=64 y=0
+    Got patch WALL04_2, width 16, x=48 y=0
+    Got patch WALL04_2, width 16, x=48 y=32
+    Got patch WALL04_2, width 16, x=64 y=32
+    Got patch NUKEDGE, width 64, x=0 y=104
+    Got patch WALL04_4, width 16, x=16 y=32
+    Got patch WALL04_5, width 16, x=32 y=0
+    Got patch WALL04_5, width 16, x=32 y=32
+    Got patch WALL04_3, width 16, x=80 y=32
+    Got patch WALL04_3, width 16, x=80 y=0
+    Got patch WALL04_3, width 16, x=0 y=32
+    Got patch WALL04_3, width 16, x=0 y=0
+    Got patch WALL04_4, width 16, x=16 y=0
+  decompiling texture PIPE2, 2 patches, 256x128
+    Got patch TP2_1, width 128, x=0 y=0
+    Got patch TP2_2, width 128, x=128 y=0
+  decompiling texture PLAT1, 1 patches, 128x128
+    Got patch PLAT2_1, width 128, x=0 y=0
+  decompiling texture REDWALL, 1 patches, 128x128
+    Got patch WALL78_1, width 128, x=0 y=0
+  decompiling texture REDWALL1, 4 patches, 128x128
+    Got patch W15_5, width 64, x=64 y=56
+    Got patch W15_4, width 64, x=0 y=56
+    Got patch W15_4, width 64, x=0 y=0
+    Got patch W15_5, width 64, x=64 y=0
+  decompiling texture SHAWN2, 1 patches, 64x128
+    Got patch AG128_1, width 64, x=0 y=0
+  decompiling texture SFALL, 1 patches, 64x128
+    Got patch SFALL1, width 64, x=0 y=0
+  decompiling texture SFALL1, 1 patches, 64x128
+    Got patch SFALL1, width 64, x=0 y=0
+  decompiling texture SFALL2, 1 patches, 64x128
+    Got patch SFALL2, width 64, x=0 y=0
+  decompiling texture SFALL3, 1 patches, 64x128
+    Got patch SFALL3, width 64, x=0 y=0
+  decompiling texture SFALL4, 1 patches, 64x128
+    Got patch SFALL4, width 64, x=0 y=0
+  decompiling texture SKY1, 1 patches, 256x128
+    Got patch RSKY1, width 256, x=0 y=0
+  decompiling texture SLADPOIS, 2 patches, 64x128
+    Got patch WLA128_1, width 64, x=0 y=0
+    Got patch PS20A0, width 62, x=1 y=49
+  decompiling texture SLADWALL, 1 patches, 64x128
+    Got patch WLA128_1, width 64, x=0 y=0
+  decompiling texture STARBR2, 4 patches, 128x128
+    Got patch SW16_4, width 32, x=32 y=0
+    Got patch SW15_4, width 32, x=0 y=0
+    Got patch SW15_6, width 32, x=64 y=0
+    Got patch SW16_6, width 32, x=96 y=0
+  decompiling texture STARG1, 2 patches, 64x128
+    Got patch SW12_1, width 32, x=0 y=0
+    Got patch SW12_2, width 32, x=32 y=0
+  decompiling texture STARG2, 4 patches, 128x128
+    Got patch SW17_1, width 32, x=0 y=0
+    Got patch SW17_2, width 32, x=32 y=0
+    Got patch SW17_3, width 32, x=64 y=0
+    Got patch SW18_5, width 32, x=96 y=0
+  decompiling texture STARG3, 2 patches, 128x128
+    Got patch SW19_3, width 64, x=64 y=0
+    Got patch SW19_4, width 64, x=0 y=0
+  decompiling texture STARGR1, 2 patches, 64x128
+    Got patch SW11_1, width 32, x=0 y=0
+    Got patch SW11_2, width 32, x=32 y=0
+  decompiling texture STARTAN2, 4 patches, 128x128
+    Got patch SW17_6, width 32, x=64 y=0
+    Got patch SW17_5, width 32, x=32 y=0
+    Got patch SW18_7, width 32, x=96 y=0
+    Got patch SW17_4, width 32, x=0 y=0
+  decompiling texture STARTAN3, 2 patches, 128x128
+    Got patch SW19_2, width 64, x=0 y=0
+    Got patch SW19_1, width 64, x=64 y=0
+  decompiling texture STEP1, 2 patches, 32x16
+    Got patch STEP04, width 32, x=0 y=0
+    Got patch STEP05, width 32, x=0 y=8
+  decompiling texture STEP2, 2 patches, 32x16
+    Got patch SW11_4, width 32, x=0 y=0
+    Got patch STEP03, width 32, x=0 y=0
+  decompiling texture STEP3, 2 patches, 32x16
+    Got patch STEP05, width 32, x=0 y=8
+    Got patch STEP05, width 32, x=0 y=0
+  decompiling texture STEP4, 2 patches, 32x16
+    Got patch STEP06, width 32, x=0 y=8
+    Got patch STEP06, width 32, x=0 y=0
+  decompiling texture STEP5, 2 patches, 32x16
+    Got patch STEP09, width 32, x=0 y=0
+    Got patch STEP08, width 32, x=0 y=8
+  decompiling texture STEP6, 2 patches, 32x16
+    Got patch STEP07, width 32, x=0 y=0
+    Got patch STEP10, width 32, x=0 y=8
+  decompiling texture STONE, 40 patches, 256x128
+    Got patch WALL01_1, width 16, x=0 y=0
+    Got patch WALL01_2, width 16, x=16 y=0
+    Got patch WALL01_3, width 16, x=32 y=0
+    Got patch WALL01_4, width 16, x=48 y=0
+    Got patch WALL01_5, width 16, x=64 y=0
+    Got patch WALL01_6, width 16, x=80 y=0
+    Got patch WALL01_7, width 16, x=96 y=0
+    Got patch WALL01_8, width 16, x=112 y=0
+    Got patch WALL01_9, width 16, x=128 y=0
+    Got patch WALL01_A, width 16, x=144 y=0
+    Got patch WALL01_B, width 16, x=160 y=0
+    Got patch WALL01_C, width 16, x=176 y=0
+    Got patch WALL01_3, width 16, x=192 y=0
+    Got patch WALL01_1, width 16, x=208 y=0
+    Got patch WALL01_6, width 16, x=224 y=0
+    Got patch WALL01_A, width 16, x=240 y=0
+    Got patch WALL01_1, width 16, x=0 y=72
+    Got patch WALL01_2, width 16, x=16 y=72
+    Got patch WALL01_3, width 16, x=32 y=72
+    Got patch WALL01_4, width 16, x=48 y=72
+    Got patch WALL01_5, width 16, x=64 y=72
+    Got patch WALL01_6, width 16, x=80 y=72
+    Got patch WALL01_7, width 16, x=96 y=72
+    Got patch WALL01_8, width 16, x=112 y=72
+    Got patch WALL01_9, width 16, x=128 y=72
+    Got patch WALL01_A, width 16, x=144 y=72
+    Got patch WALL01_B, width 16, x=160 y=72
+    Got patch WALL01_C, width 16, x=176 y=72
+    Got patch WALL01_3, width 16, x=192 y=72
+    Got patch WALL01_1, width 16, x=208 y=72
+    Got patch WALL01_6, width 16, x=224 y=72
+    Got patch WALL01_A, width 16, x=240 y=72
+    Got patch W33_8, width 64, x=0 y=64
+    Got patch W33_8, width 64, x=0 y=120
+    Got patch W33_8, width 64, x=64 y=64
+    Got patch W33_8, width 64, x=64 y=120
+    Got patch W33_8, width 64, x=128 y=64
+    Got patch W33_8, width 64, x=128 y=120
+    Got patch W33_8, width 64, x=192 y=64
+    Got patch W33_8, width 64, x=192 y=120
+  decompiling texture STONE2, 4 patches, 128x128
+    Got patch W28_5, width 64, x=0 y=0
+    Got patch W28_5, width 64, x=64 y=64
+    Got patch W28_8, width 64, x=0 y=64
+    Got patch W28_8, width 64, x=64 y=0
+  decompiling texture STONE3, 4 patches, 128x128
+    Got patch W28_6, width 64, x=0 y=64
+    Got patch W28_6, width 64, x=64 y=0
+    Got patch W28_7, width 64, x=64 y=64
+    Got patch W28_7, width 64, x=0 y=0
+  decompiling texture SUPPORT2, 6 patches, 64x128
+    Got patch SUPPORT2, width 24, x=0 y=0
+    Got patch SUPPORT2, width 24, x=40 y=0
+    Got patch SUPPORT2, width 24, x=20 y=0
+    Got patch SUPPORT2, width 24, x=0 y=72
+    Got patch SUPPORT2, width 24, x=20 y=72
+    Got patch SUPPORT2, width 24, x=40 y=72
+  decompiling texture SUPPORT3, 3 patches, 64x128
+    Got patch WALL42_3, width 24, x=20 y=0
+    Got patch WALL42_3, width 24, x=0 y=0
+    Got patch WALL42_3, width 24, x=40 y=0
+  decompiling texture SW1BRCOM, 2 patches, 128x128
+    Got patch WALL62_1, width 128, x=0 y=0
+    Got patch SW1S0, width 32, x=48 y=72
+  decompiling texture SW1BRN1, 3 patches, 64x128
+    Got patch WALL02_2, width 64, x=0 y=56
+    Got patch WALL02_2, width 64, x=0 y=0
+    Got patch SW3S0, width 32, x=15 y=75
+  decompiling texture SW1BRN2, 3 patches, 64x128
+    Got patch WALL02_2, width 64, x=0 y=56
+    Got patch WALL02_2, width 64, x=0 y=0
+    Got patch SW4S0, width 24, x=20 y=79
+  decompiling texture SW1BRNGN, 2 patches, 64x128
+    Got patch WALL62_2, width 64, x=0 y=0
+    Got patch SW4S0, width 24, x=20 y=80
+  decompiling texture SW1BROWN, 2 patches, 128x128
+    Got patch WALL62_1, width 128, x=0 y=0
+    Got patch SW3S0, width 32, x=48 y=72
+  decompiling texture SW1COMM, 2 patches, 64x72
+    Got patch W13_1, width 64, x=0 y=0
+    Got patch SW1S0, width 32, x=15 y=18
+  decompiling texture SW1COMP, 4 patches, 64x128
+    Got patch COMP04_5, width 64, x=0 y=0
+    Got patch COMP03_4, width 32, x=32 y=64
+    Got patch COMP03_4, width 32, x=0 y=64
+    Got patch SW2S0, width 32, x=16 y=72
+  decompiling texture SW1DIRT, 5 patches, 64x128
+    Got patch WALL00_6, width 16, x=16 y=0
+    Got patch WALL00_7, width 16, x=32 y=0
+    Got patch WALL00_7, width 16, x=48 y=0
+    Got patch WALL00_7, width 16, x=0 y=0
+    Got patch SW1S0, width 32, x=16 y=20
+  decompiling texture SW1EXIT, 3 patches, 32x72
+    Got patch W33_8, width 64, x=0 y=64
+    Got patch WALL69_9, width 40, x=-2 y=0
+    Got patch SW2S0, width 32, x=0 y=16
+  decompiling texture SW1GRAY, 3 patches, 64x128
+    Got patch W31_1, width 64, x=0 y=64
+    Got patch W31_1, width 64, x=0 y=0
+    Got patch SW2S0, width 32, x=16 y=70
+  decompiling texture SW1GRAY1, 3 patches, 64x128
+    Got patch W31_1, width 64, x=0 y=64
+    Got patch W31_1, width 64, x=0 y=0
+    Got patch SW4S0, width 24, x=19 y=79
+  decompiling texture SW1METAL, 3 patches, 64x128
+    Got patch WALL03_7, width 64, x=0 y=64
+    Got patch WALL03_7, width 64, x=0 y=0
+    Got patch SW4S0, width 24, x=20 y=68
+  decompiling texture SW1PIPE, 2 patches, 128x128
+    Got patch TP2_2, width 128, x=0 y=0
+    Got patch SW3S0, width 32, x=48 y=76
+  decompiling texture SW1SLAD, 2 patches, 64x128
+    Got patch WLA128_1, width 64, x=0 y=0
+    Got patch WARNB0, width 17, x=24 y=73
+  decompiling texture SW1STARG, 3 patches, 128x128
+    Got patch SW19_4, width 64, x=0 y=0
+    Got patch SW19_3, width 64, x=64 y=0
+    Got patch SW3S0, width 32, x=48 y=76
+  decompiling texture SW1STON1, 3 patches, 64x128
+    Got patch W28_8, width 64, x=0 y=64
+    Got patch W28_8, width 64, x=0 y=0
+    Got patch SW1S0, width 32, x=16 y=78
+  decompiling texture SW1STON2, 3 patches, 64x128
+    Got patch W28_5, width 64, x=0 y=0
+    Got patch W28_8, width 64, x=0 y=64
+    Got patch WARNB0, width 17, x=24 y=73
+  decompiling texture SW1STONE, 11 patches, 64x128
+    Got patch WALL01_1, width 16, x=0 y=0
+    Got patch WALL01_2, width 16, x=16 y=0
+    Got patch WALL01_3, width 16, x=32 y=0
+    Got patch WALL01_4, width 16, x=48 y=0
+    Got patch WALL01_1, width 16, x=0 y=72
+    Got patch WALL01_2, width 16, x=16 y=72
+    Got patch WALL01_3, width 16, x=32 y=72
+    Got patch WALL01_4, width 16, x=48 y=72
+    Got patch W33_8, width 64, x=0 y=64
+    Got patch W33_8, width 64, x=0 y=120
+    Got patch SW1S0, width 32, x=16 y=72
+  decompiling texture SW1STRTN, 3 patches, 64x128
+    Got patch SW12_4, width 32, x=0 y=0
+    Got patch SW12_5, width 32, x=32 y=0
+    Got patch SW1S0, width 32, x=16 y=72
+  decompiling texture SW2BRCOM, 2 patches, 128x128
+    Got patch WALL62_1, width 128, x=0 y=0
+    Got patch SW1S1, width 32, x=48 y=72
+  decompiling texture SW2BRN1, 3 patches, 64x128
+    Got patch WALL02_2, width 64, x=0 y=56
+    Got patch WALL02_2, width 64, x=0 y=0
+    Got patch SW3S1, width 32, x=15 y=75
+  decompiling texture SW2BRN2, 3 patches, 64x128
+    Got patch WALL02_2, width 64, x=0 y=56
+    Got patch WALL02_2, width 64, x=0 y=0
+    Got patch SW4S1, width 24, x=20 y=79
+  decompiling texture SW2BRNGN, 2 patches, 64x128
+    Got patch WALL62_2, width 64, x=0 y=0
+    Got patch SW4S1, width 24, x=20 y=80
+  decompiling texture SW2BROWN, 2 patches, 128x128
+    Got patch WALL62_1, width 128, x=0 y=0
+    Got patch SW3S1, width 32, x=48 y=72
+  decompiling texture SW2COMM, 2 patches, 64x72
+    Got patch W13_1, width 64, x=0 y=0
+    Got patch SW1S1, width 32, x=15 y=18
+  decompiling texture SW2COMP, 4 patches, 64x128
+    Got patch COMP04_5, width 64, x=0 y=0
+    Got patch COMP03_4, width 32, x=32 y=64
+    Got patch COMP03_4, width 32, x=0 y=64
+    Got patch SW2S1, width 32, x=16 y=72
+  decompiling texture SW2DIRT, 5 patches, 64x128
+    Got patch WALL00_6, width 16, x=16 y=0
+    Got patch WALL00_7, width 16, x=32 y=0
+    Got patch WALL00_7, width 16, x=48 y=0
+    Got patch WALL00_7, width 16, x=0 y=0
+    Got patch SW1S1, width 32, x=16 y=20
+  decompiling texture SW2EXIT, 3 patches, 32x72
+    Got patch W33_8, width 64, x=0 y=64
+    Got patch WALL69_9, width 40, x=-2 y=0
+    Got patch SW2S1, width 32, x=0 y=16
+  decompiling texture SW2GRAY, 3 patches, 64x128
+    Got patch W31_1, width 64, x=0 y=64
+    Got patch W31_1, width 64, x=0 y=0
+    Got patch SW2S1, width 32, x=16 y=70
+  decompiling texture SW2GRAY1, 3 patches, 64x128
+    Got patch W31_1, width 64, x=0 y=64
+    Got patch W31_1, width 64, x=0 y=0
+    Got patch SW4S1, width 24, x=19 y=79
+  decompiling texture SW2METAL, 3 patches, 64x128
+    Got patch WALL03_7, width 64, x=0 y=64
+    Got patch WALL03_7, width 64, x=0 y=0
+    Got patch SW4S1, width 24, x=20 y=68
+  decompiling texture SW2PIPE, 2 patches, 128x128
+    Got patch TP2_2, width 128, x=0 y=0
+    Got patch SW3S1, width 32, x=48 y=76
+  decompiling texture SW2SLAD, 2 patches, 64x128
+    Got patch WLA128_1, width 64, x=0 y=0
+    Got patch WARNA0, width 17, x=24 y=73
+  decompiling texture SW2STARG, 3 patches, 128x128
+    Got patch SW19_4, width 64, x=0 y=0
+    Got patch SW19_3, width 64, x=64 y=0
+    Got patch SW3S1, width 32, x=48 y=76
+  decompiling texture SW2STON1, 3 patches, 64x128
+    Got patch W28_8, width 64, x=0 y=64
+    Got patch W28_8, width 64, x=0 y=0
+    Got patch SW1S1, width 32, x=16 y=78
+  decompiling texture SW2STON2, 3 patches, 64x128
+    Got patch W28_5, width 64, x=0 y=0
+    Got patch W28_8, width 64, x=0 y=64
+    Got patch WARNA0, width 17, x=24 y=73
+  decompiling texture SW2STONE, 11 patches, 64x128
+    Got patch WALL01_1, width 16, x=0 y=0
+    Got patch WALL01_2, width 16, x=16 y=0
+    Got patch WALL01_3, width 16, x=32 y=0
+    Got patch WALL01_4, width 16, x=48 y=0
+    Got patch WALL01_1, width 16, x=0 y=72
+    Got patch WALL01_2, width 16, x=16 y=72
+    Got patch WALL01_3, width 16, x=32 y=72
+    Got patch WALL01_4, width 16, x=48 y=72
+    Got patch W33_8, width 64, x=0 y=64
+    Got patch W33_8, width 64, x=0 y=120
+    Got patch SW1S1, width 32, x=16 y=72
+  decompiling texture SW2STRTN, 3 patches, 64x128
+    Got patch SW12_4, width 32, x=0 y=0
+    Got patch SW12_5, width 32, x=32 y=0
+    Got patch SW1S1, width 32, x=16 y=72
+  decompiling texture TEKWALL1, 2 patches, 128x128
+    Got patch W17_1, width 232, x=0 y=0
+    Got patch W17_1, width 232, x=0 y=16
+  decompiling texture TEKWALL4, 1 patches, 128x128
+    Got patch W94_1, width 128, x=0 y=0
+  decompiling texture WOOD1, 2 patches, 256x128
+    Got patch WALL40_1, width 128, x=128 y=0
+    Got patch WALL40_2, width 128, x=0 y=0
+  decompiling texture WOODVERT, 1 patches, 64x128
+    Got patch RW23_1, width 64, x=0 y=0
+  decompiling texture GSTVINE1, 5 patches, 256x128
+    Got patch WALL48_1, width 64, x=0 y=0
+    Got patch WALL48_2, width 64, x=64 y=0
+    Got patch WALL48_3, width 64, x=128 y=0
+    Got patch WALL48_4, width 64, x=192 y=0
+    Got patch W106_1, width 256, x=0 y=0
+  decompiling texture GSTVINE2, 5 patches, 256x128
+    Got patch WALL48_1, width 64, x=0 y=0
+    Got patch WALL48_2, width 64, x=64 y=0
+    Got patch WALL48_3, width 64, x=128 y=0
+    Got patch WALL48_4, width 64, x=192 y=0
+    Got patch W107_1, width 256, x=0 y=0
+  decompiling texture LITESTON, 4 patches, 64x128
+    Got patch W28_8, width 64, x=0 y=64
+    Got patch W28_5, width 64, x=0 y=0
+    Got patch FLAMP, width 22, x=37 y=26
+    Got patch FLAMP, width 22, x=7 y=26
+  decompiling texture STONGARG, 6 patches, 128x128
+    Got patch W28_7, width 64, x=0 y=64
+    Got patch W28_7, width 64, x=64 y=0
+    Got patch W28_6, width 64, x=64 y=64
+    Got patch W28_6, width 64, x=0 y=0
+    Got patch SW2_3, width 53, x=0 y=79
+    Got patch SW2_3, width 53, x=64 y=15
+  decompiling texture BRONZE2, 1 patches, 64x128
+    Got patch RW10_2, width 64, x=0 y=0
+  decompiling texture PIPES, 1 patches, 64x128
+    Got patch RW28_4, width 64, x=0 y=0
+  decompiling texture BSTONE2, 1 patches, 64x128
+    Got patch RW1_2, width 64, x=0 y=0
+  decompiling texture MARBGRAY, 1 patches, 64x128
+    Got patch RW7_2, width 64, x=0 y=0
+  decompiling texture MARBFAC2, 1 patches, 128x128
+    Got patch MWALL4_2, width 128, x=0 y=0
+  decompiling texture BRICK10, 1 patches, 64x128
+    Got patch RW41_1, width 64, x=0 y=0
+  decompiling texture FIRELAV2, 1 patches, 128x128
+    Got patch W73A_2, width 128, x=0 y=0
+  decompiling texture MIDBRN1, 1 patches, 64x112
+    Got patch DOOR12_1, width 120, x=0 y=0
+  decompiling texture STONE4, 1 patches, 64x128
+    Got patch RW18_1, width 64, x=0 y=0
+  decompiling texture SW1GARG, 2 patches, 64x128
+    Got patch WALL47_2, width 64, x=0 y=0
+    Got patch WALL42_6, width 40, x=12 y=62
+  decompiling texture SW2GARG, 2 patches, 64x128
+    Got patch WALL47_2, width 64, x=0 y=0
+    Got patch WALL47_5, width 40, x=12 y=62
+  decompiling texture FIREMAG1, 1 patches, 128x128
+    Got patch W74A_1, width 128, x=0 y=0
+  decompiling texture FIREMAG2, 1 patches, 128x128
+    Got patch W74A_2, width 128, x=0 y=0
+  decompiling texture FIREMAG3, 1 patches, 128x128
+    Got patch W74B_1, width 128, x=0 y=0
+  decompiling texture SP_FACE1, 1 patches, 128x96
+    Got patch WALL25_1, width 128, x=0 y=0
+  decompiling texture METAL5, 1 patches, 64x128
+    Got patch RW33_4, width 64, x=0 y=0
+  decompiling texture MARBFACE, 1 patches, 128x128
+    Got patch MWALL4_1, width 128, x=0 y=0
+  decompiling texture MIDBARS3, 1 patches, 64x72
+    Got patch RW45_1, width 64, x=0 y=0
+  decompiling texture MARBFAC3, 1 patches, 128x128
+    Got patch MWALL5_1, width 128, x=0 y=0
+  decompiling texture GRIDRED, 1 patches, 64x64
+    Got patch GRIDRED, width 64, x=0 y=0
+  decompiling texture GRIDGRN, 1 patches, 64x64
+    Got patch GRIDGRN, width 64, x=0 y=0
+  decompiling texture GRIDBLUE, 1 patches, 64x64
+    Got patch GRIDBLUE, width 64, x=0 y=0
+  decompiling texture GRIDYLW, 1 patches, 64x64
+    Got patch GRIDYLW, width 64, x=0 y=0
+  decompiling texture GRIDPURP, 1 patches, 64x64
+    Got patch GRIDPURP, width 64, x=0 y=0
+  decompiling texture GRIDWHTE, 1 patches, 64x64
+    Got patch GRIDWHTE, width 64, x=0 y=0
+  decompiling texture GRIDWHT2, 1 patches, 64x64
+    Got patch GRIDWHT2, width 64, x=0 y=0
+12332 textures/a-askin1.ppm
+12332 textures/a-askin2.ppm
+49197 textures/a-askin3.ppm
+49197 textures/a-askin4.ppm
+98349 textures/a-askin5.ppm
+49197 textures/a-brbrk.ppm
+49197 textures/a-brbrk2.ppm
+49197 textures/a-brick1.ppm
+49197 textures/a-brick2.ppm
+49197 textures/a-brick3.ppm
+49197 textures/a-brock2.ppm
+49197 textures/a-brown1.ppm
+49197 textures/a-brown2.ppm
+49197 textures/a-brown3.ppm
+49197 textures/a-brown4.ppm
+49197 textures/a-brown5.ppm
+49197 textures/a-camo1.ppm
+98349 textures/a-camo2.ppm
+98349 textures/a-camo3.ppm
+49197 textures/a-camo4.ppm
+49197 textures/a-camo5.ppm
+49197 textures/a-dbri1.ppm
+49197 textures/a-dbri2.ppm
+98349 textures/a-drock1.ppm
+98349 textures/a-drock2.ppm
+49197 textures/a-grate.ppm
+49197 textures/a-marble.ppm
+49197 textures/a-mosbri.ppm
+49197 textures/a-mosrk2.ppm
+49197 textures/a-mosrok.ppm
+49197 textures/a-mould.ppm
+49197 textures/a-mud.ppm
+49197 textures/a-mywood.ppm
+12331 textures/a-pois.ppm
+6187 textures/a-rail1.ppm
+98349 textures/a-redrok.ppm
+49197 textures/a-tile.ppm
+98349 textures/a-vine1.ppm
+98349 textures/a-vine2.ppm
+98349 textures/a-vine3.ppm
+98349 textures/a-vine4.ppm
+49197 textures/a-vines.ppm
+49197 textures/a-wood1.ppm
+426 textures/a-yellow.ppm
+12331 textures/aashitty.ppm
+6955 textures/aastinky.ppm
+49197 textures/altaqua.ppm
+24620 textures/ashwall.ppm
+24620 textures/ashwall2.ppm
+24620 textures/ashwall3.ppm
+24620 textures/ashwall4.ppm
+24620 textures/ashwall6.ppm
+24620 textures/ashwall7.ppm
+98349 textures/asphalt.ppm
+24620 textures/bfall.ppm
+24620 textures/bfall1.ppm
+24620 textures/bfall2.ppm
+24620 textures/bfall3.ppm
+24620 textures/bfall4.ppm
+24620 textures/bigbrik1.ppm
+24620 textures/bigbrik2.ppm
+24620 textures/bigbrik3.ppm
+36908 textures/bigdoor1.ppm
+49197 textures/bigdoor2.ppm
+49197 textures/bigdoor3.ppm
+49197 textures/bigdoor4.ppm
+49197 textures/bigdoor5.ppm
+43053 textures/bigdoor6.ppm
+49197 textures/bigdoor7.ppm
+98349 textures/bigmural.ppm
+49197 textures/bigwall.ppm
+24620 textures/blakwal1.ppm
+24620 textures/blakwal2.ppm
+196653 textures/blod3.ppm
+12332 textures/blodgr1.ppm
+12332 textures/blodgr2.ppm
+12332 textures/blodgr3.ppm
+12332 textures/blodgr4.ppm
+12332 textures/blodrip1.ppm
+12332 textures/blodrip2.ppm
+12332 textures/blodrip3.ppm
+12332 textures/blodrip4.ppm
+24620 textures/brick1.ppm
+24620 textures/brick10.ppm
+24620 textures/brick11.ppm
+24620 textures/brick12.ppm
+24620 textures/brick2.ppm
+24620 textures/brick3.ppm
+24620 textures/brick4.ppm
+49197 textures/brick5.ppm
+24620 textures/brick6.ppm
+24620 textures/brick7.ppm
+24620 textures/brick8.ppm
+24620 textures/brick9.ppm
+24620 textures/bricklit.ppm
+49197 textures/brnbigc.ppm
+12332 textures/brnbigl.ppm
+12332 textures/brnbigr.ppm
+24620 textures/brnopen.ppm
+49197 textures/brnpois.ppm
+24620 textures/brnpois2.ppm
+12331 textures/brnsmal1.ppm
+12331 textures/brnsmal2.ppm
+12331 textures/brnsmalc.ppm
+6187 textures/brnsmall.ppm
+6187 textures/brnsmalr.ppm
+24620 textures/bronze1.ppm
+24620 textures/bronze2.ppm
+24620 textures/bronze3.ppm
+24620 textures/bronze4.ppm
+98349 textures/brovine.ppm
+98349 textures/brovine2.ppm
+49197 textures/brown1.ppm
+49197 textures/brown144.ppm
+49197 textures/brown96.ppm
+24620 textures/browngrn.ppm
+24620 textures/brownhug.ppm
+49197 textures/brownpip.ppm
+55340 textures/brownwel.ppm
+24620 textures/brwindow.ppm
+24620 textures/bstone1.ppm
+24620 textures/bstone2.ppm
+24620 textures/bstone3.ppm
+24620 textures/btntmetl.ppm
+24620 textures/btntslvr.ppm
+49197 textures/carllf1.ppm
+49197 textures/carllf2.ppm
+49197 textures/carlrt1.ppm
+49197 textures/carlrt2.ppm
+49197 textures/cavern1.ppm
+49197 textures/cavern4.ppm
+24620 textures/cavern5.ppm
+49197 textures/cavern6.ppm
+49197 textures/cavern7.ppm
+49197 textures/cement1.ppm
+49197 textures/cement2.ppm
+49197 textures/cement3.ppm
+49197 textures/cement4.ppm
+49197 textures/cement5.ppm
+49197 textures/cement6.ppm
+24620 textures/cement7.ppm
+24620 textures/cement8.ppm
+24620 textures/cement9.ppm
+49197 textures/cempois.ppm
+98349 textures/comp2.ppm
+24620 textures/compblue.ppm
+49197 textures/compohso.ppm
+12332 textures/compspan.ppm
+49197 textures/compsta1.ppm
+49197 textures/compsta2.ppm
+98349 textures/comptall.ppm
+49197 textures/comptile.ppm
+49197 textures/compute1.ppm
+43052 textures/compute2.ppm
+49197 textures/compute3.ppm
+24620 textures/compwerd.ppm
+49197 textures/cr128hgb.ppm
+24620 textures/cr128lb.ppm
+24620 textures/cr128lg.ppm
+24620 textures/cr64hbb.ppm
+24620 textures/cr64hbbp.ppm
+24620 textures/cr64hbg.ppm
+24620 textures/cr64hbrm.ppm
+24620 textures/cr64hgb.ppm
+24620 textures/cr64hgbp.ppm
+24620 textures/cr64hgg.ppm
+12331 textures/cr64lb.ppm
+24620 textures/cr64lg.ppm
+24620 textures/cr64slgb.ppm
+24620 textures/crackle2.ppm
+24620 textures/crackle4.ppm
+24620 textures/crate1.ppm
+24620 textures/crate2.ppm
+24620 textures/crate3.ppm
+24620 textures/cratelit.ppm
+3115 textures/cratiny.ppm
+49197 textures/cratwide.ppm
+49197 textures/crawhbp.ppm
+49197 textures/crawlbp.ppm
+24620 textures/crblwdh6.ppm
+24620 textures/crbwdh64.ppm
+49197 textures/crbwdl12.ppm
+49197 textures/crbwhbp.ppm
+24620 textures/crbwlbp.ppm
+24620 textures/crlwdh6.ppm
+24620 textures/crlwdh6b.ppm
+49197 textures/crlwdl12.ppm
+24620 textures/crlwdl6.ppm
+24620 textures/crlwdl6b.ppm
+24620 textures/crlwdl6c.ppm
+24620 textures/crlwdl6d.ppm
+24620 textures/crlwdl6e.ppm
+6187 textures/crlwds6.ppm
+1579 textures/crlwdt3.ppm
+24620 textures/crlwdvs.ppm
+24620 textures/crsmb.ppm
+24620 textures/crtinyb.ppm
+24620 textures/crwdh64.ppm
+24620 textures/crwdh64b.ppm
+49197 textures/crwdl128.ppm
+24620 textures/crwdl64a.ppm
+24620 textures/crwdl64b.ppm
+24620 textures/crwdl64c.ppm
+24620 textures/crwds64.ppm
+24620 textures/crwdt32.ppm
+49197 textures/cubicle.ppm
+49197 textures/dbrain1.ppm
+6187 textures/dbrain2.ppm
+6187 textures/dbrain3.ppm
+6187 textures/dbrain4.ppm
+49197 textures/disaster.ppm
+49197 textures/dobwire.ppm
+49197 textures/dobwire2.ppm
+49197 textures/doc1.ppm
+49197 textures/dogldir.ppm
+24620 textures/doglpanl.ppm
+49197 textures/dogrid.ppm
+49197 textures/dogrmsc.ppm
+49197 textures/dokgrir.ppm
+24620 textures/dokodo1b.ppm
+24620 textures/dokodo2b.ppm
+13867 textures/door1.ppm
+13867 textures/door3.ppm
+3115 textures/doorblu.ppm
+6188 textures/doorblu2.ppm
+24620 textures/doorhi.ppm
+3115 textures/doorred.ppm
+6188 textures/doorred2.ppm
+3115 textures/doorstop.ppm
+3115 textures/doortrak.ppm
+3115 textures/dooryel.ppm
+6188 textures/dooryel2.ppm
+49197 textures/dopunk4.ppm
+49197 textures/dored.ppm
+13099 textures/dowindow.ppm
+49197 textures/drfront.ppm
+12332 textures/drside1.ppm
+12332 textures/drside2.ppm
+25004 textures/drtopfr.ppm
+6283 textures/drtopsid.ppm
+3115 textures/eggreeni.ppm
+3115 textures/egredi.ppm
+6188 textures/egsuprt3.ppm
+27692 textures/exitdoor.ppm
+3115 textures/exitsign.ppm
+24620 textures/exitston.ppm
+49197 textures/fireblu1.ppm
+49197 textures/fireblu2.ppm
+49197 textures/firelav2.ppm
+49197 textures/firelav3.ppm
+49197 textures/firelava.ppm
+49197 textures/firemag1.ppm
+49197 textures/firemag2.ppm
+49197 textures/firemag3.ppm
+43053 textures/firewala.ppm
+43053 textures/firewalb.ppm
+43053 textures/firewall.ppm
+18475 textures/glass1.ppm
+18475 textures/glass1b.ppm
+18475 textures/glass2.ppm
+18475 textures/glass2b.ppm
+24620 textures/gray1.ppm
+13867 textures/gray2.ppm
+24620 textures/gray4.ppm
+24620 textures/gray5.ppm
+98349 textures/gray7.ppm
+49197 textures/graybig.ppm
+24620 textures/graydang.ppm
+13867 textures/graypois.ppm
+49197 textures/graytall.ppm
+98349 textures/grayvine.ppm
+12331 textures/gridblue.ppm
+12331 textures/gridgrn.ppm
+12331 textures/gridpurp.ppm
+12331 textures/gridred.ppm
+12331 textures/gridwht2.ppm
+12331 textures/gridwhte.ppm
+12331 textures/gridylw.ppm
+49197 textures/grnmen.ppm
+24620 textures/grnopen.ppm
+24620 textures/gstfont1.ppm
+24620 textures/gstfont2.ppm
+24620 textures/gstfont3.ppm
+24620 textures/gstgarg.ppm
+24620 textures/gstlion.ppm
+98349 textures/gstone1.ppm
+98349 textures/gstone2.ppm
+24620 textures/gstsatyr.ppm
+98349 textures/gstvine1.ppm
+98349 textures/gstvine2.ppm
+13867 textures/ickdoor1.ppm
+24620 textures/ickwall1.ppm
+24620 textures/ickwall2.ppm
+24620 textures/ickwall3.ppm
+24620 textures/ickwall4.ppm
+24620 textures/ickwall5.ppm
+24620 textures/ickwall6.ppm
+24620 textures/ickwall7.ppm
+24620 textures/lite2.ppm
+12332 textures/lite3.ppm
+6188 textures/lite4.ppm
+6188 textures/lite5.ppm
+24620 textures/lite96.ppm
+3115 textures/liteblu1.ppm
+3499 textures/liteblu2.ppm
+6188 textures/liteblu3.ppm
+6188 textures/liteblu4.ppm
+12332 textures/litegrn1.ppm
+49197 textures/litemet.ppm
+6188 textures/litered.ppm
+12332 textures/litered1.ppm
+3115 textures/litered2.ppm
+24620 textures/liteston.ppm
+12332 textures/liteyel1.ppm
+3115 textures/liteyel2.ppm
+49197 textures/liteyel3.ppm
+98349 textures/longwall.ppm
+49197 textures/m_rdoor.ppm
+98349 textures/m_tec.ppm
+49197 textures/m_ydoor.ppm
+49197 textures/marbfac2.ppm
+49197 textures/marbfac3.ppm
+24620 textures/marbfac4.ppm
+49197 textures/marbface.ppm
+24620 textures/marbgray.ppm
+49197 textures/marble1.ppm
+49197 textures/marble2.ppm
+49197 textures/marble3.ppm
+49197 textures/marblod1.ppm
+24620 textures/metal-bd.ppm
+24620 textures/metal-rm.ppm
+24620 textures/metal.ppm
+24620 textures/metal1.ppm
+24620 textures/metal2.ppm
+24620 textures/metal2bd.ppm
+24620 textures/metal3.ppm
+24620 textures/metal4.ppm
+24620 textures/metal5.ppm
+24620 textures/metal6.ppm
+24620 textures/metal7.ppm
+49197 textures/metaldr.ppm
+24620 textures/midbars1.ppm
+13867 textures/midbars3.ppm
+21548 textures/midbrn1.ppm
+24620 textures/midbronz.ppm
+49197 textures/midgrate.ppm
+24620 textures/midspace.ppm
+98349 textures/midvine1.ppm
+98349 textures/midvine2.ppm
+24620 textures/modwall1.ppm
+24620 textures/modwall2.ppm
+24620 textures/modwall3.ppm
+24620 textures/modwall4.ppm
+49197 textures/mtnt1.ppm
+49197 textures/mural1.ppm
+49197 textures/mural2.ppm
+4651 textures/nuke24.ppm
+49197 textures/nukedge1.ppm
+49197 textures/nukepois.ppm
+24620 textures/nukeslad.ppm
+24620 textures/panblack.ppm
+24620 textures/panblue.ppm
+24620 textures/panbook.ppm
+12332 textures/panbord1.ppm
+6188 textures/panbord2.ppm
+24620 textures/pancase1.ppm
+24620 textures/pancase2.ppm
+24620 textures/panel1.ppm
+24620 textures/panel2.ppm
+24620 textures/panel3.ppm
+24620 textures/panel4.ppm
+24620 textures/panel5.ppm
+24620 textures/panel6.ppm
+24620 textures/panel7.ppm
+24620 textures/panel8.ppm
+24620 textures/panel9.ppm
+24620 textures/panred.ppm
+12332 textures/pillar.ppm
+98349 textures/pipe1.ppm
+98349 textures/pipe2.ppm
+98349 textures/pipe4.ppm
+98349 textures/pipe6.ppm
+24620 textures/pipes.ppm
+24620 textures/pipewal1.ppm
+24620 textures/pipewal2.ppm
+98349 textures/planet1.ppm
+49197 textures/plat1.ppm
+49197 textures/pnk4exit.ppm
+24620 textures/redopen.ppm
+49197 textures/redwall.ppm
+49197 textures/redwall1.ppm
+24620 textures/rock1.ppm
+24620 textures/rock2.ppm
+24620 textures/rock3.ppm
+49197 textures/rock4.ppm
+49197 textures/rock5.ppm
+49197 textures/rockred1.ppm
+49197 textures/rockred2.ppm
+49197 textures/rockred3.ppm
+24620 textures/sfall.ppm
+24620 textures/sfall1.ppm
+24620 textures/sfall2.ppm
+24620 textures/sfall3.ppm
+24620 textures/sfall4.ppm
+49197 textures/shawn1.ppm
+24620 textures/shawn2.ppm
+13867 textures/shawn3.ppm
+24620 textures/silver1.ppm
+24620 textures/silver2.ppm
+24620 textures/silver3.ppm
+24620 textures/sk_left.ppm
+24620 textures/sk_right.ppm
+49197 textures/skin2.ppm
+24620 textures/skinbord.ppm
+98349 textures/skincut.ppm
+49197 textures/skinedge.ppm
+98349 textures/skinface.ppm
+79917 textures/skinlow.ppm
+98349 textures/skinmet1.ppm
+98349 textures/skinmet2.ppm
+98349 textures/skinscab.ppm
+98349 textures/skinsymb.ppm
+98349 textures/skintek1.ppm
+98349 textures/skintek2.ppm
+33068 textures/skirting.ppm
+24620 textures/sksnake1.ppm
+24620 textures/sksnake2.ppm
+49197 textures/skspine1.ppm
+73772 textures/skspine2.ppm
+49197 textures/skulwal3.ppm
+49197 textures/skulwall.ppm
+98349 textures/sky1.ppm
+98349 textures/sky2.ppm
+98349 textures/sky3.ppm
+196653 textures/slad10.ppm
+196653 textures/slad11.ppm
+196653 textures/slad2.ppm
+196653 textures/slad3.ppm
+196653 textures/slad4.ppm
+196653 textures/slad5.ppm
+196653 textures/slad6.ppm
+196653 textures/slad7.ppm
+196653 textures/slad8.ppm
+196653 textures/slad9.ppm
+24620 textures/sladpois.ppm
+24620 textures/sladrip1.ppm
+24620 textures/sladrip2.ppm
+24620 textures/sladrip3.ppm
+24620 textures/sladskul.ppm
+24620 textures/sladwall.ppm
+49197 textures/slime1.ppm
+49197 textures/slime2.ppm
+49197 textures/slime3.ppm
+49197 textures/slime4.ppm
+49197 textures/slime5.ppm
+49197 textures/slime8.ppm
+24620 textures/sloppy1.ppm
+24620 textures/sloppy2.ppm
+24620 textures/smglass1.ppm
+49197 textures/smstone6.ppm
+49197 textures/sp_dude1.ppm
+49197 textures/sp_dude2.ppm
+24620 textures/sp_dude3.ppm
+24620 textures/sp_dude4.ppm
+24620 textures/sp_dude5.ppm
+24620 textures/sp_dude6.ppm
+49197 textures/sp_dude7.ppm
+49197 textures/sp_dude8.ppm
+36908 textures/sp_face1.ppm
+24620 textures/sp_face2.ppm
+98349 textures/sp_hot1.ppm
+49197 textures/sp_rock1.ppm
+49197 textures/sp_rock2.ppm
+24620 textures/spacew2.ppm
+24620 textures/spacew3.ppm
+24620 textures/spacew4.ppm
+24620 textures/spcdoor1.ppm
+24620 textures/spcdoor2.ppm
+24620 textures/spcdoor3.ppm
+24620 textures/spcdoor4.ppm
+49197 textures/starbr2.ppm
+24620 textures/starg1.ppm
+49197 textures/starg2.ppm
+49197 textures/starg3.ppm
+24620 textures/stargr1.ppm
+49197 textures/stargr2.ppm
+24620 textures/startan1.ppm
+49197 textures/startan2.ppm
+49197 textures/startan3.ppm
+1579 textures/step1.ppm
+1579 textures/step2.ppm
+1579 textures/step3.ppm
+1579 textures/step4.ppm
+1579 textures/step5.ppm
+1579 textures/step6.ppm
+3115 textures/steplad1.ppm
+6188 textures/steptop.ppm
+98349 textures/stone.ppm
+49197 textures/stone2.ppm
+49197 textures/stone3.ppm
+24620 textures/stone4.ppm
+24620 textures/stone5.ppm
+24620 textures/stone6.ppm
+24620 textures/stone7.ppm
+49197 textures/stonew1.ppm
+49197 textures/stonew5.ppm
+49197 textures/stongarg.ppm
+24620 textures/stonpois.ppm
+24620 textures/stucco.ppm
+24620 textures/stucco1.ppm
+24620 textures/stucco2.ppm
+24620 textures/stucco3.ppm
+49197 textures/stwall.ppm
+24620 textures/support2.ppm
+24620 textures/support3.ppm
+24620 textures/sw1blue.ppm
+49197 textures/sw1brcom.ppm
+24620 textures/sw1brik.ppm
+24620 textures/sw1brn1.ppm
+24620 textures/sw1brn2.ppm
+24620 textures/sw1brngn.ppm
+49197 textures/sw1brown.ppm
+24620 textures/sw1cmt.ppm
+13867 textures/sw1comm.ppm
+24620 textures/sw1comp.ppm
+24620 textures/sw1dirt.ppm
+6955 textures/sw1exit.ppm
+24620 textures/sw1garg.ppm
+24620 textures/sw1gray.ppm
+24620 textures/sw1gray1.ppm
+24620 textures/sw1gston.ppm
+24620 textures/sw1hot.ppm
+24620 textures/sw1lion.ppm
+24620 textures/sw1marb.ppm
+24620 textures/sw1met2.ppm
+24620 textures/sw1metal.ppm
+24620 textures/sw1mod1.ppm
+24620 textures/sw1panel.ppm
+49197 textures/sw1pipe.ppm
+24620 textures/sw1rock.ppm
+24620 textures/sw1satyr.ppm
+24620 textures/sw1skin.ppm
+24620 textures/sw1skull.ppm
+24620 textures/sw1slad.ppm
+49197 textures/sw1starg.ppm
+24620 textures/sw1ston1.ppm
+24620 textures/sw1ston2.ppm
+24620 textures/sw1ston6.ppm
+24620 textures/sw1stone.ppm
+24620 textures/sw1strtn.ppm
+24620 textures/sw1tek.ppm
+24620 textures/sw1vine.ppm
+24620 textures/sw1wdmet.ppm
+24620 textures/sw1wood.ppm
+24620 textures/sw1zim.ppm
+24620 textures/sw2blue.ppm
+49197 textures/sw2brcom.ppm
+24620 textures/sw2brik.ppm
+24620 textures/sw2brn1.ppm
+24620 textures/sw2brn2.ppm
+24620 textures/sw2brngn.ppm
+49197 textures/sw2brown.ppm
+24620 textures/sw2cmt.ppm
+13867 textures/sw2comm.ppm
+24620 textures/sw2comp.ppm
+24620 textures/sw2dirt.ppm
+6955 textures/sw2exit.ppm
+24620 textures/sw2garg.ppm
+24620 textures/sw2gray.ppm
+24620 textures/sw2gray1.ppm
+24620 textures/sw2gston.ppm
+24620 textures/sw2hot.ppm
+24620 textures/sw2lion.ppm
+24620 textures/sw2marb.ppm
+24620 textures/sw2met2.ppm
+24620 textures/sw2metal.ppm
+24620 textures/sw2mod1.ppm
+24620 textures/sw2panel.ppm
+49197 textures/sw2pipe.ppm
+24620 textures/sw2rock.ppm
+24620 textures/sw2satyr.ppm
+24620 textures/sw2skin.ppm
+24620 textures/sw2skull.ppm
+24620 textures/sw2slad.ppm
+49197 textures/sw2starg.ppm
+24620 textures/sw2ston1.ppm
+24620 textures/sw2ston2.ppm
+24620 textures/sw2ston6.ppm
+24620 textures/sw2stone.ppm
+24620 textures/sw2strtn.ppm
+24620 textures/sw2tek.ppm
+24620 textures/sw2vine.ppm
+24620 textures/sw2wdmet.ppm
+24620 textures/sw2wood.ppm
+24620 textures/sw2zim.ppm
+24620 textures/tanrock2.ppm
+24620 textures/tanrock3.ppm
+24620 textures/tanrock4.ppm
+24620 textures/tanrock5.ppm
+24620 textures/tanrock7.ppm
+24620 textures/tanrock8.ppm
+49197 textures/tekbron1.ppm
+24620 textures/tekbron2.ppm
+24620 textures/tekgren1.ppm
+24620 textures/tekgren2.ppm
+24620 textures/tekgren3.ppm
+24620 textures/tekgren4.ppm
+24620 textures/tekgren5.ppm
+24620 textures/teklite.ppm
+24620 textures/teklite2.ppm
+49197 textures/tekwall1.ppm
+49197 textures/tekwall2.ppm
+43053 textures/tekwall3.ppm
+49197 textures/tekwall4.ppm
+49197 textures/tekwall5.ppm
+98349 textures/tekwall6.ppm
+49197 textures/tntdoor.ppm
+49197 textures/tyironlg.ppm
+13867 textures/tyironsm.ppm
+12331 textures/tyunder1.ppm
+24620 textures/tywheel1.ppm
+49197 textures/webl.ppm
+49197 textures/webr.ppm
+24620 textures/wfall.ppm
+24620 textures/wfall1.ppm
+24620 textures/wfall2.ppm
+24620 textures/wfall3.ppm
+24620 textures/wfall4.ppm
+98349 textures/wood1.ppm
+49197 textures/wood10.ppm
+24620 textures/wood12.ppm
+98349 textures/wood3.ppm
+24620 textures/wood4.ppm
+98349 textures/wood5.ppm
+24620 textures/wood6.ppm
+24620 textures/wood7.ppm
+24620 textures/wood8.ppm
+24620 textures/wood9.ppm
+24620 textures/woodgarg.ppm
+24620 textures/woodmet1.ppm
+24620 textures/woodmet2.ppm
+24620 textures/woodmet3.ppm
+24620 textures/woodmet4.ppm
+24620 textures/woodskul.ppm
+24620 textures/woodvert.ppm
+49197 textures/yelmetal.ppm
+49197 textures/zdoorb1.ppm
+49197 textures/zdoorf1.ppm
+49197 textures/zeldoor.ppm
+24620 textures/zimmer1.ppm
+24620 textures/zimmer2.ppm
+24620 textures/zimmer3.ppm
+24620 textures/zimmer4.ppm
+24620 textures/zimmer5.ppm
+24620 textures/zimmer7.ppm
+24620 textures/zimmer8.ppm
+49197 textures/zzwolf1.ppm
+49197 textures/zzwolf10.ppm
+49197 textures/zzwolf11.ppm
+49197 textures/zzwolf12.ppm
+49197 textures/zzwolf13.ppm
+49197 textures/zzwolf2.ppm
+49197 textures/zzwolf3.ppm
+49197 textures/zzwolf4.ppm
+49197 textures/zzwolf5.ppm
+49197 textures/zzwolf6.ppm
+49197 textures/zzwolf7.ppm
+49197 textures/zzwolf9.ppm
+98349 textures/zzzface1.ppm
+98349 textures/zzzface2.ppm
+98349 textures/zzzface3.ppm
+98349 textures/zzzface4.ppm
+98349 textures/zzzface5.ppm
+98349 textures/zzzface6.ppm
+98349 textures/zzzface7.ppm
+98349 textures/zzzface8.ppm
+98349 textures/zzzface9.ppm
+26179330 total

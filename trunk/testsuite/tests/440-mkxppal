@@ -1,0 +1,6 @@
+#!/bin/sh
+
+../mkxppal/mkxppal
+../mkxppal/mkxppal -c heretic
+../mkxppal/mkxppal -c hexen
+../mkxppal/mkxppal -c strife

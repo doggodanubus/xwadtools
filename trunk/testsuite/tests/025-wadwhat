@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../wadwhat/wadwhat "$IWAD" | grep -v freedoom.wad

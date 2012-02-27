@@ -1,0 +1,4 @@
+#!/bin/sh
+
+../wadlc/wadlc input/map01.map output/map01.wad
+sh md5sum.sh output/map01.wad

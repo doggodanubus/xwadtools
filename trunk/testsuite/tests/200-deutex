@@ -1,0 +1,28 @@
+#!/bin/sh
+
+rm -rf output/deutex
+mkdir -p output/deutex
+cp "$IWAD" output/deutex/doom2.wad
+cd output/deutex
+
+# For now, until deutex is smarter (see TODO)
+DOOMWADDIR=.
+export DOOMWADDIR
+
+../../../deutex/deutex -extract doom2.wad
+find . -type f | sort
+cat wadinfo.txt textures/texture1.txt
+
+# Don't md5sum everything, just pick a few at random.
+sh ../../md5sum.sh flats/blood1.ppm
+sh ../../md5sum.sh graphics/titlepic.ppm
+sh ../../md5sum.sh levels/map04.wad
+sh ../../md5sum.sh lumps/endoom.lmp
+sh ../../md5sum.sh musics/d_betwee.mus
+sh ../../md5sum.sh patches/spine3_1.ppm
+sh ../../md5sum.sh sounds/dsshotgn.au
+sh ../../md5sum.sh sprites/sarga1.ppm
+
+# rebuild the wad (won't work as an IWAD though)
+../../../deutex/deutex -make wadinfo.txt output.wad
+lswad output.wad

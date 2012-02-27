@@ -1,0 +1,1032 @@
+GIMP Palette
+# doom palette for gimp
+  0   0   0	color no. 0
+ 31  23  11	color no. 1
+ 23  15   7	color no. 2
+ 75  75  75	color no. 3
+255 255 255	color no. 4
+ 27  27  27	color no. 5
+ 19  19  19	color no. 6
+ 11  11  11	color no. 7
+  7   7   7	color no. 8
+ 47  55  31	color no. 9
+ 35  43  15	color no. 10
+ 23  31   7	color no. 11
+ 15  23   0	color no. 12
+ 79  59  43	color no. 13
+ 71  51  35	color no. 14
+ 63  43  27	color no. 15
+255 183 183	color no. 16
+247 171 171	color no. 17
+243 163 163	color no. 18
+235 151 151	color no. 19
+231 143 143	color no. 20
+223 135 135	color no. 21
+219 123 123	color no. 22
+211 115 115	color no. 23
+203 107 107	color no. 24
+199  99  99	color no. 25
+191  91  91	color no. 26
+187  87  87	color no. 27
+179  79  79	color no. 28
+175  71  71	color no. 29
+167  63  63	color no. 30
+163  59  59	color no. 31
+155  51  51	color no. 32
+151  47  47	color no. 33
+143  43  43	color no. 34
+139  35  35	color no. 35
+131  31  31	color no. 36
+127  27  27	color no. 37
+119  23  23	color no. 38
+115  19  19	color no. 39
+107  15  15	color no. 40
+103  11  11	color no. 41
+ 95   7   7	color no. 42
+ 91   7   7	color no. 43
+ 83   7   7	color no. 44
+ 79   0   0	color no. 45
+ 71   0   0	color no. 46
+ 67   0   0	color no. 47
+255 235 223	color no. 48
+255 227 211	color no. 49
+255 219 199	color no. 50
+255 211 187	color no. 51
+255 207 179	color no. 52
+255 199 167	color no. 53
+255 191 155	color no. 54
+255 187 147	color no. 55
+255 179 131	color no. 56
+247 171 123	color no. 57
+239 163 115	color no. 58
+231 155 107	color no. 59
+223 147  99	color no. 60
+215 139  91	color no. 61
+207 131  83	color no. 62
+203 127  79	color no. 63
+191 123  75	color no. 64
+179 115  71	color no. 65
+171 111  67	color no. 66
+163 107  63	color no. 67
+155  99  59	color no. 68
+143  95  55	color no. 69
+135  87  51	color no. 70
+127  83  47	color no. 71
+119  79  43	color no. 72
+107  71  39	color no. 73
+ 95  67  35	color no. 74
+ 83  63  31	color no. 75
+ 75  55  27	color no. 76
+ 63  47  23	color no. 77
+ 51  43  19	color no. 78
+ 43  35  15	color no. 79
+239 239 239	color no. 80
+231 231 231	color no. 81
+223 223 223	color no. 82
+219 219 219	color no. 83
+211 211 211	color no. 84
+203 203 203	color no. 85
+199 199 199	color no. 86
+191 191 191	color no. 87
+183 183 183	color no. 88
+179 179 179	color no. 89
+171 171 171	color no. 90
+167 167 167	color no. 91
+159 159 159	color no. 92
+151 151 151	color no. 93
+147 147 147	color no. 94
+139 139 139	color no. 95
+131 131 131	color no. 96
+127 127 127	color no. 97
+119 119 119	color no. 98
+111 111 111	color no. 99
+107 107 107	color no. 100
+ 99  99  99	color no. 101
+ 91  91  91	color no. 102
+ 87  87  87	color no. 103
+ 79  79  79	color no. 104
+ 71  71  71	color no. 105
+ 67  67  67	color no. 106
+ 59  59  59	color no. 107
+ 55  55  55	color no. 108
+ 47  47  47	color no. 109
+ 39  39  39	color no. 110
+ 35  35  35	color no. 111
+119 255 111	color no. 112
+111 239 103	color no. 113
+103 223  95	color no. 114
+ 95 207  87	color no. 115
+ 91 191  79	color no. 116
+ 83 175  71	color no. 117
+ 75 159  63	color no. 118
+ 67 147  55	color no. 119
+ 63 131  47	color no. 120
+ 55 115  43	color no. 121
+ 47  99  35	color no. 122
+ 39  83  27	color no. 123
+ 31  67  23	color no. 124
+ 23  51  15	color no. 125
+ 19  35  11	color no. 126
+ 11  23   7	color no. 127
+191 167 143	color no. 128
+183 159 135	color no. 129
+175 151 127	color no. 130
+167 143 119	color no. 131
+159 135 111	color no. 132
+155 127 107	color no. 133
+147 123  99	color no. 134
+139 115  91	color no. 135
+131 107  87	color no. 136
+123  99  79	color no. 137
+119  95  75	color no. 138
+111  87  67	color no. 139
+103  83  63	color no. 140
+ 95  75  55	color no. 141
+ 87  67  51	color no. 142
+ 83  63  47	color no. 143
+159 131  99	color no. 144
+143 119  83	color no. 145
+131 107  75	color no. 146
+119  95  63	color no. 147
+103  83  51	color no. 148
+ 91  71  43	color no. 149
+ 79  59  35	color no. 150
+ 67  51  27	color no. 151
+123 127  99	color no. 152
+111 115  87	color no. 153
+103 107  79	color no. 154
+ 91  99  71	color no. 155
+ 83  87  59	color no. 156
+ 71  79  51	color no. 157
+ 63  71  43	color no. 158
+ 55  63  39	color no. 159
+255 255 115	color no. 160
+235 219  87	color no. 161
+215 187  67	color no. 162
+195 155  47	color no. 163
+175 123  31	color no. 164
+155  91  19	color no. 165
+135  67   7	color no. 166
+115  43   0	color no. 167
+255 255 255	color no. 168
+255 219 219	color no. 169
+255 187 187	color no. 170
+255 155 155	color no. 171
+255 123 123	color no. 172
+255  95  95	color no. 173
+255  63  63	color no. 174
+255  31  31	color no. 175
+255   0   0	color no. 176
+239   0   0	color no. 177
+227   0   0	color no. 178
+215   0   0	color no. 179
+203   0   0	color no. 180
+191   0   0	color no. 181
+179   0   0	color no. 182
+167   0   0	color no. 183
+155   0   0	color no. 184
+139   0   0	color no. 185
+127   0   0	color no. 186
+115   0   0	color no. 187
+103   0   0	color no. 188
+ 91   0   0	color no. 189
+ 79   0   0	color no. 190
+ 67   0   0	color no. 191
+231 231 255	color no. 192
+199 199 255	color no. 193
+171 171 255	color no. 194
+143 143 255	color no. 195
+115 115 255	color no. 196
+ 83  83 255	color no. 197
+ 55  55 255	color no. 198
+ 27  27 255	color no. 199
+  0   0 255	color no. 200
+  0   0 227	color no. 201
+  0   0 203	color no. 202
+  0   0 179	color no. 203
+  0   0 155	color no. 204
+  0   0 131	color no. 205
+  0   0 107	color no. 206
+  0   0  83	color no. 207
+255 255 255	color no. 208
+255 235 219	color no. 209
+255 215 187	color no. 210
+255 199 155	color no. 211
+255 179 123	color no. 212
+255 163  91	color no. 213
+255 143  59	color no. 214
+255 127  27	color no. 215
+243 115  23	color no. 216
+235 111  15	color no. 217
+223 103  15	color no. 218
+215  95  11	color no. 219
+203  87   7	color no. 220
+195  79   0	color no. 221
+183  71   0	color no. 222
+175  67   0	color no. 223
+255 255 255	color no. 224
+255 255 215	color no. 225
+255 255 179	color no. 226
+255 255 143	color no. 227
+255 255 107	color no. 228
+255 255  71	color no. 229
+255 255  35	color no. 230
+255 255   0	color no. 231
+167  63   0	color no. 232
+159  55   0	color no. 233
+147  47   0	color no. 234
+135  35   0	color no. 235
+ 79  59  39	color no. 236
+ 67  47  27	color no. 237
+ 55  35  19	color no. 238
+ 47  27  11	color no. 239
+  0   0  83	color no. 240
+  0   0  71	color no. 241
+  0   0  59	color no. 242
+  0   0  47	color no. 243
+  0   0  35	color no. 244
+  0   0  23	color no. 245
+  0   0  11	color no. 246
+  0   0   0	color no. 247
+255 159  67	color no. 248
+255 231  75	color no. 249
+255 123 255	color no. 250
+255   0 255	color no. 251
+207   0 207	color no. 252
+159   0 155	color no. 253
+111   0 107	color no. 254
+167 107 107	color no. 255
+GIMP Palette
+# heretic palette for gimp
+  2   2   2	color no. 0
+  2   2   2	color no. 1
+ 16  16  16	color no. 2
+ 24  24  24	color no. 3
+ 31  31  31	color no. 4
+ 36  36  36	color no. 5
+ 44  44  44	color no. 6
+ 48  48  48	color no. 7
+ 55  55  55	color no. 8
+ 63  63  63	color no. 9
+ 70  70  70	color no. 10
+ 78  78  78	color no. 11
+ 86  86  86	color no. 12
+ 93  93  93	color no. 13
+101 101 101	color no. 14
+108 108 108	color no. 15
+116 116 116	color no. 16
+124 124 124	color no. 17
+131 131 131	color no. 18
+139 139 139	color no. 19
+146 146 146	color no. 20
+154 154 154	color no. 21
+162 162 162	color no. 22
+169 169 169	color no. 23
+177 177 177	color no. 24
+184 184 184	color no. 25
+192 192 192	color no. 26
+200 200 200	color no. 27
+207 207 207	color no. 28
+210 210 210	color no. 29
+215 215 215	color no. 30
+222 222 222	color no. 31
+228 228 228	color no. 32
+236 236 236	color no. 33
+245 245 245	color no. 34
+255 255 255	color no. 35
+ 50  50  50	color no. 36
+ 59  60  59	color no. 37
+ 69  72  68	color no. 38
+ 78  80  77	color no. 39
+ 88  93  86	color no. 40
+ 97 100  95	color no. 41
+109 112 104	color no. 42
+116 123 112	color no. 43
+125 131 121	color no. 44
+134 141 130	color no. 45
+144 151 139	color no. 46
+153 161 148	color no. 47
+163 171 157	color no. 48
+172 181 166	color no. 49
+181 189 176	color no. 50
+189 196 185	color no. 51
+ 20  16  36	color no. 52
+ 24  24  44	color no. 53
+ 36  36  60	color no. 54
+ 52  52  80	color no. 55
+ 68  68  96	color no. 56
+ 88  88 116	color no. 57
+108 108 136	color no. 58
+124 124 152	color no. 59
+148 148 172	color no. 60
+164 164 184	color no. 61
+180 184 200	color no. 62
+192 196 208	color no. 63
+208 208 216	color no. 64
+224 224 224	color no. 65
+ 27  15   8	color no. 66
+ 38  20  11	color no. 67
+ 49  27  14	color no. 68
+ 61  31  14	color no. 69
+ 65  35  18	color no. 70
+ 74  37  19	color no. 71
+ 83  43  19	color no. 72
+ 87  47  23	color no. 73
+ 95  51  27	color no. 74
+103  59  31	color no. 75
+115  67  35	color no. 76
+123  75  39	color no. 77
+131  83  47	color no. 78
+143  91  51	color no. 79
+151  99  59	color no. 80
+160 108  64	color no. 81
+175 116  74	color no. 82
+180 126  81	color no. 83
+192 135  91	color no. 84
+204 143  93	color no. 85
+213 151 103	color no. 86
+216 159 115	color no. 87
+220 167 126	color no. 88
+223 175 138	color no. 89
+227 183 149	color no. 90
+230 190 161	color no. 91
+233 198 172	color no. 92
+237 206 184	color no. 93
+240 214 195	color no. 94
+ 62  40  11	color no. 95
+ 75  50  16	color no. 96
+ 84  59  23	color no. 97
+ 95  67  30	color no. 98
+103  75  38	color no. 99
+110  83  47	color no. 100
+123  95  55	color no. 101
+137 107  62	color no. 102
+150 118  75	color no. 103
+163 129  84	color no. 104
+171 137  92	color no. 105
+180 146 101	color no. 106
+188 154 109	color no. 107
+196 162 117	color no. 108
+204 170 125	color no. 109
+208 176 133	color no. 110
+ 37  20   4	color no. 111
+ 47  24   4	color no. 112
+ 57  28   6	color no. 113
+ 68  33   4	color no. 114
+ 76  36   3	color no. 115
+ 84  40   0	color no. 116
+ 97  47   2	color no. 117
+114  54   0	color no. 118
+125  63   6	color no. 119
+141  75   9	color no. 120
+155  83  17	color no. 121
+162  95  21	color no. 122
+169 103  26	color no. 123
+180 113  32	color no. 124
+188 124  20	color no. 125
+204 136  24	color no. 126
+220 148  28	color no. 127
+236 160  23	color no. 128
+244 172  47	color no. 129
+252 187  57	color no. 130
+252 194  70	color no. 131
+251 201  83	color no. 132
+251 208  97	color no. 133
+251 214 110	color no. 134
+251 221 123	color no. 135
+250 228 136	color no. 136
+157  51   4	color no. 137
+170  65   2	color no. 138
+185  86   4	color no. 139
+213 118   4	color no. 140
+236 164   3	color no. 141
+248 190   3	color no. 142
+255 216  43	color no. 143
+255 255   0	color no. 144
+ 67   0   0	color no. 145
+ 79   0   0	color no. 146
+ 91   0   0	color no. 147
+103   0   0	color no. 148
+115   0   0	color no. 149
+127   0   0	color no. 150
+139   0   0	color no. 151
+155   0   0	color no. 152
+167   0   0	color no. 153
+179   0   0	color no. 154
+191   0   0	color no. 155
+203   0   0	color no. 156
+215   0   0	color no. 157
+227   0   0	color no. 158
+239   0   0	color no. 159
+255   0   0	color no. 160
+255  52  52	color no. 161
+255  74  74	color no. 162
+255  95  95	color no. 163
+255 123 123	color no. 164
+255 155 155	color no. 165
+255 179 179	color no. 166
+255 201 201	color no. 167
+255 215 215	color no. 168
+ 60  12  88	color no. 169
+ 80   8 108	color no. 170
+104   8 128	color no. 171
+128   0 144	color no. 172
+152   0 176	color no. 173
+184   0 224	color no. 174
+216  44 252	color no. 175
+224 120 240	color no. 176
+ 37   6 129	color no. 177
+ 60  33 147	color no. 178
+ 82  61 165	color no. 179
+105  88 183	color no. 180
+128 116 201	color no. 181
+151 143 219	color no. 182
+173 171 237	color no. 183
+196 198 255	color no. 184
+  2   4  41	color no. 185
+  2   5  49	color no. 186
+  6   8  57	color no. 187
+  2   5  65	color no. 188
+  2   5  79	color no. 189
+  0   4  88	color no. 190
+  0   4  96	color no. 191
+  0   4 104	color no. 192
+  2   5 121	color no. 193
+  2   5 137	color no. 194
+  6   9 159	color no. 195
+ 12  16 184	color no. 196
+ 32  40 200	color no. 197
+ 56  60 220	color no. 198
+ 80  80 253	color no. 199
+ 80 108 252	color no. 200
+ 80 136 252	color no. 201
+ 80 164 252	color no. 202
+ 80 196 252	color no. 203
+ 72 220 252	color no. 204
+ 80 236 252	color no. 205
+ 84 252 252	color no. 206
+152 252 252	color no. 207
+188 252 244	color no. 208
+ 11  23   7	color no. 209
+ 19  35  11	color no. 210
+ 23  51  15	color no. 211
+ 31  67  23	color no. 212
+ 39  83  27	color no. 213
+ 47  99  35	color no. 214
+ 55 115  43	color no. 215
+ 63 131  47	color no. 216
+ 67 147  55	color no. 217
+ 75 159  63	color no. 218
+ 83 175  71	color no. 219
+ 91 191  79	color no. 220
+ 95 207  87	color no. 221
+103 223  95	color no. 222
+111 239 103	color no. 223
+119 255 111	color no. 224
+ 23  31  23	color no. 225
+ 27  35  27	color no. 226
+ 31  43  31	color no. 227
+ 35  51  35	color no. 228
+ 43  55  43	color no. 229
+ 47  63  47	color no. 230
+ 51  71  51	color no. 231
+ 59  75  55	color no. 232
+ 63  83  59	color no. 233
+ 67  91  67	color no. 234
+ 75  95  71	color no. 235
+ 79 103  75	color no. 236
+ 87 111  79	color no. 237
+ 91 115  83	color no. 238
+ 95 123  87	color no. 239
+103 131  95	color no. 240
+255 223   0	color no. 241
+255 191   0	color no. 242
+255 159   0	color no. 243
+255 127   0	color no. 244
+255  95   0	color no. 245
+255  63   0	color no. 246
+244  14   3	color no. 247
+ 55   0   0	color no. 248
+ 47   0   0	color no. 249
+ 39   0   0	color no. 250
+ 23   0   0	color no. 251
+ 15  15  15	color no. 252
+ 11  11  11	color no. 253
+  7   7   7	color no. 254
+255 255 255	color no. 255
+GIMP Palette
+# hexen palette for gimp
+  2   2   2	color no. 0
+  4   4   4	color no. 1
+ 15  15  15	color no. 2
+ 19  19  19	color no. 3
+ 27  27  27	color no. 4
+ 28  28  28	color no. 5
+ 33  33  33	color no. 6
+ 39  39  39	color no. 7
+ 45  45  45	color no. 8
+ 51  51  51	color no. 9
+ 57  57  57	color no. 10
+ 63  63  63	color no. 11
+ 69  69  69	color no. 12
+ 75  75  75	color no. 13
+ 81  81  81	color no. 14
+ 86  86  86	color no. 15
+ 92  92  92	color no. 16
+ 98  98  98	color no. 17
+104 104 104	color no. 18
+112 112 112	color no. 19
+121 121 121	color no. 20
+130 130 130	color no. 21
+139 139 139	color no. 22
+147 147 147	color no. 23
+157 157 157	color no. 24
+166 166 166	color no. 25
+176 176 176	color no. 26
+185 185 185	color no. 27
+194 194 194	color no. 28
+203 203 203	color no. 29
+212 212 212	color no. 30
+221 221 221	color no. 31
+230 230 230	color no. 32
+ 29  32  29	color no. 33
+ 38  40  37	color no. 34
+ 50  50  50	color no. 35
+ 59  60  59	color no. 36
+ 69  72  68	color no. 37
+ 78  80  77	color no. 38
+ 88  93  86	color no. 39
+ 97 100  95	color no. 40
+109 112 104	color no. 41
+116 123 112	color no. 42
+125 131 121	color no. 43
+134 141 130	color no. 44
+144 151 139	color no. 45
+153 161 148	color no. 46
+163 171 157	color no. 47
+172 181 166	color no. 48
+181 189 176	color no. 49
+189 196 185	color no. 50
+ 22  29  22	color no. 51
+ 27  36  27	color no. 52
+ 31  43  31	color no. 53
+ 35  51  35	color no. 54
+ 43  55  43	color no. 55
+ 47  63  47	color no. 56
+ 51  71  51	color no. 57
+ 59  75  55	color no. 58
+ 63  83  59	color no. 59
+ 67  91  67	color no. 60
+ 75  95  71	color no. 61
+ 79 103  75	color no. 62
+ 87 111  79	color no. 63
+ 91 115  83	color no. 64
+ 95 123  87	color no. 65
+103 131  95	color no. 66
+ 20  16  36	color no. 67
+ 30  26  46	color no. 68
+ 40  36  57	color no. 69
+ 50  46  67	color no. 70
+ 59  57  78	color no. 71
+ 69  67  88	color no. 72
+ 79  77  99	color no. 73
+ 89  87 109	color no. 74
+ 99  97 120	color no. 75
+109 107 130	color no. 76
+118 118 141	color no. 77
+128 128 151	color no. 78
+138 138 162	color no. 79
+148 148 172	color no. 80
+ 62  40  11	color no. 81
+ 75  50  16	color no. 82
+ 84  59  23	color no. 83
+ 95  67  30	color no. 84
+103  75  38	color no. 85
+110  83  47	color no. 86
+123  95  55	color no. 87
+137 107  62	color no. 88
+150 118  75	color no. 89
+163 129  84	color no. 90
+171 137  92	color no. 91
+180 146 101	color no. 92
+188 154 109	color no. 93
+196 162 117	color no. 94
+204 170 125	color no. 95
+208 176 133	color no. 96
+ 27  15   8	color no. 97
+ 38  20  11	color no. 98
+ 49  27  14	color no. 99
+ 61  31  14	color no. 100
+ 65  35  18	color no. 101
+ 74  37  19	color no. 102
+ 83  43  19	color no. 103
+ 87  47  23	color no. 104
+ 95  51  27	color no. 105
+103  59  31	color no. 106
+115  67  35	color no. 107
+123  75  39	color no. 108
+131  83  47	color no. 109
+143  91  51	color no. 110
+151  99  59	color no. 111
+160 108  64	color no. 112
+175 116  74	color no. 113
+180 126  81	color no. 114
+192 135  91	color no. 115
+204 143  93	color no. 116
+213 151 103	color no. 117
+216 159 115	color no. 118
+220 167 126	color no. 119
+223 175 138	color no. 120
+227 183 149	color no. 121
+ 37  20   4	color no. 122
+ 47  24   4	color no. 123
+ 57  28   6	color no. 124
+ 68  33   4	color no. 125
+ 76  36   3	color no. 126
+ 84  40   0	color no. 127
+ 97  47   2	color no. 128
+114  54   0	color no. 129
+125  63   6	color no. 130
+141  75   9	color no. 131
+155  83  17	color no. 132
+162  95  21	color no. 133
+169 103  26	color no. 134
+180 113  32	color no. 135
+188 124  20	color no. 136
+204 136  24	color no. 137
+220 148  28	color no. 138
+236 160  23	color no. 139
+244 172  47	color no. 140
+252 187  57	color no. 141
+252 194  70	color no. 142
+251 201  83	color no. 143
+251 208  97	color no. 144
+251 221 123	color no. 145
+  2   4  41	color no. 146
+  2   5  49	color no. 147
+  6   8  57	color no. 148
+  2   5  65	color no. 149
+  2   5  79	color no. 150
+  0   4  88	color no. 151
+  0   4  96	color no. 152
+  0   4 104	color no. 153
+  4   6 121	color no. 154
+  2   5 137	color no. 155
+ 20  23 152	color no. 156
+ 38  41 167	color no. 157
+ 56  59 181	color no. 158
+ 74  77 196	color no. 159
+ 91  94 211	color no. 160
+109 112 226	color no. 161
+127 130 240	color no. 162
+145 148 255	color no. 163
+ 31   4   4	color no. 164
+ 39   0   0	color no. 165
+ 47   0   0	color no. 166
+ 55   0   0	color no. 167
+ 67   0   0	color no. 168
+ 79   0   0	color no. 169
+ 91   0   0	color no. 170
+103   0   0	color no. 171
+115   0   0	color no. 172
+127   0   0	color no. 173
+139   0   0	color no. 174
+155   0   0	color no. 175
+167   0   0	color no. 176
+185   0   0	color no. 177
+202   0   0	color no. 178
+220   0   0	color no. 179
+237   0   0	color no. 180
+255   0   0	color no. 181
+255  46  46	color no. 182
+255  91  91	color no. 183
+255 137 137	color no. 184
+255 171 171	color no. 185
+ 20  16   4	color no. 186
+ 13  24   9	color no. 187
+ 17  33  12	color no. 188
+ 21  41  14	color no. 189
+ 24  50  17	color no. 190
+ 28  57  20	color no. 191
+ 32  65  24	color no. 192
+ 35  73  28	color no. 193
+ 39  80  31	color no. 194
+ 44  86  37	color no. 195
+ 46  95  38	color no. 196
+ 51 104  43	color no. 197
+ 60 122  51	color no. 198
+ 68 139  58	color no. 199
+ 77 157  66	color no. 200
+ 85 174  73	color no. 201
+ 94 192  81	color no. 202
+157  51   4	color no. 203
+170  65   2	color no. 204
+185  86   4	color no. 205
+213 119   6	color no. 206
+234 147   5	color no. 207
+255 178   6	color no. 208
+255 195  26	color no. 209
+255 216  45	color no. 210
+  4 133   4	color no. 211
+  8 175   8	color no. 212
+  2 215   2	color no. 213
+  3 234   3	color no. 214
+ 42 252  42	color no. 215
+121 255 121	color no. 216
+  3   3 184	color no. 217
+ 15  41 220	color no. 218
+ 28  80 226	color no. 219
+ 41 119 233	color no. 220
+ 54 158 239	color no. 221
+ 67 197 246	color no. 222
+ 80 236 252	color no. 223
+244  14   3	color no. 224
+255  63   0	color no. 225
+255  95   0	color no. 226
+255 127   0	color no. 227
+255 159   0	color no. 228
+255 195  26	color no. 229
+255 223   0	color no. 230
+ 43  13  64	color no. 231
+ 61  14  89	color no. 232
+ 90  15 122	color no. 233
+120  16 156	color no. 234
+149  16 189	color no. 235
+178  17 222	color no. 236
+197  74 232	color no. 237
+215 129 243	color no. 238
+234 169 253	color no. 239
+ 61  16  16	color no. 240
+ 90  36  33	color no. 241
+118  56  49	color no. 242
+147  77  66	color no. 243
+176  97  83	color no. 244
+204 117  99	color no. 245
+ 71  53   2	color no. 246
+ 81  63   6	color no. 247
+ 96  72   0	color no. 248
+108  80   0	color no. 249
+120  88   0	color no. 250
+128  96   0	color no. 251
+149 112   1	color no. 252
+181 136   3	color no. 253
+212 160   4	color no. 254
+255 255 255	color no. 255
+GIMP Palette
+# strife palette for gimp
+  0   0   0	color no. 0
+231 227 227	color no. 1
+223 219 219	color no. 2
+215 211 211	color no. 3
+207 203 203	color no. 4
+199 195 195	color no. 5
+191 191 191	color no. 6
+183 183 183	color no. 7
+179 175 175	color no. 8
+171 167 167	color no. 9
+163 159 159	color no. 10
+155 151 151	color no. 11
+147 147 147	color no. 12
+139 139 139	color no. 13
+131 131 131	color no. 14
+123 123 123	color no. 15
+119 115 115	color no. 16
+111 111 111	color no. 17
+103 103 103	color no. 18
+ 95  95  95	color no. 19
+ 87  87  87	color no. 20
+ 79  79  79	color no. 21
+ 71  71  71	color no. 22
+ 67  63  63	color no. 23
+ 59  59  59	color no. 24
+ 51  51  51	color no. 25
+ 43  43  43	color no. 26
+ 35  35  35	color no. 27
+ 27  27  27	color no. 28
+ 19  19  19	color no. 29
+ 11  11  11	color no. 30
+  7   7   7	color no. 31
+187 191 183	color no. 32
+179 183 171	color no. 33
+167 179 159	color no. 34
+163 171 147	color no. 35
+155 167 139	color no. 36
+147 159 127	color no. 37
+139 155 119	color no. 38
+131 147 107	color no. 39
+127 143 103	color no. 40
+119 135  91	color no. 41
+115 131  83	color no. 42
+107 123  75	color no. 43
+103 119  67	color no. 44
+ 99 111  63	color no. 45
+ 91 107  55	color no. 46
+ 87  99  47	color no. 47
+ 83  95  43	color no. 48
+ 75  87  35	color no. 49
+ 71  83  31	color no. 50
+ 67  75  27	color no. 51
+ 63  71  23	color no. 52
+ 59  63  19	color no. 53
+ 51  59  15	color no. 54
+ 47  51  11	color no. 55
+ 43  47   7	color no. 56
+ 39  43   7	color no. 57
+ 31  35   7	color no. 58
+ 27  31   0	color no. 59
+ 23  23   0	color no. 60
+ 15  19   0	color no. 61
+ 11  11   0	color no. 62
+  7   7   0	color no. 63
+219  43  43	color no. 64
+203  35  35	color no. 65
+191  31  31	color no. 66
+175  27  27	color no. 67
+163  23  23	color no. 68
+147  19  19	color no. 69
+135  15  15	color no. 70
+119  11  11	color no. 71
+107   7   7	color no. 72
+ 91   7   7	color no. 73
+ 79   0   0	color no. 74
+ 63   0   0	color no. 75
+ 51   0   0	color no. 76
+ 39   0   0	color no. 77
+ 23   0   0	color no. 78
+ 11   0   0	color no. 79
+235 231   0	color no. 80
+231 211   0	color no. 81
+215 179   0	color no. 82
+199 151   0	color no. 83
+183 127   0	color no. 84
+167 103   0	color no. 85
+151  83   0	color no. 86
+135  63   0	color no. 87
+119  47   0	color no. 88
+103  35   0	color no. 89
+ 87  23   0	color no. 90
+ 71  11   0	color no. 91
+ 55   7   0	color no. 92
+ 39   0   0	color no. 93
+ 23   0   0	color no. 94
+ 11   0   0	color no. 95
+183 231 127	color no. 96
+163 215 111	color no. 97
+143 199  95	color no. 98
+127 183  79	color no. 99
+107 171  67	color no. 100
+ 91 155  55	color no. 101
+ 75 139  43	color no. 102
+ 63 123  35	color no. 103
+ 47 111  27	color no. 104
+ 35  95  19	color no. 105
+ 23  79  11	color no. 106
+ 15  67   7	color no. 107
+  7  51   7	color no. 108
+  0  35   0	color no. 109
+  0  19   0	color no. 110
+  0   7   0	color no. 111
+199 207 255	color no. 112
+183 187 239	color no. 113
+163 171 219	color no. 114
+151 155 203	color no. 115
+135 139 187	color no. 116
+123 127 171	color no. 117
+107 111 155	color no. 118
+ 95  99 139	color no. 119
+ 83  83 123	color no. 120
+ 67  71 107	color no. 121
+ 55  59  91	color no. 122
+ 47  47  75	color no. 123
+ 35  35  59	color no. 124
+ 23  23  43	color no. 125
+ 15  15  27	color no. 126
+  0   0  11	color no. 127
+199 191 147	color no. 128
+179 171 131	color no. 129
+167 155 119	color no. 130
+155 139 111	color no. 131
+143 127  99	color no. 132
+131 111  91	color no. 133
+119  99  79	color no. 134
+107  87  71	color no. 135
+ 91  71  59	color no. 136
+ 79  59  51	color no. 137
+ 67  47  43	color no. 138
+ 55  39  35	color no. 139
+ 43  27  27	color no. 140
+ 31  19  19	color no. 141
+ 19  11  11	color no. 142
+  7   7   0	color no. 143
+143 195 211	color no. 144
+123 179 195	color no. 145
+107 167 183	color no. 146
+ 91 155 167	color no. 147
+ 75 139 155	color no. 148
+ 59 127 139	color no. 149
+ 47 115 127	color no. 150
+ 35 103 115	color no. 151
+ 27  91  99	color no. 152
+ 19  79  87	color no. 153
+ 11  67  71	color no. 154
+  7  55  59	color no. 155
+  0  43  43	color no. 156
+  0  31  31	color no. 157
+  0  19  19	color no. 158
+  0   7   7	color no. 159
+211 191 175	color no. 160
+203 179 163	color no. 161
+195 171 151	color no. 162
+191 159 143	color no. 163
+183 151 131	color no. 164
+175 143 123	color no. 165
+171 135 115	color no. 166
+163 123 103	color no. 167
+155 115  95	color no. 168
+151 107  87	color no. 169
+143  99  79	color no. 170
+139  91  71	color no. 171
+131  83  67	color no. 172
+123  75  59	color no. 173
+119  67  51	color no. 174
+111  59  47	color no. 175
+103  55  39	color no. 176
+ 99  47  35	color no. 177
+ 91  43  31	color no. 178
+ 83  35  27	color no. 179
+ 79  31  23	color no. 180
+ 71  27  19	color no. 181
+ 63  19  15	color no. 182
+ 59  15  11	color no. 183
+ 51  11   7	color no. 184
+ 43   7   7	color no. 185
+ 39   7   0	color no. 186
+ 31   0   0	color no. 187
+ 27   0   0	color no. 188
+ 19   0   0	color no. 189
+ 11   0   0	color no. 190
+  7   0   0	color no. 191
+211 199 187	color no. 192
+203 191 179	color no. 193
+195 183 171	color no. 194
+191 175 163	color no. 195
+183 167 155	color no. 196
+175 159 147	color no. 197
+171 151 139	color no. 198
+163 143 135	color no. 199
+155 139 127	color no. 200
+151 131 119	color no. 201
+143 123 111	color no. 202
+135 115 107	color no. 203
+131 107  99	color no. 204
+123 103  95	color no. 205
+115  95  87	color no. 206
+111  87  83	color no. 207
+103  83  75	color no. 208
+ 95  75  71	color no. 209
+ 91  67  63	color no. 210
+ 83  63  59	color no. 211
+ 79  55  51	color no. 212
+ 71  51  47	color no. 213
+ 63  43  43	color no. 214
+ 59  39  39	color no. 215
+ 51  35  31	color no. 216
+ 43  27  27	color no. 217
+ 39  23  23	color no. 218
+ 31  19  19	color no. 219
+ 23  15  15	color no. 220
+ 19  11  11	color no. 221
+ 11   7   7	color no. 222
+  7   7   0	color no. 223
+239 239   0	color no. 224
+231 215   0	color no. 225
+227 191   0	color no. 226
+219 171   0	color no. 227
+215 151   0	color no. 228
+211 131   0	color no. 229
+203 111   0	color no. 230
+199  91   0	color no. 231
+191  75   0	color no. 232
+187  59   0	color no. 233
+183  43   0	color no. 234
+255   0   0	color no. 235
+223   0   0	color no. 236
+191   0   0	color no. 237
+159   0   0	color no. 238
+127   0   0	color no. 239
+  0   0   0	color no. 240
+139 199 103	color no. 241
+107 171  75	color no. 242
+ 79 143  55	color no. 243
+ 55 115  35	color no. 244
+ 35  87  19	color no. 245
+ 19  63  11	color no. 246
+215 223 255	color no. 247
+187 203 247	color no. 248
+143 167 219	color no. 249
+ 99 131 195	color no. 250
+ 63  91 167	color no. 251
+203 203 203	color no. 252
+215 215 215	color no. 253
+223 223 223	color no. 254
+235 235 235	color no. 255

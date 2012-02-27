@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+../qmus2mid/qmus2mid input/D_RUNNIN.lmp output/D_RUNNIN.mid
+sh md5sum.sh output/D_RUNNIN.mid
