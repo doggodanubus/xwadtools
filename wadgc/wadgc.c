@@ -116,8 +116,12 @@ void readppmfile(char *ppmfilename, short **imagedata, int *imgw, int *imgh)
   while (ungetc(getc(ppmfile), ppmfile) == '#') /* While comment */
     while (getc(ppmfile) != '\n'); /* Read to end-of-line */
   fscanf(ppmfile, " %d %d %*d%*1c", imgw, imgh);
-  imageptr = *imagedata = (short *)malloc(*imgw * *imgh * sizeof(short));
-  
+  imageptr = *imagedata = (short *)calloc(*imgw * *imgh, sizeof(short));
+  if(!imageptr) {
+	  fprintf(stderr, "calloc() failed, aborting\n");
+	  exit(1);
+  }
+
   warning = FALSE;
   for (i = 0; i < (*imgw * *imgh); i++)
   {
@@ -390,7 +394,11 @@ int main(int argc, char *argv[])
   lastppmfilename[0] = '\0';
   imagedata = NULL;
   /* No dynamic allocation - just make room for a full 320x200 image */
-  doomimage = (unsigned char *)malloc(68168 * sizeof(char));
+  doomimage = (unsigned char *)calloc(68168, sizeof(char));
+  if(!doomimage) {
+	  fprintf(stderr, "calloc() failed, aborting\n");
+	  exit(1);
+  }
   ackreslength = 0;
   numdirentries = 0;
 
