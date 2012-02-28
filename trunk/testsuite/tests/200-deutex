@@ -25,4 +25,4 @@ sh ../../md5sum.sh sprites/sarga1.ppm
 
 # rebuild the wad (won't work as an IWAD though)
 ../../../deutex/deutex -make wadinfo.txt output.wad
-../../lswad output.wad
+../../../lswad/lswad output.wad

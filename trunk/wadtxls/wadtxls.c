@@ -245,7 +245,7 @@ void Credits( FILE *where)
 {
    fprintf( where, "WADTXLS: WAD TeXtures LiSter, ver %s\n", WADTXLS_VERSION);
    fprintf( where, " By Frans P. de Vries <fpv@xymph.iaf.nl>\n");
-   fprintf( where, "[Derived from DEU v%s by Brendon Wyber and Raphaël Quinet]\n\n", DEU_VERSION);
+   fprintf( where, "[Derived from DEU v%s by Brendon Wyber and Raphael Quinet]\n\n", DEU_VERSION);
 /* fprintf( where, "Derived from DEU: Doom Editor Utility, ver %s\n\n", DEU_VERSION);
    fprintf( where, " By Raphaël Quinet (quinet@montefiore.ulg.ac.be)\n"
 		   "and Brendon J Wyber (b.wyber@csc.canterbury.ac.nz)\n"

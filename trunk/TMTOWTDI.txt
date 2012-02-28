@@ -1,0 +1,27 @@
+There's More Than One Way To Do It... usually.
+
+Listing the contents of a wad file:
+lswad, spitwad, deutex -wadir, warm -dir, dmpsmu (interactive)
+
+Extracting raw lumps from a wad file:
+wadext, dmpsmu
+
+Extracting sfx from a wad file (not in id's internal format):
+deutex -sounds (RIFF Wave with -wav, or Sun .au files w/header),
+dm2au (raw samples, RIFF Wave format, headerless .au), xew
+
+Extracting graphics from a wad file in PPM format:
+deutex (also does .bmp and .gif), wadext + raw2ppm (if you can get it
+to work), wadflat, wadsprit, wadtex, wadpat, xew
+
+Copying data from one (or more) wad file(s) to another:
+deutex, wadext + wadgc or mkwad, warm -m, wadcat
+
+Building nodes, reject, etc:
+idbsp, bsp, warm, wreject
+
+Creating a wad file from scratch:
+deutex -make, mkwad, wadgc
+
+BTW, dmpsmu is actually a modified DEU. You can do a lot with it besides
+print PostScript level maps.
