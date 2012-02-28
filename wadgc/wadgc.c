@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 #if !defined(__CYGWIN32__)
 #include <search.h>
 #endif
@@ -333,6 +334,10 @@ int main(int argc, char *argv[])
   char *s;
   char *program;
 
+  memset(&pname[0][0], 0, sizeof(pname));
+  memset(t1size, 0, sizeof(t1size));
+  memset(t2size, 0, sizeof(t2size));
+
   program = argv[0];
 
   if (argc < 3)
@@ -528,6 +533,11 @@ int main(int argc, char *argv[])
   {
     texture1section = TRUE;
     datafile = fopen("temp.t1", "wb");
+    if (datafile == NULL)
+    {
+      fprintf(stderr, "Unable to open temp.t1 for writing\n");
+      exit(1);
+    }
     reslength = 4;
     /* Open the file containing all the original entries */
     origfile = fopen(T1FILENAME, "rb");
@@ -622,6 +632,11 @@ int main(int argc, char *argv[])
   {
     texture2section = TRUE;
     datafile = fopen("temp.t2", "wb");
+    if (datafile == NULL)
+    {
+      fprintf(stderr, "Unable to open temp.t2 for writing\n");
+      exit(1);
+    }
     reslength = 4;
     /* Open the file containing all the original entries */
     origfile = fopen(T2FILENAME, "rb");
@@ -873,6 +888,7 @@ int main(int argc, char *argv[])
       ackpos += t1size[i];
     }
     appenddata(wadfile, "temp.t1");
+	 unlink("temp.t1");
   }
 
   /* TEXTURE2 */
@@ -887,6 +903,7 @@ int main(int argc, char *argv[])
       ackpos += t2size[i];
     }
     appenddata(wadfile, "temp.t2");
+	 unlink("temp.t2");
   }
 
   /* PNAMES */
@@ -902,6 +919,7 @@ int main(int argc, char *argv[])
   {
     printf("Adding sprite entries\n");
     appenddata(wadfile, "temp.s");
+	 unlink("temp.s");
   }
 
   /* Wall patches */
@@ -909,6 +927,7 @@ int main(int argc, char *argv[])
   {
     printf("Adding wall patch entries\n");
     appenddata(wadfile, "temp.p");
+	 unlink("temp.p");
   }
 
   /* Floor tiles */
@@ -916,11 +935,13 @@ int main(int argc, char *argv[])
   {
     printf("Adding FLATS1 entries\n");
     appenddata(wadfile, "temp.f1");
+	 unlink("temp.f1");
   }
   if (flat2section)
   {
     printf("Adding FLATS2 entries\n");
     appenddata(wadfile, "temp.f2");
+	 unlink("temp.f2");
   }
 
   /* Images */
@@ -928,6 +949,7 @@ int main(int argc, char *argv[])
   {
     printf("Adding image enties\n");
     appenddata(wadfile, "temp.i");
+	 unlink("temp.i");
   }
   
   /* Now, write the directory by using data from the directory files. */
@@ -949,6 +971,7 @@ int main(int argc, char *argv[])
     }
     fclose(dirfile1);
   }
+  unlink("temp.d1");
 
   dirfile2 = fopen("temp.d2","rb");
   if (dirfile2 != NULL)
@@ -967,6 +990,7 @@ int main(int argc, char *argv[])
     }
     fclose(dirfile2);
   }
+  unlink("temp.d2");
 
   /* DONE! */
   printf("WAD file %s complete.\n", argv[1]);
