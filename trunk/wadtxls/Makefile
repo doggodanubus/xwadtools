@@ -2,7 +2,7 @@ INC = ../include
 LIB = ../lib
 
 CCFLAGS	= $(CFLAGS) -I$(INC)
-LFLAGS =  -L$(LIB)
+LFLAGS =  -L$(LIB) -lwad -lfindwad
 
 # Programs & Objects
 PROGRAMS= wadtxls
@@ -20,7 +20,7 @@ list.o:    wadtxls.h dmunix.h levels.h wstructs.h
 
 # Commands
 wadtxls: wadtxls.o $(OBJS)
-	$(CC) $(LFLAGS) $(OBJS) $@.o -o $@ -lfindwad
+	$(CC) $(OBJS) $@.o -o $@ $(LFLAGS) 
 
 .c.o:
 	$(CC) $(CCFLAGS) -c $< -o $@
