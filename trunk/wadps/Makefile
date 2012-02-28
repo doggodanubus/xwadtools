@@ -4,8 +4,8 @@ LIB = ../lib
 CCFLAGS = $(CFLAGS) -I$(INC)
 LFLAGS = -L$(LIB) 
 
-wadps: wadps.o $(INC)/sysdep.h $(INC)/swapfunc.h $(LIB)/libfindwad.a
-	$(CC) $(LFLAGS) -o $@ wadps.o -lfindwad 
+wadps: wadps.o $(INC)/sysdep.h $(INC)/swapfunc.h $(LIB)/libfindwad.a $(LIB)/libwad.a
+	$(CC) $(LFLAGS) -o $@ wadps.o -lwad -lfindwad 
 
 wadps.o: wadps.c
 
