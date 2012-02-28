@@ -2,6 +2,14 @@ See "ChangeLog.old" for Udo's changes.
 
 20120227 bkw:
 
+- wadgc: delete temp files after closing them. They're still being
+  created in the wrong place (current dir).
+
+- dmpsmu:
+  no longer prints high-ASCII garbage in the Dump command.
+  now exits if EOF on stdin, like a proper UNIX program (among
+  other things, this makes it more easily scriptable)
+
 - testsuite, made a pretty good start on.
 
 - Add - option to trigcalc (normal I/O rather than termios). Allow
@@ -36,7 +44,7 @@ See "ChangeLog.old" for Udo's changes.
   is now /dev/null (can still set it with -log option, if you really
   want).
 
-- Added John Carmack's old wadspit tool, from dmutils.zip. Find the
+- Added John Carmack's old spitwad tool, from dmutils.zip. Find the
   original version here:
   http://www.gamers.org/pub/idgames/historic/dmutils.zip
 

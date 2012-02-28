@@ -1,5 +1,16 @@
 Before first release:
 
+wadgc:
+- creates temp files in current directory.
+
+- produces different results on linux and BSD (output wads have different
+md5sums), although wadpat pulls identical .ppm files out of both (wadext
+extracts different raw lump though). Will have to learn the patch header
+format better to understand why, and whether it's an actual problem.
+
+- wadgc segfaults on invalid input... and I'm not even sure why my input
+was invalid. I seriously might rewrite this from scratch.
+
 wadconvgame still missing lots of textures.
 
 deutex DOOMWADDIR support. It sort-of exists, but it expects a DOS-style
@@ -10,12 +21,6 @@ there is no way to use deutex with doom2.wad.
 
 deutex also creates directories mode 700. Ugh.
 
-dmpsu needs to exit when EOF on stdin. Also, its idea of what's a
-printable character for the hex dump command is too permissive.
-
-wadgc segfaults on invalid input... and I'm not even sure why my input
-was invalid.
-
 Lots of stuff has a high-ASCII copyright symbol embedded in it. Get rid
 of these (replace with UTF-8 one? Does the Windows cmd.exe support UTF-8?),
 maybe just replace with (c).
@@ -23,10 +28,8 @@ maybe just replace with (c).
 Test the utilities more thorougly on FreeBSD and Windows. The Windows
 stuff probably needs more win-ish hard-coded paths.
 
-Write another test suite. Not to replace the existing one, but to do
-stuff like pick wads apart, rebuild them, check md5sums of the wads and
-the individual lumps... and of the output of the programs. This needs
-to produce the same md5sums on every platform.
+Install tkwadcad's lib/ dir. In general, see if tkwadcad can actually
+be used for anything at all.
 
 Sometime after first release:
 
@@ -47,7 +50,7 @@ to rewrite from scratch (still in C though, don't make it a perl script).
 Rewrite xew so it uses a better toolkit. GTK+ is nice. While we're at it,
 make it able to use SDL_mixer to play MIDI and audio files internally
 (currently the internal audio player is OSS-only; SDL uses whatever the
-platform has).
+platform has). Plus, threads, instead of freezing up the UI.
 
 Replace the fricken Makefile. Use autoconf too?
 

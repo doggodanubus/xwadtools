@@ -473,7 +473,7 @@ void DumpDirectoryEntry( FILE *file, char *entryname)
 	    fprintf( file, "   ");
 	    for (i = 0; i < 16; i++)
 	    {
-	       if (buf[ i] >= 32)
+	       if (buf[ i] >= 32 && buf[i] <=126)
 		  fprintf( file, "%c", buf[ i]);
 	       else
 		  fprintf( file, " ");

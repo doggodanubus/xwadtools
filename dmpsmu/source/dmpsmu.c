@@ -217,7 +217,7 @@ void Credits( FILE *where)
 {
    fprintf( where, "DMPSMU: DooM PostScript Maps Utility, ver %s\n", DMPS_VERSION);
    fprintf( where, " By Frans P. de Vries (fpv@xymph.iaf.nl)\n");
-   fprintf( where, "[Derived from DEU v%s by Brendon Wyber and Raphaël Quinet]\n\n", DEU_VERSION);
+   fprintf( where, "[Derived from DEU v%s by Brendon Wyber and Raphael Quinet]\n\n", DEU_VERSION);
 /* fprintf( where, "Derived from DEU: Doom Editor Utility, ver %s\n\n", DEU_VERSION);
    fprintf( where, " By Raphaël Quinet (quinet@montefiore.ulg.ac.be)\n"
 		   "and Brendon J. Wyber (b.wyber@csc.canterbury.ac.nz)\n"
@@ -261,6 +261,7 @@ void MainLoop()
       /* get the input */
       printf( "\n[? for help]> ");
       gets( input);
+		if(feof(stdin)) strcpy(input, "QUIT");
       printf( "\n");
 
       /* eat the white space and get the first command word */

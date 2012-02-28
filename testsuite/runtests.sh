@@ -36,7 +36,6 @@
 #wadwhich
 #raw2sfx
 #idmultigen
-#wadgc (need better tests though)
 #deutex
 #deusf
 #warm
@@ -48,6 +47,9 @@
 #mkxppal
 #pal2c
 #wadconvgame
+
+# Test broken/failing for:
+#wadgc
 
 # Need tests for:
 #acc-raven
