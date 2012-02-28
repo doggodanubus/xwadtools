@@ -7,7 +7,7 @@ LFLAGS =
 OBJ=memhandl.o xstring.o list.o ilist.o sector.o main.o reject.o \
     pwad.o fileio.o debug.o version.o
 
-LOBJ=$(LIB)/strfunc.o $(LIB)/sysdep.o
+LOBJ=$(LIB)/strfunc.o $(LIB)/sysdep.o $(LIB)/libwad.a
 
 wreject: $(OBJ) $(LIB)/libwad.a
 	$(CPP) -o $@ $(LFLAGS) $(OBJ) $(LOBJ) $(CPPLIB)
