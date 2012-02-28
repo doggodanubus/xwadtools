@@ -15,6 +15,8 @@
  *   Tool to convert raw sound data into id's sfx format
  */
 
+#include <string.h>
+#include <stdlib.h>
 #include <stdio.h>
 #include "sysdep.h"
 
