@@ -21,7 +21,19 @@
 #ifndef __WAD_H__
 #define __WAD_H__
 
+/* 20120229 bkw: breaks platforms where memory accesses must be
+	defined... sparc, for one.
+	Unfortunately lots of code that uses these structs, does
+	binary I/O on them. Which will break without the pragma.
+	structs that don't have anything aligned on a 2-byte
+	boundary don't care about the pragma... ones that do care,
+	are marked with XXX for now. If any tool uses these for binary
+	I/O, it will fail... but a lot of them, nothing does.
+
+	Also, this code needs to use int32_t and friends from inttypes.h,
+	where possible.
 #pragma pack(2)
+*/
 
 /* Structure of the WAD header */
 typedef struct
@@ -72,7 +84,7 @@ typedef struct
 /*
  * Structure of the Hexen linedefs in the LINEDEFS lump for level maps
  */
-typedef struct
+typedef struct /* XXX */
 {
     short		v_from;			/* from vertex */
     short		v_to;			/* to vertex */
@@ -90,7 +102,7 @@ typedef struct
 /*
  * Structure of the sidedefs in the SIDEDEFS lump for level maps
  */
-typedef struct
+typedef struct /* XXX */
 {
     short		x;			/* x offset for texture */
     short		y;			/* y offset for texture */
@@ -103,7 +115,7 @@ typedef struct
 /*
  * Structure of the sectors in the SECTORS lump for level maps
  */
-typedef struct
+typedef struct /* XXX */
 {
     short		f_height;		/* floor height in sector */
     short		c_height;		/* ceiling height in sector */
@@ -117,7 +129,7 @@ typedef struct
 /*
  * Structure of the Doom things in the THINGS lump for level maps
  */
-typedef struct
+typedef struct /* XXX */
 {
     short		x;			/* x coordinate of thing */
     short		y;			/* y coordinate of thing */
@@ -129,7 +141,7 @@ typedef struct
 /*
  * Structure of the Hexen things in the THINGS lump for level maps
  */
-typedef struct
+typedef struct /* XXX */
 {
     unsigned short	thingid;		/* thing id */
     short		x;			/* x coordinate of thing */

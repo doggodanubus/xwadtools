@@ -1,0 +1,468 @@
+#!/usr/bin/env perl
+
+use warnings;
+use Getopt::Std;
+
+$Getopt::Std::STANDARD_HELP_VERSION = 1;
+$VERSION = "0.1.0";
+($progname = $0) =~ s,.*/,,;
+
+sub usage {
+	if(@_) {
+		warn "$_\n" for @_;
+	}
+
+	warn <<EOF;
+
+Usage: $progname [ -snhtkp ] [ -m map ] [ -o output.wad ] input.wad
+       See "man wadconvgame" for details.
+EOF
+	exit @_ > 0;
+}
+
+sub VERSION_MESSAGE {
+	print "$progname version $VERSION, by B. Watson (yalhcru\@gmail.com)\n";
+}
+
+sub HELP_MESSAGE {
+	usage;
+}
+
+# main()
+
+# Basic procedure:
+# - determine input gametype (wadwhich)
+# - for each level, decompile with wadldc
+# - string substitution in decompiled wad (perl's good at this)
+# - recompile the level with wadlc
+
+# It would be fairly easy to support strife/hexen as an input format,
+# just need conversion lists for textures/flats/things. However,
+# the giant lists will multiply exponentially as I add games...
+
+### parse options
+getopts('snhtkpm:o:', \%opt);
+$input = shift || usage("missing input wad name\n");
+usage("unknown argument" . (@ARGV == 1 ? "" : "s") . ":", @ARGV) if @ARGV;
+
+### create temp directory, we're going to need it.
+$tmpdir = "/tmp/wadconvgame.$$";
+$infile = "$tmpdir/tmp.map";
+$outfile = "$tmpdir/out.map";
+mkdir($tmpdir) || usage("can't create $tmpdir\n");
+
+### determine input gametype:
+$input = find_wad($input);
+open TMP, "<$input" or usage "$input: $!";
+close TMP;
+
+open W, "-|", "wadwhich", "-q", "$input" or usage $!;
+$which = <W>;
+chomp $which;
+close W;
+
+### make sure it's supported
+if($which eq 'heretic') {
+	$srcgame = 'h';
+	$destgame = '64';
+	warn "Converting Heretic to Doom64EX\n";
+} elsif($which eq 'doom') {
+	$srcgame = '1';
+	$destgame = '64';
+	warn "Converting Doom I to Doom64EX\n";
+} elsif($which eq 'doom2') {
+	$srcgame = '2';
+	$destgame = '64';
+} else {
+	usage "Unsupported source game type: $which\nSupported games are: doom doom2 heretic\n";
+}
+
+$outwad = $opt{o};
+if(!$outwad) {
+	$outwad = "conv.wad";
+	warn "Writing output to $outwad\n";
+}
+
+### set up the translation tables
+#&init_flats($srcgame, $destgame);
+#&init_textures($srcgame, $destgame);
+#&init_things($srcgame, $destgame);
+#&init_linedefs($srcgame, $destgame);
+
+### look for levels in the wad
+open(LS, "-|", "lswad", $input);
+while(<LS>) {
+	chomp;
+	next unless /^(E\dM\d|MAP\d\d)$/;
+	if($opt{m}) {
+		push @levels, $_ if /$opt{m}/i;
+	} else {
+		push @levels, $_;
+	}
+}
+close LS;
+
+if(!@levels) {
+	if($opt{m}) {
+		usage "$input doesn't contain any levels matching $opt{m}\n";
+	} else {
+		usage "$input doesn't contain any levels";
+	}
+}
+
+warn "levels: @levels\n";
+
+### decompile and modify each level,
+### recompile each level into a separate .wad file
+for my $level (@levels) {
+	open OUTPUT, ">$outfile" or usage "$outfile: $!\n";
+
+	system("wadldc $level $input $infile");
+	open INPUT, "<$infile" or usage "$input: $!\n";
+
+	$in_linedefs = $in_sectors = $in_things = 0;
+	while(<INPUT>) {
+		chomp;
+
+		$in_vertices = 1, $found_vertices =1 if(/VERTEXES_START/);
+		$in_vertices = 0 if(/VERTEXES_END/);
+		$in_linedefs = 1, $found_linedefs =1 if(/LINEDEFS_START/);
+		$in_linedefs = 0 if(/LINEDEFS_END/);
+		$in_sectors = 1, $found_sectors =1 if(/SECTORS_START/);
+		$in_sectors = 0 if(/SECTORS_END/);
+		$in_things = 1, $found_things = 1 if(/THINGS_START/);
+		$in_things = 0 if(/THINGS_END/);
+
+		my $line = $_;
+		$line = handle_level_start($line) if /LEVEL_START/;
+		$line = convert_sector($line) if $in_sectors;
+#		$line = hash_textures($line) if $in_linedefs;
+		$line = replace_vertices($line) if $in_vertices;
+		$line = replace_linedefs($line) if $in_linedefs;
+#		$line = replace_things($line) if $in_things;
+		next if $line =~ 'NOTHING'; # for deleting things in replace_things
+
+		print OUTPUT $line . "\n";
+	}
+
+	warn "bad/corrupt map file $infile" unless $found_linedefs && $found_sectors && $found_things;
+	close INPUT;
+	close OUTPUT;
+
+	system("wadlc64 $outfile $tmpdir/$level.wad > /dev/null");
+}
+
+### join all the .wad files together into $outwad
+s,^,$tmpdir/, for @levels;
+s/$/.wad/ for @levels;
+unlink($outwad);
+
+# wadcat doesn't quite emulate cat(1): it refuses to handle just 1 file
+if(@levels > 1) {
+	system("wadcat -o $outwad.tmp @levels");
+} else {
+	system("cp $levels[0] $outwad.tmp");
+}
+
+### build nodes, unless -n
+system("d64bsp $outwad.tmp -o $outwad > /dev/null") unless $opt{n};
+unlink("$outwad.tmp");
+
+### and we're spent...
+exit 0;
+
+#end main()
+
+### called when the parser sees LEVEL_START in the decompiled map
+sub handle_level_start {
+	my $line = shift;
+	$line =~ s/^\s*//;
+
+	my ($tag, $episode, $mission, $format, $game) = split " ", $line;
+	if($format ne '0') {
+		usage "unsupported map format '$format'\n";
+	}
+
+	if($srcgame eq '2') {
+		if($episode ne '0') {
+			usage "not a doom2 map\n";
+		}
+	} else {
+		$mission = ($mission - 1) + ($episode - 1) * 9 + 1;
+		$episode = 0;
+	}
+
+	$format = '64';
+	$game = 'Doom64EX';
+
+	$line = join " ", $tag, $episode, $mission, $format, $game;
+	return $line;
+}
+
+# d64 vertices are fixed-point, just set the fractional part to 0.
+sub replace_vertices {
+	my $line = shift;
+	return $line unless $line =~ /^\s*V\d/;
+	$line =~ s/^\s*//;
+	my @fields = split " ", $line;
+	return "  $fields[0] : $fields[2] 0 $fields[3] 0";
+}
+
+# Original C code lifted from doom64ex:
+# unsigned int W_HashLumpName(const char* str)
+# {
+#     unsigned int hash = 1315423911;
+#     unsigned int i    = 0;
+#
+#     for(i = 0; i < 8 && *str != '\0'; str++, i++)
+#         hash ^= ((hash << 5) + toupper((int)*str) + (hash >> 2));
+#
+#     return hash;
+# }
+# The calling code uses the return value modulo 65536.
+
+sub hash_lump_name {
+	my $str = shift;
+	my $hash = 1315423911;
+
+	for(split "", $str) {
+		$hash ^= (($hash << 5) + ord(uc($_)) + ($hash >> 2));
+	}
+
+	return $hash % 65536;
+}
+
+
+### called when the parser is in the sectors section.
+# flat names get replaces with their hashes.
+# brightness gets used as an index into the greyscale lightmap
+# generated by the engine.
+sub convert_sector {
+	my $line = shift;
+	return $line unless $line =~ /^\s*S\d+\s*:/;
+	my($sector, undef,
+			$floorh, $ceilh,
+			$floortex, $ceiltex,
+			$brightness, $special, $tag) =
+		split " ", $line;
+
+	$floortex = hash_lump_name($floortex);
+	$ceiltex = hash_lump_name($ceiltex);
+
+	$line = "  $sector : $floorh $ceilh $floortex $ceiltex $special $tag 0";
+	my $lightindex = sprintf(" %02x 00", $brightness);
+	$line .= ($lightindex x 5);
+	return $line;
+}
+
+#sub replace_flats {
+#	my $line = shift;
+#	return $line if $srcgame eq '1' && $destgame eq '2';
+#	return $line unless $line =~ /^\s*S\d+\s*:/;
+#	my $old = $line;
+#	$line =~ s/^\s*//;
+#
+#	my @fields = split " ", $line;
+#
+#	my $repfloor = $flats{$fields[4]} || $flats{_default_} || $fields[4];
+#	my $repceil = $flats{$fields[5]} || $flats{_default_} || $fields[5];
+#
+#	$fields[4] = $repfloor;
+#	$fields[5] = $repceil;
+#	$line = "  " . join(" ", @fields);
+#
+#	return $line;
+#}
+
+### called when the parser is in the linedefs section
+sub replace_textures {
+	my $line = shift;
+	return $line unless $line =~ /^\s*S\d+\s+/;
+
+	my $old = $line;
+	$line =~ s/^\s*//;
+
+	my @fields = split " ", $line;
+
+	my $upper = $textures{uc $fields[3]};
+	if(!$upper) {
+		warn "no replacement for texture $fields[3], using default\n";
+		$upper = $textures{_default_} || uc $fields[3];
+	}
+
+	my $lower = $textures{uc $fields[4]};
+	if(!$lower) {
+		warn "no replacement for texture $fields[4], using default\n";
+		$lower = $textures{_default_} || uc $fields[4];
+	}
+
+	my $normal = $textures{uc $fields[5]};
+	if(!$normal) {
+		warn "no replacement for texture $fields[5], using default\n";
+		$normal = $textures{_default_} || uc $fields[5];
+	}
+
+	$fields[3] = $upper;
+	$fields[4] = $lower;
+	$fields[5] = $normal;
+
+	$line = "   " . join(" ", @fields);
+
+	return $line;
+}
+
+### called when the parser is in the linedefs section
+sub replace_linedefs {
+	return $line unless $line =~ /^\s*V\d+\s+V\d+/;
+	my @fields = split " ", $line;
+}
+
+
+#sub replace_linedefs {
+#	my $line = shift;
+#	return $line unless $line =~ /^\s*V\d+\s+V\d+/;
+#
+#	my @fields = split " ", $line;
+#	$fields[4] = $linedefs{$fields[4]} || $fields[4];
+#	$line = "  " . join(" ", @fields);
+#
+#	return $line;
+#}
+
+### called when the parser is in the things section
+sub replace_things {
+	my $line = shift;
+
+	return $line unless $line =~ /^\s*(\d+)\s+:/;
+	my $thing = $1;
+	my $newthing = $things{$thing} || $thing;
+	return 'NOTHING' if $thing < 1 || ($opt{t} && !$keep_things{$thing});
+	$line =~ s/$thing/$newthing/ unless $thing == $newthing;
+
+	return $line;
+}
+
+### perl version of libfindwad's find_wad()
+sub find_wad {
+	my $wad = shift;
+	my @path;
+
+	return $wad if -e "$wad";
+	return "$wad.wad" if -e "$wad.wad";
+
+	my $env = $ENV{DOOMWADDIR};
+
+	push @path, $env if $env;
+	push @path, "/usr/share/games/doom";
+
+	for(@path) {
+		return "$_/$wad" if -e "$_/$wad";
+		return "$_/$wad.wad" if -e "$_/$wad.wad";
+	}
+
+	return $wad;
+}
+
+### parser for the {things,textures,flats,linedefs}.* text files
+sub parse_hash_file {
+	my $hash = shift;
+	my $file = shift;
+	my $numeric = shift;
+
+	my $wcgmap = "$file.wcgmap";
+
+	if(open HF, "<$wcgmap") {
+		warn "Reading $wcgmap from current directory\n";
+	} elsif(open HF, "<_SHAREDIR_/wadconvgame/$wcgmap") {
+		warn "Reading _SHAREDIR_/$wcgmap\n";
+	} else {
+		die "$wcgmap: $!\n";
+	}
+
+	while(<HF>) {
+		chomp;
+		s/#.*//;
+		s/\s//g;
+		next if /^$/;
+		if(($numeric && /(\d+)=(-?\d+)/) || /(\w+)=(-|\w+)/)  {
+			$hash->{$1} = $2 if $1;
+		} else {
+			warn "$file:$.: invalid line, ignoring: $_\n";
+		}
+	}
+
+	close HF;
+}
+
+
+sub init_things {
+# keep_things is the stuff we don't delete, when using the -t option
+	%keep_things = ( 1=>1, 2=>2, 3=>3, 4=>4, 11=>11, 14=>14, );
+
+	if($srcgame eq '1' && $destgame eq '2') {
+		if($opt{s}) {
+			%things = ( 2001 => 82 ); # shotgun => SSG
+		}
+		# nothing to see here, people, move along.
+	} elsif(($srcgame eq '2' || $srcgame eq '1') && $destgame eq 'h') {
+		parse_hash_file(\%things, "things.doom2_to_heretic", 1);
+	} elsif($srcgame eq 'h' && $destgame eq '2') {
+		parse_hash_file(\%things, "things.heretic_to_doom2", 1);
+	} else { # This Never Happens(tm)
+		usage "no thing list for $srcgame $destgame yet";
+	}
+	return;
+}
+
+sub init_flats {
+	if($srcgame eq '1' && $destgame eq '2') {
+# Doom II already contains all of Doom I's flats.
+# Nothing to see here, people, move along.
+	} elsif(($srcgame eq '1' || $srcgame eq '2') && $destgame eq 'h') {
+		parse_hash_file(\%flats, "flats.doom2_to_heretic", 0);
+	} elsif($srcgame eq 'h' && $destgame eq '2') {
+		parse_hash_file(\%flats, "flats.heretic_to_doom2", 0);
+	} else { # This Never Happens(tm)
+		usage "no flats list for $srcgame $destgame yet";
+	}
+}
+
+sub init_textures {
+	%textures = ( '-' => '-' );
+
+	if($srcgame eq '1' && $destgame eq '2') {
+		parse_hash_file(\%textures, "textures.doom_to_doom2", 0);
+	} elsif(($srcgame eq '1' || $srcgame eq '2') && $destgame eq 'h') {
+		parse_hash_file(\%textures, "textures.doom2_to_heretic", 0);
+	} elsif($srcgame eq 'h' && $destgame eq '2') {
+		parse_hash_file(\%textures, "textures.heretic_to_doom2", 0);
+	} else { # This Never Happens(tm)
+		usage "no textures list for $srcgame $destgame yet";
+	}
+}
+
+sub init_linedefs {
+	if($srcgame eq '1' && $destgame eq '2') {
+# Doom II already contains all of Doom I's linedef types.
+# Nothing to see here, people, move along.
+	} elsif(($srcgame eq '1' || $srcgame eq '2') && $destgame eq 'h') {
+		parse_hash_file(\%linedefs, "linedefs.doom2_to_heretic", 1);
+	} elsif($srcgame eq 'h' && $destgame eq '2') {
+		parse_hash_file(\%linedefs, "linedefs.heretic_to_doom2", 1);
+	} else { # This Never Happens(tm)
+		usage "no linedefs list for $srcgame $destgame yet";
+	}
+}
+
+### make sure we don't leave turds in /tmp (unless -k)
+END {
+	if(defined($tmpdir)) {
+		if($opt{k}) {
+			warn "Keeping temp directory: $tmpdir\n";
+		} elsif($tmpdir && -d $tmpdir && !$opt{k}) {
+			unlink $_ for glob("$tmpdir/*");
+			rmdir($tmpdir);
+		}
+	}
+}
+

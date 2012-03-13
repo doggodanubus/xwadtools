@@ -186,10 +186,10 @@ static int list_wad(const char *file)
 	long		old_off, tex_off, sav_off;
 
 	/* try to open WAD file */
-        if ((fp = fw_fopen_wad(file, "rb")) == NULL) {
-                err(file, "can't open (%s)", strerror (errno));
-                return 1;
-        }
+	if ((fp = fw_fopen_wad(file, "rb")) == NULL) {
+		err(file, "can't open (%s)", strerror (errno));
+		return 1;
+	}
 
 	/* read WAD file header */
 	if (fread((void *)&wad_header, sizeof(wadinfo_t), 1, fp) != 1) {

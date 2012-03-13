@@ -1,5 +1,22 @@
 Before first release:
 
+Fix big-endian arch support. Currently testing on 32-bit sparc, running
+NetBSD. Issues:
+- qmus2midi doesn't support big-endian (clean exit with a message)
+- lswad bus error. Actually the trouble is lib/sysdep.c:swaplong()
+- wadwhat is hung, infinite loop?
+- dm2au fails, "Can't find start of directories."
+- wadcat bus error
+- wadpat segfault
+- wadsprit segfault
+- the perl scripts need to be able to find perl, if not at /usr/bin/perl
+- warm might or might not be OK (its test fails because it uses lswad)
+- same for deutex
+- same for slige
+
+midi3mus double-frees if input is truncated. To reproduce, run it
+on bad.mid.
+
 wadgc:
 - creates temp files in current directory.
 

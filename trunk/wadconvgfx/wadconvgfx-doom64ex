@@ -1,0 +1,69 @@
+#!/bin/sh
+
+set -e
+
+DEFAULTWADDIR="/usr/share/games/doom"
+
+cleanup() {
+	if [ -n "$TMPDIR" ]; then
+		rm -rf "$TMPDIR"
+	fi
+}
+
+usage() {
+	echo "Usage: $0 sourceiwad.wad destpwad.wad"
+	exit 1;
+}
+
+find_wad() {
+	local wad
+	local FILE="$1"
+	for wad in \
+		"$FILE" "$FILE.wad" \
+		"$DOOMWADDIR/$FILE" \
+		"$DOOMWADDIR/$FILE.wad" \
+		"$DEFAULTWADDIR/$FILE" "$DEFAULTWADDIR/$FILE.wad"
+	do
+		if [ -e "$wad" ]; then
+			echo "$wad"
+			return
+		fi
+	done
+	echo "$FILE"
+}
+
+if [ "$#" -ne 2 ]; then
+	usage
+fi
+
+SRCIWAD=$( find_wad "$1" )
+DESTPWAD="$( readlink -f $2)"
+
+case "$( echo "$SRCIWAD" | tr A-Z a-z )" in
+	doom*) PALETTE=doom ;;
+	heretic*) PALETTE=heretic ;;
+	hexen*) PALETTE=hexen ;;
+	strife*) PALETTE=strife ;;
+	*) echo "$0: unknown source IWAD, assuming doom palette" ; PALETTE=doom ;;
+esac
+
+trap cleanup 0
+TMPDIR=/tmp/wadconvgfx.$$
+mkdir $TMPDIR
+cd $TMPDIR
+
+wadtex -c $PALETTE -p "$SRCIWAD" > /dev/null
+wadflat -c $PALETTE -p "$SRCIWAD" > /dev/null
+
+echo "-label T_START" > mkwad.rsp
+
+for ppm in $( find . -name "*.ppm" ); do
+	PNG=$( basename $ppm .ppm )
+	pnmtopng $ppm > $PNG
+	echo "$PNG $PNG" >> mkwad.rsp
+done
+
+echo "-label T_END" >> mkwad.rsp
+
+#cat mkwad.rsp
+mkwad $DESTPWAD @mkwad.rsp
