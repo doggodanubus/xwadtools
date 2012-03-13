@@ -210,6 +210,7 @@ ifneq ($(CROSS),1)
 endif
 	cd midi3mus; $(MAKE) CC=$(CC) CFLAGS=$(CFLAGS)
 	cd spitwad; $(MAKE) CC=$(CC) CFLAGS=$(CFLAGS)
+	cd doom2to64; $(MAKE) CC=$(CC) CFLAGS=$(CFLAGS)
 
 install:
 	-mkdir -p $(DESTDIR)$(SHAREDIR)

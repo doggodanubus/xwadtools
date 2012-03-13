@@ -17,6 +17,8 @@
  */
 
 /*
+ * 20120304 bkw: add doom64ex LIGHTS and MACROS to get_map_lump().
+ *
  * AYM 1999-01-06
  * Wrote specialized function to compare lump names, in place of strncmp().
  * This fixes the bug on STEP1 in wadflatext. The new function is (like
@@ -295,7 +297,7 @@ void *get_map_lump(wadfile_t *wf, char *map, char *lname, int *size)
 	mentry++;
 
 	/* now search for the data lump we are looking for in this map */
-	for (i = 0; i < 11; i++) {
+	for (i = 0; i < 14; i++) {
 		/* check if the lump belongs to the map */
 		if ((strncmp(wf->lp->lumps[mentry+i]->name,"THINGS",6)!=0) &&
 		    (strncmp(wf->lp->lumps[mentry+i]->name,"LINEDEFS",8)!=0) &&
@@ -307,7 +309,10 @@ void *get_map_lump(wadfile_t *wf, char *map, char *lname, int *size)
 		    (strncmp(wf->lp->lumps[mentry+i]->name,"SECTORS",7)!=0) &&
 		    (strncmp(wf->lp->lumps[mentry+i]->name,"REJECT",6)!=0) &&
 		    (strncmp(wf->lp->lumps[mentry+i]->name,"BLOCKMAP",8)!= 0) &&
-		    (strncmp(wf->lp->lumps[mentry+i]->name,"BEHAVIOR",8)!= 0))
+		    (strncmp(wf->lp->lumps[mentry+i]->name,"BEHAVIOR",8)!= 0) &&
+		    (strncmp(wf->lp->lumps[mentry+i]->name,"MACROS",6)!= 0) &&
+		    (strncmp(wf->lp->lumps[mentry+i]->name,"LEAFS",5)!= 0) &&
+		    (strncmp(wf->lp->lumps[mentry+i]->name,"LIGHTS",6)!= 0))
 			break;	/* not a lump for this map anymore */
 		if (!strncmp(wf->lp->lumps[mentry+i]->name, lname,
 			     strlen(lname))) {
